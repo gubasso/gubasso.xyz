@@ -36,3 +36,15 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+# Prettier
+
+```sh
+npx prettier --write --plugin prettier-plugin-svelte .
+```
+
+As part of your scripts in `package.json`:
+
+```json
+"format": "prettier --write  --plugin prettier-plugin-svelte ."
+```
