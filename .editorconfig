@@ -8,3 +8,11 @@ indent_style = tab
 indent_size = 2
 charset = utf-8
 trim_trailing_whitespace = true
+
+# https://github.com/RehanSaeed/EditorConfig/blob/main/.editorconfig
+# YAML Files
+[*.{yml,yaml}]
+indent_style = space
+# Markdown Files
+[*.{md,mdx}]
+indent_style = space

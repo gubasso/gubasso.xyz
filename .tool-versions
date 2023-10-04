@@ -1,1 +1,3 @@
 nodejs 20.8.0
+editorconfig-checker 2.7.1
+pre-commit 3.4.0

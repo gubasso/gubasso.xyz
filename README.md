@@ -1,3 +1,18 @@
+# gubasso.xyz
+
+> Welcome to my personal website!
+
+<!-- toc -->
+
+- [create-svelte](#create-svelte)
+  * [Creating a project](#creating-a-project)
+  * [Developing](#developing)
+  * [Building](#building)
+- [Prettier](#prettier)
+- [Pre-commit](#pre-commit)
+
+<!-- tocstop -->
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
@@ -47,4 +62,14 @@ As part of your scripts in `package.json`:
 
 ```json
 "format": "prettier --write  --plugin prettier-plugin-svelte ."
+```
+
+# Pre-commit
+
+- Install pre-commit: https://pre-commit.com/
+- Run commands for the first time
+
+```sh
+pre-commit install
+pre-commit run --all-files
 ```
