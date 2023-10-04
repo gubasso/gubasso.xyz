@@ -1,7 +1,6 @@
 # ripissue draft
 
 - continue:
-  - https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog
   - https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog#setting-up-the-blog
 - personal website (basic)
   - gubasso.xyz
