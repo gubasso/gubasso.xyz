@@ -4,6 +4,7 @@
 
 <!-- toc -->
 
+- [new title](#new-title)
 - [create-svelte](#create-svelte)
   * [Creating a project](#creating-a-project)
   * [Developing](#developing)
