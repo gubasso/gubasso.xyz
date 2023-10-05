@@ -1,12 +1,12 @@
 <script>
-  /**
-   * @typedef {Object} Data
-   * @property {string} title
-   * @property {string} date
-   * @property {import('svelte').ComponentType} content
-   */
+	/**
+	 * @typedef {Object} Data
+	 * @property {string} title
+	 * @property {string} date
+	 * @property {import('svelte').ComponentType} content
+	 */
 
-  /** @type {Data} */
+	/** @type {Data} */
 	export let data
 </script>
 
