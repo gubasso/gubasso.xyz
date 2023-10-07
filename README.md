@@ -6,9 +6,9 @@
 
 - [new title](#new-title)
 - [create-svelte](#create-svelte)
-  * [Creating a project](#creating-a-project)
-  * [Developing](#developing)
-  * [Building](#building)
+  - [Creating a project](#creating-a-project)
+  - [Developing](#developing)
+  - [Building](#building)
 - [Prettier](#prettier)
 - [Pre-commit](#pre-commit)
 

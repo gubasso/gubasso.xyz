@@ -15,29 +15,38 @@ repos:
       - id: detect-private-key
       - id: no-commit-to-branch
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: 'v8.50.0'
+    rev: 'v8.51.0'
     hooks:
       - id: eslint
         additional_dependencies:
           - eslint@8.28.0
           - eslint-config-prettier@8.5.0
           - eslint-plugin-svelte@2.30.0
-  - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: 'v3.0.3'
+  - repo: local
     hooks:
-      - id: prettier
-        additional_dependencies:
-          - prettier@2.8.0
-          - eslint-config-prettier@8.5.0
-          - prettier-plugin-svelte@2.10.1
+      - id: prettier-local
+        name: prettier local
+        description: Prettier local project
+        entry: prettier --plugin-search-dir . --list-different --ignore-unknown --write
+        language: node
+        additional_dependencies: ['prettier@2.8.0']
+        types: [text]
+        exclude_types: [markdown]
+        args: []
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
     rev: '2.7.2'
     hooks:
-      - id: editorconfig-checker-system
+      - id: editorconfig-checker
         alias: ec
+        args: [-disable-insert-final-newline]
+        # exclude: '^ripi/(.*)$'
   - repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
     rev: 'v1.1.2'
     hooks:
       # https://github.com/jonschlinkert/markdown-toc
       - id: markdown-toc
-        args: [-i, --maxdepth, '3']
+        args: [--maxdepth, '3', --bullets, '-', -i]
+  - repo: https://github.com/sirwart/ripsecrets
+    rev: 'v0.1.7' # Use latest tag on GitHub
+    hooks:
+      - id: ripsecrets
