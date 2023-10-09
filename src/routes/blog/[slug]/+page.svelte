@@ -1,13 +1,6 @@
-<script>
-  /**
-   * @typedef {Object} Data
-   * @property {string} title
-   * @property {string} date
-   * @property {import('svelte').ComponentType} content
-   */
-
-  /** @type {Data} */
-  export let data
+<script lang="ts">
+  import type { PageData } from './$types'
+  export let data: PageData
 </script>
 
 <article>
