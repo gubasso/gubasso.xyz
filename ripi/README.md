@@ -1,5 +1,7 @@
 # ripissue draft
 
+- gen git tag from package.json
+
 - continue:
 
   - https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog#setting-up-the-blog
