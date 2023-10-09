@@ -1,6 +1,6 @@
 {
   "name": "gubasso.xyz",
-  "version": "0.0.2",
+  "version": "0.0.3-rc.0",
   "private": true,
   "scripts": {
     "dev": "vite dev",
