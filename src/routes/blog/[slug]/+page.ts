@@ -1,14 +1,15 @@
+import type { Post } from '$lib/utils'
 import type { PageLoad } from './$types'
 
-export const load: PageLoad = async ({ params }) => {
-  /* @vite-ignore */
-  const post = await import(`./${params.slug}.md`)
-  const { title, date } = post.metadata
-  const content = post.default
+type PostComponent = Post & {
+  Content: string
+}
 
+export const load: PageLoad = async ({ params }): Promise<PostComponent> => {
+  /* @vite-ignore */
+  const post = await import(`../${params.slug}.md`)
   return {
-    content,
-    title,
-    date
+    Content: post.default,
+    ...post.metadata
   }
 }
