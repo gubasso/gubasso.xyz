@@ -1,8 +1,14 @@
 <script lang="ts">
+  import '$lib/styles/rehype.css'
   import type { PageData } from './$types'
   export let data: PageData
   const { title, date, description, categories, Content } = data
 </script>
+
+<svelte:head>
+  <title>gubasso.xyz - Blog - {title}</title>
+  <meta property="og:title" content={title} />
+</svelte:head>
 
 <article>
   <!-- <h1>{data.title}</h1> -->

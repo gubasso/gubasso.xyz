@@ -1,8 +1,9 @@
 import type { Post } from '$lib/utils'
+import type { ComponentType } from 'svelte'
 import type { PageLoad } from './$types'
 
 type PostComponent = Post & {
-  Content: string
+  Content: ComponentType
 }
 
 export const load: PageLoad = async ({ params }): Promise<PostComponent> => {

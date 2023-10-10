@@ -4,6 +4,10 @@
   const { category, posts } = data
 </script>
 
+<svelte:head>
+  <title>gubasso.xyz - Blog - Category: {category}</title>
+</svelte:head>
+
 <h1>Category: {category}</h1>
 {#if posts.length}
   <ul>

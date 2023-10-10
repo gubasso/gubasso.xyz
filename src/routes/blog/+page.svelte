@@ -3,6 +3,10 @@
   export let data: PageData
 </script>
 
+<svelte:head>
+  <title>gubasso.xyz - Blog</title>
+</svelte:head>
+
 <h1>Blog</h1>
 <h2>Main Blog Page</h2>
 

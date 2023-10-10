@@ -4,6 +4,10 @@
   let { categories } = data
 </script>
 
+<svelte:head>
+  <title>gubasso.xyz - Blog - All Categories</title>
+</svelte:head>
+
 {#if categories.length}
   <h1>All categories:</h1>
   <ul>
