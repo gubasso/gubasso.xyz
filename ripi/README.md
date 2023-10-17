@@ -1,6 +1,5 @@
 # ripissue draft
 
-- prettier: all types (ts, etc...)
 - basic landing page
 - write one blog post
 - better landing page
