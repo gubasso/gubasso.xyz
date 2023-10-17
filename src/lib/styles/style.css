@@ -1,3 +1,12 @@
+/*
+blog layout:
+- https://tailwindui.com/components/marketing/sections/blog-sections#component-71451303bfa569c95e0f084e67da54f2
+colors:
+- https://primer.style/design/foundations/color
+- https://primer.style/design/foundations/css-utilities/colors
+font sizes:
+- https://utopia.fyi/
+*/
 :root {
   --step--2: clamp(0.6944rem, 0.6576rem + 0.1837vw, 0.8rem);
   --step--1: clamp(0.8331rem, 0.7751rem + 0.2902vw, 1rem);
@@ -8,17 +17,26 @@
   --step-4: clamp(2.0738rem, 1.7335rem + 1.7011vw, 3.0519rem);
   --step-5: clamp(2.4881rem, 2.0266rem + 2.3076vw, 3.815rem);
   --gray-200: rgb(229 231 235);
-  /* https://primer.style/design/foundations/color */
-  /* https://primer.style/design/foundations/css-utilities/colors */
-  --borderRadius-small: 0.1875rem;
-  --borderRadius-medium: 0.375rem;
-  --borderRadius-large: 0.75rem;
 }
 
 .container {
   width: min(90%, 1000px);
   margin-inline: auto;
-  border: 3px solid hotpink;
+}
+
+html {
+  background-color: var(--color-canvas-default);
+  color: var(--color-fg-default);
+}
+
+a {
+  color: var(--color-accent-fg);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {
@@ -27,6 +45,10 @@ h1 {
 
 h2 {
   font-size: var(--step-4);
+}
+
+h3 {
+  font-size: var(--step-2);
 }
 
 p {

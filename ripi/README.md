@@ -1,6 +1,9 @@
 # ripissue draft
 
 - prettier: all types (ts, etc...)
+- basic landing page
+- write one blog post
+- better landing page
 - personal website (basic)
   - gubasso.xyz
 - [ ] vitest for unit testing
