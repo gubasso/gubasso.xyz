@@ -18,8 +18,8 @@
 
 <style>
   header {
+    background-color: var(--color-canvas-inset);
     padding: 1rem;
-    background: lightskyblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

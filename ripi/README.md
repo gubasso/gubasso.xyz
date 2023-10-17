@@ -1,9 +1,9 @@
 # ripissue draft
 
-- continue:
-
-- blog main template: https://tailwindui.com/components/marketing/sections/blog-sections#component-71451303bfa569c95e0f084e67da54f2
-
+- prettier: all types (ts, etc...)
+- basic landing page
+- write one blog post
+- better landing page
 - personal website (basic)
   - gubasso.xyz
 - [ ] vitest for unit testing
