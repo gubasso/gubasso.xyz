@@ -30,8 +30,10 @@ Sections
 ========
 */
 
-body {
+body,
+html {
   margin: 0; /* Remove the margin in all browsers. */
+  padding: 0;
 }
 
 /*
