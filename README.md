@@ -4,11 +4,28 @@
 
 <!-- toc -->
 
+- [Style](#style)
 - [Changelog](#changelog)
 
 <!-- tocstop -->
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+
+## Style
+
+- blog layout:
+  - https://tailwindui.com/components/marketing/sections/blog-sections#component-71451303bfa569c95e0f084e67da54f2
+  - https://begriffs.com/
+  - https://joshcollinsworth.com/
+  - https://github.com/gubasso
+- colors:
+  - https://primer.style/design/foundations/color
+  - https://primer.style/design/foundations/css-utilities/colors
+- font sizes:
+  - https://utopia.fyi/
+- icons:
+  - https://joyofcode.xyz/using-iconify-with-svelte
+  - https://iconify.design/
 
 ## Changelog
 
