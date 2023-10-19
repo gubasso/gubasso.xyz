@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import '$lib/styles/rehype.css'
   import type { PageData } from './$types'
   export let data: PageData

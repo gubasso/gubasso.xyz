@@ -1,20 +1,7 @@
 import { parse } from 'path'
 
-export type Post = {
-  title: string
-  date: string
-  description: string
-  categories: string[]
-  slug: string
-}
-
-type GlobEntry = {
-  metadata: Post
-  default: unknown
-}
-
 export const fetchMarkdownPostsRaw = async () => {
-  const allPostFiles = import.meta.glob<GlobEntry>('/src/routes/blog/*.md')
+  const allPostFiles = import.meta.glob('/src/routes/blog/*.md')
   const iterablePostFiles = Object.entries(allPostFiles)
 
   const allPosts = async () => {
