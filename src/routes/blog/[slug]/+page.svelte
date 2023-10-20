@@ -1,7 +1,6 @@
 <script>
   import '$lib/styles/rehype.css'
-  import type { PageData } from './$types'
-  export let data: PageData
+  export let data
   const { title, date, description, categories, Content } = data
 </script>
 

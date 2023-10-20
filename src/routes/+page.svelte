@@ -7,7 +7,7 @@
 
 <style>
   .gubasso {
-    font-size: var(--step-6);
+    font-size: var(--step-7);
     color: var(--color-accent-fg);
     text-align: center;
   }

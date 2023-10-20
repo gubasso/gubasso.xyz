@@ -1,5 +1,3 @@
-import { parse } from 'path'
-
 export const fetchMarkdownPostsRaw = async () => {
   const allPostFiles = import.meta.glob('/src/routes/blog/*.md')
   const iterablePostFiles = Object.entries(allPostFiles)
@@ -8,9 +6,10 @@ export const fetchMarkdownPostsRaw = async () => {
     return await Promise.all(
       iterablePostFiles.map(async ([filepath, globEntry]) => {
         const { metadata } = await globEntry()
+        const slug = filepath.slice(17, -3)
         return {
           ...metadata,
-          slug: parse(filepath).name
+          slug
         }
       })
     )

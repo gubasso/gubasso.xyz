@@ -40,6 +40,7 @@
   }
   .time-categories {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     column-gap: 1rem;
     color: var(--color-fg-subtle);
