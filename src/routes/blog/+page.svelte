@@ -43,17 +43,15 @@
     flex-wrap: wrap;
     align-items: center;
     column-gap: 1rem;
+    row-gap: 0.5rem;
     color: var(--color-fg-subtle);
     line-height: 1rem;
   }
   .category {
+    font-size: var(--step-0);
     border-radius: var(--borderRadius-full);
     background-color: var(--color-canvas-subtle);
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    padding-top: 0.375rem;
-    padding-bottom: 0.375rem;
-    font-weight: 500;
+    padding: 0.37rem 0.5rem;
   }
   h3 {
     color: var(--color-fg-default);

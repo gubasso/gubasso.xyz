@@ -46,6 +46,15 @@ h3 {
   font-size: var(--step-2);
 }
 
-p {
+p,
+li {
+  font-size: var(--step-1);
+  line-height: 1.75rem;
+}
+p code,
+ul code {
   font-size: var(--step-0);
+  color: var(--color-fg-description);
+  background-color: var(--color-canvas-subtle);
+  padding: 0.1rem 0.3rem;
 }
