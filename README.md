@@ -18,6 +18,8 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
   - https://begriffs.com/
   - https://joshcollinsworth.com/
   - https://github.com/gubasso
+  - footer:
+    - https://tailwindui.com/components/marketing/sections/footers#component-ff6f5f6cd949ff30b6225f9b38737efa
 - colors:
   - https://primer.style/design/foundations/color
   - https://primer.style/design/foundations/css-utilities/colors

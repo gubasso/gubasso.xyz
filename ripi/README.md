@@ -3,6 +3,7 @@
 - basic landing page
 - write one blog post
 - better landing page
+  - https://github.com/wa0x6e/cal-heatmap
 - personal website (basic)
   - gubasso.xyz
 - [ ] vitest for unit testing
