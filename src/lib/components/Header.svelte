@@ -29,7 +29,12 @@
         <a href="/projects" on:click={closeMenu}>Projects</a>
       </li>
       <li>
-        <a rel="external" href="https://resume.gubasso.xyz" on:click={closeMenu}>Resume</a>
+        <a
+          target="_blank"
+          rel="external noopener noreferrer"
+          href="https://resume.gubasso.xyz"
+          on:click={closeMenu}>Resume / CV</a
+        >
       </li>
     </ul>
   </nav>
@@ -77,7 +82,6 @@
 
   .opened-menu a {
     font-size: var(--step-3);
-    /* font-weight: bold; */
     text-decoration: underline;
   }
   .h-1 {

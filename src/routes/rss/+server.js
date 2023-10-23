@@ -1,9 +1,5 @@
 import { fetchMarkdownPostsRaw } from '$lib/utils'
-
-const siteURL = 'https://gubasso.xyz'
-const siteTitle = "Explore Gustavo Basso's Tech World"
-const siteDescription =
-  'Discover the world of software engineering through my portfolio. Dive into my projects and learn about my skills, experiences, and passion for coding'
+import { siteURL, siteTitle, siteDescription } from '$lib'
 
 const render = (posts) => `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">

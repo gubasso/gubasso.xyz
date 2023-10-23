@@ -1,17 +1,37 @@
+<script>
+  import { siteTitle, siteDescription } from '$lib'
+</script>
+
 <svelte:head>
   <title>gubasso.xyz</title>
 </svelte:head>
 
-<h1 class="gubasso">gubasso.[<span class="xyz">xyz</span>]</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="head">
+  <h1 class="gubasso">gubasso.[<span class="xyz">xyz</span>]</h1>
+  <h3 class="title">{siteTitle}</h3>
+  <p class="description">{siteDescription}</p>
+</div>
 
 <style>
+  .head {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
   .gubasso {
     font-size: var(--step-7);
     color: var(--color-accent-fg);
     text-align: center;
   }
   .xyz {
-    color: white;
+    color: var(--color-fg-default);
+  }
+  .title {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .description {
+    color: var(--color-fg-description);
+    text-align: center;
+    margin-top: 1.5rem;
   }
 </style>
