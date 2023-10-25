@@ -81,7 +81,8 @@
   }
 
   .opened-menu a {
-    font-size: var(--step-3);
+    font-size: var(--step-6);
+    font-weight: bold;
     text-decoration: underline;
   }
   .h-1 {
@@ -113,7 +114,7 @@
     color: inherit;
   }
   img {
-    width: var(--step-2);
+    width: var(--step-5);
     vertical-align: bottom;
   }
 
@@ -132,6 +133,10 @@
     nav {
       margin: 0;
       padding: 1rem;
+    }
+    li {
+      display: flex;
+      align-items: center;
     }
   }
 </style>
