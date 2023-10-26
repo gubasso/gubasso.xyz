@@ -120,7 +120,9 @@ This command will create the issue in the filesystem but no operations will be p
 
 Note that the `ripi` command also created the `description.md` file, where you can include all the details about this issue in any format you prefer. For example, we can edit the issue description adding some subtasks to it:
 
-**my-project/ripi/Issue/my_first_issue/description.md**
+```
+my-project/ripi/Issue/my_first_issue/description.md
+```
 
 ```md
 # my_first_issue (Issue)
@@ -134,7 +136,9 @@ The beauty of this management method is that it is just a directory with text fi
 
 Since you have edited the issue details, you may have also included some new code that implements what has being described in the issue. Let's create a sample code file, such as:
 
-**my-project/some-code.js**
+```
+my-project/some-code.js
+```
 
 ```js
 function example() {
@@ -144,7 +148,9 @@ function example() {
 
 And update our issue description:
 
-**my-project/ripi/Issue/my_first_issue/description.md**
+```
+my-project/ripi/Issue/my_first_issue/description.md
+```
 
 ```md
 # my_first_issue (Issue)
@@ -205,7 +211,9 @@ As the project progresses and more code is added and linked to that issue, each 
 
 Let's simulate the whole implementation of `#my_first_issue`:
 
-**my-project/some-code.js**
+```
+my-project/some-code.js
+```
 
 ```js
 function example() {
@@ -213,7 +221,9 @@ function example() {
 }
 ```
 
-**my-project/ripi/Issue/my_first_issue/description.md**
+```
+my-project/ripi/Issue/my_first_issue/description.md
+```
 
 ```md
 # my_first_issue (Issue)

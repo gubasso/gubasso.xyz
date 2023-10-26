@@ -1,8 +1,5 @@
 # ripissue draft
 
-- better landing page
-  - cal-heatmap
-    - https://github.com/wa0x6e/cal-heatmap
 - personal website (basic)
   - gubasso.xyz
 - [ ] vitest for unit testing

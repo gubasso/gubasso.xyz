@@ -35,7 +35,7 @@
     </div>
   </div>
   <div class="foot">
-    <p>&copy; 2023 gubasso.xyz Inc. All rights reserved.</p>
+    <p>&copy; 2023 Gustavo Basso. All rights reserved.</p>
   </div>
 </footer>
 

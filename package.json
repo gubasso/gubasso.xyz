@@ -30,6 +30,7 @@
   },
   "type": "module",
   "dependencies": {
+    "cal-heatmap": "^4.2.3",
     "iconify-icon": "^1.0.8",
     "path-parse": "^1.0.7",
     "rehype-autolink-headings": "^7.0.0",

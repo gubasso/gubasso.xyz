@@ -1,5 +1,6 @@
 <script>
   import { siteTitle, siteDescription } from '$lib'
+  import CalHeatmap from '$lib/components/CalHeatmap.svelte'
 </script>
 
 <svelte:head>
@@ -12,7 +13,14 @@
   <p class="description">{siteDescription}</p>
 </div>
 
+<div class="calheatmap">
+  <CalHeatmap />
+</div>
+
 <style>
+  .calheatmap {
+    display: flex;
+  }
   .head {
     margin-top: 4rem;
     margin-bottom: 4rem;
