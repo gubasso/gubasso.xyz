@@ -1,9 +1,8 @@
 # ripissue draft
 
-- write one blog post
-- add ToC to blog post page
 - better landing page
-  - https://github.com/wa0x6e/cal-heatmap
+  - cal-heatmap
+    - https://github.com/wa0x6e/cal-heatmap
 - personal website (basic)
   - gubasso.xyz
 - [ ] vitest for unit testing
