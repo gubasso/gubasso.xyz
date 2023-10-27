@@ -77,8 +77,8 @@
         [
           CalendarLabel,
           {
-            position: 'left',
-            key: 'left',
+            position: 'right',
+            key: 'right',
             text: () => ['', 'Mon', '', 'Thu', '', 'Fri', ''],
             textAlign: 'end',
             width: 30,
