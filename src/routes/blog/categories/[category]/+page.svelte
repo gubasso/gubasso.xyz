@@ -23,3 +23,6 @@
 {:else}
   <p>Not a valid category</p>
 {/if}
+
+<style>
+</style>

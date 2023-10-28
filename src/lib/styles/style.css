@@ -46,10 +46,18 @@ h3 {
   font-size: var(--step-2);
 }
 
-p,
-li {
+h4 {
   font-size: var(--step-1);
-  line-height: 1.75rem;
+}
+
+p {
+  font-size: var(--step-1);
+  line-height: 2rem;
+}
+ul li,
+ol li {
+  font-size: var(--step-1);
+  line-height: 2rem;
 }
 p code,
 ul code {
@@ -57,4 +65,12 @@ ul code {
   color: var(--color-fg-description);
   background-color: var(--color-canvas-subtle);
   padding: 0.1rem 0.3rem;
+}
+.footnotes {
+  font-size: var(--step-0);
+  color: var(--color-fg-default);
+  line-height: 2rem;
+}
+.footnotes hr {
+  border: var(--borderWidth-thin) solid var(--color-canvas-overlay);
 }
