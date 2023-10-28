@@ -2,7 +2,7 @@
 title: Ripissue as a Poor Man's Issue Tracker
 date: '2023-10-23'
 description: >-
-  Solving the limitations of online issue tracking tools: how *Ripissue* and a
+  Solving the limitations of online issue tracking tools: how Ripissue and a
   git-based simple method can be a game-changing alternative
 categories:
   - ripissue
@@ -16,7 +16,7 @@ categories:
 
 I have always believed that there is something wrong with online tools for issue tracking or task management. Platforms like [Github], [Gitlab], and others provide great resources for working with issues, but relying solely on these web-based tools raised some concerns that I wanted to address, such as:
 
-- **I do not own the data**: All information (issues/tasks, along with their respective metadata such as descriptions and discussions) is stored on its own platform. They do not belong to me or remain within my projects repositories. Therefore, if the history of my development process is important, I am dependent on a third-party entity.
+- **I do not own the data**: All information (issues/tasks, along with their respective metadata such as descriptions and discussions) is stored on its own platform. They do not belong to me or remain within my projects repositories. Therefore, I am dependent on a third-party entity.
 
 - **Issues and code are decoupled**: Third-party issue trackers naturally separates the issues from the code being produced. If I want to associate the code with its corresponding commit, I would need to replicate the history saved in the issue metadata within the commit message.
 
@@ -39,15 +39,15 @@ That was everything I needed to eliminate web-based issue trackers. A simple CLI
 
 ## Improvement: *[Ripissue]*
 
-However, when I used the Bug CLI, I noticed some missing features. For instance, when I closed an issue using the `bug close` command, the corresponding directory was deleted, causing me to lose the information about that issue within the repository. Technically, the history still exists within the commits, but since the files are no longer available, I had to search through the git internal history to access that information again.
+However, when I used the Bug CLI, I noticed that I would need additional features or modifications to certain behaviors. For instance, when I closed an issue using the `bug close` command, the corresponding directory was deleted, causing me to lose the information about that issue within the repository. While the history remains within the commits, accessing that information would require diving into the git internal history, since the files are no longer available.
 
-To solve that problem and implement several other automation helpers I developed "yet another issue tracker" tool: *[Ripissue]*. This is a command-line program written in Rust, designed to address certain missing features in the Bug CLI and enhance the development workflow along with the project management.
+To solve that problem and implement several other automation helpers we [^1] developed "yet another issue tracker" tool: *[Ripissue]*. This is a command-line program written in Rust, designed to enhance the development workflow and project management.
 
-There is a lot to talk about the features of *[Ripissue]* and how we can implement a fully distributed workflow using it with git. However, in this artcle, I will focus on its fundamental usage and how we can begin managing our project right away.
+There is a lot to talk about the features of *[Ripissue]* and how we can implement a fully distributed workflow using it with git and filesystem. However, the goal of this article is to focus on the basic usage of the tool and how we can start managing our project immediately.
 
-### *[Ripissue]* Instalation
+### *[Ripissue]* Installation
 
-Currently, *[Ripissue]* can only be installed using Rust and the toolchain provided by Cargo. Therefore, let's start by installing Rust (access: https://www.rust-lang.org/tools/install for more details about installation):
+Currently, *[Ripissue]* can only be installed using Rust and the toolchain provided by [Cargo]. Therefore, let's start by installing Rust (access: https://www.rust-lang.org/tools/install for more details about installation):
 
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -81,7 +81,11 @@ Let's begin with the issue creation. To create a new issue, simply run the follo
 ripi issue create "my first issue"
 ```
 
-If the program was executed correctly, two things happened. Firstly, *[Ripissue]* created the initial directory structure for all the issues, including the new issue directory itself:
+If the program was executed correctly, two things happened:
+
+#### Step 1: Ripissue creates a directory structure and basic files
+
+Firstly, *[Ripissue]* created the initial directory structure for all the issues, including the new issue directory itself:
 
 ```
 my-project
@@ -96,6 +100,8 @@ my-project
 
 The directory `my_first_issue` is where all the information regarding this particular issue is stored, and the name of this directory is considered as the issue ID by *[Ripissue]* as the issue ID (yes, it must be unique).
 
+#### Step 2: Ripissue commits the new issue to git
+
 Additionally, the `ripi create` command also added and committed the corresponding issue to git. This automation is implemented by *[Ripissue]* where every command automatically commits its changes to git with a commit message that refers to the issue ID. The git log history should contain something similar to this:
 
 ```
@@ -108,7 +114,7 @@ Date:   Mon Oct 23 15:39:06 2023 -0300
 
 Where the commit message contains the operation that was done with the issue ID (`(created) Issue #my_first_issue.`).
 
-This is the default behaviour. The concept here is that all actions performed within the project and managed by *[Ripissue]* must be recorded in git. However, if you want to execute the command without involving any git operations, simply include the `--dry` flag. When this flag is used, `ripi` will run as usual but the git operations will not be carried out (nor added or committed to git). For instance:
+This is the default behavior. The concept here is that all actions performed within the project and managed by *[Ripissue]* must be recorded in git. However, if you want to execute the command without involving any git operations, simply include the `--dry` flag. When this flag is used, `ripi` will run as usual but the git operations will not be carried out (nor added or committed to git). For instance:
 
 ```sh
 ripi issue create "my first issue" --dry
@@ -120,7 +126,9 @@ This command will create the issue in the filesystem but no operations will be p
 
 Note that the `ripi` command also created the `description.md` file, where you can include all the details about this issue in any format you prefer. For example, we can edit the issue description adding some subtasks to it:
 
-**my-project/ripi/Issue/my_first_issue/description.md**
+```
+my-project/ripi/Issue/my_first_issue/description.md
+```
 
 ```md
 # my_first_issue (Issue)
@@ -130,21 +138,25 @@ Note that the `ripi` command also created the `description.md` file, where you c
 - [ ] subtask 3
 ```
 
-The beauty of this management method is that it is just a directory with text files! You can edit it and put informations in any way you want. You can use git normally with or without *[Ripissue]*, and you can create any other complementary files within the `ripi` directory.
+The beauty of this management method is that it is just a directory with text files! You can edit it and put information in any way you want. You can use git normally with or without *[Ripissue]*, and you can create any other complementary files within the `ripi` directory.
 
 Since you have edited the issue details, you may have also included some new code that implements what has being described in the issue. Let's create a sample code file, such as:
 
-**my-project/some-code.js**
+```
+my-project/some-code.rs
+```
 
-```js
-function example() {
-  console.log('hello')
+```rust
+fn example() {
+    println!("hello");
 }
 ```
 
 And update our issue description:
 
-**my-project/ripi/Issue/my_first_issue/description.md**
+```
+my-project/ripi/Issue/my_first_issue/description.md
+```
 
 ```md
 # my_first_issue (Issue)
@@ -165,23 +177,27 @@ Changes not staged for commit:
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        some-code.js
+        some-code.rs
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-Another idea behind the [Poor Man's Issue Tracker](https://github.com/driusan/PoormanIssueTracker) and implemented in *[Ripissue]* is that: why do I have to describe what is being done with my code if: 1) the commit diff itself has everything that has been changed; and 2) the issue description (that is now being committed along with the code itself) has all the details related to that change?
+Another central concept behind the [Poor Man's Issue Tracker](https://github.com/driusan/PoormanIssueTracker), which is also implemented in *[Ripissue]*, raises the following questions:
+
+- Why should additional descriptions be provided if the commit diff already captures all the changes made?
+- With the issue description now been committed with the code, providing detailed context for the changes, is there still a need to further describe the code modifications?
+
 
 Since this issue tracker is based on plain text, distributed with git, and managed with some organizational method, all the necessary information about each code change is in the commit itself. We do not need to rewrite this information in the commit message or replicate (copy/paste) some redundant description to it. All we need is to associate the commit with the respective issue and let *[Ripissue]* to fill up the commit message for us.
 
-To register our changes and update our issue, we just have to add all the changes to git and commit it using the `ripi commit` command:
+To record our changes and update our issue, we simply need to add all the modifications to git and commit them using the `ripi commit` command:
 
 ```sh
 git add -A
 ripi issue commit my_first_issue
 ```
 
-To simplify the process, we can execute both commands (add + commit) by including the `--add` flag. The aforementioned commands can be substituted with:
+To simplify the process, we can execute both commands (add + commit) by including the `--add` flag, to add **all changed files** to git staging area. The aforementioned commands can be substituted with:
 
 ```sh
 ripi issue commit my_first_issue --add
@@ -199,21 +215,25 @@ Date:   Mon Oct 23 16:10:19 2023 -0300
 
 Now, the prefix `(up)` has been added to our commit message instead of `(created)`, indicating that this commit is recording an update related to the `my_first_issue` along with the changed code.
 
-As the project progresses and more code is added and linked to that issue, each change will automatically include the corresponding issue ID in the commit message. This is all you need to track the history of code changes and associate them with a detailed description, as everything will be recorded within the issue directory and files.
+As the project progresses and more code gets linked to the issue, each change will automatically include the corresponding issue ID in the commit message. This ensures seamless tracking of the code history and its association with detailed descriptions, all consolidated within the issue directory and files.
 
 ### Closing an issue
 
 Let's simulate the whole implementation of `#my_first_issue`:
 
-**my-project/some-code.js**
+```
+my-project/some-code.rs
+```
 
-```js
-function example() {
-  console.log('everything is ready')
+```rust
+fn example() {
+    println!("everything is ready!");
 }
 ```
 
-**my-project/ripi/Issue/my_first_issue/description.md**
+```
+my-project/ripi/Issue/my_first_issue/description.md
+```
 
 ```md
 # my_first_issue (Issue)
@@ -231,7 +251,7 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
         modified:   ripi/Issue/my_first_issue/description.md
-        modified:   some-code.js
+        modified:   some-code.rs
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
@@ -260,7 +280,7 @@ ripi/Issue/my_first_issue
 ripi/.closed/Issue/my_first_issue
 ```
 
-- This change, which involver moving the issue directory to `.closed`, will be added to git regardless of the `--add` flag.
+- This change, which involves moving the issue directory to `.closed`, will be added to git regardless of the `--add` flag.
 - A new commit will be created with the prefix `closed` before the issue ID.
 
 Now, our `git log` has two new commits:
@@ -290,7 +310,7 @@ ripi
 └── Issue
 ```
 
-This is one main difference in behaviour from the Bug CLI: *[Ripissue]* does not simply delete issues when we close them (although it still has the `ripi issue delete` command that does that). All the closed issues are stored inside the repository, within the `.closed` directory. This way, all the history is preserved in plain text files, and with git commands and/or GUI tools, we can access the issue directory history to see all the related code changes.
+This is one main difference in behavior from the Bug CLI: *[Ripissue]* does not simply delete issues when we close them (although it still has the `ripi issue delete` command that does that). All the closed issues are stored inside the repository, within the `.closed` directory. This way, all the history is preserved in plain text files, and with git commands and/or GUI tools, we can access the issue directory history to see all the related code changes.
 
 Everything is kept in one place, in plain text, fully integrated with our commit history. Isn't that amazing?!
 
@@ -309,6 +329,15 @@ We plan to continue writing about *[Ripissue]* and presenting all its functional
 
 Did you know that it's possible to manage an entire project with any number of developers using just git and *[Ripissue]* in a pure, simple, and powerful way? That's what we plan to discuss in the upcoming articles! Stay tuned and sign up for my RSS channel!
 
+We are the founders and developers of the software development company cwnt.io
+
+[^1]: We are [Gustavo Basso] (@gubasso) and [Ismael Pamplona] (@ismaelpamplona), the founders and developers of the **[cwnt.io]** company.
+
 [Ripissue]: https://github.com/cwnt-io/ripissue "Ripissue's Github repository"
+[Cargo]: https://doc.rust-lang.org/cargo/ "Cargo"
 [Github]: https://github.com/ "Github"
 [Gitlab]: https://about.gitlab.com/ "Gitlab"
+[cwnt.io]: https://github.com/cwnt-io/ "cwnt.io"
+[Gustavo Basso]: https://gubasso.xyz "gubasso.xyz"
+[Ismael Pamplona]: https://isma.codes "isma.codes"
+
