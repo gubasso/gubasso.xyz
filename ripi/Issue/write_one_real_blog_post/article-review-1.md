@@ -56,7 +56,7 @@ However, when I used the Bug CLI,
 
   > {I noticed that I would need some other features.}
 
-  > Implemented: However, when I used the Bug CLI, I noticed that I would need additional features or modifications to certain behaviours.
+  > Implemented: However, when I used the Bug CLI, I noticed that I would need additional features or modifications to certain behaviors.
 
 For instance, when I closed an issue using the `bug close` command, the corresponding directory was deleted, causing me to lose the information about that issue within the repository.
 
