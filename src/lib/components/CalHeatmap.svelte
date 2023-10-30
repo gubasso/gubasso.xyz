@@ -67,10 +67,10 @@
               if (!value) {
                 return ''
               }
-              const contribution = `${value} ${value > 1 ? 'contributions' : 'contribution'}`
+              const commits = `${value} ${value > 1 ? 'commits' : 'commit'}`
               const date = `${dayjsDate.toISOString().substring(0, 10)}`
 
-              return `${contribution} on ${date}`
+              return `${commits} on ${date}`
             }
           }
         ],
