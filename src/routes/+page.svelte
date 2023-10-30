@@ -1,6 +1,8 @@
 <script>
   import { siteTitle, siteDescription } from '$lib'
   import CalHeatmap from '$lib/components/CalHeatmap.svelte'
+  export let data
+  console.log(data)
 </script>
 
 <svelte:head>

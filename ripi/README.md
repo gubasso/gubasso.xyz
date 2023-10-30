@@ -2,6 +2,7 @@
 
 - personal website (basic)
   - gubasso.xyz
+
 - [ ] vitest for unit testing
   - https://vitest.dev/
 - [ ] playwright tests

@@ -4,14 +4,13 @@
   import CalendarLabel from 'cal-heatmap/plugins/CalendarLabel'
   import 'cal-heatmap/cal-heatmap.css'
   import { onMount, onDestroy } from 'svelte'
+  import { getOneYearAgo } from '$lib/utils'
 
   let calHeatmap
   const cal = new CalHeatmap()
 
   onMount(async () => {
-    let oneYearAgo = new Date()
-    oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)
-    oneYearAgo.setMonth(oneYearAgo.getMonth() + 1)
+    const oneYearAgo = getOneYearAgo()
     const data = [
       { date: '2023-10-01', value: 3 },
       { date: '2023-10-02', value: 30 },
@@ -67,10 +66,10 @@
               if (!value) {
                 return ''
               }
-              const commits = `${value} ${value > 1 ? 'commits' : 'commit'}`
+              const contribution = `${value} ${value > 1 ? 'contributions' : 'contribution'}`
               const date = `${dayjsDate.toISOString().substring(0, 10)}`
 
-              return `${commits} on ${date}`
+              return `${contribution} on ${date}`
             }
           }
         ],
