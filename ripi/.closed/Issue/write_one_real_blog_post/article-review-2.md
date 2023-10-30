@@ -24,6 +24,8 @@ I have always believed that there is something wrong with online tools for issue
 
 - **Point-and-click...**: Finally, there is the "point-and-click" workflow. Yes, I don't like it. Not a single bit. "Open the website." "Click to create an issue." "Click to comment on an issue." "Click to close an issue." Point-and-click is wrong on so many levels...
 
+> 🫠
+
 ## Solution: CLI Issue Tracker
 
 While I was dealing with my struggles, I came across the article [Poor Man's Issue Tracker](https://github.com/driusan/PoormanIssueTracker), and it completely amazed me. The principles underlying this "method" are quite straightforward yet incredibly impactful:
@@ -47,13 +49,21 @@ There is a lot to talk about the features of *[Ripissue]* and how we can impleme
 
 ### *[Ripissue]* Installation
 
-Currently, *[Ripissue]* can only be installed using Rust and the toolchain provided by [Cargo]. Therefore, let's start by installing Rust (access: https://www.rust-lang.org/tools/install for more details about installation):
+Currently, *[Ripissue]* can only be installed using Rust and the toolchain provided by [Cargo]. Therefore, let's start by installing Rust (access:
+
+  > [https://www.rust-lang.org/tools/install ]
+
+  > {[https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)}
+
+  > done
+
+for more details about installation):
 
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-Now, install the *[Ripissue]* crate using the `cargo install` command ([https://doc.rust-lang.org/cargo/commands/cargo-install.html](https://doc.rust-lang.org/cargo/commands/cargo-install.html)):
+Now, install the *[Ripissue]* crate using the `cargo install` command (https://doc.rust-lang.org/cargo/commands/cargo-install.html):
 
 ```sh
 cargo install ripissue
@@ -331,7 +341,7 @@ Did you know that it's possible to manage an entire project with any number of d
 
 We are the founders and developers of the software development company cwnt.io
 
-[^1]: We are [Gustavo Basso] (@gubasso) and [Ismael Pamplona] (@ismaelpamplona), the founders and developers of the **[cwnt.io]** (@cwnt-io) company.
+[^1]: We are [Gustavo Basso] (@gubasso) and [Ismael Pamplona] (@ismaelpamplona), the founders and developers of the **[cwnt.io]** company.
 
 [Ripissue]: https://github.com/cwnt-io/ripissue "Ripissue's Github repository"
 [Cargo]: https://doc.rust-lang.org/cargo/ "Cargo"
