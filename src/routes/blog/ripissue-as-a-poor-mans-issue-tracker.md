@@ -53,7 +53,7 @@ Currently, *[Ripissue]* can only be installed using Rust and the toolchain provi
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-Now, install the *[Ripissue]* crate using the `cargo install` command (https://doc.rust-lang.org/cargo/commands/cargo-install.html):
+Now, install the *[Ripissue]* crate using the `cargo install` command ([https://doc.rust-lang.org/cargo/commands/cargo-install.html](https://doc.rust-lang.org/cargo/commands/cargo-install.html)):
 
 ```sh
 cargo install ripissue
@@ -331,7 +331,7 @@ Did you know that it's possible to manage an entire project with any number of d
 
 We are the founders and developers of the software development company cwnt.io
 
-[^1]: We are [Gustavo Basso] (@gubasso) and [Ismael Pamplona] (@ismaelpamplona), the founders and developers of the **[cwnt.io]** company.
+[^1]: We are [Gustavo Basso] (@gubasso) and [Ismael Pamplona] (@ismaelpamplona), the founders and developers of the **[cwnt.io]** (@cwnt-io) company.
 
 [Ripissue]: https://github.com/cwnt-io/ripissue "Ripissue's Github repository"
 [Cargo]: https://doc.rust-lang.org/cargo/ "Cargo"

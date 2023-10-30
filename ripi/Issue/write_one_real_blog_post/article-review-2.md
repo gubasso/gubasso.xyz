@@ -49,11 +49,13 @@ There is a lot to talk about the features of *[Ripissue]* and how we can impleme
 
 ### *[Ripissue]* Installation
 
-Currently, *[Ripissue]* can only be installed using Rust and the toolchain provided by [Cargo]. Therefore, let's start by installing Rust (access: 
+Currently, *[Ripissue]* can only be installed using Rust and the toolchain provided by [Cargo]. Therefore, let's start by installing Rust (access:
 
   > [https://www.rust-lang.org/tools/install ]
 
   > {[https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)}
+
+  > done
 
 for more details about installation):
 

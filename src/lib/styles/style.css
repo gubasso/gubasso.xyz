@@ -57,7 +57,7 @@ p {
 ul li,
 ol li {
   font-size: var(--step-1);
-  line-height: 2rem;
+  line-height: var(--step-4);
 }
 p code,
 ul code {

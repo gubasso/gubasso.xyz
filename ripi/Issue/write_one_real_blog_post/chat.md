@@ -1,5 +1,21 @@
 # chat
 
+> The line-height issue remains on 1920x1080 screen
+>
+> ![print](./Screenshot_20231028_064336.png).
+
+Done!
+
+> I wrote my considerations about the article on the file `article-review-2.md` on `/ripi/Issue/write_one_real_blog_post` path. There is just one appointment on line 56 (link missing). After your analysis, it's approved!
+
+Done!
+
+--
+
+`Gustavo Basso <gubasso@eambar.net>`
+
+---
+
 The line-height issue remains on 1920x1080 screen
 
 ![print](./Screenshot_20231028_064336.png).
