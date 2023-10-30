@@ -110,4 +110,18 @@
     margin: auto;
     overflow-y: auto;
   }
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: var(--borderRadius-small);
+    background-color: var(--color-border-default);
+    border: 1px solid var(--color-canvas-subtle);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: var(--color-border-default);
+  }
 </style>
