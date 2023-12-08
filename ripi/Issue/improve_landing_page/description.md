@@ -1,5 +1,6 @@
 # improve_landing_page (Issue)
 
+
 (depends on my rust-sql api)
 - will no longer request data from github, but from my own api
 
