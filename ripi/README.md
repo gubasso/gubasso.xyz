@@ -3,6 +3,11 @@
 - personal website (basic)
   - gubasso.xyz
 
+- resume
+- landing page: projects:
+  - from resume yaml
+  - add some summ to landing page
+
 - [ ] vitest for unit testing
   - https://vitest.dev/
 - [ ] playwright tests

@@ -1,16 +1,17 @@
 # improve_landing_page (Issue)
 
-
-(depends on my rust-sql api)
-- will no longer request data from github, but from my own api
-
 - [x] [[##cal-heatmap]]
 - [ ] hero sessions
+  - [x] loading spinner component
   - [ ] latest blog posts
 
 ## cal-heatmap
 
-### load data from github
+- implemented loading data from brag.gubasso.xyz utilizing https://github.com/cwnt-io/brag-server
+(depends on my rust-sql api)
+- will no longer request data from github, but from my own api
+
+XXX load data from github
 
 
 - https://api.github.com/users/gubasso/repos

@@ -42,6 +42,7 @@
 <style>
   footer {
     border-top: var(--borderWidth-thin) solid var(--color-border-default);
+    margin-top: 5rem;
   }
   .left-top {
     display: flex;
