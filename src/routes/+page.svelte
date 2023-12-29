@@ -2,7 +2,6 @@
   import { siteTitle, siteDescription } from '$lib'
   import CalHeatmap from '$lib/components/CalHeatmap.svelte'
   export let data
-  console.log(data)
 </script>
 
 <svelte:head>
@@ -16,7 +15,7 @@
 </div>
 
 <div class="calheatmap">
-  <CalHeatmap />
+  <CalHeatmap data={data.repos_count} />
 </div>
 
 <style>

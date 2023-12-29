@@ -9,15 +9,10 @@
   let calHeatmap
   const cal = new CalHeatmap()
 
+  export let data
+
   onMount(async () => {
     const oneYearAgo = getOneYearAgo()
-    const data = [
-      { date: '2023-10-01', value: 3 },
-      { date: '2023-10-02', value: 30 },
-      { date: '2023-08-02', value: 45 },
-      { date: '2023-09-02', value: 60 },
-      { date: '2023-07-15', value: 1 }
-    ]
 
     const [min, max] = data.reduce(
       (prev, curr) => {
@@ -87,13 +82,7 @@
       ]
     )
 
-    cal.fill([
-      ...data,
-      { date: '2023-06-01', value: 3 },
-      { date: '2023-04-02', value: 30 },
-      { date: '2023-03-02', value: 45 },
-      { date: '2023-01-02', value: 60 }
-    ])
+    cal.fill(data)
 
     calHeatmap.scrollLeft = calHeatmap.scrollWidth
   })

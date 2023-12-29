@@ -4,8 +4,7 @@
 (depends on my rust-sql api)
 - will no longer request data from github, but from my own api
 
-- [ ] TODO
-- [ ] [cal-heatmap]
+- [x] [[##cal-heatmap]]
 - [ ] hero sessions
   - [ ] latest blog posts
 
