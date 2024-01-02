@@ -29,12 +29,7 @@
         <a href="/projects" on:click={closeMenu}>Projects</a>
       </li>
       <li>
-        <a
-          target="_blank"
-          rel="external noopener noreferrer"
-          href="https://resume.gubasso.xyz"
-          on:click={closeMenu}>Resume / CV</a
-        >
+        <a href="/resume" on:click={closeMenu}>Resume / CV</a>
       </li>
     </ul>
   </nav>

@@ -1,10 +1,7 @@
 # ripissue draft
 
-- personal website (basic)
-  - gubasso.xyz
-
+- [ ] resume
 - check if commits services are being updated
-- resume
 - landing page: projects:
   - from resume yaml
   - add some summ to landing page
