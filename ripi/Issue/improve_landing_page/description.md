@@ -1,9 +1,9 @@
 # improve_landing_page (Issue)
 
 - [x] [[##cal-heatmap]]
-- [ ] hero sessions
+- [x] hero sessions
   - [x] loading spinner component
-  - [ ] latest blog posts
+  - [x] latest blog posts
 
 ## cal-heatmap
 

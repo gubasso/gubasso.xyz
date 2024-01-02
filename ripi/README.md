@@ -3,6 +3,7 @@
 - personal website (basic)
   - gubasso.xyz
 
+- check if commits services are being updated
 - resume
 - landing page: projects:
   - from resume yaml
