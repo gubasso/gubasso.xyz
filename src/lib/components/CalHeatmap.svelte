@@ -4,21 +4,15 @@
   import CalendarLabel from 'cal-heatmap/plugins/CalendarLabel'
   import 'cal-heatmap/cal-heatmap.css'
   import { onMount, onDestroy } from 'svelte'
+  import { getOneYearAgo } from '$lib/utils'
 
   let calHeatmap
   const cal = new CalHeatmap()
 
+  export let data
+
   onMount(async () => {
-    let oneYearAgo = new Date()
-    oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)
-    oneYearAgo.setMonth(oneYearAgo.getMonth() + 1)
-    const data = [
-      { date: '2023-10-01', value: 3 },
-      { date: '2023-10-02', value: 30 },
-      { date: '2023-08-02', value: 45 },
-      { date: '2023-09-02', value: 60 },
-      { date: '2023-07-15', value: 1 }
-    ]
+    const oneYearAgo = getOneYearAgo()
 
     const [min, max] = data.reduce(
       (prev, curr) => {
@@ -88,13 +82,7 @@
       ]
     )
 
-    cal.fill([
-      ...data,
-      { date: '2023-06-01', value: 3 },
-      { date: '2023-04-02', value: 30 },
-      { date: '2023-03-02', value: 45 },
-      { date: '2023-01-02', value: 60 }
-    ])
+    cal.fill(data)
 
     calHeatmap.scrollLeft = calHeatmap.scrollWidth
   })
@@ -109,5 +97,19 @@
   #cal-heatmap {
     margin: auto;
     overflow-y: auto;
+  }
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: var(--borderRadius-small);
+    background-color: var(--color-border-default);
+    border: 1px solid var(--color-canvas-subtle);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: var(--color-border-default);
   }
 </style>

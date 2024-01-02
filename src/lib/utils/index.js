@@ -1,12 +1,13 @@
 export const fetchMarkdownPostsRaw = async () => {
-  const allPostFiles = import.meta.glob('/src/routes/blog/*.md')
+  const allPostFiles = import.meta.glob('/posts/*.md')
   const iterablePostFiles = Object.entries(allPostFiles)
 
   const allPosts = async () => {
     return await Promise.all(
       iterablePostFiles.map(async ([filepath, globEntry]) => {
         const { metadata } = await globEntry()
-        const slug = filepath.slice(17, -3)
+        // const slug = filepath.slice(17, -3)
+        const slug = filepath.slice(7, -3)
         return {
           ...metadata,
           slug
@@ -61,4 +62,11 @@ export function clickOutside(node) {
       document.removeEventListener('click', handleClick, true)
     }
   }
+}
+
+export const getOneYearAgo = () => {
+  let oneYearAgo = new Date()
+  oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1)
+  oneYearAgo.setMonth(oneYearAgo.getMonth() + 1)
+  return oneYearAgo
 }

@@ -2,6 +2,13 @@
 
 - personal website (basic)
   - gubasso.xyz
+
+- check if commits services are being updated
+- resume
+- landing page: projects:
+  - from resume yaml
+  - add some summ to landing page
+
 - [ ] vitest for unit testing
   - https://vitest.dev/
 - [ ] playwright tests
