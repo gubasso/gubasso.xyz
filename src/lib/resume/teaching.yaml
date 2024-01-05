@@ -24,3 +24,29 @@ sasguidecourse:
   related:
     technologies:
       - sas
+riotjscourse:
+  title: 'Riot.js Training Program'
+  description:
+    - 'Training program on general porpouses javascript framworks for web application developments'
+    - 'Training program for developing an web app using Riot.js in a custom made frontend architecture'
+  related:
+    technologies:
+      - riotjs
+sveltecourse:
+  title: 'Svelte/Sapper Training Program'
+  description:
+    - 'Training program on general porpouses javascript framworks for web application developments'
+    - 'Teaching Svelte as a SPA web application framework and Sapper as an Hibrid SPA/MPA architecture tool and implementation.'
+  related:
+    technologies:
+      - svelte
+pythoneve:
+  title: 'Python Eve Training Program'
+  description:
+    - 'Training program to teach how to build a Python Web REST API using the Eve framework'
+    - 'Persist and use data from a Mongodb database connected to the api application'
+    - 'Use the Python Eve lifecicles and Flask basic architectures to implement calculations depending on the request parameters'
+  related:
+    technologies:
+      - python
+      - mongodb

@@ -2,6 +2,7 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
+- [ ] reviewing experience bottom to top
 - setup servers/security/ssh
 - devops skill
   - linux servers?
