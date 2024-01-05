@@ -1,0 +1,186 @@
+odr:
+  title: Regional Development Observatory (ODR - Observatório Do Desenvolvimento Regional)
+  description: 'A full featured web platform, based on ArcGIS products and suite, to provide regional, and spatial data and indicators related to economic and social policies.'
+  links:
+    - http://odr.mi.gov.br/
+    - https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr
+  related:
+    technologies:
+      - arcgisSuite
+      - postgresql
+      - R
+futurerentability:
+  title: 'Automated Future Rentability Estimation for ALM models'
+  description:
+    - 'Development of automated assets rentability estimation applied to ALM models'
+    - "Model implementation in major Brazil's pension funds as a tool for asset alocations and portfolio policies."
+  related:
+    technologies:
+      - SAS
+      - R
+      - dotnet
+actuarialflow:
+  title: 'Automated Deterministic and Stochastic Actuarial Flow for ALM models'
+  description:
+    - 'Development of Deterministic and Stochastic Actuarial Flow applied to ALM models'
+    - "Model implementation in major Brazil's pension funds as a tool for asset alocations and portfolio policies."
+  related:
+    technologies:
+      - SAS
+      - R
+      - dotnet
+alm:
+  title: 'Automated Asset-Liability Management Model for Pension Funds'
+  description:
+    - 'Development and implementation of a system generates an optimal asset alocation based on an ALM model applied in some major pension funds.'
+  related:
+    technologies:
+      - SAS
+      - R
+      - dotnet
+ipeadata:
+  title: 'IpeaData'
+  links:
+    - http://ipeadata.gov.br/beta3/
+    - https://www.ipea.gov.br/portal/ipeadata
+    - https://www.ipea.gov.br/portal/ipeadata/api-artigo
+    - http://www.ipeadata.gov.br/Default.aspx
+  description:
+    - 'A web platform to provide economic, financial, demographic, geographic and social public data.'
+    - 'Project aimed to rebuild the first version of the platform'
+  related:
+    technologies:
+      - riot
+      - dotnet
+      - sqlserver
+      - python
+      - mongodb
+ivs:
+  title: 'Atlas of Social Vulnerability (IVS - Atlas da Vulnerabilidade Social)'
+  links:
+    - http://ivs.ipea.gov.br/index.php/pt/
+    - https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social
+  description:
+    - 'A web platform to consult and visualize data and informations about social vulnerability in Brazil.'
+  related:
+    technologies:
+      - webstack
+      - postgresql
+brasilmetropolitano:
+  title: 'Portal of Metropolitan Governance in Brazil (Portal da Governança Metropolitana no Brasil)'
+  links:
+    - http://brasilmetropolitano.ipea.gov.br/
+  description:
+    - "A web platform designed to provide access to economic and social data, indicators, and studies concerning to Brazil's metropolitan areas."
+  related:
+    technologies:
+      - webstack
+ipeaextrator:
+  title: 'Ipea Data Extractor (Ipea Extrator de Dados)'
+  links:
+    - https://www.ipea.gov.br/extrator/
+    - http://extrator.ipea.gov.br/
+  description:
+    - 'Web platform for querying, aggregating, and collecting data'
+    - 'The system makes available a wide variety of data types, such as public databases, research content, indicators, historical series, among others'
+ipeapublica:
+  title: 'Ipea Publications (Ipea Publica)'
+  description:
+    - 'An internal web application designed to automate and standardize all the institutional publication review process.'
+ipeaprojetos:
+  title: 'Ipea Projects (Ipea Projetos)'
+  description:
+    - 'Internal institutional system to manage all of the organizations projects and initiatives'
+  related:
+    technologies:
+      - dotnet
+      - sqlserver
+ipeageo:
+  title: 'IpeaGEO: Spatial Data Analysis'
+  links:
+    - https://www.ipea.gov.br/ipeageo/
+  description:
+    - 'Windows software for spatial data analysis'
+    - 'Spatial data manipulation and georeferencing'
+  related:
+    technologies:
+      - dotnet
+dataAnalysisReports:
+  title: 'Data, studies and reports for economic researchs'
+  description:
+    - 'Scripts for data collection and processing'
+    - 'Statistical and spatial analyses of data for economic researchs'
+  related:
+    technologies:
+      - sas
+      - r
+      - sql
+      - python
+      - arcgisDesktop
+algos:
+  title: 'Algorithms to automate decision making over asset prices'
+  description:
+    - 'Reading of a stream of data from asset prices at different markets'
+    - 'Creation of a set of indicators from the price movments'
+    - 'Creation of algorithmic strategies to buy and sell assets automatically'
+    - 'Creation of a data repository used for strategies creation and optimization'
+  related:
+    technologies:
+      - r
+      - sqlite
+bragServer:
+  title: 'brag-server: Rust REST API to serve git repositories metrics'
+  links:
+    - https://github.com/cwnt-io/brag-server
+  description:
+    - 'Loads and periodically updates data from git repositories'
+    - 'Serves git repositories data and metrics from a Web Server REST API'
+  related:
+    technologies:
+      - rust
+      - postgresql
+      - github
+      - gitlab
+      - shellScripting
+ripissue:
+  title: 'ripissue: CLI tool for issue tracking'
+  links:
+    - https://github.com/cwnt-io/ripissue
+    - https://crates.io/crates/ripissue
+  description:
+    - 'CLI tool to automate issue tracking inside a git repository'
+    - 'Implements a simple file structure convention and workflow'
+    - 'Can be used to manage issues, tasks, sprints, epics and initiatives ins a distributed manner'
+    - 'Using just git and filesystem'
+  related:
+    technologies:
+      - rust
+      - git
+boleteggs:
+  title: 'Boleteggs: Streamlined Rental Billing & Contract Management Web App'
+  description:
+    - 'Web application to generate and manage rental contract billings.'
+    - "Integrated with Gerencianet's billings API, automatically generating billing documents"
+  related:
+    technologies:
+      - react
+      - git
+cadelab:
+  title: 'Cadelab: Interactive Platform for Economic Competition Analytics'
+  description:
+    - 'Frontend: web application to show data and economic indicators related to concurrent markets and competition analysis.'
+    - 'Frontend: data presentation in visual components and charts'
+    - 'Backend: web server REST API in Python to serve public data and indicators calculated parametrized in time of execution'
+    - 'Data workflow: automated workflow to make the last available data sources in sync and updated in the web API.'
+    - 'Data Engineering: scripts to execute automated ETL processes and generate aggregated data and indicators'
+  related:
+    technologies:
+      - svelte
+      - riot
+      - python
+      - r
+      - gitlab
+      - docker
+      - mongodb
+      - postgresql
+      - shellScripting

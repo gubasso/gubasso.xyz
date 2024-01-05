@@ -1,0 +1,34 @@
+databases:
+  title: Database Management
+  description: 'Creation, maintenance, and use of databases.'
+backend:
+  title: Backend Development
+  descriptions:
+    - 'Server-side development of web applications or software.'
+frontend:
+  title: Frontend Development
+  descriptions:
+    - 'Creating the graphical user interface of a website or web application with HTML, CSS, JavaScript and related frameworks.'
+analytics:
+  title: Analytics
+  descriptions:
+    - 'Understanding and applying statistical and computational methods to analyze data.'
+dataAnalysis:
+  title: Data Analysis
+  descriptions:
+    - 'Inspecting, cleaning, and modeling data .'
+dataEngineering:
+  title: Data Engineering
+  descriptions:
+    - 'Scripts development for extracting, transforming, and loading (ETL) data from various sources, as well as cleaning, organizing, and aggregating the data'
+infrastructureManagement:
+  title: Infrastructure Management and System Administration
+  descriptions:
+    - 'Server configuration and security management: Setting up and managing Linux servers, configuring security measures including user and password creation, SSH configurations, and firewall permissions.'
+    - 'Deploying services using Docker and direct application management on hosts through systemd units.'
+    - 'Automating routine tasks and backups through scripting, cron jobs, or third party tools.'
+  related:
+    technologies:
+      - docker
+      - shellScripting
+      - vagrant

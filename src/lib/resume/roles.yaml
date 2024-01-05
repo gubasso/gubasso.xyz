@@ -1,0 +1,65 @@
+coFounder:
+  title: Co-founder
+  description:
+    - 'Company creation and stabilishment'
+    - 'Create and stabilish companies: vision, culture and strategy'
+    - 'Decision-making processes'
+    - 'Responsible for company direction and growth'
+cto:
+  title: CTO (Chief Technology Officer)
+  description:
+    - "Oversee company's technological and R&D needs"
+    - "Outline company's technological vision"
+    - 'Create and implement technology strategies'
+    - "Align technological resources with company's business needs and strategies"
+managerDev:
+  title: Software Development Manager
+  description:
+    - 'Designing, implementing, and overseeing the software development process'
+    - 'Ensuring that the development process aligns with the project requirements and company goals'
+    - 'Establishing best practices for coding, testing, and deployment'
+    - 'Leading, mentoring, and managing a team of software developers and engineers'
+managerProj:
+  title: Project Manager
+  description:
+    - 'Planning, executing, and overseeing projects'
+    - 'Defining project scope, goals, timelines, and resource requirements'
+    - 'Leading and coordinating project teams'
+managerAdmin:
+  title: Administrative Manager
+  description:
+    - 'Standardizing and implementing documentation, processes, and organizational methods'
+    - 'Implementing agile methodology for team management, metrics, and results'
+    - 'Contracts manager'
+developer:
+  title: Software Developer
+  description:
+    - 'Coding and testing software'
+    - 'Creating applications, products and services'
+    - 'Reviewing and ensuring code quality'
+    - 'Fulfilling user and business requirements'
+dataAnalyst:
+  title: Data Analyst
+  description:
+    - 'Collecting, processing, and performing statistical analyses of data'
+systemsAnalyst:
+  title: Systems Analyst
+  description:
+    - 'Understanding business needs'
+    - 'Capture and document operational and process requirements'
+    - 'Analyze and design technology solutions'
+systemsAdmin:
+  title: Systems Administrator
+  descriptions:
+    - 'Server configuration, security management'
+    - 'Setting up and maintaining system software'
+    - 'Managing user accounts'
+    - 'Overseeing security protocols like SSH configurations and firewall settings'
+technologyEducator:
+  title: Technology Educator
+  description:
+    - 'Technology teacher or instructor'
+    - 'Teach the entire technology stack'
+    - "Transfer the project knowledge to the client's technical staff"
+professor:
+  title: University Professor

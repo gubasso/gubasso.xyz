@@ -1,0 +1,88 @@
+---
+title:
+  name: Gustavo Basso
+  position: Software Engineer
+
+contact:
+  title: Contact
+  city:
+    icon: teenyicons:pin-outline
+    text: Brasília, Brazil
+  phone:
+    icon: bi:phone
+    text: '+5561984018939'
+  email:
+    icon: line-md:email
+    text: 'gu@gubasso.xyz'
+
+social:
+  title: Social
+  data:
+    - icon: mdi:web
+      link: https://gubasso.xyz
+    - icon: mdi:linkedin
+      link: https://www.linkedin.com/in/gubasso
+    - icon: mdi:github
+      link: https://github.com/gubasso
+    - icon: mdi:gitlab
+      link: https://gitlab.com/gubasso
+    - icon: simple-icons:leetcode
+      link: https://leetcode.com/gubasso
+    - icon: mdi:twitter
+      link: https://twitter.com/gubasso777
+
+education:
+  title: Education
+  data:
+    - title: Doctor of Business Administration (Finance and Quantitative Methods) [Incomplete]
+      university: Universidade de Brasília - UnB
+      link: https://www.unb.br
+      city: Brasília
+      state: DF
+      country: Brazil
+      from: 2014-01-01
+      to: 2017-01-01
+
+    - title: Master of Science in Business Administration (Finance and Quantitative Methods)
+      university: Universidade de Brasília - UnB
+      link: https://www.unb.br
+      city: Brasília
+      state: DF
+      country: Brazil
+      from: 2012-01-01
+      to: 2013-01-01
+
+    - title: Bachelor of Business Administration
+      university: Universidade de Brasília - UnB
+      link: https://www.unb.br
+      city: Brasília
+      state: DF
+      country: Brazil
+      from: 2005-01-01
+      to: 2011-01-01
+
+publications:
+  title: Publications
+  data:
+    - title: 'CARVALHO, A. X. Y.; ALBUQUERQUE, P. H. M.; LAURETO, C. R.; MOREIRA, G. C. C.; BASSO, G. G.; GUIMARÃES, L. F. D.; PENA, M. G. . Clusterização Espacial e não Espacial: um estudo aplicado à agropecuária brasileira. Discussion Papers 2279, Instituto de Pesquisa Econômica Aplicada - IPEA. https://ideas.repec.org/p/ipe/ipetds/2279.html'
+      english: 'Spatial and Non-Spatial Clustering: An Applied Study to Brazilian Agriculture. Discussion Papers 2279, Institute for Applied Economic Research - IPEA.'
+      area: Economics and Quantitative Methods
+    - title: 'OLIVEIRA NETO, J. C. C. ; BASSO, G. G. ; PAIVA, A. A. . Como respostas bonitas, mas erradas, colocaram o mundo em crise novamente. Política Democrática, v. 31, p. 30-35, 2011.'
+      english: 'How beautiful but wrong answers put the world in crisis again. Democratic Policy.'
+      area: Economics and Finance
+    - title: 'Boletim ODR: Observatório do Desenvolvimento Regional. Edição 1/2014, Outubro – Dezembro. Publicado pelo Ministério da Integração Nacional, Secretaria de Desenvolvimento Regional, 2014. Available at: https://www.gov.br/mdr/pt-br/centrais-de-conteudo/publicacoes/desenvolvimento-regional-urbano/Boletim_ODR.pdf'
+      english: 'ODR Bulletin: Regional Development Observatory'
+      area: Regional Development and Policy Analysis
+
+languages:
+  title: Languages
+  data:
+    - Portuguese (native)
+    - English (advanced)
+
+# TODO
+about:
+  title: About me
+  data:
+    - With over a decade of experience in the technology industry, I'm an curious engineer, constantly learning and adapting. From Operations to Backend and Frontend roles, I've led teams and embraced diverse responsibilities. My experience as a founder instilled a knack for marrying promising tech with business value.
+    - For the past 5 years, I've specialized in customer-centric web apps on cloud servers. The agility of crafting various applications, combined with my thirst for depth, empowers me to continually captivate users. I've written plenty of Python, Typescript, and various other technologies throughout my career, but when I discovered Rust a couple of years ago, I immediately fell in love with it.

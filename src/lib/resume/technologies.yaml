@@ -1,0 +1,222 @@
+rust:
+  title: Rust Programming Language
+  alias: Rust
+  link: https://www.rust-lang.org
+  related:
+    skills:
+      - backend
+arcgisSuite:
+  title: ArcGIS Products Suite
+  link: https://www.esri.com/en-us/arcgis/products/index
+  related:
+    technologies:
+      - arcgisDesktop
+      - arcgisAppBuilder
+      - arcgisDashboards
+      - arcgisStoryMaps
+      - arcgisCollector
+      - esriGeoportalServer
+esriGeoportalServer:
+  title: ESRI Geoportal Server
+  link: https://www.esri.com/en-us/arcgis/products/esri-geoportal-server/overview
+  related:
+    skills:
+      - infrastructureManagement
+arcgisCollector:
+  title: ArcGIS Collector
+  link: https://www.esri.com/en-us/arcgis/products/arcgis-collector/resources
+  related:
+    skills:
+      - infrastructureManagement
+arcgisStoryMaps:
+  title: ArcGIS StoryMaps
+  link: https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/overview
+  related:
+    skills:
+      - infrastructureManagement
+arcgisDashboards:
+  title: ArcGIS Dashboards
+  link: https://www.esri.com/en-us/arcgis/products/arcgis-dashboards/overview
+  related:
+    skills:
+      - infrastructureManagement
+arcgisAppBuilder:
+  title: ArcGIS App Builder
+  link: https://www.esri.com/en-us/arcgis/products/app-builders/overview
+  related:
+    skills:
+      - infrastructureManagement
+arcgisDesktop:
+  title: ArcGIS Desktop
+  link: https://www.esri.com/en-us/arcgis/products/arcgis-desktop/overview
+  related:
+    skills:
+      - dataEngineering
+      - analytics
+dotnet:
+  title: .NET Framework
+  alias: .NET
+  link: https://dotnet.microsoft.com/
+  related:
+    technologies:
+      - csharp
+    skills:
+      - backend
+csharp:
+  title: C# Programming Language
+  alias: C#
+  link: https://learn.microsoft.com/en-us/dotnet/csharp/
+python:
+  title: Python Programming Language
+  alias: Python
+  link: https://www.python.org/
+  related:
+    skills:
+      - backend
+r:
+  title: R Programming Language
+  alias: R
+  link: https://www.r-project.org/
+  related:
+    skills:
+      - backend
+      - analytics
+      - dataAnalysis
+      - dataEngineering
+sas:
+  title: SAS Programming Language
+  alias: SAS
+  link: https://www.sas.com/
+  related:
+    skills:
+      - analytics
+      - dataAnalysis
+      - dataEngineering
+sql:
+  title: SQL Language
+  link: https://en.wikipedia.org/wiki/SQL
+sqlserver:
+  title: Microsoft SQL Server
+  link: https://www.microsoft.com/en-us/sql-server/
+  related:
+    technologies:
+      - sql
+    skills:
+      - databases
+postgresql:
+  title: PostgreSQL Database
+  link: https://www.postgresql.org/
+  related:
+    technologies:
+      - sql
+    skills:
+      - dataEngineering
+      - databases
+sqlite:
+  title: SQLite Database
+  link: https://www.sqlite.org/index.html
+  related:
+    technologies:
+      - sql
+    skills:
+      - dataEngineering
+      - databases
+mongodb:
+  title: Mongodb Database
+  link: https://www.mongodb.com/
+  related:
+    technologies:
+      - javascript
+    skills:
+      - dataEngineering
+      - databases
+webstack:
+  title: 'Web Stack: HTML/CSS/Javascript'
+  alias: HTML/CSS/Javascript
+  link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
+  related:
+    technologies:
+      - javascript
+      - html
+      - css
+html:
+  title: HTML Markup Language
+  alias: HTML
+  link: https://html.spec.whatwg.org/multipage/
+css:
+  title: CSS Cascading Style Sheets
+  alias: CSS
+  link: https://drafts.csswg.org/
+javascript:
+  title: Javascript Programming Language
+  alias: JS
+  link: https://en.wikipedia.org/wiki/JavaScript
+  related:
+    skills:
+      - backend
+      - frontend
+git:
+  title: Git
+  link: https://git-scm.com/
+github:
+  title: Github
+  link: https://github.com/
+  related:
+    technologies:
+      - git
+gitlab:
+  title: Gitlab
+  link: https://gitlab.com/
+  related:
+    technologies:
+      - git
+svelte:
+  title: Svelte / Sveltekit
+  link: https://kit.svelte.dev/
+  related:
+    technologies:
+      - javascript
+    skills:
+      - frontend
+react:
+  title: React
+  link: https://react.dev/
+  related:
+    technologies:
+      - javascript
+    skills:
+      - frontend
+riot:
+  title: Riot.js
+  link: https://riot.js.org/
+  related:
+    technologies:
+      - webstack
+    skills:
+      - frontend
+nodejs:
+  title: Node.js
+  link: https://nodejs.org/en
+  related:
+    technologies:
+      - javascript
+    skills:
+      - backend
+docker:
+  title: Docker
+  link: https://www.docker.com/
+  related:
+    skills:
+      - infrastructureManagement
+vagrant:
+  title: Vagrant
+  link: https://www.vagrantup.com/
+  related:
+    skills:
+      - infrastructureManagement
+shellScripting:
+  title: Shell Scripting
+  link: https://www.gnu.org/software/bash/manual/bash.html
+  related:
+    skills:
+      - infrastructureManagement

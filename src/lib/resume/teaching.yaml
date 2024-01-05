@@ -1,0 +1,26 @@
+mmqd:
+  title: 'Quantitative Methods for Decision Making'
+  description:
+    - 'A graduate-level course taught to Business Administration students, focusing on the application of quantitative analysis and statistical methods in business decision-making.'
+  related:
+    technologies:
+      - r
+finances1:
+  title: 'Finances 1'
+  description:
+    - 'An introductory course for Business Administration undergraduates, covering fundamental concepts of corporate finance, financial markets, and investment analysis.'
+financialCalculus:
+  title: 'Financial Calculus'
+  description:
+    - 'A foundational course in finance, taught to undergraduates, covering basic financial concepts such as simple and compound interest rates, present value, and investment returns.'
+speakerGeonordeste:
+  title: "Speaker at the VII Regional Symposium on Geoprocessing and Remote Sensing (GEONORDESTE) (www.resgeo.com.br/geonordeste2014): 'Geotechnologies as development strategies for the semiarid: the Regional Development Observatory'"
+speakerLauc:
+  title: "Speaker at LAUC 2014 - Esti Latin America User Conference: 'Regional Development Observatory (ODR)'"
+sasguidecourse:
+  title: 'SAS Enterprise Guide Training Program'
+  description:
+    - 'Developing and delivering a comprehensive training program on SAS Enterprise Guide tailored for pension funds technical staff.'
+  related:
+    technologies:
+      - sas

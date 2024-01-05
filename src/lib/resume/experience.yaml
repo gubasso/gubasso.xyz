@@ -1,0 +1,100 @@
+experience:
+  title: Work Experience
+  data:
+    - jobTitle: CTO and Co-founder
+      company: cwnt
+      from: 2016-10-01
+      to: Present
+      roles:
+        - coFounder
+        - cto
+        - managerDev
+        - developer
+        - technologyEducator
+        - infrastructureManagement
+      projects:
+        - algos
+        - bragServer
+        - ripissue
+        - boleteggs
+    - jobTitle: Technical Consultant
+      company: cade
+      from: 2018-01-01
+      to: 2023-01-01
+      roles:
+        - systemsAnalyst
+        - technologyEducator
+        - dataAnalyst
+        - developer
+        - infrastructureManagement
+      projects:
+        - cadelab
+    - jobTitle: Research Consultant
+      company: ipea
+      from: 2011-01-01
+      to: 2019-06-01
+      roles:
+        - dataAnalyst
+        - developer
+        - managerDev
+        - managerProj
+        - systemAnalyst
+        - technologyEducator
+        - infrastructureManagement
+      projects:
+        - dataAnalysisReports
+        - ipeageo
+        - ipeaextrator
+        - ipeapublica
+        - brasilmetropolitano
+        - ivs
+    - jobTitle: Consultant
+      company: iaed
+      from: 2011-01-01
+      to: 2017-01-01
+      roles:
+        - dataAnalyst
+        - developer
+        - technologyEducator
+      projects:
+        - alm
+        - actuarialflow
+        - futurerentability
+      teaching:
+        - sasguidecourse
+    - jobTitle: Technology Coordinator
+      company: cerme
+      from: 2015-01-01
+      to: 2016-01-01
+      roles:
+        - managerProj
+        - managerDev
+        - systemsAnalyst
+        - systemsAdmin
+        - technologyEducator
+      projects:
+        - odr
+    - jobTitle: General Coordinator of Monitoring and Evaluation of Regional Policies
+      company: sdr
+      from: 2014-01-01
+      to: 2014-12-31
+      roles:
+        - managerAdmin
+        - managerProj
+        - systemsAdmin
+        - dataEngineering
+      projects:
+        - odr
+      teaching:
+        - speakerLauc
+        - speakerGeonordeste
+    - jobTitle: University Professor
+      company: unb
+      from: 2012-01-01
+      to: 2014-12-31
+      roles:
+        - professor
+      teaching:
+        - mmqd
+        - finances1
+        - financialCalculus
