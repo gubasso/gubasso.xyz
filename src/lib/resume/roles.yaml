@@ -1,68 +1,64 @@
 coFounder:
   title: Co-founder
   description:
-    - 'Company creation and stabilishment'
-    - 'Create and stabilish companies: vision, culture and strategy'
-    - 'Decision-making processes'
-    - 'Responsible for company direction and growth'
+    - 'Establishing company vision, culture, and strategic direction.'
+    - 'Leading decision-making processes for growth and development.'
 cto:
   title: CTO (Chief Technology Officer)
   description:
-    - "Oversee company's technological and R&D needs"
-    - "Outline company's technological vision"
-    - 'Create and implement technology strategies'
-    - "Align technological resources with company's business needs and strategies"
+    - 'Overseeing technological needs and research & development.'
+    - 'Developing and implementing technology strategies.'
+    - 'Aligning technology with business objectives.'
 managerDev:
   title: Software Development Manager
   description:
-    - 'Designing, implementing, and overseeing the software development process'
-    - 'Ensuring that the development process aligns with the project requirements and company goals'
-    - 'Establishing best practices for coding, testing, and deployment'
-    - 'Leading, mentoring, and managing a team of software developers and engineers'
+    - 'Overseeing the entire software development lifecycle.'
+    - 'Aligning development with project goals and company objectives.'
+    - 'Implementing best practices in coding, testing, and deployment.'
+    - 'Leading and mentoring a team of developers and engineers.'
 managerProj:
   title: Project Manager
   description:
-    - 'Planning, executing, and overseeing projects'
-    - 'Defining project scope, goals, timelines, and resource requirements'
-    - 'Leading and coordinating project teams'
+    - 'Managing project lifecycle from planning to execution.'
+    - 'Setting project scope, objectives, timelines, and resources.'
+    - 'Leading and coordinating cross-functional teams.'
 managerAdmin:
   title: Administrative Manager
   description:
-    - 'Team management'
-    - 'Contracts manager'
-    - 'Standardizing and implementing documentation, processes, and organizational methods'
-    - 'Implementing agile methodology, metrics, and results'
+    - 'Overseeing team and contract management.'
+    - 'Standardizing and implementing organizational processes and documentation.'
+    - 'Adopting agile methodologies for enhanced efficiency and metrics.'
 developer:
   title: Software Developer
   description:
-    - 'Coding and testing software'
-    - 'Creating applications, products and services'
-    - 'Reviewing and ensuring code quality'
-    - 'Fulfilling user and business requirements'
+    - 'Developing and testing software applications.'
+    - 'Building products and services meeting user and business needs.'
+    - 'Maintaining code quality through reviews and best practices.'
 dataAnalyst:
   title: Data Analyst
   description:
-    - 'Collecting, processing, and performing statistical analyses of data'
+    - 'Conducting data collection, processing, and statistical analysis.'
 systemsAnalyst:
   title: Systems Analyst
   description:
-    - 'Understanding business needs'
-    - 'Capture and document operational and process requirements'
-    - 'Analyze and design technology solutions'
+    - 'Assessing business needs and documenting requirements.'
+    - 'Designing and analyzing technology solutions.'
 systemsAdmin:
   title: Systems Administrator
   descriptions:
-    - 'Server configuration, security management'
-    - 'Setting up and maintaining system software'
-    - 'Managing user accounts'
-    - 'Overseeing security protocols like SSH configurations and firewall settings'
+    - 'Configuring servers and managing system security.'
+    - 'Maintaining system software and managing user accounts.'
+    - 'Administering security protocols and network settings.'
 technologyEducator:
   title: Technology Educator
   description:
-    - 'Technology teacher or instructor'
-    - 'Teach the entire technology stack'
-    - "Transfer the project knowledge to the client's technical staff"
+    - 'Instructing in comprehensive technology subjects.'
+    - 'Imparting project-specific knowledge to technical staff.'
 professor:
   title: University Professor
+  description:
+    - 'Educating students in academic subjects and conducting research.'
 researcher:
-  title: 'Academic Researcher'
+  title: Academic Researcher
+  description:
+    - 'Conducting scholarly research and contributing to academic knowledge.'

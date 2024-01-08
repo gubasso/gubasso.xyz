@@ -2,11 +2,14 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
+- [ ] update linkedin cwnt's co-founder/cto experience description
+- [x] review every role description
 - [x] reviewing experience bottom to top
 - cwnt's
   - linkedin page: update company links
     - ismael as co-founder
   - simple landing page
+    - update resume links and linkedin link
 - projects, skills, technologies:
   - put all related stuff
 - setup servers/security/ssh
@@ -28,3 +31,6 @@ https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdat
   - self hosted applications
 - ast standarts
 - personal development setup?
+
+- linkedin:
+  - add a post after gubasso.xyz is online

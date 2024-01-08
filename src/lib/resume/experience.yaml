@@ -6,9 +6,10 @@
     - coFounder
     - cto
     - managerDev
+    - managerProj
     - developer
+    - systemsAdmin
     - technologyEducator
-    - infrastructureManagement
   projects:
     - algos
     - bragServer
