@@ -15,6 +15,16 @@
     - ripissue
     - boleteggs
 - jobTitle: Technical Consultant
+  company: vistocerto
+  from: 2015-01-01
+  to: Present
+  roles:
+    - developer
+    - managerDev
+    - managerProj
+  projects:
+    - vistocertoProj
+- jobTitle: Technical Consultant
   company: cade
   from: 2018-01-01
   to: 2023-01-01
@@ -46,6 +56,7 @@
     - ipeageo
     - ipeaextrator
     - ipeapublica
+    - ipeaprojetos
     - brasilmetropolitano
     - ivs
   teaching:
@@ -96,6 +107,7 @@
   to: 2014-12-31
   roles:
     - professor
+    - researcher
   teaching:
     - mmqd
     - finances1

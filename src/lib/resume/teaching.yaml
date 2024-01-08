@@ -5,14 +5,25 @@ mmqd:
   related:
     technologies:
       - r
+    skills:
+      - math
+      - optimizationMethods
 finances1:
   title: 'Finances 1'
   description:
     - 'An introductory course for Business Administration undergraduates, covering fundamental concepts of corporate finance, financial markets, and investment analysis.'
+  related:
+    skills:
+      - math
+      - finance
 financialCalculus:
   title: 'Financial Calculus'
   description:
     - 'A foundational course in finance, taught to undergraduates, covering basic financial concepts such as simple and compound interest rates, present value, and investment returns.'
+  related:
+    skills:
+      - math
+      - finance
 speakerGeonordeste:
   title: "Speaker at the VII Regional Symposium on Geoprocessing and Remote Sensing (GEONORDESTE) (www.resgeo.com.br/geonordeste2014): 'Geotechnologies as development strategies for the semiarid: the Regional Development Observatory'"
 speakerLauc:
@@ -50,3 +61,5 @@ pythoneve:
     technologies:
       - python
       - mongodb
+      - vagrant
+      - docker

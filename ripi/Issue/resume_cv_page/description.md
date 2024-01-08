@@ -2,8 +2,15 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
-- [ ] reviewing experience bottom to top
+- [x] reviewing experience bottom to top
+- cwnt's
+  - linkedin page: update company links
+    - ismael as co-founder
+  - simple landing page
+- projects, skills, technologies:
+  - put all related stuff
 - setup servers/security/ssh
+- cadelab: upload server and update project link
 - devops skill
   - linux servers?
 - [ ] gubasso.xyz as a personal project
@@ -17,4 +24,7 @@ https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdat
 - [ ] when run build script, compile a pdf file to make available to download
 - [ ] add all my github/gitlab projects (and cwnt's too)
 - "honorable mentions": docs-n-notes repository... etc...
-
+  - leetcode
+  - self hosted applications
+- ast standarts
+- personal development setup?

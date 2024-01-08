@@ -13,6 +13,8 @@ analytics:
   title: Analytics
   descriptions:
     - 'Understanding and applying statistical and computational methods to analyze data.'
+    - 'Statistics'
+    - 'Probabilty and probability distributions'
 dataAnalysis:
   title: Data Analysis
   descriptions:
@@ -32,3 +34,10 @@ infrastructureManagement:
       - docker
       - shellScripting
       - vagrant
+      - linux
+optimizationMethods:
+  title: 'Optimization Methods'
+math:
+  title: 'Math and Calculus'
+finance:
+  title: 'Finance and Financial Calculus'

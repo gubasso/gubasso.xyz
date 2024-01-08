@@ -1,30 +1,37 @@
+vistocerto:
+  company: Seu Visto Certo
+  specialization: Professional and Educational Services
+  links:
+    - https://seuvistocerto.com/
+  city: Willow Park, TX
+  country: US
 cwnt:
   company: cwnt.io (Crown and Trunk Technologies)
   specialization: Technology, Financial Markets, Web3, Data Analysis
   links:
     - https://github.com/cwnt-io
-  city: Brasília
+  city: Brasília, DF
   country: Brazil
 cade:
   company: Administrative Council for Economic Defense (CADE - Conselho Administrativo de Defesa Econômica)
   specialization: Antitrust Law and Competition Policy, Market Regulation, Consumer Protection, Economic Studies
   links:
     - https://www.gov.br/cade/
-  city: Brasília
+  city: Brasília, DF
   country: Brazil
 ipea:
   company: Institute for Applied Economic Research (IPEA - Instituto de Pesquisa Econômica Aplicada)
   specialization: Applied Economic Research, Policy Analysis and Development, Economic Data Analysis and Forecasting, Socioeconomic Studies
   links:
     - https://www.ipea.gov.br/
-  city: Brasília
+  city: Brasília, DF
   country: Brazil
 iaed:
   company: Institute of Economic Analysis of Law (IAED - Instituto de Análise Econômica do Direito)
   specialization: Economic Analysis, Policy and Investment Decision Support, Educational Training and Development
   links:
     - https://www.linkedin.com/in/instituto-iaed-a1a74328/
-  city: Brasília
+  city: Brasília, DF
   country: Brazil
 cerme:
   company: Center for Market Regulation Studies, University of Brasilia, UnB (CERME - Centro de Estudos em Regulação de Mercados, Universidade de Brasília, UnB)
@@ -33,19 +40,19 @@ cerme:
     - https://www.unb.br/centros
     - http://cerme.unb.br/
     - http://pesquisa.unb.br/humanidades-ciencias-sociais/centros-ciencias-sociais?menu=806#centro-de-estudos-em-regulacao-de-mercados-cerme
-  city: Brasília
+  city: Brasília, DF
   country: Brazil
 sdr:
   company: National Secretariat for Regional Development, Ministry of Integration and Regional Development (SDR - Secretaria Nacional de Desenvolvimento Regional, Ministério da Integração e do Desenvolvimento Regional)
   specialization: Promotion of Regional Development, Integration of National Policies, Implementation of Regional, Urban, and Productive Structuring Programs
   links:
     - https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional
-  city: Brasília
+  city: Brasília, DF
   country: Brazil
 unb:
   company: University of Brasília (UnB - Universidade de Brasília)
   specialization: Public University, Higher Education, Research, Academic Development
   links:
     - https://www.unb.br/
-  city: Brasília
+  city: Brasília, DF
   country: Brazil

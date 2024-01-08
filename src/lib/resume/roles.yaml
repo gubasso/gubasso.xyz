@@ -28,9 +28,10 @@ managerProj:
 managerAdmin:
   title: Administrative Manager
   description:
-    - 'Standardizing and implementing documentation, processes, and organizational methods'
-    - 'Implementing agile methodology for team management, metrics, and results'
+    - 'Team management'
     - 'Contracts manager'
+    - 'Standardizing and implementing documentation, processes, and organizational methods'
+    - 'Implementing agile methodology, metrics, and results'
 developer:
   title: Software Developer
   description:
@@ -63,3 +64,5 @@ technologyEducator:
     - "Transfer the project knowledge to the client's technical staff"
 professor:
   title: University Professor
+researcher:
+  title: 'Academic Researcher'

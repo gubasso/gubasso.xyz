@@ -130,6 +130,26 @@ mongodb:
     skills:
       - dataEngineering
       - databases
+php:
+  title: PHP Programming Language
+  alias: PHP
+  link: https://www.php.net/
+  related:
+    skills:
+      - backend
+      - frontend
+wordpress:
+  title: 'Wordpress'
+  link: https://wordpress.org/
+  related:
+    technologies:
+      - php
+joomla:
+  title: 'Joomla'
+  link: https://www.joomla.org/
+  related:
+    technologies:
+      - php
 webstack:
   title: 'Web Stack: HTML/CSS/Javascript'
   alias: HTML/CSS/Javascript
@@ -206,17 +226,29 @@ docker:
   title: Docker
   link: https://www.docker.com/
   related:
+    technologies:
+      - linux
     skills:
       - infrastructureManagement
 vagrant:
   title: Vagrant
   link: https://www.vagrantup.com/
   related:
+    technologies:
+      - linux
     skills:
       - infrastructureManagement
 shellScripting:
   title: Shell Scripting
   link: https://www.gnu.org/software/bash/manual/bash.html
+  related:
+    technologies:
+      - linux
+    skills:
+      - infrastructureManagement
+linux:
+  title: Linux Based OS's / Servers
+  link: https://www.linux.org/
   related:
     skills:
       - infrastructureManagement

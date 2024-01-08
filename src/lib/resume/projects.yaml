@@ -1,14 +1,22 @@
 odr:
   title: Regional Development Observatory (ODR - Observatório Do Desenvolvimento Regional)
-  description: 'A full featured web platform, based on ArcGIS products and suite, to provide regional, and spatial data and indicators related to economic and social policies.'
+  description: 'A full featured web platform, based on ArcGIS products and suite, to provide regional, spatial data, and indicators related to economic and social policies.'
   links:
     - http://odr.mi.gov.br/
     - https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr
   related:
     technologies:
+      - webstack
+      - wordpress
       - arcgisSuite
       - postgresql
       - R
+    skills:
+      - frontend
+      - backend
+      - databases
+      - dataEngineering
+      - infrastructureManagement
 futurerentability:
   title: 'Automated Future Rentability Estimation for ALM models'
   description:
@@ -41,6 +49,7 @@ alm:
 ipeadata:
   title: 'IpeaData'
   links:
+    - https://ipeadata.gitlab.io/ipeadata3/
     - http://ipeadata.gov.br/beta3/
     - https://www.ipea.gov.br/portal/ipeadata
     - https://www.ipea.gov.br/portal/ipeadata/api-artigo
@@ -64,6 +73,7 @@ ivs:
     - 'A web platform to consult and visualize data and informations about social vulnerability in Brazil.'
   related:
     technologies:
+      - joomla
       - webstack
       - postgresql
 brasilmetropolitano:
@@ -74,6 +84,7 @@ brasilmetropolitano:
     - "A web platform designed to provide access to economic and social data, indicators, and studies concerning to Brazil's metropolitan areas."
   related:
     technologies:
+      - joomla
       - webstack
 ipeaextrator:
   title: 'Ipea Data Extractor (Ipea Extrator de Dados)'
@@ -100,13 +111,13 @@ ipeageo:
   links:
     - https://www.ipea.gov.br/ipeageo/
   description:
-    - 'Windows software for spatial data analysis'
+    - 'Windows desktop software for spatial data analysis'
     - 'Spatial data manipulation and georeferencing'
   related:
     technologies:
       - dotnet
 dataAnalysisReports:
-  title: 'Data, studies and reports for economic researchs'
+  title: 'Databases, studies and reports for economic researchs'
   description:
     - 'Scripts for data collection and processing'
     - 'Statistical and spatial analyses of data for economic researchs'
@@ -128,6 +139,8 @@ algos:
     technologies:
       - r
       - sqlite
+      - python
+      - rust
 bragServer:
   title: 'brag-server: Rust REST API to serve git repositories metrics'
   links:
@@ -142,6 +155,7 @@ bragServer:
       - github
       - gitlab
       - shellScripting
+      - docker
 ripissue:
   title: 'ripissue: CLI tool for issue tracking'
   links:
@@ -184,3 +198,17 @@ cadelab:
       - mongodb
       - postgresql
       - shellScripting
+vistocertoProj:
+  title: "Seu Visto Certo's Processes Automation"
+  description:
+    - 'Automate the client assistance process and workflow'
+    - 'Integrate the whole sale process with CRM tools and communication apps'
+    - 'Backend implementation to distribute and integrate messages and data between Whatsapp Business API and CRM and management tools'
+  related:
+    skills:
+      - infrastructureManagement
+    technologies:
+      - webstack
+      - gitlab
+      - nodejs
+      - docker
