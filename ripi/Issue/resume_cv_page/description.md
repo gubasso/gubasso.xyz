@@ -2,16 +2,15 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
-- [ ] update linkedin cwnt's co-founder/cto experience description
+- [x] update linkedin cwnt's co-founder/cto experience description
 - [x] review every role description
 - [x] reviewing experience bottom to top
-- cwnt's
-  - linkedin page: update company links
-    - ismael as co-founder
-  - simple landing page
-    - update resume links and linkedin link
 - projects, skills, technologies:
   - put all related stuff
+- cwnt's
+  - [ ] publish basic website
+  - linkedin page: update company links
+  - update resume links and linkedin link
 - setup servers/security/ssh
 - cadelab: upload server and update project link
 - devops skill
