@@ -2,11 +2,11 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
-- projects
-- general skills? web api... cli apps... web apps... etc...
+- review experiences based on reviewd projects
 - [ ] at each section, check which are the basic AST optimized fields that this section has to have
 - [ ] projects, skills, technologies:
   - put all related stuff
+- [x] review projects
 - [x] update experiences, based on skills section
 - [x] update skills section
   - where to put fullstack

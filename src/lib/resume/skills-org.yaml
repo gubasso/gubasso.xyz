@@ -2,7 +2,6 @@ tech:
   group: 'Technical/Programming Skills'
   categories:
     langs: 'Programming Languages'
-    full: 'Full Stack Technologies'
     backend: 'Backend Development'
     gis: 'Geographic Information Systems (GIS)'
     webdev: 'Web/Frontend Development'

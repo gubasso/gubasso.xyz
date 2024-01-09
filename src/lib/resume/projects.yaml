@@ -1,51 +1,31 @@
 odr:
   title: Regional Development Observatory (ODR - Observatório Do Desenvolvimento Regional)
-  description: 'A full featured web platform, based on ArcGIS products and suite, to provide regional, spatial data, and indicators related to economic and social policies.'
+  description: 'Advanced web platform that leverages ArcGIS technology to provide comprehensive regional and spatial data. It serves as a hub for economic and social policy indicators, offering an array of web-based solutions for detailed regional analysis.'
   links:
     - http://odr.mi.gov.br/
     - https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr
-  related:
-    technologies:
-      - webstack
-      - wordpress
-      - arcgisSuite
-      - postgresql
-      - R
-    skills:
-      - frontend
-      - backend
-      - databases
-      - dataEngineering
-      - infrastructureManagement
+  types:
+    - Web Platform
+    - GIS Applications
+    - Full Stack Technologies
 futurerentability:
   title: 'Automated Future Rentability Estimation for ALM models'
-  description:
-    - 'Development of automated assets rentability estimation applied to ALM models'
-    - "Model implementation in major Brazil's pension funds as a tool for asset alocations and portfolio policies."
-  related:
-    technologies:
-      - SAS
-      - R
-      - dotnet
+  description: 'Innovative system for automated future rentability estimation in Asset-Liability Management (ALM) models. This solution has been implemented in major Brazilian pension funds, enhancing asset allocation and portfolio management strategies.'
+  types:
+    - Financial Modeling Tool
+    - Analytics System
 actuarialflow:
   title: 'Automated Deterministic and Stochastic Actuarial Flow for ALM models'
-  description:
-    - 'Development of Deterministic and Stochastic Actuarial Flow applied to ALM models'
-    - "Model implementation in major Brazil's pension funds as a tool for asset alocations and portfolio policies."
-  related:
-    technologies:
-      - SAS
-      - R
-      - dotnet
+  description: "Solution for automating both deterministic and stochastic actuarial flows in Asset-Liability Management (ALM) models. This tool has been effectively integrated into some of Brazil's major pension funds, aiding in strategic asset allocations and enhancing portfolio policy decisions."
+  types:
+    - Actuarial Analysis Tool
+    - Financial Forecasting System
 alm:
   title: 'Automated Asset-Liability Management Model for Pension Funds'
-  description:
-    - 'Development and implementation of a system generates an optimal asset alocation based on an ALM model applied in some major pension funds.'
-  related:
-    technologies:
-      - SAS
-      - R
-      - dotnet
+  description: 'System for the automated management of asset-liability in pension funds, utilizing an ALM model to optimize asset allocation. This system has been adopted by major pension funds, significantly improving their asset management strategies'
+  types:
+    - Financial Management System
+    - Asset Allocation Tool
 ipeadata:
   title: 'IpeaData'
   links:
@@ -54,157 +34,125 @@ ipeadata:
     - https://www.ipea.gov.br/portal/ipeadata
     - https://www.ipea.gov.br/portal/ipeadata/api-artigo
     - http://www.ipeadata.gov.br/Default.aspx
-  description:
-    - 'A web platform to provide economic, financial, demographic, geographic and social public data.'
-    - 'Project aimed to rebuild the first version of the platform'
-  related:
-    technologies:
-      - riot
-      - dotnet
-      - sqlserver
-      - python
-      - mongodb
+  description: 'IpeaData is a versatile web platform and API offering a rich repository of various public data sets, including economic, financial, demographic, geographic, and social statistics. It features robust data processing capabilities, such as extraction, organization, cleaning, and aggregation from diverse sources. The platform presents data in intuitive charts and provides detailed metadata for deeper insights. This comprehensive project entailed revamping the original version to enhance data accessibility and visualization, catering to a wide range of users.'
+  types:
+    - Data Repository Platform
+    - Web Application
+    - Web API
+    - Data Analysis and Visualization Tool
+    - Metadata Management System
 ivs:
   title: 'Atlas of Social Vulnerability (IVS - Atlas da Vulnerabilidade Social)'
   links:
     - http://ivs.ipea.gov.br/index.php/pt/
     - https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social
-  description:
-    - 'A web platform to consult and visualize data and informations about social vulnerability in Brazil.'
-  related:
-    technologies:
-      - joomla
-      - webstack
-      - postgresql
+  description: "Dynamic web platform designed to display and analyze social vulnerability data in Brazil. Built on top of Joomla CMS, it offers user-friendly visualization of the IVS index and related social data through charts and other accessible formats. The platform's main objective is to make complex social vulnerability information easily understandable and accessible to the public, aiding in social analysis and policy-making."
+  types:
+    - Web Portal for Social and Economica Data
+    - Data Visualization Platform
+    - Social Analysis Tool
+    - Joomla CMS-Based Web Application
 brasilmetropolitano:
   title: 'Portal of Metropolitan Governance in Brazil (Portal da Governança Metropolitana no Brasil)'
   links:
     - http://brasilmetropolitano.ipea.gov.br/
-  description:
-    - "A web platform designed to provide access to economic and social data, indicators, and studies concerning to Brazil's metropolitan areas."
-  related:
-    technologies:
-      - joomla
-      - webstack
+  description: "Specialized web platform designed to offer in-depth access to a range of economic and social data, indicators, and studies focused on Brazil's metropolitan regions. Built on Joomla CMS, this platform is dedicated to facilitating the understanding and analysis of metropolitan area data, emphasizing regional development and governance. It serves as a valuable tool for researchers, policymakers, and the public interested in the dynamics of Brazil's urban centers."
+  types:
+    - Web Portal for Metropolitan Data
+    - Regional Governance and Policy Analysis Tool
+    - Economic and Social Data Repository
+    - Joomla CMS-Based Web Application
 ipeaextrator:
   title: 'Ipea Data Extractor (Ipea Extrator de Dados)'
   links:
     - https://www.ipea.gov.br/extrator/
     - http://extrator.ipea.gov.br/
-  description:
-    - 'Web platform for querying, aggregating, and collecting data'
-    - 'The system makes available a wide variety of data types, such as public databases, research content, indicators, historical series, among others'
+  description: "Web platform designed for querying, aggregating, and collecting a diverse array of data. Utilizing technologies like Suite Pentaho, Mondrian, and Saiku, it provides access to public databases, research content, indicators, and historical data series. The platform's unique feature allows users to construct their own data tables, offering flexibility in aggregating and cross-combining data to suit specific analysis needs."
+  types:
+    - Data Query and Aggregation Platform
+    - Public Data Repository
+    - Custom Data Table Builder
+    - Business Intelligence Tool
 ipeapublica:
-  title: 'Ipea Publications (Ipea Publica)'
-  description:
-    - 'An internal web application designed to automate and standardize all the institutional publication review process.'
+  title: 'Ipea Publishes (Ipea Publica)'
+  description: "Internal web application specifically designed to streamline and standardize the review process for institutional publications at Ipea. It serves as an automation tool, significantly enhancing the efficiency and consistency of how Ipea's publications are managed and reviewed."
+  types:
+    - Internal Publication Management System
+    - Document Review and Standardization Tool
+    - Workflow Automation Application
 ipeaprojetos:
   title: 'Ipea Projects (Ipea Projetos)'
-  description:
-    - 'Internal institutional system to manage all of the organizations projects and initiatives'
-  related:
-    technologies:
-      - dotnet
-      - sqlserver
+  description: 'Internal institutional system developed for the comprehensive management of all organizational projects and initiatives at Ipea. It streamlines the coordination, monitoring, and administration of various projects, ensuring efficient management and tracking of institutional efforts.'
+  types:
+    - Project Management System
+    - Institutional Initiative Tracker
+    - Organizational Coordination Tool
 ipeageo:
   title: 'IpeaGEO: Spatial Data Analysis'
   links:
     - https://www.ipea.gov.br/ipeageo/
-  description:
-    - 'Windows desktop software for spatial data analysis'
-    - 'Spatial data manipulation and georeferencing'
-  related:
-    technologies:
-      - dotnet
+  description: 'Windows desktop application developed in .NET C# for advanced spatial data analysis. It specializes in the manipulation and georeferencing of spatial data, offering GIS capabilities. The software enables users to visualize and generate maps, facilitating comprehensive geographic information system analysis and data interpretation.'
+  types:
+    - Spatial Data Analysis Software
+    - GIS Application
+    - Map Visualization and Generation Tool
 dataAnalysisReports:
-  title: 'Databases, studies and reports for economic researchs'
-  description:
-    - 'Scripts for data collection and processing'
-    - 'Statistical and spatial analyses of data for economic researchs'
-  related:
-    technologies:
-      - sas
-      - r
-      - sql
-      - python
-      - arcgisDesktop
+  title: 'Economic Research Data Analysis and Reporting'
+  description: 'Creation of comprehensive databases, studies, and reports for economic research. It involves the generation of reports, data sets, and charts to support research and studies. The project also includes the development of scripts for efficient data collection and processing, as well as statistical and spatial analyses to enrich economic research efforts'
+  types:
+    - Economic Research Reporting
+    - Data Analysis and Visualization
+    - Script-Based Data Collection and Processing Tool
 algos:
-  title: 'Algorithms to automate decision making over asset prices'
-  description:
-    - 'Reading of a stream of data from asset prices at different markets'
-    - 'Creation of a set of indicators from the price movments'
-    - 'Creation of algorithmic strategies to buy and sell assets automatically'
-    - 'Creation of a data repository used for strategies creation and optimization'
-  related:
-    technologies:
-      - r
-      - sqlite
-      - python
-      - rust
+  title: 'Automated Asset Trading Algorithms'
+  description: 'Algorithms for automating decision-making in asset trading. Key features include real-time data reading from various assets and markets, creating a suite of indicators based on price movements, and developing algorithmic strategies for autonomous buying and selling of assets. Additionally, a comprehensive data repository was established to facilitate the creation and optimization of these trading strategies.'
+  types:
+    - Financial Algorithm Development
+    - Automated Trading System
+    - Real-Time Market Data Analysis
+    - Financial Data Repository Management
 bragServer:
-  title: 'brag-server: Rust REST API to serve git repositories metrics'
+  title: 'Brag-Server: Git Repository Metrics REST API in Rust'
   links:
     - https://github.com/cwnt-io/brag-server
-  description:
-    - 'Loads and periodically updates data from git repositories'
-    - 'Serves git repositories data and metrics from a Web Server REST API'
-  related:
-    technologies:
-      - rust
-      - postgresql
-      - github
-      - gitlab
-      - shellScripting
-      - docker
+  description: 'Open-source REST API, written in Rust, designed to load, update, and serve data from Git repositories. It efficiently retrieves and manages repository metrics, offering JSON-formatted data for client applications. The project focuses on real-time data processing and accessibility, providing valuable insights into Git repository activities.'
+  types:
+    - REST API Development
+    - Git Repository Metrics Tool
+    - Data Management and Analysis
+    - Open-Source Software Project
 ripissue:
-  title: 'ripissue: CLI tool for issue tracking'
+  title: 'Ripissue: CLI Tool for Issue Tracking'
   links:
     - https://github.com/cwnt-io/ripissue
     - https://crates.io/crates/ripissue
-  description:
-    - 'CLI tool to automate issue tracking inside a git repository'
-    - 'Implements a simple file structure convention and workflow'
-    - 'Can be used to manage issues, tasks, sprints, epics and initiatives ins a distributed manner'
-    - 'Using just git and filesystem'
-  related:
-    technologies:
-      - rust
-      - git
+  description: "A command-line interface (CLI) tool specifically designed to streamline issue tracking within Git repositories. It introduces a simple file structure convention and workflow, enabling efficient management of issues, tasks, sprints, epics, and initiatives. Utilizing just the git system and filesystem, Ripissue facilitates distributed issue management, making it a versatile tool for developers leveraging Git's distributed nature."
+  types:
+    - CLI Tool for Issue Tracking
+    - Project Management Tool
+    - Task and Sprint Organization Tool
+    - Distributed Workflow Implementation
 boleteggs:
-  title: 'Boleteggs: Streamlined Rental Billing & Contract Management Web App'
-  description:
-    - 'Web application to generate and manage rental contract billings.'
-    - "Integrated with Gerencianet's billings API, automatically generating billing documents"
+  title: 'Boleteggs: Rental Billing & Contract Management Web App'
+  description: "Web application designed for rental billing and contract management. It facilitates the generation and management of rental contracts, integrating with Gerencianet's billing API for automatic document creation. The app provides efficient tenant billing management and is developed as a React-based single-page application (SPA), enhancing user experience and operational efficiency."
+  types:
+    - Rental Billing and Contract Management Web Application
+    - API Integration for Automated Billing
+    - Tenant Management System
 cadelab:
   title: 'Cadelab: Interactive Platform for Economic Competition Analytics'
-  description:
-    - 'Frontend: web application to show data and economic indicators related to concurrent markets and competition analysis.'
-    - 'Frontend: data presentation in visual components and charts'
-    - 'Backend: web server REST API in Python to serve public data and indicators calculated parametrized in time of execution'
-    - 'Data workflow: automated workflow to make the last available data sources in sync and updated in the web API.'
-    - 'Data Engineering: scripts to execute automated ETL processes and generate aggregated data and indicators'
-  related:
-    technologies:
-      - svelte
-      - riot
-      - python
-      - r
-      - gitlab
-      - docker
-      - mongodb
-      - postgresql
-      - shellScripting
-vistocertoProj:
-  title: "Seu Visto Certo's Processes Automation"
-  description:
-    - 'Automate the client assistance process and workflow'
-    - 'Integrate the whole sale process with CRM tools and communication apps'
-    - 'Backend implementation to distribute and integrate messages and data between Whatsapp Business API and CRM and management tools'
-  related:
-    skills:
-      - infrastructureManagement
-    technologies:
-      - webstack
-      - gitlab
-      - nodejs
-      - docker
+  description: 'Interactive platform designed for economic competition analytics, featuring a frontend web application that displays data and indicators relevant to market competition. The frontend showcases data through visual components and charts for easy interpretation. On the backend, it employs Python Eve and Flask frameworks to power a REST API serving up-to-date public data. The platform includes an automated data workflow to sync and update sources, coupled with data engineering scripts for ETL processes, generating aggregated data and essential indicators.'
+  types:
+    - Full Stack Technologies
+    - Economic Data Visualization and Analytics Platform
+    - REST API for Economic Indicators and Public Data
+    - Automated Data Workflow System
+    - Data Engineering and ETL Processes Tool
+clientProcessAutomation:
+  title: 'Client Assistance Process Automation'
+  description: 'Automating an entire client assistance process, encompassing pre-sale, sale, and post-sale stages. It involved the integration of the sales process with CRM tools and communication applications, and a backend implementation for managing data and message distribution between the Whatsapp Business API, CRM, and other management tools.'
+  types:
+    - Process Automation System
+    - CRM Integration Solution
+    - Client Communication Management Tool
+    - Sales Workflow Automation
