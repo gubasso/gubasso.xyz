@@ -175,10 +175,6 @@ boleteggs:
   description:
     - 'Web application to generate and manage rental contract billings.'
     - "Integrated with Gerencianet's billings API, automatically generating billing documents"
-  related:
-    technologies:
-      - react
-      - git
 cadelab:
   title: 'Cadelab: Interactive Platform for Economic Competition Analytics'
   description:

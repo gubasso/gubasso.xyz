@@ -14,6 +14,28 @@
     - bragServer
     - ripissue
     - boleteggs
+  skills:
+    - rust
+    - sql
+    - postgresql
+    - sqlite
+    - html
+    - css
+    - javascript
+    - svelte
+    - firebase
+    - git
+    - agile
+    - tdd
+    - github
+    - gitlab
+    - nodejs
+    - docker
+    - cicd
+    - shellScripting
+    - linux
+    - systemSecurity
+    - optimizationMethods
 - jobTitle: Technical Consultant
   company: vistocerto
   dateOfEmployment: 2015 - Present
@@ -23,6 +45,18 @@
     - managerProj
   projects:
     - vistocertoProj
+  skills:
+    - html
+    - css
+    - javascript
+    - svelte
+    - nodejs
+    - docker
+    - cicd
+    - linux
+    - git
+    - gitlab
+    - agile
 - jobTitle: Technical Consultant
   company: cade
   dateOfEmployment: 2018 - 2023
@@ -34,9 +68,32 @@
     - infrastructureManagement
   projects:
     - cadelab
+  skills:
+    - python
+    - r
+    - sql
+    - postgresql
+    - mongodb
+    - html
+    - css
+    - javascript
+    - svelte
+    - riotjs
+    - git
+    - gitlab
+    - agile
+    - tdd
+    - nodejs
+    - docker
+    - vagrant
+    - cicd
+    - shellScripting
+    - linux
+    - systemSecurity
+    - optimizationMethods
   teaching:
     - sveltecourse
-    - pythoneve
+    - pythonevecourse
 - jobTitle: Research Consultant
   company: ipea
   dateOfEmployment: 2011 - 2019
@@ -58,6 +115,45 @@
     - ivs
   teaching:
     - riotjscourse
+  skills:
+    - bloomberg
+    - regression
+    - time
+    - quantitative
+    - csharp
+    - php
+    - sas
+    - r
+    - python
+    - sql
+    - postgresql
+    - sqlserver
+    - sqlite
+    - mongodb
+    - wordpress
+    - joomla
+    - html
+    - css
+    - javascript
+    - svelte
+    - riotjs
+    - react
+    - git
+    - nodejs
+    - dotnet
+    - gitlab
+    - github
+    - agile
+    - tdd
+    - docker
+    - vagrant
+    - cicd
+    - shellScripting
+    - linux
+    - systemSecurity
+    - optimizationMethods
+    - ipeageo
+    - postgis
 - jobTitle: Consultant
   company: iaed
   dateOfEmployment: 2011 - 2017
@@ -71,6 +167,26 @@
     - futurerentability
   teaching:
     - sasguidecourse
+  skills:
+    - financialModel
+    - asset
+    - portfolio
+    - bloomberg
+    - regression
+    - time
+    - econometrics
+    - qualitative
+    - quantitative
+    - optimizationMethods
+    - csharp
+    - dotnet
+    - r
+    - sas
+    - sql
+    - postgresql
+    - git
+    - agile
+    - risk
 - jobTitle: Technology Coordinator
   company: cerme
   dateOfEmployment: 2015 - 2016
@@ -82,6 +198,27 @@
     - technologyEducator
   projects:
     - odr
+  skills:
+    - html
+    - css
+    - javascript
+    - wordpress
+    - git
+    - agile
+    - gitlab
+    - arcgisDesktop
+    - vagrant
+    - shellScripting
+    - linux
+    - systemSecurity
+    - geoportal
+    - collector
+    - storymaps
+    - dashboards
+    - appbuilder
+    - postgresql
+    - r
+    - sql
 - jobTitle: General Coordinator of Monitoring and Evaluation of Regional Policies
   company: sdr
   dateOfEmployment: 2014 - 2014
@@ -95,6 +232,14 @@
   teaching:
     - speakerLauc
     - speakerGeonordeste
+  skills:
+    - git
+    - agile
+    - gitlab
+    - arcgisDesktop
+    - postgresql
+    - r
+    - sql
 - jobTitle: University Professor
   company: unb
   dateOfEmployment: 2012 - 2014
@@ -105,3 +250,18 @@
     - mmqd
     - finances1
     - financialCalculus
+  skills:
+    - sas
+    - r
+    - optimizationMethods
+    - quantitative
+    - qualitative
+    - forecasting
+    - econometrics
+    - time
+    - regression
+    - bloomberg
+    - portfolio
+    - asset
+    - risk
+    - financialModel
