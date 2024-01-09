@@ -2,7 +2,11 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
-- review experiences based on reviewd projects
+- [x] review experiences based on reviewd projects
+- [x] review roles
+- [x] review experiences based on reviewd roles
+- [ ] review teachings
+- [ ] review experiences based on reviewd teachings
 - [ ] at each section, check which are the basic AST optimized fields that this section has to have
 - [ ] projects, skills, technologies:
   - put all related stuff

@@ -10,10 +10,10 @@
     - systemsAdmin
     - technologyEducator
   projects:
+    - boleteggs
     - algos
     - bragServer
     - ripissue
-    - boleteggs
   skills:
     - rust
     - sql
@@ -43,8 +43,10 @@
     - developer
     - managerDev
     - managerProj
+    - systemsAdmin
+    - technologyEducator
   projects:
-    - vistocertoProj
+    - clientProcessAutomation
   skills:
     - html
     - css
@@ -65,7 +67,8 @@
     - technologyEducator
     - dataAnalyst
     - developer
-    - infrastructureManagement
+    - managerProj
+    - systemsAdmin
   projects:
     - cadelab
   skills:
@@ -99,12 +102,13 @@
   dateOfEmployment: 2011 - 2019
   roles:
     - dataAnalyst
+    - researcher
     - developer
     - managerDev
     - managerProj
-    - systemAnalyst
+    - systemsAnalyst
+    - systemsAdmin
     - technologyEducator
-    - infrastructureManagement
   projects:
     - dataAnalysisReports
     - ipeageo
@@ -161,6 +165,7 @@
     - dataAnalyst
     - developer
     - technologyEducator
+    - researcher
   projects:
     - alm
     - actuarialflow
@@ -226,7 +231,7 @@
     - managerAdmin
     - managerProj
     - systemsAdmin
-    - dataEngineering
+    - dataAnalyst
   projects:
     - odr
   teaching:
