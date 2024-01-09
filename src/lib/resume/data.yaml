@@ -1,63 +1,56 @@
 ---
-title:
-  name: Gustavo Basso
-  position: Software Engineer
-
 contact:
-  title: Contact
-  city:
-    icon: teenyicons:pin-outline
-    text: Brasília, Brazil
-  phone:
-    icon: bi:phone
-    text: '+5561984018939'
-  email:
-    icon: line-md:email
-    text: 'gu@gubasso.xyz'
-
-social:
-  title: Social
-  data:
-    - icon: mdi:web
-      link: https://gubasso.xyz
-    - icon: mdi:linkedin
-      link: https://www.linkedin.com/in/gubasso
-    - icon: mdi:github
-      link: https://github.com/gubasso
-    - icon: mdi:gitlab
-      link: https://gitlab.com/gubasso
-    - icon: simple-icons:leetcode
-      link: https://leetcode.com/gubasso
-    - icon: mdi:twitter
-      link: https://twitter.com/gubasso777
-
+  title: Contact Information
+  fullname: Gustavo Gomes Basso
+  fields:
+    - title: Email
+      data: gu@gubasso.xyz
+    - title: LinkedIn
+      data: https://www.linkedin.com/in/gubasso
+    - title: Github
+      data: https://github.com/gubasso
+    - title: Gitlab
+      data: https://gitlab.com/gubasso
+    - title: Leetcode
+      data: https://leetcode.com/gubasso
+    - title: City / Country
+      data: Brasília, DF / Brazil
+summary:
+  title: Professional Summary
+  data: 'Experienced software engineer with a robust background in backend development and a strong focus on Rust programming. Proven track record as a CTO and Co-founder, demonstrating leadership in technology strategy and implementation. Skilled in developing algorithms for financial markets, particularly in Web3 assets, showcasing advanced analytical and problem-solving abilities. Passionate about leveraging deep technical expertise in Rust to build efficient, scalable, and innovative backend solutions. Adept at driving projects from conception to deployment, ensuring alignment with business objectives. Seeking to leverage extensive software development experience in a dynamic backend developer role.'
+experience:
+  title: Work Experience
+  source: experience.yaml
 education:
   title: Education
   data:
     - title: Doctor of Business Administration (Finance and Quantitative Methods) [Incomplete]
       university: Universidade de Brasília - UnB
       link: https://www.unb.br
-      city: Brasília
-      state: DF
+      city: Brasília, DF
       country: Brazil
-      from: 2014-01-01
-      to: 2017-01-01
+      attended: 2014 - 2017
+      notes: 'Completed all coursework credits.'
+      areaOfStudy: Operations Research, Optimization Methods, Pension Funds, Stochastic Models
     - title: Master of Science in Business Administration (Finance and Quantitative Methods)
       university: Universidade de Brasília - UnB
       link: https://www.unb.br
-      city: Brasília
-      state: DF
+      city: Brasília, DF
       country: Brazil
-      from: 2012-01-01
-      to: 2013-01-01
+      graduated: 2013
+      dissertationTitle: 'Evidence of Underpricing and Underperformance in IPOs: An Empirical Study of the Brazilian Market.'
+      areasOfStudy: Financial Economics, Empirical Finance, Brazilian Market Analysis
     - title: Bachelor of Business Administration
       university: Universidade de Brasília - UnB
       link: https://www.unb.br
-      city: Brasília
-      state: DF
+      city: Brasília, DF
       country: Brazil
-      from: 2005-01-01
-      to: 2011-01-01
+      graduated: 2011
+      monographtitle: 'Corporate Governance in Brazil: The Impact of Adherence to the Market Arbitration Chamber on the Risk of Publicly Traded Companies'
+      areasOfStudy: Corporate Governance, Risk Management, Financial Markets
+skills:
+  title: Skills
+  source: skills.yaml
 
 publications:
   title: Publications

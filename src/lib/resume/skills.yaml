@@ -1,43 +1,230 @@
-databases:
-  title: Database Management
-  description: 'Creation, maintenance, and use of databases.'
-backend:
-  title: Backend Development
-  descriptions:
-    - 'Server-side development of web applications or software.'
-frontend:
-  title: Frontend Development
-  descriptions:
-    - 'Creating the graphical user interface of a website or web application with HTML, CSS, JavaScript and related frameworks.'
-analytics:
-  title: Analytics
-  descriptions:
-    - 'Understanding and applying statistical and computational methods to analyze data.'
-    - 'Statistics'
-    - 'Probabilty and probability distributions'
-dataAnalysis:
-  title: Data Analysis
-  descriptions:
-    - 'Inspecting, cleaning, and modeling data .'
-dataEngineering:
-  title: Data Engineering
-  descriptions:
-    - 'Scripts development for extracting, transforming, and loading (ETL) data from various sources, as well as cleaning, organizing, and aggregating the data'
-infrastructureManagement:
-  title: Infrastructure Management and System Administration
-  descriptions:
-    - 'Server configuration and security management: Setting up and managing Linux servers, configuring security measures including user and password creation, SSH configurations, and firewall permissions.'
-    - 'Deploying services using Docker and direct application management on hosts through systemd units.'
-    - 'Automating routine tasks and backups through scripting, cron jobs, or third party tools.'
-  related:
-    technologies:
-      - docker
-      - shellScripting
-      - vagrant
-      - linux
+comm:
+  title: Excellent written and verbal communication
+  categories:
+    - soft: comm
+lead:
+  title: Team leadership and project management
+  categories:
+    - soft: lead
+problem:
+  title: Creative and analytical approach to challenges
+  categories:
+    - soft: problem
+timeManagement:
+  title: Efficient in managing multiple tasks
+  categories:
+    - soft: time
+collab:
+  title: Proven ability to work effectively in team environments
+  categories:
+    - soft: collab
+financialModel:
+  title: Financial modeling
+  categories:
+    - financial: analysis
+risk:
+  title: Risk assessment
+  categories:
+    - financial: analysis
+fundTechAnal:
+  title: Fundamental and technical analysis
+  categories:
+    - financial: analysis
+asset:
+  title: Asset allocation
+  categories:
+    - financial: investment
+portfolio:
+  title: Portfolio management
+  categories:
+    - financial: investment
+bloomberg:
+  title: Bloomberg Terminal
+  categories:
+    - financial: soft
+regression:
+  title: Regression analysis
+  categories:
+    - analytical: statistics
+time:
+  title: Time-series analysis
+  categories:
+    - analytical: statistics
+econometrics:
+  title: Econometrics
+  categories:
+    - analytical: statistics
+forecasting:
+  title: Forecasting Techniques
+  categories:
+    - analytical: statistics
+qualitative:
+  title: Qualitative Research
+  categories:
+    - analytical: methodologies
+quantitative:
+  title: Quantitative Research
+  categories:
+    - analytical: methodologies
 optimizationMethods:
   title: 'Optimization Methods'
-math:
-  title: 'Math and Calculus'
-finance:
-  title: 'Finance and Financial Calculus'
+  categories:
+    - analytical: methodologies
+rust:
+  title: Rust
+  categories:
+    - tech: langs
+python:
+  title: Python
+  categories:
+    - tech: langs
+csharp:
+  title: C#
+  categories:
+    - tech: langs
+php:
+  title: PHP
+  categories:
+    - tech: langs
+r:
+  title: R
+  categories:
+    - data: langs
+sas:
+  title: SAS
+  categories:
+    - data: langs
+sql:
+  title: SQL
+  categories:
+    - data: database
+sqlserver:
+  title: Microsoft SQL Server
+  categories:
+    - data: database
+postgresql:
+  title: PostgreSQL
+  categories:
+    - data: database
+sqlite:
+  title: SQLite
+  categories:
+    - data: database
+mongodb:
+  title: Mongodb
+  categories:
+    - data: database
+wordpress:
+  title: Wordpress
+  categories:
+    - tech: webdev
+joomla:
+  title: Joomla
+  categories:
+    - tech: webdev
+html:
+  title: HTML
+  categories:
+    - tech: webdev
+css:
+  title: CSS
+  categories:
+    - tech: webdev
+javascript:
+  title: Javascript
+  categories:
+    - tech: webdev
+    - tech: langs
+svelte:
+  title: Svelte / Sveltekit
+  categories:
+    - tech: webdev
+react:
+  title: React
+  categories:
+    - tech: webdev
+riot:
+  title: Riot.js
+  categories:
+    - tech: webdev
+git:
+  title: Git
+  categories:
+    - tech: softdev
+agile:
+  title: Agile methodologies
+  categories:
+    - tech: softdev
+tdd:
+  title: Test Driven Development (TDD)
+  categories:
+    - tech: softdev
+github:
+  title: Github
+  categories:
+    - tech: softdev
+gitlab:
+  title: Gitlab
+  categories:
+    - tech: softdev
+nodejs:
+  title: Node.js
+  categories:
+    - tech: backend
+dotnet:
+  title: .NET Framework
+  categories:
+    - tech: backend
+docker:
+  title: Docker
+  categories:
+    - infra: devops
+cicd:
+  title: Continuous Integration / Continuous Delivery (CI/CD) pipelines
+  categories:
+    - infra: devops
+vagrant:
+  title: Vagrant
+  categories:
+    - infra: devops
+shellScripting:
+  title: Shell Scripting
+  categories:
+    - infra: devops
+    - tech: langs
+linux:
+  title: Linux-based OS's and Servers
+  categories:
+    - infra: sysadmin
+ipeageo:
+  title: IpeaGEO
+  categories:
+    - tech: gis
+arcgisDesktop:
+  title: ArcGIS Desktop
+  categories:
+    - tech: gis
+postgis:
+  title: PostGIS
+  categories:
+    - tech: gis
+geoportal:
+  title: ESRI Geoportal Server
+  categories:
+    - infra: serverSoft
+collector:
+  title: ArcGIS Collector
+  categories:
+    - infra: serverSoft
+storymaps:
+  title: ArcGIS StoryMaps
+  categories:
+    - infra: serverSoft
+dashboards:
+  title: ArcGIS Dashboards
+  categories:
+    - infra: serverSoft
+appbuilder:
+  title: ArcGIS App Builder
+  categories:
+    - infra: serverSoft

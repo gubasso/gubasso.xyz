@@ -35,9 +35,12 @@ developer:
     - 'Building products and services meeting user and business needs.'
     - 'Maintaining code quality through reviews and best practices.'
 dataAnalyst:
-  title: Data Analyst
+  title: Data Analyst / Engineering
   description:
+    - 'Inspecting, cleaning, and modeling data.'
     - 'Conducting data collection, processing, and statistical analysis.'
+    - 'Scripts development for extracting, transforming, and loading (ETL) data from various sources, as well as cleaning, organizing, and aggregating the data'
+    - 'Understanding and applying statistical and computational methods to analyze data.'
 systemsAnalyst:
   title: Systems Analyst
   description:
@@ -46,9 +49,10 @@ systemsAnalyst:
 systemsAdmin:
   title: Systems Administrator
   descriptions:
-    - 'Configuring servers and managing system security.'
-    - 'Maintaining system software and managing user accounts.'
+    - 'Configuring servers and managing system resources and security.'
+    - 'Deploying services and maintaining system software.'
     - 'Administering security protocols and network settings.'
+    - 'Automating routine tasks and backups through scripting, cron jobs, or third party tools.'
 technologyEducator:
   title: Technology Educator
   description:
