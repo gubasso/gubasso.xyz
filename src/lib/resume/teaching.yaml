@@ -1,36 +1,33 @@
-mmqd:
-  title: 'Quantitative Methods for Decision Making'
-  description:
-    - 'A graduate-level course taught to Business Administration students, focusing on the application of quantitative analysis and statistical methods in business decision-making.'
-finances1:
-  title: 'Finances 1'
-  description:
-    - 'An introductory course for Business Administration undergraduates, covering fundamental concepts of corporate finance, financial markets, and investment analysis.'
-financialCalculus:
-  title: 'Financial Calculus'
-  description:
-    - 'A foundational course in finance, taught to undergraduates, covering basic financial concepts such as simple and compound interest rates, present value, and investment returns.'
 speakerGeonordeste:
   title: "Speaker at the VII Regional Symposium on Geoprocessing and Remote Sensing (GEONORDESTE) (www.resgeo.com.br/geonordeste2014): 'Geotechnologies as development strategies for the semiarid: the Regional Development Observatory'"
+
 speakerLauc:
   title: "Speaker at LAUC 2014 - Esti Latin America User Conference: 'Regional Development Observatory (ODR)'"
+
 sasguidecourse:
   title: 'SAS Enterprise Guide Training Program'
-  description:
-    - 'Developing and delivering a comprehensive training program on SAS Enterprise Guide tailored for pension funds technical staff.'
+  description: 'Conducted tailored training on SAS Enterprise Guide for pension funds staff.'
+
 riotjscourse:
   title: 'Riot.js Training Program'
-  description:
-    - 'Training program on general porpouses javascript framworks for web application developments'
-    - 'Training program for developing an web app using Riot.js in a custom made frontend architecture'
+  description: 'Delivered training on Riot.js and general-purpose JavaScript frameworks for web development.'
+
 sveltecourse:
   title: 'Svelte/Sapper Training Program'
-  description:
-    - 'Training program on general porpouses javascript framworks for web application developments'
-    - 'Teaching Svelte as a SPA web application framework and Sapper as an Hibrid SPA/MPA architecture tool and implementation.'
+  description: 'Taught Svelte for SPA development and Sapper for hybrid SPA/MPA architectures.'
+
 pythonevecourse:
   title: 'Python Eve Training Program'
-  description:
-    - 'Training program to teach how to build a Python Web REST API using the Eve framework'
-    - 'Persist and use data from a Mongodb database connected to the api application'
-    - 'Use the Python Eve lifecicles and Flask basic architectures to implement calculations depending on the request parameters'
+  description: 'Instructed on building Python Web REST APIs using Eve, Flask and MongoDB integration.'
+
+mmqd:
+  title: 'Quantitative Methods for Decision Making'
+  description: 'Taught graduate-level operations research, quantitative analysis, and statistical methods for decision-making.'
+
+finances1:
+  title: 'Finances 1'
+  description: 'Introductory course on corporate finance, financial markets, and investment analysis.'
+
+financialCalculus:
+  title: 'Financial Calculus'
+  description: 'Foundational finance course covering basic concepts like interest rates and investment returns.'
