@@ -2,8 +2,10 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
-- [ ] at each section, check which are the basic AST optimized fields that this section has to have
-- [ ] projects, skills, technologies:
+- [ ] load yaml data
+- [ ] make resume page
+- [x] at each section, check which are the basic AST optimized fields that this section has to have
+- [x] projects, skills, technologies:
   - put all related stuff
 - [x] review experiences based on reviewd projects
 - [x] review roles

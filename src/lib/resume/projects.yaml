@@ -2,8 +2,10 @@ odr:
   title: Regional Development Observatory (ODR - Observatório Do Desenvolvimento Regional)
   description: 'Advanced web platform that leverages ArcGIS technology to provide comprehensive regional and spatial data. It serves as a hub for economic and social policy indicators, offering an array of web-based solutions for detailed regional analysis.'
   links:
-    - http://odr.mi.gov.br/
-    - https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr
+    - label: ODR MI
+      url: http://odr.mi.gov.br/
+    - label: Gov.br ODR
+      url: https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr
   types:
     - Web Platform
     - GIS Applications
@@ -29,11 +31,16 @@ alm:
 ipeadata:
   title: 'IpeaData'
   links:
-    - https://ipeadata.gitlab.io/ipeadata3/
-    - http://ipeadata.gov.br/beta3/
-    - https://www.ipea.gov.br/portal/ipeadata
-    - https://www.ipea.gov.br/portal/ipeadata/api-artigo
-    - http://www.ipeadata.gov.br/Default.aspx
+    - label: IpeaData Gitlab
+      url: https://ipeadata.gitlab.io/ipeadata3/
+    - label: IpeaData Gov.br 1
+      url: http://ipeadata.gov.br/beta3/
+    - label: IpeaData Ipea
+      url: https://www.ipea.gov.br/portal/ipeadata
+    - label: IpeaData API
+      url: https://www.ipea.gov.br/portal/ipeadata/api-artigo
+    - label: IpeaData First Version
+      url: http://www.ipeadata.gov.br/Default.aspx
   description: 'IpeaData is a versatile web platform and API offering a rich repository of various public data sets, including economic, financial, demographic, geographic, and social statistics. It features robust data processing capabilities, such as extraction, organization, cleaning, and aggregation from diverse sources. The platform presents data in intuitive charts and provides detailed metadata for deeper insights. This comprehensive project entailed revamping the original version to enhance data accessibility and visualization, catering to a wide range of users.'
   types:
     - Data Repository Platform
@@ -44,8 +51,10 @@ ipeadata:
 ivs:
   title: 'Atlas of Social Vulnerability (IVS - Atlas da Vulnerabilidade Social)'
   links:
-    - http://ivs.ipea.gov.br/index.php/pt/
-    - https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social
+    - label: Atlas da Vulnerabilidade Social - IVS
+      url: http://ivs.ipea.gov.br/index.php/pt/
+    - label: IVS Ipea
+      url: https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social
   description: "Dynamic web platform designed to display and analyze social vulnerability data in Brazil. Built on top of Joomla CMS, it offers user-friendly visualization of the IVS index and related social data through charts and other accessible formats. The platform's main objective is to make complex social vulnerability information easily understandable and accessible to the public, aiding in social analysis and policy-making."
   types:
     - Web Portal for Social and Economica Data
@@ -55,7 +64,8 @@ ivs:
 brasilmetropolitano:
   title: 'Portal of Metropolitan Governance in Brazil (Portal da Governança Metropolitana no Brasil)'
   links:
-    - http://brasilmetropolitano.ipea.gov.br/
+    - label: Portal da Governança Metropolitana no Brasil
+      url: http://brasilmetropolitano.ipea.gov.br/
   description: "Specialized web platform designed to offer in-depth access to a range of economic and social data, indicators, and studies focused on Brazil's metropolitan regions. Built on Joomla CMS, this platform is dedicated to facilitating the understanding and analysis of metropolitan area data, emphasizing regional development and governance. It serves as a valuable tool for researchers, policymakers, and the public interested in the dynamics of Brazil's urban centers."
   types:
     - Web Portal for Metropolitan Data
@@ -65,8 +75,10 @@ brasilmetropolitano:
 ipeaextrator:
   title: 'Ipea Data Extractor (Ipea Extrator de Dados)'
   links:
-    - https://www.ipea.gov.br/extrator/
-    - http://extrator.ipea.gov.br/
+    - label: Ipea Extrator de Dados
+      url: https://www.ipea.gov.br/extrator/
+    - label: App Extrator de Dados
+      url: http://extrator.ipea.gov.br/
   description: "Web platform designed for querying, aggregating, and collecting a diverse array of data. Utilizing technologies like Suite Pentaho, Mondrian, and Saiku, it provides access to public databases, research content, indicators, and historical data series. The platform's unique feature allows users to construct their own data tables, offering flexibility in aggregating and cross-combining data to suit specific analysis needs."
   types:
     - Data Query and Aggregation Platform
@@ -90,7 +102,8 @@ ipeaprojetos:
 ipeageo:
   title: 'IpeaGEO: Spatial Data Analysis'
   links:
-    - https://www.ipea.gov.br/ipeageo/
+    - label: IpeaGEO
+      url: https://www.ipea.gov.br/ipeageo/
   description: 'Windows desktop application developed in .NET C# for advanced spatial data analysis. It specializes in the manipulation and georeferencing of spatial data, offering GIS capabilities. The software enables users to visualize and generate maps, facilitating comprehensive geographic information system analysis and data interpretation.'
   types:
     - Spatial Data Analysis Software
@@ -114,7 +127,8 @@ algos:
 bragServer:
   title: 'Brag-Server: Git Repository Metrics REST API in Rust'
   links:
-    - https://github.com/cwnt-io/brag-server
+    - label: Brag-Server Github
+      url: https://github.com/cwnt-io/brag-server
   description: 'Open-source REST API, written in Rust, designed to load, update, and serve data from Git repositories. It efficiently retrieves and manages repository metrics, offering JSON-formatted data for client applications. The project focuses on real-time data processing and accessibility, providing valuable insights into Git repository activities.'
   types:
     - REST API Development
@@ -124,8 +138,10 @@ bragServer:
 ripissue:
   title: 'Ripissue: CLI Tool for Issue Tracking'
   links:
-    - https://github.com/cwnt-io/ripissue
-    - https://crates.io/crates/ripissue
+    - label: Ripissue Github
+      url: https://github.com/cwnt-io/ripissue
+    - label: Ripissue Crates.io
+      url: https://crates.io/crates/ripissue
   description: "A command-line interface (CLI) tool specifically designed to streamline issue tracking within Git repositories. It introduces a simple file structure convention and workflow, enabling efficient management of issues, tasks, sprints, epics, and initiatives. Utilizing just the git system and filesystem, Ripissue facilitates distributed issue management, making it a versatile tool for developers leveraging Git's distributed nature."
   types:
     - CLI Tool for Issue Tracking

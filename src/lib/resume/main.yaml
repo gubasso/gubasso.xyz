@@ -1,0 +1,241 @@
+# # Contact Information
+# **Full Name:** Gustavo Gomes Basso
+#
+# **Email:** gu@gubasso.xyz
+#
+# **LinkedIn:** [https://www.linkedin.com/in/gubasso](https://www.linkedin.com/in/gubasso)
+#
+# **GitHub:** [https://github.com/gubasso](https://github.com/gubasso)
+#
+# **GitLab:** [https://gitlab.com/gubasso](https://gitlab.com/gubasso)
+#
+# **LeetCode:** [https://leetcode.com/gubasso](https://leetcode.com/gubasso)
+#
+# **Location:** Brasília, DF / Brazil
+
+contact:
+  title: Contact Information
+  fullname: Gustavo Gomes Basso
+  fields:
+    - title: Email
+      data: gu@gubasso.xyz
+    - title: LinkedIn
+      data: https://www.linkedin.com/in/gubasso
+    - title: Github
+      data: https://github.com/gubasso
+    - title: Gitlab
+      data: https://gitlab.com/gubasso
+    - title: Leetcode
+      data: https://leetcode.com/gubasso
+    - title: City / Country
+      data: Brasília, DF / Brazil
+
+# # Professional Summary
+# [data]
+
+summary:
+  title: Professional Summary
+  data: 'Experienced software engineer with a robust background in backend development and a strong focus on Rust programming. Proven track record as a CTO and Co-founder, demonstrating leadership in technology strategy and implementation. Skilled in developing algorithms for financial markets, particularly in Web3 assets, showcasing advanced analytical and problem-solving abilities. Passionate about leveraging deep technical expertise in Rust to build efficient, scalable, and innovative backend solutions. Adept at driving projects from conception to deployment, ensuring alignment with business objectives. Seeking to leverage extensive software development experience in a dynamic backend developer role.'
+
+# # Work Experience
+#
+# ## CTO and Co-founder
+# **Company:** cwnt
+# **Dates of Employment:** 2016 - Present
+# **Roles:** Co-founder, CTO, Software Development Manager, Project Manager, Software Developer, Systems Administrator, Technology Educator
+# **Projects:** Boleteggs, Algorithms for Asset Trading, Brag-Server, Ripissue
+# **Skills:** Rust, SQL, PostgreSQL, SQLite, HTML, CSS, JavaScript, Svelte, Firebase, Git, Agile, TDD, GitHub, GitLab, Node.js, Docker, CI/CD, Shell Scripting, Linux, System Security, Optimization Methods
+#
+# ## Technical Consultant
+# **Company:** vistocerto
+# **Dates of Employment:** 2015 - Present
+# **Roles:** Developer, Software Development Manager, Project Manager, Systems Administrator, Technology Educator
+# **Projects:** Client Process Automation
+# **Skills:** HTML, CSS, JavaScript, Svelte, Node.js, Docker, CI/CD, Linux, Git, GitLab, Agile
+
+experience:
+  title: Work Experience
+  source: experience.yaml
+
+# # Education
+#
+# ## Doctor of Business Administration (Finance and Quantitative Methods) [Incomplete]
+# **University:** Universidade de Brasília - UnB
+# **City/Country:** Brasília, DF, Brazil
+# **Attended:** 2014 - 2017
+# **Notes:** Completed all coursework credits
+# **Area of Study:** Operations Research, Optimization Methods, Pension Funds, Stochastic Models
+# **Link:** [Universidade de Brasília - UnB](https://www.unb.br)
+#
+# ## Master of Science in Business Administration (Finance and Quantitative Methods)
+# **University:** Universidade de Brasília - UnB
+# **City/Country:** Brasília, DF, Brazil
+# **Graduated:** 2013
+# **Dissertation Title:** 'Evidence of Underpricing and Underperformance in IPOs: An Empirical Study of the Brazilian Market'
+# **Areas of Study:** Financial Economics, Empirical Finance, Brazilian Market Analysis
+# **Link:** [Universidade de Brasília - UnB](https://www.unb.br)
+#
+# ## Bachelor of Business Administration
+# **University:** Universidade de Brasília - UnB
+# **City/Country:** Brasília, DF, Brazil
+# **Graduated:** 2011
+# **Monograph Title:** 'Corporate Governance in Brazil: The Impact of Adherence to the Market Arbitration Chamber on the Risk of Publicly Traded Companies'
+# **Areas of Study:** Corporate Governance, Risk Management, Financial Markets
+# **Link:** [Universidade de Brasília - UnB](https://www.unb.br)
+
+education:
+  title: Education
+  data:
+    - title: Doctor of Business Administration (Finance and Quantitative Methods) [Incomplete]
+      university: Universidade de Brasília - UnB
+      link: https://www.unb.br
+      city: Brasília, DF
+      country: Brazil
+      attended: 2014 - 2017
+      notes: 'Completed all coursework credits.'
+      areaOfStudy: Operations Research, Optimization Methods, Pension Funds, Stochastic Models
+    - title: Master of Science in Business Administration (Finance and Quantitative Methods)
+      university: Universidade de Brasília - UnB
+      link: https://www.unb.br
+      city: Brasília, DF
+      country: Brazil
+      graduated: 2013
+      dissertationTitle: 'Evidence of Underpricing and Underperformance in IPOs: An Empirical Study of the Brazilian Market.'
+      areasOfStudy: Financial Economics, Empirical Finance, Brazilian Market Analysis
+    - title: Bachelor of Business Administration
+      university: Universidade de Brasília - UnB
+      link: https://www.unb.br
+      city: Brasília, DF
+      country: Brazil
+      graduated: 2011
+      monographtitle: 'Corporate Governance in Brazil: The Impact of Adherence to the Market Arbitration Chamber on the Risk of Publicly Traded Companies'
+      areasOfStudy: Corporate Governance, Risk Management, Financial Markets
+
+# # Publications
+#
+# - **Title:** 'CARVALHO, A. X. Y.; ALBUQUERQUE, P. H. M.; LAURETO, C. R.; MOREIRA, G. C. C.; BASSO, G. G.; GUIMARÃES, L. F. D.; PENA, M. G. . Clusterização Espacial e não Espacial: um estudo aplicado à agropecuária brasileira. Discussion Papers 2279, Instituto de Pesquisa Econômica Aplicada - IPEA.'
+#   **English Title:** 'Spatial and Non-Spatial Clustering: An Applied Study to Brazilian Agriculture. Discussion Papers 2279, Institute for Applied Economic Research - IPEA.'
+#   **Area:** Economics and Quantitative Methods
+#   **Link:** [IPEA Discussion Papers 2279](https://ideas.repec.org/p/ipe/ipetds/2279.html)
+#
+# - **Title:** 'OLIVEIRA NETO, J. C. C. ; BASSO, G. G. ; PAIVA, A. A. . Como respostas bonitas, mas erradas, colocaram o mundo em crise novamente. Política Democrática, v. 31, p. 30-35, 2011.'
+#   **English Title:** 'How beautiful but wrong answers put the world in crisis again. Democratic Policy.'
+#   **Area:** Economics and Finance
+#
+# - **Title:** 'Boletim ODR: Observatório do Desenvolvimento Regional. Edição 1/2014, Outubro – Dezembro. Publicado pelo Ministério da Integração Nacional, Secretaria de Desenvolvimento Regional, 2014.'
+#   **English Title:** 'ODR Bulletin: Regional Development Observatory'
+#   **Area:** Regional Development and Policy Analysis
+#   **Link:** [ODR Bulletin](https://www.gov.br/mdr/pt-br/centrais-de-conteudo/publicacoes/desenvolvimento-regional-urbano/Boletim_ODR.pdf)
+
+publications:
+  title: Publications
+  data:
+    - title: 'CARVALHO, A. X. Y.; ALBUQUERQUE, P. H. M.; LAURETO, C. R.; MOREIRA, G. C. C.; BASSO, G. G.; GUIMARÃES, L. F. D.; PENA, M. G. . Clusterização Espacial e não Espacial: um estudo aplicado à agropecuária brasileira. Discussion Papers 2279, Instituto de Pesquisa Econômica Aplicada - IPEA.'
+      link: https://ideas.repec.org/p/ipe/ipetds/2279.html
+      english: 'Spatial and Non-Spatial Clustering: An Applied Study to Brazilian Agriculture. Discussion Papers 2279, Institute for Applied Economic Research - IPEA.'
+      area: Economics and Quantitative Methods
+    - title: 'OLIVEIRA NETO, J. C. C. ; BASSO, G. G. ; PAIVA, A. A. . Como respostas bonitas, mas erradas, colocaram o mundo em crise novamente. Política Democrática, v. 31, p. 30-35, 2011.'
+      english: 'How beautiful but wrong answers put the world in crisis again. Democratic Policy.'
+      area: Economics and Finance
+    - title: 'Boletim ODR: Observatório do Desenvolvimento Regional. Edição 1/2014, Outubro – Dezembro. Publicado pelo Ministério da Integração Nacional, Secretaria de Desenvolvimento Regional, 2014.'
+      link: https://www.gov.br/mdr/pt-br/centrais-de-conteudo/publicacoes/desenvolvimento-regional-urbano/Boletim_ODR.pdf
+      english: 'ODR Bulletin: Regional Development Observatory'
+      area: Regional Development and Policy Analysis
+
+# # Languages
+#
+# - **Portuguese:** Native
+# - **English:** Advanced
+
+languages:
+  title: Languages
+  data:
+    - Portuguese (native)
+    - English (advanced)
+
+# # Projects
+#
+# ## Regional Development Observatory (ODR)
+# **Types:** Web Platform, GIS Applications, Full Stack Technologies
+# **Description:** Advanced web platform leveraging ArcGIS technology for regional and spatial data, serving as a hub for economic and social policy indicators.
+# **Links:** [ODR MI](http://odr.mi.gov.br/), [Gov.br ODR](https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr)
+#
+# ## Automated Future Rentability Estimation for ALM Models
+# **Types:** Financial Modeling Tool, Analytics System
+# **Description:** Innovative system for automated future rentability estimation in ALM models, implemented in major Brazilian pension funds.
+#
+# ## Automated Deterministic and Stochastic Actuarial Flow for ALM Models
+# **Types:** Actuarial Analysis Tool, Financial Forecasting System
+# **Description:** Solution for automating actuarial flows in ALM models, integrated into major pension funds.
+
+projects:
+
+# # Roles
+#
+# ## Co-founder
+# - Shaped and communicated the company's vision, mission, and culture.
+# - Guided strategic planning and decision-making to drive growth and development.
+#
+# ## CTO (Chief Technology Officer)
+# - Directed overall technology strategy, aligning it with business goals.
+# - Managed the company's R&D initiatives and technological infrastructure.
+# - Oversaw the development and implementation of tech solutions.
+
+roles:
+
+# # Skills
+#
+# ## Technical/Programming Skills
+# - **Programming Languages:** Rust, Python, C#, PHP, JavaScript, SAS, R, Shell Scripting
+# - **Backend Development:** Node.js, .NET Framework
+# - **Geographic Information Systems (GIS):** IpeaGEO, ArcGIS Desktop, PostGIS
+# - **Web/Frontend Development:** HTML, CSS, Svelte / Sveltekit, React, Riot.js, Wordpress, Joomla, Firebase
+# - **Software Development:** Git, Agile methodologies, Test Driven Development (TDD), Github, Gitlab
+#
+# ## Infrastructure Management Skills
+# - **DevOps and Infrastructure Management:** Docker, Continuous Integration / Continuous Delivery (CI/CD) pipelines, Vagrant
+# - **Systems Administration:** Linux-based OS's and Servers, System Security Management
+# - **Server Software Management:** ESRI Geoportal Server, ArcGIS Collector, ArcGIS StoryMaps, ArcGIS Dashboards, ArcGIS App Builder
+
+skills:
+  title: Skills
+  sources:
+    - skills.yaml
+    - skills-org.yaml
+
+# # Teachings
+#
+# - **Speaker at the VII Regional Symposium on Geoprocessing and Remote Sensing (GEONORDESTE):** 'Geotechnologies as development strategies for the semiarid: the Regional Development Observatory'
+#   [GEONORDESTE 2014](http://www.resgeo.com.br/geonordeste2014)
+#
+# - **Speaker at LAUC 2014 - Esti Latin America User Conference:** 'Regional Development Observatory (ODR)'
+#
+# - **SAS Enterprise Guide Training Program:** Conducted tailored training on SAS Enterprise Guide for pension funds staff.
+#
+# - **Riot.js Training Program:** Delivered training on Riot.js and general-purpose JavaScript frameworks for web development.
+#
+# - **Svelte/Sapper Training Program:** Taught Svelte for SPA development and Sapper for hybrid SPA/MPA architectures.
+#
+# - **Python Eve Training Program:** Instructed on building Python Web REST APIs using Eve, Flask and MongoDB integration.
+#
+# - **Quantitative Methods for Decision Making:** Taught graduate-level operations research, quantitative analysis, and statistical methods for decision-making.
+#
+# - **Finances 1:** Introductory course on corporate finance, financial markets, and investment analysis.
+#
+# - **Financial Calculus:** Foundational finance course covering basic concepts like interest rates and investment returns.
+
+teachings:
+
+# # Companies
+#
+# ## Seu Visto Certo
+# - **Specialization:** Professional and Educational Services
+# - **City/Country:** Willow Park, TX, US
+# - **Link:** [Seu Visto Certo](https://seuvistocerto.com/)
+#
+# ## cwnt.io (Crown and Trunk Technologies)
+# - **Specialization:** Technology, Financial Markets, Web3, Data Analysis
+# - **City/Country:** Brasília, DF, Brazil
+# - **Links:** [GitHub](https://github.com/cwnt-io), [LinkedIn](https://www.linkedin.com/company/cwnt/)
+
+companies:

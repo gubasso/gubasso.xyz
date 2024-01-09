@@ -1,6 +1,7 @@
 # ripissue draft
 
 - [ ] resume
+- [ ] resume pdf format: generate and make available for download
 - [ ] deploy cadelab stack
 - [ ] after publish gubasso.xyz
   - add link to ripissue article to ripissue project at resume
