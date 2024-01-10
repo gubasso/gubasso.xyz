@@ -1,46 +1,44 @@
 odr:
   title: Regional Development Observatory (ODR - Observatório Do Desenvolvimento Regional)
+  shortTitle: ODR
   description: 'Advanced web platform that leverages ArcGIS technology to provide comprehensive regional and spatial data. It serves as a hub for economic and social policy indicators, offering an array of web-based solutions for detailed regional analysis.'
   links:
-    - label: ODR MI
-      url: http://odr.mi.gov.br/
-    - label: Gov.br ODR
-      url: https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr
+    - <a href="http://odr.mi.gov.br/">ODR MI</a>
+    - <a href="https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr">Gov.br ODR</a>
   types:
     - Web Platform
     - GIS Applications
     - Full Stack Technologies
 futurerentability:
   title: 'Automated Future Rentability Estimation for ALM models'
+  shortTitle: Future Rentability
   description: 'Innovative system for automated future rentability estimation in Asset-Liability Management (ALM) models. This solution has been implemented in major Brazilian pension funds, enhancing asset allocation and portfolio management strategies.'
   types:
     - Financial Modeling Tool
     - Analytics System
 actuarialflow:
   title: 'Automated Deterministic and Stochastic Actuarial Flow for ALM models'
+  shortTitle: Actuarial Flow
   description: "Solution for automating both deterministic and stochastic actuarial flows in Asset-Liability Management (ALM) models. This tool has been effectively integrated into some of Brazil's major pension funds, aiding in strategic asset allocations and enhancing portfolio policy decisions."
   types:
     - Actuarial Analysis Tool
     - Financial Forecasting System
 alm:
   title: 'Automated Asset-Liability Management Model for Pension Funds'
+  shortTitle: ALM
   description: 'System for the automated management of asset-liability in pension funds, utilizing an ALM model to optimize asset allocation. This system has been adopted by major pension funds, significantly improving their asset management strategies'
   types:
     - Financial Management System
     - Asset Allocation Tool
 ipeadata:
   title: 'IpeaData'
+  shortTitle: IpeaData
   links:
-    - label: IpeaData Gitlab
-      url: https://ipeadata.gitlab.io/ipeadata3/
-    - label: IpeaData Gov.br 1
-      url: http://ipeadata.gov.br/beta3/
-    - label: IpeaData Ipea
-      url: https://www.ipea.gov.br/portal/ipeadata
-    - label: IpeaData API
-      url: https://www.ipea.gov.br/portal/ipeadata/api-artigo
-    - label: IpeaData First Version
-      url: http://www.ipeadata.gov.br/Default.aspx
+    - <a href="https://ipeadata.gitlab.io/ipeadata3/">IpeaData Gitlab</a>
+    - <a href="http://ipeadata.gov.br/beta3/">IpeaData Gov.br 1</a>
+    - <a href="https://www.ipea.gov.br/portal/ipeadata">IpeaData Ipea</a>
+    - <a href="https://www.ipea.gov.br/portal/ipeadata/api-artigo">IpeaData API</a>
+    - <a href="http://www.ipeadata.gov.br/Default.aspx">IpeaData First Version</a>
   description: 'IpeaData is a versatile web platform and API offering a rich repository of various public data sets, including economic, financial, demographic, geographic, and social statistics. It features robust data processing capabilities, such as extraction, organization, cleaning, and aggregation from diverse sources. The platform presents data in intuitive charts and provides detailed metadata for deeper insights. This comprehensive project entailed revamping the original version to enhance data accessibility and visualization, catering to a wide range of users.'
   types:
     - Data Repository Platform
@@ -50,11 +48,10 @@ ipeadata:
     - Metadata Management System
 ivs:
   title: 'Atlas of Social Vulnerability (IVS - Atlas da Vulnerabilidade Social)'
+  shortTitle: IVS
   links:
-    - label: Atlas da Vulnerabilidade Social - IVS
-      url: http://ivs.ipea.gov.br/index.php/pt/
-    - label: IVS Ipea
-      url: https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social
+    - <a href="http://ivs.ipea.gov.br/index.php/pt/">Atlas da Vulnerabilidade Social - IVS</a>
+    - <a href="https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social">IVS Ipea</a>
   description: "Dynamic web platform designed to display and analyze social vulnerability data in Brazil. Built on top of Joomla CMS, it offers user-friendly visualization of the IVS index and related social data through charts and other accessible formats. The platform's main objective is to make complex social vulnerability information easily understandable and accessible to the public, aiding in social analysis and policy-making."
   types:
     - Web Portal for Social and Economica Data
@@ -63,9 +60,9 @@ ivs:
     - Joomla CMS-Based Web Application
 brasilmetropolitano:
   title: 'Portal of Metropolitan Governance in Brazil (Portal da Governança Metropolitana no Brasil)'
+  shortTitle: Portal of Metropolitan Governance in Brazil
   links:
-    - label: Portal da Governança Metropolitana no Brasil
-      url: http://brasilmetropolitano.ipea.gov.br/
+    - <a href="http://brasilmetropolitano.ipea.gov.br/">Portal da Governança Metropolitana no Brasil</a>
   description: "Specialized web platform designed to offer in-depth access to a range of economic and social data, indicators, and studies focused on Brazil's metropolitan regions. Built on Joomla CMS, this platform is dedicated to facilitating the understanding and analysis of metropolitan area data, emphasizing regional development and governance. It serves as a valuable tool for researchers, policymakers, and the public interested in the dynamics of Brazil's urban centers."
   types:
     - Web Portal for Metropolitan Data
@@ -74,11 +71,10 @@ brasilmetropolitano:
     - Joomla CMS-Based Web Application
 ipeaextrator:
   title: 'Ipea Data Extractor (Ipea Extrator de Dados)'
+  shortTitle: Ipea Data Extractor
   links:
-    - label: Ipea Extrator de Dados
-      url: https://www.ipea.gov.br/extrator/
-    - label: App Extrator de Dados
-      url: http://extrator.ipea.gov.br/
+    - <a href="https://www.ipea.gov.br/extrator/">Ipea Extrator de Dados</a>
+    - <a href="http://extrator.ipea.gov.br/">App Extrator de Dados</a>
   description: "Web platform designed for querying, aggregating, and collecting a diverse array of data. Utilizing technologies like Suite Pentaho, Mondrian, and Saiku, it provides access to public databases, research content, indicators, and historical data series. The platform's unique feature allows users to construct their own data tables, offering flexibility in aggregating and cross-combining data to suit specific analysis needs."
   types:
     - Data Query and Aggregation Platform
@@ -87,6 +83,7 @@ ipeaextrator:
     - Business Intelligence Tool
 ipeapublica:
   title: 'Ipea Publishes (Ipea Publica)'
+  shortTitle: Ipea Publishes
   description: "Internal web application specifically designed to streamline and standardize the review process for institutional publications at Ipea. It serves as an automation tool, significantly enhancing the efficiency and consistency of how Ipea's publications are managed and reviewed."
   types:
     - Internal Publication Management System
@@ -94,6 +91,7 @@ ipeapublica:
     - Workflow Automation Application
 ipeaprojetos:
   title: 'Ipea Projects (Ipea Projetos)'
+  shortTitle: Ipea Projects
   description: 'Internal institutional system developed for the comprehensive management of all organizational projects and initiatives at Ipea. It streamlines the coordination, monitoring, and administration of various projects, ensuring efficient management and tracking of institutional efforts.'
   types:
     - Project Management System
@@ -101,9 +99,9 @@ ipeaprojetos:
     - Organizational Coordination Tool
 ipeageo:
   title: 'IpeaGEO: Spatial Data Analysis'
+  shortTitle: IpeaGEO
   links:
-    - label: IpeaGEO
-      url: https://www.ipea.gov.br/ipeageo/
+    - <a href="https://www.ipea.gov.br/ipeageo/">IpeaGEO</a>
   description: 'Windows desktop application developed in .NET C# for advanced spatial data analysis. It specializes in the manipulation and georeferencing of spatial data, offering GIS capabilities. The software enables users to visualize and generate maps, facilitating comprehensive geographic information system analysis and data interpretation.'
   types:
     - Spatial Data Analysis Software
@@ -111,6 +109,7 @@ ipeageo:
     - Map Visualization and Generation Tool
 dataAnalysisReports:
   title: 'Economic Research Data Analysis and Reporting'
+  shortTitle: Data Analysis
   description: 'Creation of comprehensive databases, studies, and reports for economic research. It involves the generation of reports, data sets, and charts to support research and studies. The project also includes the development of scripts for efficient data collection and processing, as well as statistical and spatial analyses to enrich economic research efforts'
   types:
     - Economic Research Reporting
@@ -118,6 +117,7 @@ dataAnalysisReports:
     - Script-Based Data Collection and Processing Tool
 algos:
   title: 'Automated Asset Trading Algorithms'
+  shortTitle: Algorithmic Trading
   description: 'Algorithms for automating decision-making in asset trading. Key features include real-time data reading from various assets and markets, creating a suite of indicators based on price movements, and developing algorithmic strategies for autonomous buying and selling of assets. Additionally, a comprehensive data repository was established to facilitate the creation and optimization of these trading strategies.'
   types:
     - Financial Algorithm Development
@@ -126,9 +126,9 @@ algos:
     - Financial Data Repository Management
 bragServer:
   title: 'Brag-Server: Git Repository Metrics REST API in Rust'
+  shortTitle: Brag-Server
   links:
-    - label: Brag-Server Github
-      url: https://github.com/cwnt-io/brag-server
+    - <a href="https://github.com/cwnt-io/brag-server">Brag-Server Github</a>
   description: 'Open-source REST API, written in Rust, designed to load, update, and serve data from Git repositories. It efficiently retrieves and manages repository metrics, offering JSON-formatted data for client applications. The project focuses on real-time data processing and accessibility, providing valuable insights into Git repository activities.'
   types:
     - REST API Development
@@ -137,11 +137,10 @@ bragServer:
     - Open-Source Software Project
 ripissue:
   title: 'Ripissue: CLI Tool for Issue Tracking'
+  shortTitle: Ripissue
   links:
-    - label: Ripissue Github
-      url: https://github.com/cwnt-io/ripissue
-    - label: Ripissue Crates.io
-      url: https://crates.io/crates/ripissue
+    - <a href="https://github.com/cwnt-io/ripissue">Ripissue Github</a>
+    - <a href="https://crates.io/crates/ripissue">Ripissue Crates.io</a>
   description: "A command-line interface (CLI) tool specifically designed to streamline issue tracking within Git repositories. It introduces a simple file structure convention and workflow, enabling efficient management of issues, tasks, sprints, epics, and initiatives. Utilizing just the git system and filesystem, Ripissue facilitates distributed issue management, making it a versatile tool for developers leveraging Git's distributed nature."
   types:
     - CLI Tool for Issue Tracking
@@ -150,6 +149,7 @@ ripissue:
     - Distributed Workflow Implementation
 boleteggs:
   title: 'Boleteggs: Rental Billing & Contract Management Web App'
+  shortTitle: Boleteggs
   description: "Web application designed for rental billing and contract management. It facilitates the generation and management of rental contracts, integrating with Gerencianet's billing API for automatic document creation. The app provides efficient tenant billing management and is developed as a React-based single-page application (SPA), enhancing user experience and operational efficiency."
   types:
     - Rental Billing and Contract Management Web Application
@@ -157,6 +157,7 @@ boleteggs:
     - Tenant Management System
 cadelab:
   title: 'Cadelab: Interactive Platform for Economic Competition Analytics'
+  shortTitle: Cadelab
   description: 'Interactive platform designed for economic competition analytics, featuring a frontend web application that displays data and indicators relevant to market competition. The frontend showcases data through visual components and charts for easy interpretation. On the backend, it employs Python Eve and Flask frameworks to power a REST API serving up-to-date public data. The platform includes an automated data workflow to sync and update sources, coupled with data engineering scripts for ETL processes, generating aggregated data and essential indicators.'
   types:
     - Full Stack Technologies
@@ -166,6 +167,7 @@ cadelab:
     - Data Engineering and ETL Processes Tool
 clientProcessAutomation:
   title: 'Client Assistance Process Automation'
+  shortTitle: Process Automation
   description: 'Automating an entire client assistance process, encompassing pre-sale, sale, and post-sale stages. It involved the integration of the sales process with CRM tools and communication applications, and a backend implementation for managing data and message distribution between the Whatsapp Business API, CRM, and other management tools.'
   types:
     - Process Automation System

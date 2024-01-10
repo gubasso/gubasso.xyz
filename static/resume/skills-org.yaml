@@ -1,0 +1,78 @@
+tech:
+  group: 'Technical/Programming Skills'
+  categories:
+    langs:
+      label: 'Programming Languages'
+      skills:
+    backend:
+      label: 'Backend Development'
+      skills:
+    gis:
+      label: 'Geographic Information Systems (GIS)'
+      skills:
+    webdev:
+      label: 'Web/Frontend Development'
+      skills:
+    softdev:
+      label: 'Software Development'
+      skills:
+infra:
+  group: 'Infrastructure Management Skills'
+  categories:
+    devops:
+      label: 'DevOps and Infrastructure Management'
+      skills:
+    sysadmin:
+      label: 'Systems Administration'
+      skills:
+    serverSoft:
+      label: 'Server Software Management'
+      skills:
+data:
+  group: 'Data Engineering Skills'
+  categories:
+    database:
+      label: 'Database Management and Data Persistance'
+      skills:
+    langs:
+      label: 'Languages for Data Analysis and Manipulation'
+      skills:
+financial:
+  group: 'Financial/Investment Skills'
+  categories:
+    analysis:
+      label: 'Financial/Market Analysis'
+      skills:
+    investment:
+      label: 'Investment Strategies'
+      skills:
+    soft:
+      label: 'Financial Software'
+      skills:
+analytical:
+  group: 'Analytical/Research Skills'
+  categories:
+    methodologies:
+      label: 'Research Methodologies'
+      skills:
+    statistics:
+      label: 'Statistical Modeling and Methods'
+      skills:
+soft:
+  group: 'Soft Skills'
+  categories:
+    comm:
+      label: 'Communication'
+      skills:
+    lead:
+      label: 'Leadership'
+      skills:
+    problem:
+      label: 'Problem-Solving'
+      skills:
+    time:
+      label: 'Time Management'
+      skills:
+    collab:
+      label: 'Collaboration'
+      skills:

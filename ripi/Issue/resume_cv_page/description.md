@@ -2,8 +2,10 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
-- [ ] load yaml data
+- [x] load yaml data
 - [ ] make resume page
+  - [x] first version page
+  - [ ] add anchor tag contact info links
 - [x] at each section, check which are the basic AST optimized fields that this section has to have
 - [x] projects, skills, technologies:
   - put all related stuff
@@ -19,6 +21,7 @@ https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdat
 - [x] update linkedin cwnt's co-founder/cto experience description
 - [x] review every role description
 - [x] reviewing experience bottom to top
+- [ ] add relative links to resume page? (e.g. company name to the respective session)
 - cwnt's
   - [ ] publish basic website
   - linkedin page: update company links
@@ -46,33 +49,4 @@ https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdat
 - linkedin:
   - add a post after gubasso.xyz is online
 
-Work experience model
-
-```
-# Work Experience
-
-## Software Engineer
-XYZ Technologies, San Francisco, CA
-Dates of Employment: January 2018 - Present
-- [List of responsibilities and achievements]
-
-## Junior Developer
-ABC Corp, New York, NY
-Dates of Employment: June 2015 - December 2017
-- [List of responsibilities and achievements]
-
-```
-
-education
-
-```
-# Education
-
-## Master of Business Administration (MBA) - Ongoing
-XYZ Business School, Boston, MA
-Expected Graduation: 2023
-
-## Bachelor of Arts in Marketing
-University of ABC, Boston, MA
-Graduated: 2021
-```
+- dynamic posts import from static, not from posts

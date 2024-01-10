@@ -12,6 +12,7 @@ module.exports = {
     node: true
   },
   rules: {
-    semi: ['error', 'never']
+    semi: ['error', 'never'],
+    'svelte/no-at-html-tags': 'off'
   }
 }

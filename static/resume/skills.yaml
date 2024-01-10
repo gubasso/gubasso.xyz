@@ -54,10 +54,12 @@ rust:
   title: Rust
   categories:
     - tech: langs
+    - tech: backend
 python:
   title: Python
   categories:
     - tech: langs
+    - tech: backend
 csharp:
   title: C#
   categories:
@@ -116,7 +118,7 @@ javascript:
     - tech: webdev
     - tech: langs
 svelte:
-  title: Svelte / Sveltekit
+  title: Svelte/Sveltekit
   categories:
     - tech: webdev
 react:
@@ -164,7 +166,7 @@ docker:
   categories:
     - infra: devops
 cicd:
-  title: Continuous Integration / Continuous Delivery (CI/CD) pipelines
+  title: Continuous Integration/Continuous Delivery (CI/CD) pipelines
   categories:
     - infra: devops
 vagrant:
