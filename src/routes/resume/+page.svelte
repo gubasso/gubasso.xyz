@@ -43,7 +43,6 @@
       })
     }
     companies = await loadYaml('/resume/companies.yaml')
-    console.log(companies)
     teaching = await loadYaml('/resume/teaching.yaml')
     projects = await loadYaml('/resume/projects.yaml')
     experience = await loadYaml('/resume/experience.yaml')
@@ -85,7 +84,18 @@
   })
 </script>
 
-<h1>Resume / CV</h1>
+<div class="title-container">
+  <h1>Resume / CV</h1>
+  <a
+    href="/resume.pdf"
+    download
+    class="download-button"
+    title="Download Resume"
+    aria-label="Download Resume"
+  >
+    <iconify-icon icon="ic:baseline-download" />
+  </a>
+</div>
 
 {#if areAllLoaded}
   <h2>Contact Information</h2>
@@ -232,11 +242,36 @@
 <style>
   .info {
     margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .info p {
     margin: 0;
   }
   .info li {
     line-height: 1.5;
+  }
+  h2 {
+    box-shadow: inset 0 -2px 0 0; /* Adjust as needed */
+  }
+  .download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 </style>

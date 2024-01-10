@@ -2,10 +2,9 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
+- [x] generate a pdf at compile time and make available for download
 - [x] load yaml data
-- [ ] make resume page
-  - [x] first version page
-  - [ ] add anchor tag contact info links
+- [x] make resume page
 - [x] at each section, check which are the basic AST optimized fields that this section has to have
 - [x] projects, skills, technologies:
   - put all related stuff
@@ -50,3 +49,4 @@ https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdat
   - add a post after gubasso.xyz is online
 
 - dynamic posts import from static, not from posts
+- [ ] add anchor tag contact info links
