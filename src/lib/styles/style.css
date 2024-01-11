@@ -28,6 +28,9 @@ a {
   color: var(--color-accent-fg);
   text-decoration: none;
   cursor: pointer;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 a:hover {

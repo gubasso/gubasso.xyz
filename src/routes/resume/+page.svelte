@@ -103,10 +103,8 @@
   <div class="info">
     <p><b>Full Name: </b> {main.contact.fullname}</p>
     <p><b>Email: </b> {main.contact.fullname}</p>
-    <p><b>LinkedIn: </b> <a href={main.contact.linkedin}>{main.contact.linkedin}</a></p>
-    <p><b>GitHub: </b> <a href={main.contact.github}>{main.contact.github}</a></p>
-    <p><b>GitLab: </b> <a href={main.contact.gitlab}>{main.contact.gitlab}</a></p>
-    <p><b>LeetCode: </b> <a href={main.contact.leetcode}>{main.contact.leetcode}</a></p>
+    <p><b>Site: </b> {@html main.contact.site}</p>
+    <p><b>Social: </b> {@html main.contact.social.join(', ')}</p>
     <p><b>Location: </b> {main.contact.location}</p>
   </div>
 
@@ -259,7 +257,7 @@
     justify-content: center;
     width: fit-content;
     padding: 10px;
-    font-size: 2rem;
+    font-size: var(--step-2);
     background-color: #007bff;
     color: white;
     text-decoration: none;

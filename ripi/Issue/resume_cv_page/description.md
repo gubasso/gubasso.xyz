@@ -2,6 +2,21 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
+- [x] change contact info
+  - [x] Social: and <a> links </a>
+  - [x] add personal website gubasso.xyz
+- [ ] change anchors to
+```
+<a
+  target="_blank"
+  rel="external noopener noreferrer"
+  href="https://resume.gubasso.xyz"
+  on:click={closeMenu}>Resume / CV</a
+>
+```
+- [x] adjust download button font-size to a var (same as hamburguer menu icon size)
+- [x] adjust link strings in mobile view
+- before deploy first version, make "Projects Page"
 - [x] generate a pdf at compile time and make available for download
 - [x] load yaml data
 - [x] make resume page

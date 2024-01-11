@@ -2,10 +2,12 @@ contact:
   title: Contact Information
   fullname: Gustavo Gomes Basso
   email: gu@gubasso.xyz
-  linkedin: https://www.linkedin.com/in/gubasso
-  github: https://github.com/gubasso
-  gitlab: https://gitlab.com/gubasso
-  leetcode: https://leetcode.com/gubasso
+  site: '<a target="_blank" rel="external noopener noreferrer" href="https://gubasso.xyz">gubasso.xyz</a >'
+  social:
+    - '<a target="_blank" rel="external noopener noreferrer" href="https://www.linkedin.com/in/gubasso">LinkedIn</a >'
+    - '<a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso">GitHub</a >'
+    - '<a target="_blank" rel="external noopener noreferrer" href="https://gitlab.com/gubasso">GitLab</a >'
+    - '<a target="_blank" rel="external noopener noreferrer" href="https://leetcode.com/gubasso">Leetcode</a >'
   location: Brasília, DF / Brazil
 
 summary:
