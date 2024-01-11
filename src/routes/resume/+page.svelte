@@ -1,6 +1,5 @@
 <script>
   import yaml from 'js-yaml'
-  import DOMPurify from 'dompurify'
   import { onMount } from 'svelte'
 
   let main
@@ -183,7 +182,7 @@
       <p><b>Project Nature: </b> {proj.types.join(', ')}</p>
       <p><b>Description: </b> {proj.description}</p>
       {#if proj.links}
-        <p><b>Links: </b> {@html DOMPurify.sanitize(proj.links.join(', '))}</p>
+        <p><b>Links: </b> {@html proj.links.join(', ')}</p>
       {/if}
     </div>
   {/each}
@@ -231,7 +230,7 @@
       <p><b>Company: </b> {company.company}</p>
       <p><b>Location: </b> {company.location}</p>
       {#if company.links}
-        <p><b>Links: </b> {@html DOMPurify.sanitize(company.links.join(', '))}</p>
+        <p><b>Links: </b> {@html company.links.join(', ')}</p>
       {/if}
     </div>
   {/each}

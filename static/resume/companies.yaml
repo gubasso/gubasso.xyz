@@ -3,57 +3,57 @@ vistocerto:
   shortName: Seu Visto Certo
   specialization: Professional and Educational Services
   links:
-    - <a href="https://seuvistocerto.com/">Seu Visto Certo</a>
+    - <a target="_blank" rel="external noopener noreferrer"  href="https://seuvistocerto.com/">Seu Visto Certo</a>
   location: Willow Park, TX, US
 cwnt:
   company: cwnt.io (Crown and Trunk Technologies)
   shortName: cwnt.io
   specialization: Technology, Financial Markets, Web3, Data Analysis
   links:
-    - <a href="https://github.com/cwnt-io">cwnt.io Github</a>
-    - <a href="https://www.linkedin.com/company/cwnt/">cwnt.io LinkedIn</a>
+    - <a target="_blank" rel="external noopener noreferrer"  href="https://github.com/cwnt-io">cwnt.io Github</a>
+    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.linkedin.com/company/cwnt/">cwnt.io LinkedIn</a>
   location: Brasília, DF, Brazil
 cade:
   company: Administrative Council for Economic Defense (CADE - Conselho Administrativo de Defesa Econômica)
   shortName: CADE
   specialization: Antitrust Law and Competition Policy, Market Regulation, Consumer Protection, Economic Studies
   links:
-    - <a href="https://www.gov.br/cade/">CADE</a>
+    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.gov.br/cade/">CADE</a>
   location: Brasília, DF, Brazil
 ipea:
   company: Institute for Applied Economic Research (IPEA - Instituto de Pesquisa Econômica Aplicada)
   shortName: IPEA
   specialization: Applied Economic Research, Policy Analysis and Development, Economic Data Analysis and Forecasting, Socioeconomic Studies
   links:
-    - <a href="https://www.ipea.gov.br/">IPEA</a>
+    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.ipea.gov.br/">IPEA</a>
   location: Brasília, DF, Brazil
 iaed:
   company: Institute of Economic Analysis of Law (IAED - Instituto de Análise Econômica do Direito)
   shortName: IAED
   specialization: Economic Analysis, Policy and Investment Decision Support, Educational Training and Development
   links:
-    - <a href="https://www.linkedin.com/in/instituto-iaed-a1a74328/">IAED LinkedIn</a>
+    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.linkedin.com/in/instituto-iaed-a1a74328/">IAED LinkedIn</a>
   location: Brasília, DF, Brazil
 cerme:
   company: Center for Market Regulation Studies, University of Brasilia, UnB (CERME - Centro de Estudos em Regulação de Mercados, Universidade de Brasília, UnB)
   shortName: CERME
   specialization: Market and Economic Analysis, Educational Training and Development, Regulatory Impact Analysis, Economics and Politics Research Group
   links:
-    - <a href="https://www.unb.br/centros">Centros UnB</a>
-    - <a href="http://cerme.unb.br/">CERME</a>
-    - '<a href="http://pesquisa.unb.br/humanidades-ciencias-sociais/centros-ciencias-sociais?menu=806#centro-de-estudos-em-regulacao-de-mercados-cerme">Centros UnB: CERME</a>'
+    - <a target="_blank" rel="external noopener noreferrer" href="https://www.unb.br/centros">Centros UnB</a>
+    - <a target="_blank" rel="external noopener noreferrer"  href="http://cerme.unb.br/">CERME</a>
+    - '<a target="_blank" rel="external noopener noreferrer"  href="http://pesquisa.unb.br/humanidades-ciencias-sociais/centros-ciencias-sociais?menu=806#centro-de-estudos-em-regulacao-de-mercados-cerme">Centros UnB: CERME</a>'
   location: Brasília, DF, Brazil
 sdr:
   company: National Secretariat for Regional Development, Ministry of Integration and Regional Development (SDR - Secretaria Nacional de Desenvolvimento Regional, Ministério da Integração e do Desenvolvimento Regional)
   shortName: SDR
   specialization: Promotion of Regional Development, Integration of National Policies, Implementation of Regional, Urban, and Productive Structuring Programs
   links:
-    - <a href="https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional">SDR</a>
+    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional">SDR</a>
   location: Brasília, DF, Brazil
 unb:
   company: University of Brasília (UnB - Universidade de Brasília)
   shortName: UnB
   specialization: Public University, Higher Education, Research, Academic Development
   links:
-    - <a href="https://www.unb.br/">UnB</a>
+    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.unb.br/">UnB</a>
   location: Brasília, DF, Brazil

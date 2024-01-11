@@ -60,6 +60,14 @@ python:
   categories:
     - tech: langs
     - tech: backend
+pythoneve:
+  title: Python Eve
+  categories:
+    - tech: backend
+pythonflask:
+  title: Python Flask
+  categories:
+    - tech: backend
 csharp:
   title: C#
   categories:
@@ -114,6 +122,11 @@ css:
     - tech: webdev
 javascript:
   title: Javascript
+  categories:
+    - tech: webdev
+    - tech: langs
+typescript:
+  title: Typescript
   categories:
     - tech: webdev
     - tech: langs

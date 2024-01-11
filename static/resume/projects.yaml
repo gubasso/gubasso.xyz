@@ -3,8 +3,8 @@ odr:
   shortTitle: ODR
   description: 'Advanced web platform that leverages ArcGIS technology to provide comprehensive regional and spatial data. It serves as a hub for economic and social policy indicators, offering an array of web-based solutions for detailed regional analysis.'
   links:
-    - <a href="http://odr.mi.gov.br/">ODR MI</a>
-    - <a href="https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr">Gov.br ODR</a>
+    - <a target="_blank" rel="external noopener noreferrer" target="_blank" rel="external noopener noreferrer" href="http://odr.mi.gov.br/">ODR MI</a>
+    - <a target="_blank" rel="external noopener noreferrer" target="_blank" rel="external noopener noreferrer" href="https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr">Gov.br ODR</a>
   types:
     - Web Platform
     - GIS Applications
@@ -34,11 +34,11 @@ ipeadata:
   title: 'IpeaData'
   shortTitle: IpeaData
   links:
-    - <a href="https://ipeadata.gitlab.io/ipeadata3/">IpeaData Gitlab</a>
-    - <a href="http://ipeadata.gov.br/beta3/">IpeaData Gov.br</a>
-    - <a href="https://www.ipea.gov.br/portal/ipeadata">IpeaData Ipea</a>
-    - <a href="https://www.ipea.gov.br/portal/ipeadata/api-artigo">IpeaData API</a>
-    - <a href="http://www.ipeadata.gov.br/Default.aspx">IpeaData First Version</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://ipeadata.gitlab.io/ipeadata3/">IpeaData Gitlab</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="http://ipeadata.gov.br/beta3/">IpeaData Gov.br</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/portal/ipeadata">IpeaData Ipea</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/portal/ipeadata/api-artigo">IpeaData API</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="http://www.ipeadata.gov.br/Default.aspx">IpeaData First Version</a>
   description: 'IpeaData is a versatile web platform and API offering a rich repository of various public data sets, including economic, financial, demographic, geographic, and social statistics. It features robust data processing capabilities, such as extraction, organization, cleaning, and aggregation from diverse sources. The platform presents data in intuitive charts and provides detailed metadata for deeper insights. This comprehensive project entailed revamping the original version to enhance data accessibility and visualization, catering to a wide range of users.'
   types:
     - Data Repository Platform
@@ -50,8 +50,8 @@ ivs:
   title: 'Atlas of Social Vulnerability (IVS - Atlas da Vulnerabilidade Social)'
   shortTitle: IVS
   links:
-    - <a href="http://ivs.ipea.gov.br/index.php/pt/">Atlas da Vulnerabilidade Social - IVS</a>
-    - <a href="https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social">IVS Ipea</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="http://ivs.ipea.gov.br/index.php/pt/">Atlas da Vulnerabilidade Social - IVS</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social">IVS Ipea</a>
   description: "Dynamic web platform designed to display and analyze social vulnerability data in Brazil. Built on top of Joomla CMS, it offers user-friendly visualization of the IVS index and related social data through charts and other accessible formats. The platform's main objective is to make complex social vulnerability information easily understandable and accessible to the public, aiding in social analysis and policy-making."
   types:
     - Web Portal for Social and Economica Data
@@ -62,7 +62,7 @@ brasilmetropolitano:
   title: 'Portal of Metropolitan Governance in Brazil (Portal da Governança Metropolitana no Brasil)'
   shortTitle: Portal of Metropolitan Governance in Brazil
   links:
-    - <a href="http://brasilmetropolitano.ipea.gov.br/">Portal da Governança Metropolitana no Brasil</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="http://brasilmetropolitano.ipea.gov.br/">Portal da Governança Metropolitana no Brasil</a>
   description: "Specialized web platform designed to offer in-depth access to a range of economic and social data, indicators, and studies focused on Brazil's metropolitan regions. Built on Joomla CMS, this platform is dedicated to facilitating the understanding and analysis of metropolitan area data, emphasizing regional development and governance. It serves as a valuable tool for researchers, policymakers, and the public interested in the dynamics of Brazil's urban centers."
   types:
     - Web Portal for Metropolitan Data
@@ -73,8 +73,8 @@ ipeaextrator:
   title: 'Ipea Data Extractor (Ipea Extrator de Dados)'
   shortTitle: Ipea Data Extractor
   links:
-    - <a href="https://www.ipea.gov.br/extrator/">Ipea Extrator de Dados</a>
-    - <a href="http://extrator.ipea.gov.br/">App Extrator de Dados</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/extrator/">Ipea Extrator de Dados</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="http://extrator.ipea.gov.br/">App Extrator de Dados</a>
   description: "Web platform designed for querying, aggregating, and collecting a diverse array of data. Utilizing technologies like Suite Pentaho, Mondrian, and Saiku, it provides access to public databases, research content, indicators, and historical data series. The platform's unique feature allows users to construct their own data tables, offering flexibility in aggregating and cross-combining data to suit specific analysis needs."
   types:
     - Data Query and Aggregation Platform
@@ -101,7 +101,7 @@ ipeageo:
   title: 'IpeaGEO: Spatial Data Analysis'
   shortTitle: IpeaGEO
   links:
-    - <a href="https://www.ipea.gov.br/ipeageo/">IpeaGEO</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/ipeageo/">IpeaGEO</a>
   description: 'Windows desktop application developed in .NET C# for advanced spatial data analysis. It specializes in the manipulation and georeferencing of spatial data, offering GIS capabilities. The software enables users to visualize and generate maps, facilitating comprehensive geographic information system analysis and data interpretation.'
   types:
     - Spatial Data Analysis Software
@@ -128,7 +128,7 @@ bragServer:
   title: 'Brag-Server: Git Repository Metrics REST API in Rust'
   shortTitle: Brag-Server
   links:
-    - <a href="https://github.com/cwnt-io/brag-server">Brag-Server Github</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/cwnt-io/brag-server">Brag-Server Github</a>
   description: 'Open-source REST API, written in Rust, designed to load, update, and serve data from Git repositories. It efficiently retrieves and manages repository metrics, offering JSON-formatted data for client applications. The project focuses on real-time data processing and accessibility, providing valuable insights into Git repository activities.'
   types:
     - REST API Development
@@ -139,8 +139,8 @@ ripissue:
   title: 'Ripissue: CLI Tool for Issue Tracking'
   shortTitle: Ripissue
   links:
-    - <a href="https://github.com/cwnt-io/ripissue">Ripissue Github</a>
-    - <a href="https://crates.io/crates/ripissue">Ripissue Crates.io</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/cwnt-io/ripissue">Ripissue Github</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://crates.io/crates/ripissue">Ripissue Crates.io</a>
   description: "A command-line interface (CLI) tool specifically designed to streamline issue tracking within Git repositories. It introduces a simple file structure convention and workflow, enabling efficient management of issues, tasks, sprints, epics, and initiatives. Utilizing just the git system and filesystem, Ripissue facilitates distributed issue management, making it a versatile tool for developers leveraging Git's distributed nature."
   types:
     - CLI Tool for Issue Tracking
