@@ -1,6 +1,5 @@
 # resume_cv_page (Issue)
 
-- [ ] https://app.jobscan.co/scan/
   - [x] ATS and recruiters prefer specific date formatting for your work experience. Please use the following formats: “MM/YY or MM/YYYY or Month YYYY” (e.g. 03/19, 03/2019, Mar 2019 or March 2019). We suggest updating these dates:
 - [x] add stackoverflow
 - [x] better compact layout
@@ -42,26 +41,15 @@
 - [x] review every role description
 - [x] reviewing experience bottom to top
 - [x] setup servers/security/ssh
-- devops skill
+- [x] devops skill
   - linux servers?
-- [ ] gubasso.xyz as a personal project
-  - and other personal projects
-- [ ] projects session
-- [ ] make a skill session, such as technologies session, and reference it
-- [ ] review all texts
-- [ ] get all of my cvs, versions, etc...
-- [ ] yaml TODO
-- [ ] footer: get contact infos/icons from resume yaml
-- [ ] when run build script, compile a pdf file to make available to download
-- [ ] add all my github/gitlab projects (and cwnt's too)
-- "honorable mentions": docs-n-notes repository... etc...
-  - leetcode
-  - self hosted applications
-- ast standarts
-- personal development setup?
-
-- linkedin:
-  - add a post after gubasso.xyz is online
-
-- dynamic posts import from static, not from posts
-- [ ] add anchor tag contact info links
+- [x] gubasso.xyz as a personal project
+  - [x] and other personal projects
+- [x] make a skill session, such as technologies session, and reference it
+- [x] review all texts
+- [x] get all of my cvs, versions, etc...
+- [x] yaml TODO
+- [x] when run build script, compile a pdf file to make available to download
+- [x] add all my github/gitlab projects (and cwnt's too)
+- [x] ast standarts
+- [x] add anchor tag contact info links

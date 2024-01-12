@@ -106,6 +106,7 @@
   <div class="info">
     <p><b>Full Name: </b> {main.contact.fullname}</p>
     <p><b>Email: </b> {@html main.contact.email}</p>
+    <p><b>Phone: </b> {main.contact.phone}</p>
     <p><b>Site: </b> {@html main.contact.site}</p>
     <p><b>Social: </b> {@html main.contact.social.join(', ')}</p>
     <p><b>Location: </b> {main.contact.location}</p>

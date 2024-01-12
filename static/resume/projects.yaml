@@ -166,7 +166,7 @@ boleteggs:
   title: 'Boleteggs: Rental Billing & Contract Management Web App'
   shortTitle: Boleteggs
   year: 2016
-  description: "Web application designed for rental billing and contract management. It facilitates the generation and management of rental contracts, integrating with Gerencianet's billing API for automatic document creation. The app provides efficient tenant billing management and is developed as a React-based single-page application (SPA), enhancing user experience and operational efficiency."
+  description: "Web application designed for rental billing and contract management. It facilitates the generation and management of rental contracts, integrating with Gerencianet's billing API for automatic document creation. The app provides efficient tenant billing management and is developed as a React-based single-page application (SPA) and a Python REST API, enhancing user experience and operational efficiency."
   types:
     - Rental Billing and Contract Management Web Application
     - API Integration for Automated Billing
@@ -192,3 +192,56 @@ clientProcessAutomation:
     - CRM Integration Solution
     - Client Communication Management Tool
     - Sales Workflow Automation
+docsNNotes:
+  title: 'docs-n-notes: Personal Repository for Documentation and Note Taking'
+  shortTitle: docs-n-notes
+  year: 2022
+  links:
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso/docs-n-notes">Github</a>
+  types:
+    - Documentation Tool
+    - Note-Taking Application
+    - Knowledge Management System
+    - Personal Productivity Tool
+    - Digital Repository
+gubassoXyz:
+  title: 'gubasso.xyz: Personal Web Portfolio and Blog.'
+  shortTitle: gubasso.xyz
+  year: 2023
+  description: A SvelteKit-based website, gubasso.xyz serves as my tech portfolio and blog. It integrates with a Brag-Server (brag.gubasso.xyz) API to exhibit a chart of my yearly Git contributions across all public projects. The site also features an ATS-optimized resume, detailed project showcases, and a blog where I share insights on software engineering and tech trends. It's a comprehensive platform reflecting my skills, experiences, and professional journey in software development.
+  links:
+    - <a target="_blank" rel="external noopener noreferrer" href="https://gubasso.xyz">gubasso.xyz</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso/gubasso.xyz">Github</a>
+  types:
+    - Personal Portfolio Website
+    - Blogging Platform
+    - Git Repository Analytics Display
+    - Professional Showcase
+    - Resume and Project Repository
+dotfiles:
+  title: 'Dotfiles: Customized Environment Setup'
+  year: 2022
+  description: "My personal dotfiles, representing a curated collection of configuration files for Unix-based systems. It includes Lua and Shell scripts, enabling a customized and efficient development environment. This project showcases my setup preferences for various tools and software, offering insights into my workflow and methodologies. It's also a resource for other developers looking to optimize their own environments, demonstrating practical applications of scripting for system customization."
+  links:
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso/dotfiles">Github</a>
+  types:
+    - Arch Linux
+    - Neovim
+    - Tmux
+    - Configuration Files Repository
+    - Unix-based System Customization
+    - Development Environment Setup
+    - Lua and Shell Scripting
+leetcodeWorkspace:
+  title: 'LeetCode Solutions: Rust, TypeScript, and Python'
+  year: 2023
+  links:
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso/leetcode_rust.ws">Github Rust Workspace</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso/leetcode_typescript.ws">Github Typescript Workspace</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso/leetcode_python.ws">Github Python Workspace</a>
+  description: 'This project comprises three separate repositories, each dedicated to solving LeetCode problems in a specific programming language: Rust, TypeScript, and Python. Each repository is a tailored workspace that replicates the LeetCode web environment locally, enabling me to practice and master algorithms for job interviews. The setup includes test structures for algorithm validation. This collection demonstrates my focus on Rust, while also showcasing my versatility in TypeScript and Python, and my ability to create efficient, language-specific development environments.'
+  types:
+    - Algorithm Practice Workspaces
+    - Coding Interview Preparation
+    - LeetCode Problem Solutions
+    - Rust, TypeScript, Python Programming

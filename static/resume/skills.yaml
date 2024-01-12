@@ -60,6 +60,10 @@ python:
   categories:
     - tech: langs
     - tech: backend
+lua:
+  title: Lua
+  categories:
+    - tech: langs
 pythoneve:
   title: Python Eve
   categories:

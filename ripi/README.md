@@ -1,8 +1,13 @@
 # ripissue draft
 
+- [ ] resume: page per application
+  - [ ] 100% at https://app.jobscan.co/scan/
 - [ ] chart at hero landing page
-- [ ] resume
-- [ ] resume pdf format: generate and make available for download
+- readme/adjust my projects repositories
+- dynamic posts import from static, not from posts
+- [ ] footer: get contact infos/icons from resume yaml
+- linkedin:
+  - add a post after gubasso.xyz is online
 - cwnt's
   - [ ] publish basic website
   - linkedin page: update company links
