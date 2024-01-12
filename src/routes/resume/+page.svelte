@@ -9,6 +9,7 @@
   let experience
   let roles
   let projects
+  let projectsArray
   let skills
   let skillsOrg
   let companies
@@ -44,6 +45,9 @@
     companies = await loadYaml('/resume/companies.yaml')
     teaching = await loadYaml('/resume/teaching.yaml')
     projects = await loadYaml('/resume/projects.yaml')
+    projectsArray = Object.entries(projects)
+    projectsArray = projectsArray.sort((a, b) => b[1].year - a[1].year)
+    console.log(projectsArray)
     experience = await loadYaml('/resume/experience.yaml')
     experience.forEach((e) => {
       e.roles =
@@ -128,24 +132,24 @@
   {/each}
 
   <h2>Education</h2>
-  <h3>{education.doctor.title}</h3>
   <div class="info">
+    <p><b>Title: </b> {education.doctor.title}</p>
     <p><b>University: </b> <a href={education.doctor.link}>{education.doctor.university}</a></p>
     <p><b>Location: </b> {education.doctor.location}</p>
     <p><b>Attended: </b> {education.doctor.attended}</p>
     <p><b>Notes: </b> {education.doctor.notes}</p>
     <p><b>Areas Of Study: </b> {education.doctor.areasOfStudy}</p>
   </div>
-  <h3>{education.master.title}</h3>
   <div class="info">
+    <p><b>Title: </b> {education.master.title}</p>
     <p><b>University: </b> <a href={education.master.link}>{education.master.university}</a></p>
     <p><b>Location: </b> {education.master.location}</p>
     <p><b>Graduated: </b> {education.master.graduated}</p>
     <p><b>Dissertation Title: </b> {education.master.dissertationTitle}</p>
     <p><b>Areas Of Study: </b> {education.master.areasOfStudy}</p>
   </div>
-  <h3>{education.bachelor.title}</h3>
   <div class="info">
+    <p><b>Title: </b> {education.bachelor.title}</p>
     <p><b>University: </b> <a href={education.bachelor.link}>{education.bachelor.university}</a></p>
     <p><b>Location: </b> {education.bachelor.location}</p>
     <p><b>Graduated: </b> {education.bachelor.graduated}</p>
@@ -175,7 +179,7 @@
   </div>
 
   <h2>Projects</h2>
-  {#each Object.entries(projects) as [id, proj]}
+  {#each projectsArray as [id, proj]}
     <h3 {id}>{proj.shortTitle}</h3>
     <div class="info">
       <p><b>Title: </b> {proj.title}</p>
@@ -238,9 +242,10 @@
 
 <style>
   .info {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
   }
+
   .info p {
     margin: 0;
   }
@@ -249,7 +254,12 @@
   }
   h2 {
     box-shadow: inset 0 -2px 0 0; /* Adjust as needed */
+    margin-bottom: 2rem;
   }
+  h3 {
+    margin-bottom: 0.6rem;
+  }
+
   .download-button {
     display: flex;
     align-items: center;

@@ -1,6 +1,7 @@
 odr:
   title: Regional Development Observatory (ODR - Observatório Do Desenvolvimento Regional)
   shortTitle: ODR
+  year: 2015
   description: 'Advanced web platform that leverages ArcGIS technology to provide comprehensive regional and spatial data. It serves as a hub for economic and social policy indicators, offering an array of web-based solutions for detailed regional analysis.'
   links:
     - <a target="_blank" rel="external noopener noreferrer" target="_blank" rel="external noopener noreferrer" href="http://odr.mi.gov.br/">ODR MI</a>
@@ -12,6 +13,7 @@ odr:
 futurerentability:
   title: 'Automated Future Rentability Estimation for ALM models'
   shortTitle: Future Rentability
+  year: 2011
   description: 'Innovative system for automated future rentability estimation in Asset-Liability Management (ALM) models. This solution has been implemented in major Brazilian pension funds, enhancing asset allocation and portfolio management strategies.'
   types:
     - Financial Modeling Tool
@@ -19,6 +21,7 @@ futurerentability:
 actuarialflow:
   title: 'Automated Deterministic and Stochastic Actuarial Flow for ALM models'
   shortTitle: Actuarial Flow
+  year: 2011
   description: "Solution for automating both deterministic and stochastic actuarial flows in Asset-Liability Management (ALM) models. This tool has been effectively integrated into some of Brazil's major pension funds, aiding in strategic asset allocations and enhancing portfolio policy decisions."
   types:
     - Actuarial Analysis Tool
@@ -26,6 +29,7 @@ actuarialflow:
 alm:
   title: 'Automated Asset-Liability Management Model for Pension Funds'
   shortTitle: ALM
+  year: 2011
   description: 'System for the automated management of asset-liability in pension funds, utilizing an ALM model to optimize asset allocation. This system has been adopted by major pension funds, significantly improving their asset management strategies'
   types:
     - Financial Management System
@@ -33,6 +37,7 @@ alm:
 ipeadata:
   title: 'IpeaData'
   shortTitle: IpeaData
+  year: 2018
   links:
     - <a target="_blank" rel="external noopener noreferrer" href="https://ipeadata.gitlab.io/ipeadata3/">IpeaData Gitlab</a>
     - <a target="_blank" rel="external noopener noreferrer" href="http://ipeadata.gov.br/beta3/">IpeaData Gov.br</a>
@@ -49,6 +54,7 @@ ipeadata:
 ivs:
   title: 'Atlas of Social Vulnerability (IVS - Atlas da Vulnerabilidade Social)'
   shortTitle: IVS
+  year: 2017
   links:
     - <a target="_blank" rel="external noopener noreferrer" href="http://ivs.ipea.gov.br/index.php/pt/">Atlas da Vulnerabilidade Social - IVS</a>
     - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social">IVS Ipea</a>
@@ -61,6 +67,7 @@ ivs:
 brasilmetropolitano:
   title: 'Portal of Metropolitan Governance in Brazil (Portal da Governança Metropolitana no Brasil)'
   shortTitle: Portal of Metropolitan Governance in Brazil
+  year: 2017
   links:
     - <a target="_blank" rel="external noopener noreferrer" href="http://brasilmetropolitano.ipea.gov.br/">Portal da Governança Metropolitana no Brasil</a>
   description: "Specialized web platform designed to offer in-depth access to a range of economic and social data, indicators, and studies focused on Brazil's metropolitan regions. Built on Joomla CMS, this platform is dedicated to facilitating the understanding and analysis of metropolitan area data, emphasizing regional development and governance. It serves as a valuable tool for researchers, policymakers, and the public interested in the dynamics of Brazil's urban centers."
@@ -72,6 +79,7 @@ brasilmetropolitano:
 ipeaextrator:
   title: 'Ipea Data Extractor (Ipea Extrator de Dados)'
   shortTitle: Ipea Data Extractor
+  year: 2013
   links:
     - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/extrator/">Ipea Extrator de Dados</a>
     - <a target="_blank" rel="external noopener noreferrer" href="http://extrator.ipea.gov.br/">App Extrator de Dados</a>
@@ -84,6 +92,7 @@ ipeaextrator:
 ipeapublica:
   title: 'Ipea Publishes (Ipea Publica)'
   shortTitle: Ipea Publishes
+  year: 2013
   description: "Internal web application specifically designed to streamline and standardize the review process for institutional publications at Ipea. It serves as an automation tool, significantly enhancing the efficiency and consistency of how Ipea's publications are managed and reviewed."
   types:
     - Internal Publication Management System
@@ -92,6 +101,7 @@ ipeapublica:
 ipeaprojetos:
   title: 'Ipea Projects (Ipea Projetos)'
   shortTitle: Ipea Projects
+  year: 2014
   description: 'Internal institutional system developed for the comprehensive management of all organizational projects and initiatives at Ipea. It streamlines the coordination, monitoring, and administration of various projects, ensuring efficient management and tracking of institutional efforts.'
   types:
     - Project Management System
@@ -100,6 +110,7 @@ ipeaprojetos:
 ipeageo:
   title: 'IpeaGEO: Spatial Data Analysis'
   shortTitle: IpeaGEO
+  year: 2012
   links:
     - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/ipeageo/">IpeaGEO</a>
   description: 'Windows desktop application developed in .NET C# for advanced spatial data analysis. It specializes in the manipulation and georeferencing of spatial data, offering GIS capabilities. The software enables users to visualize and generate maps, facilitating comprehensive geographic information system analysis and data interpretation.'
@@ -110,6 +121,7 @@ ipeageo:
 dataAnalysisReports:
   title: 'Economic Research Data Analysis and Reporting'
   shortTitle: Data Analysis
+  year: 2011
   description: 'Creation of comprehensive databases, studies, and reports for economic research. It involves the generation of reports, data sets, and charts to support research and studies. The project also includes the development of scripts for efficient data collection and processing, as well as statistical and spatial analyses to enrich economic research efforts'
   types:
     - Economic Research Reporting
@@ -118,6 +130,7 @@ dataAnalysisReports:
 algos:
   title: 'Automated Asset Trading Algorithms'
   shortTitle: Algorithmic Trading
+  year: 2016
   description: 'Algorithms for automating decision-making in asset trading. Key features include real-time data reading from various assets and markets, creating a suite of indicators based on price movements, and developing algorithmic strategies for autonomous buying and selling of assets. Additionally, a comprehensive data repository was established to facilitate the creation and optimization of these trading strategies.'
   types:
     - Financial Algorithm Development
@@ -127,6 +140,7 @@ algos:
 bragServer:
   title: 'Brag-Server: Git Repository Metrics REST API in Rust'
   shortTitle: Brag-Server
+  year: 2023
   links:
     - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/cwnt-io/brag-server">Brag-Server Github</a>
   description: 'Open-source REST API, written in Rust, designed to load, update, and serve data from Git repositories. It efficiently retrieves and manages repository metrics, offering JSON-formatted data for client applications. The project focuses on real-time data processing and accessibility, providing valuable insights into Git repository activities.'
@@ -138,6 +152,7 @@ bragServer:
 ripissue:
   title: 'Ripissue: CLI Tool for Issue Tracking'
   shortTitle: Ripissue
+  year: 2023
   links:
     - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/cwnt-io/ripissue">Ripissue Github</a>
     - <a target="_blank" rel="external noopener noreferrer" href="https://crates.io/crates/ripissue">Ripissue Crates.io</a>
@@ -150,6 +165,7 @@ ripissue:
 boleteggs:
   title: 'Boleteggs: Rental Billing & Contract Management Web App'
   shortTitle: Boleteggs
+  year: 2016
   description: "Web application designed for rental billing and contract management. It facilitates the generation and management of rental contracts, integrating with Gerencianet's billing API for automatic document creation. The app provides efficient tenant billing management and is developed as a React-based single-page application (SPA), enhancing user experience and operational efficiency."
   types:
     - Rental Billing and Contract Management Web Application
@@ -158,6 +174,7 @@ boleteggs:
 cadelab:
   title: 'Cadelab: Interactive Platform for Economic Competition Analytics'
   shortTitle: Cadelab
+  year: 2019
   description: 'Interactive platform designed for economic competition analytics, featuring a frontend web application that displays data and indicators relevant to market competition. The frontend showcases data through visual components and charts for easy interpretation. On the backend, it employs Python Eve and Flask frameworks to power a REST API serving up-to-date public data. The platform includes an automated data workflow to sync and update sources, coupled with data engineering scripts for ETL processes, generating aggregated data and essential indicators.'
   types:
     - Full Stack Technologies
@@ -168,6 +185,7 @@ cadelab:
 clientProcessAutomation:
   title: 'Client Assistance Process Automation'
   shortTitle: Process Automation
+  year: 2015
   description: 'Automating an entire client assistance process, encompassing pre-sale, sale, and post-sale stages. It involved the integration of the sales process with CRM tools and communication applications, and a backend implementation for managing data and message distribution between the Whatsapp Business API, CRM, and other management tools.'
   types:
     - Process Automation System

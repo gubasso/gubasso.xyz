@@ -1,10 +1,16 @@
 # ripissue draft
 
+- [ ] chart at hero landing page
 - [ ] resume
 - [ ] resume pdf format: generate and make available for download
+- cwnt's
+  - [ ] publish basic website
+  - linkedin page: update company links
+  - update resume links and linkedin link
 - [ ] deploy cadelab stack
 - [ ] after publish gubasso.xyz
   - add link to ripissue article to ripissue project at resume
+- [ ] cadelab: upload server and update project link
 - [ ] cwnt.io simple website (bearkshire hathaway)?
   - then substitute it on resume company link
   - "An innovative IT firm specializing in investment management. We leverage advanced mathematical, statistical, and AI methodologies to develop and implement state-of-the-art automated investment algorithms."
@@ -22,3 +28,4 @@
   - videos/tutorials for which are the basic tests to do
 
 - optimize html/site head meta tags: Open Graph checker tools (many are available online).
+- [ ] add relative links to resume page? anchor to # (e.g. company name to the respective session)

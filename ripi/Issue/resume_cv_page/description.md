@@ -2,6 +2,10 @@
 
 https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
 
+- [x] order projects by date
+- change layout
+- [ ] add stackoverflow
+- [x] reduce margin bottom
 - [x] review techs/skills
   - [x] add typescript to projects to
   - [x] add python eve, flask, nodejs, rust axium to backend
@@ -37,13 +41,7 @@ https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdat
 - [x] update linkedin cwnt's co-founder/cto experience description
 - [x] review every role description
 - [x] reviewing experience bottom to top
-- [ ] add relative links to resume page? (e.g. company name to the respective session)
-- cwnt's
-  - [ ] publish basic website
-  - linkedin page: update company links
-  - update resume links and linkedin link
-- setup servers/security/ssh
-- cadelab: upload server and update project link
+- [x] setup servers/security/ssh
 - devops skill
   - linux servers?
 - [ ] gubasso.xyz as a personal project
