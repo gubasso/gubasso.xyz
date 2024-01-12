@@ -124,9 +124,44 @@
       {#if exp.projects}
         <p><b>Projects: </b> {exp.projects.join(', ')}</p>
       {/if}
-      <p><b>Skills: </b> {exp.skills.join(', ')}</p>
+      <!-- <p><b>Skills: </b> {exp.skills.join(', ')}</p> -->
       {#if exp.teaching}
         <p><b>Teachings: </b> {exp.teaching.join(', ')}</p>
+      {/if}
+    </div>
+  {/each}
+
+  <h2>Skills</h2>
+  {#each Object.entries(skillsOrg) as [id, skillGroup]}
+    <h3 {id}>{skillGroup.group}</h3>
+    <div class="info">
+      {#each Object.entries(skillGroup.categories) as [catId, category]}
+        <p id={catId}><b>{category.label}: </b> {category.skills.join(', ')}</p>
+      {/each}
+    </div>
+  {/each}
+
+  <h2>Roles</h2>
+  {#each Object.entries(roles) as [id, role]}
+    <h3 {id}>{role.title}</h3>
+    <div class="info">
+      <ul>
+        {#each role.description as desc}
+          <li>{desc}</li>
+        {/each}
+      </ul>
+    </div>
+  {/each}
+
+  <h2>Projects</h2>
+  {#each projectsArray as [id, proj]}
+    <h3 {id}>{proj.shortTitle}</h3>
+    <div class="info">
+      <p><b>Title: </b> {proj.title}</p>
+      <p><b>Project Nature: </b> {proj.types.join(', ')}</p>
+      <p><b>Description: </b> {proj.description}</p>
+      {#if proj.links}
+        <p><b>Links: </b> {@html proj.links.join(', ')}</p>
       {/if}
     </div>
   {/each}
@@ -160,56 +195,14 @@
   <h2>Publications</h2>
   {#each publications as pub}
     <div class="info">
-      <p><b>Title: </b> {pub.title}</p>
-      <p><b>English Title: </b> {pub.english}</p>
+      <p>
+        <b>Title: </b>
+        {pub.english}
+        {#if pub.link}
+          <a href={pub.link}>{@html pub.link}</a>
+        {/if}
+      </p>
       <p><b>Area: </b> {pub.area}</p>
-      {#if pub.link}
-        <p><b>Available at: </b> <a href={pub.link}>{pub.link}</a></p>
-      {/if}
-    </div>
-  {/each}
-
-  <h2>Languages</h2>
-  <div class="info">
-    <ul>
-      {#each languages as lang}
-        <li><b>{lang.lang}: </b> {lang.proficiency}</li>
-      {/each}
-    </ul>
-  </div>
-
-  <h2>Projects</h2>
-  {#each projectsArray as [id, proj]}
-    <h3 {id}>{proj.shortTitle}</h3>
-    <div class="info">
-      <p><b>Title: </b> {proj.title}</p>
-      <p><b>Project Nature: </b> {proj.types.join(', ')}</p>
-      <p><b>Description: </b> {proj.description}</p>
-      {#if proj.links}
-        <p><b>Links: </b> {@html proj.links.join(', ')}</p>
-      {/if}
-    </div>
-  {/each}
-
-  <h2>Roles</h2>
-  {#each Object.entries(roles) as [id, role]}
-    <h3 {id}>{role.title}</h3>
-    <div class="info">
-      <ul>
-        {#each role.description as desc}
-          <li>{desc}</li>
-        {/each}
-      </ul>
-    </div>
-  {/each}
-
-  <h2>Skills</h2>
-  {#each Object.entries(skillsOrg) as [id, skillGroup]}
-    <h3 {id}>{skillGroup.group}</h3>
-    <div class="info">
-      {#each Object.entries(skillGroup.categories) as [catId, category]}
-        <p id={catId}><b>{category.label}: </b> {category.skills.join(', ')}</p>
-      {/each}
     </div>
   {/each}
 
@@ -223,6 +216,15 @@
             : {teach.description}
           {/if}
         </li>
+      {/each}
+    </ul>
+  </div>
+
+  <h2>Languages</h2>
+  <div class="info">
+    <ul>
+      {#each languages as lang}
+        <li><b>{lang.lang}: </b> {lang.proficiency}</li>
       {/each}
     </ul>
   </div>

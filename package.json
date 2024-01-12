@@ -5,7 +5,7 @@
   "repository": "gubasso/gubasso.xyz",
   "scripts": {
     "dev": "vite dev",
-    "watch:pdf": "watchexec -f 'generatePdf*' node generatePdf.js",
+    "watch:pdf": "watchexec -w src -f '*' -w . -f 'generatePdf*' -- node generatePdf.js",
     "build": "vite build",
     "preview": "vite preview",
     "test": "npm run test:integration && npm run test:unit",
