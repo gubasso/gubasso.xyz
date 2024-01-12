@@ -1,10 +1,10 @@
 # resume_cv_page (Issue)
 
-https://github.com/ismaelpamplona/resume.isma.codes/blob/main/src%2Froutes%2Fdata.yml
-
-- [x] order projects by date
-- change layout
+- [ ] https://app.jobscan.co/scan/
+  - ATS and recruiters prefer specific date formatting for your work experience. Please use the following formats: “MM/YY or MM/YYYY or Month YYYY” (e.g. 03/19, 03/2019, Mar 2019 or March 2019). We suggest updating these dates:
+- [ ] see what can be removed
 - [ ] add stackoverflow
+- [x] order projects by date
 - [x] reduce margin bottom
 - [x] review techs/skills
   - [x] add typescript to projects to

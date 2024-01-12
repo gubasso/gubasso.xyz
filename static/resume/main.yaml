@@ -1,7 +1,7 @@
 contact:
   title: Contact Information
   fullname: Gustavo Gomes Basso
-  email: gu@gubasso.xyz
+  email: <a href="mailto:gu@gubasso.xyz">gu@gubasso.xyz</a>
   site: '<a target="_blank" rel="external noopener noreferrer" href="https://gubasso.xyz">gubasso.xyz</a >'
   social:
     - '<a target="_blank" rel="external noopener noreferrer" href="https://www.linkedin.com/in/gubasso">LinkedIn</a >'

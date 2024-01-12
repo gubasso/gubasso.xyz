@@ -105,7 +105,7 @@
 
   <div class="info">
     <p><b>Full Name: </b> {main.contact.fullname}</p>
-    <p><b>Email: </b> {main.contact.fullname}</p>
+    <p><b>Email: </b> {@html main.contact.email}</p>
     <p><b>Site: </b> {@html main.contact.site}</p>
     <p><b>Social: </b> {@html main.contact.social.join(', ')}</p>
     <p><b>Location: </b> {main.contact.location}</p>
@@ -258,6 +258,11 @@
   }
   h3 {
     margin-bottom: 0.6rem;
+  }
+
+  .grid-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .download-button {
