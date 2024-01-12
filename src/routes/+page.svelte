@@ -130,7 +130,7 @@
     margin-bottom: 4rem;
   }
   .gubasso {
-    font-size: var(--step-7);
+    font-size: var(--step-6);
     color: var(--color-accent-fg);
     text-align: center;
   }
@@ -138,6 +138,7 @@
     color: var(--color-fg-default);
   }
   .title {
+    font-size: var(--step-3);
     text-align: center;
     margin-top: 3rem;
   }
