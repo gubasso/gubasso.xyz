@@ -1,7 +1,8 @@
 # ripissue draft
 
-- [x] chart at hero landing page
 - [ ] resume: page per application
+7. **Include Detailed Work Experience:**
+- List your employment history with clear titles, dates, and descriptions of your role and accomplishments.
   - [ ] 100% at https://app.jobscan.co/scan/
 - readme/adjust my projects repositories
 - dynamic posts import from static, not from posts
@@ -34,3 +35,5 @@
 
 - optimize html/site head meta tags: Open Graph checker tools (many are available online).
 - [ ] add relative links to resume page? anchor to # (e.g. company name to the respective session)
+
+- [x] chart at hero landing page
