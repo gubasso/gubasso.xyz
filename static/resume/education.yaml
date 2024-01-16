@@ -1,0 +1,24 @@
+doctor:
+  title: Doctor of Business Administration (Finance and Quantitative Methods) [Incomplete]
+  university: Universidade de Brasília - UnB
+  link: https://www.unb.br
+  location: Brasília, DF, Brazil
+  attended: 2014 - 2017
+  notes: 'Completed all coursework credits.'
+  areasOfStudy: Operations Research, Optimization Methods, Pension Funds, Stochastic Models
+master:
+  title: Master of Science in Business Administration (Finance and Quantitative Methods)
+  university: Universidade de Brasília - UnB
+  link: https://www.unb.br
+  location: Brasília, DF, Brazil
+  graduated: 2013
+  dissertationTitle: 'Evidence of Underpricing and Underperformance in IPOs: An Empirical Study of the Brazilian Market.'
+  areasOfStudy: Financial Economics, Empirical Finance, Brazilian Market Analysis
+bachelor:
+  title: Bachelor of Business Administration
+  university: Universidade de Brasília - UnB
+  link: https://www.unb.br
+  location: Brasília, DF, Brazil
+  graduated: 2011
+  monographTitle: 'Corporate Governance in Brazil: The Impact of Adherence to the Market Arbitration Chamber on the Risk of Publicly Traded Companies'
+  areasOfStudy: Corporate Governance, Risk Management, Financial Markets

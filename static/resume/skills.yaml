@@ -139,7 +139,7 @@ svelte:
   categories:
     - tech: webdev
 react:
-  title: React
+  title: React.js
   categories:
     - tech: webdev
 riotjs:
@@ -196,7 +196,7 @@ shellScripting:
     - infra: devops
     - tech: langs
 linux:
-  title: Linux-based OS's and Servers
+  title: Linux-based OS's, Servers and VPS's
   categories:
     - infra: sysadmin
 systemSecurity:
@@ -255,3 +255,31 @@ collab:
   title: Proven ability to work effectively in team environments
   categories:
     - soft: collab
+aws:
+  title: Amazon AWS
+  categories:
+    - infra: cloud
+googlecloud:
+  title: Google Cloud Platform (GCP)
+  categories:
+    - infra: cloud
+azure:
+  title: Microsoft Azure
+  categories:
+    - infra: cloud
+linode:
+  title: Linode
+  categories:
+    - infra: cloud
+digitalocean:
+  title: Digital Ocean
+  categories:
+    - infra: cloud
+wasabi:
+  title: Wasabi Object Storage
+  categories:
+    - infra: cloud
+dvc:
+  title: Data and Model Version Control
+  categories:
+    - data: database

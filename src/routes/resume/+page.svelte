@@ -1,8 +1,11 @@
 <script>
   import yaml from 'js-yaml'
   import { onMount } from 'svelte'
+  import { page } from '$app/stores'
 
-  let main
+  $: sub = $page.url.searchParams.get('sub') || '0'
+  let contact
+  let summary
   let education
   let publications
   let languages
@@ -23,10 +26,11 @@
   }
 
   onMount(async () => {
-    main = await loadYaml('/resume/main.yaml')
-    education = main.education
-    publications = main.publications
-    languages = main.languages
+    contact = await loadYaml('/resume/contact.yaml')
+    summary = await loadYaml('/resume/summary.yaml')
+    education = await loadYaml('/resume/education.yaml')
+    publications = await loadYaml('/resume/publications.yaml')
+    languages = await loadYaml('/resume/languages.yaml')
     roles = await loadYaml('/resume/roles.yaml')
     skills = await loadYaml('/resume/skills.yaml')
     skillsOrg = await loadYaml('/resume/skills-org.yaml')
@@ -47,9 +51,8 @@
     projects = await loadYaml('/resume/projects.yaml')
     projectsArray = Object.entries(projects)
     projectsArray = projectsArray.sort((a, b) => b[1].year - a[1].year)
-    console.log(projectsArray)
     experience = await loadYaml('/resume/experience.yaml')
-    experience.forEach((e) => {
+    experience.data.forEach((e) => {
       e.roles =
         e.roles?.map((item) => {
           if (!(item in roles)) {
@@ -101,22 +104,31 @@
 </div>
 
 {#if areAllLoaded}
-  <h2>Contact Information</h2>
-
+  <h2>{contact.title}</h2>
   <div class="info">
-    <p><b>Full Name: </b> {main.contact.fullname}</p>
-    <p><b>Email: </b> {@html main.contact.email}</p>
-    <p><b>Phone: </b> {main.contact.phone}</p>
-    <p><b>Site: </b> {@html main.contact.site}</p>
-    <p><b>Social: </b> {@html main.contact.social.join(', ')}</p>
-    <p><b>Location: </b> {main.contact.location}</p>
+    <p><b>Full Name: </b> {contact.fullname}</p>
+    <p><b>Email: </b> {@html contact.email}</p>
+    <p><b>Phone: </b> {@html contact.phone}</p>
+    <p><b>Site: </b> {@html contact.site}</p>
+    <p><b>Social: </b> {@html contact.social.join(', ')}</p>
+    <p><b>Location: </b> {contact.location}</p>
   </div>
 
-  <h2>Professional Summary</h2>
-  <p>{main.summary.data}</p>
+  <h2>{summary.title}</h2>
+  <p>{summary.data}</p>
 
-  <h2>Work Experience</h2>
-  {#each experience as exp}
+  <h2>Skills</h2>
+  {#each Object.entries(skillsOrg) as [id, skillGroup]}
+    <h3 {id}>{skillGroup.group}</h3>
+    <div class="info">
+      {#each Object.entries(skillGroup.categories) as [catId, category]}
+        <p id={catId}><b>{category.label}: </b> {category.skills.join(', ')}</p>
+      {/each}
+    </div>
+  {/each}
+
+  <h2>{experience.title}</h2>
+  {#each experience.data as exp}
     <h3>{exp.jobTitle}</h3>
     <div class="info">
       <p><b>Company: </b> {exp.company}</p>
@@ -129,16 +141,6 @@
       {#if exp.teaching}
         <p><b>Teachings: </b> {exp.teaching.join(', ')}</p>
       {/if}
-    </div>
-  {/each}
-
-  <h2>Skills</h2>
-  {#each Object.entries(skillsOrg) as [id, skillGroup]}
-    <h3 {id}>{skillGroup.group}</h3>
-    <div class="info">
-      {#each Object.entries(skillGroup.categories) as [catId, category]}
-        <p id={catId}><b>{category.label}: </b> {category.skills.join(', ')}</p>
-      {/each}
     </div>
   {/each}
 

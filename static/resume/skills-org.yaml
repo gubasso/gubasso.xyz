@@ -28,11 +28,14 @@ infra:
     serverSoft:
       label: 'Server Software Management'
       skills:
+    cloud:
+      label: 'Cloud'
+      skills:
 data:
   group: 'Data Engineering Skills'
   categories:
     database:
-      label: 'Database Management and Data Persistance'
+      label: 'Database Management & Storage'
       skills:
     langs:
       label: 'Languages for Data Analysis and Manipulation'

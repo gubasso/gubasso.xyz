@@ -1,81 +1,18 @@
 contact:
   title: Contact Information
-  fullname: Gustavo Gomes Basso
-  phone: '+5561984018939'
-  email: <a href="mailto:gu@gubasso.xyz">gu@gubasso.xyz</a>
-  site: '<a target="_blank" rel="external noopener noreferrer" href="https://gubasso.xyz">gubasso.xyz</a >'
-  social:
-    - '<a target="_blank" rel="external noopener noreferrer" href="https://www.linkedin.com/in/gubasso">LinkedIn</a >'
-    - '<a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso">GitHub</a >'
-    - '<a target="_blank" rel="external noopener noreferrer" href="https://gitlab.com/gubasso">GitLab</a >'
-    - '<a target="_blank" rel="external noopener noreferrer" href="https://stackoverflow.com/users/6428315/gustavo-basso">Stack Overflow</a >'
-    - '<a target="_blank" rel="external noopener noreferrer" href="https://leetcode.com/gubasso">Leetcode</a >'
-  location: Brasília, DF / Brazil
-
 summary:
   title: Professional Summary
-  data: 'Experienced software engineer with over a decade in the field, with a robust background in backend development and a strong focus on Rust programming. Proven track record as a CTO and Co-founder, demonstrating leadership in technology strategy and implementation. Skilled in developing algorithms for financial markets, particularly in Web3 assets, showcasing advanced analytical and problem-solving abilities. Passionate about leveraging deep technical expertise in Rust to build efficient, scalable, and innovative backend solutions. Adept at driving projects from conception to deployment, ensuring alignment with business objectives. Seeking to leverage extensive software development experience in a dynamic backend developer role.'
-
-experience:
-  title: Work Experience
-  source: experience.yaml
-
-education:
-  doctor:
-    title: Doctor of Business Administration (Finance and Quantitative Methods) [Incomplete]
-    university: Universidade de Brasília - UnB
-    link: https://www.unb.br
-    location: Brasília, DF, Brazil
-    attended: 2014 - 2017
-    notes: 'Completed all coursework credits.'
-    areasOfStudy: Operations Research, Optimization Methods, Pension Funds, Stochastic Models
-  master:
-    title: Master of Science in Business Administration (Finance and Quantitative Methods)
-    university: Universidade de Brasília - UnB
-    link: https://www.unb.br
-    location: Brasília, DF, Brazil
-    graduated: 2013
-    dissertationTitle: 'Evidence of Underpricing and Underperformance in IPOs: An Empirical Study of the Brazilian Market.'
-    areasOfStudy: Financial Economics, Empirical Finance, Brazilian Market Analysis
-  bachelor:
-    title: Bachelor of Business Administration
-    university: Universidade de Brasília - UnB
-    link: https://www.unb.br
-    location: Brasília, DF, Brazil
-    graduated: 2011
-    monographTitle: 'Corporate Governance in Brazil: The Impact of Adherence to the Market Arbitration Chamber on the Risk of Publicly Traded Companies'
-    areasOfStudy: Corporate Governance, Risk Management, Financial Markets
-
-publications:
-  - title: 'CARVALHO, A. X. Y.; ALBUQUERQUE, P. H. M.; LAURETO, C. R.; MOREIRA, G. C. C.; BASSO, G. G.; GUIMARÃES, L. F. D.; PENA, M. G. . Clusterização Espacial e não Espacial: um estudo aplicado à agropecuária brasileira. Discussion Papers 2279, Instituto de Pesquisa Econômica Aplicada - IPEA.'
-
-    link: '[<a target="_blank" rel="external noopener noreferrer" target="_blank" rel="external noopener noreferrer" href="https://ideas.repec.org/p/ipe/ipetds/2279.html">Access Link</a>]'
-    english: 'Spatial and Non-Spatial Clustering: An Applied Study to Brazilian Agriculture. Discussion Papers 2279, Institute for Applied Economic Research - IPEA.'
-    area: Economics and Quantitative Methods
-  - title: 'OLIVEIRA NETO, J. C. C. ; BASSO, G. G. ; PAIVA, A. A. . Como respostas bonitas, mas erradas, colocaram o mundo em crise novamente. Política Democrática, v. 31, p. 30-35, 2011.'
-    english: 'How beautiful but wrong answers put the world in crisis again. Periodic Democratic Policy. 2011.'
-    area: Economics and Finance
-  - title: 'Boletim ODR: Observatório do Desenvolvimento Regional. Edição 1/2014, Outubro – Dezembro. Publicado pelo Ministério da Integração Nacional, Secretaria de Desenvolvimento Regional, 2014.'
-    link: '[<a target="_blank" rel="external noopener noreferrer" target="_blank" rel="external noopener noreferrer" href="https://www.gov.br/mdr/pt-br/centrais-de-conteudo/publicacoes/desenvolvimento-regional-urbano/Boletim_ODR.pdf">Access Link</a>]'
-    english: 'ODR Bulletin: Regional Development Observatory.'
-    area: Regional Development and Policy Analysis
-
-languages:
-  - lang: Portuguese
-    proficiency: native
-  - lang: English
-    proficiency: advanced
-
-projects:
-
-roles:
-
 skills:
   title: Skills
-  sources:
-    - skills.yaml
-    - skills-org.yaml
-
+experience:
+  title: Work Experience
+roles:
+  title: Roles
+projects:
+  title: Projects
+education:
+  title: Education
+publications:
 teachings:
-
+languages:
 companies:
