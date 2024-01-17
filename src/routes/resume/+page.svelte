@@ -129,10 +129,14 @@
 
   <h2>{experience.title}</h2>
   {#each experience.data as exp}
-    <h3>{exp.jobTitle}</h3>
+    <h3 class="exp-title">
+      <div class="grid-cont">
+        <span>{exp.jobTitle} at {exp.company}</span><span class="date-of-employment"
+          >{exp.dateOfEmployment}</span
+        >
+      </div>
+    </h3>
     <div class="info">
-      <p><b>Company: </b> {exp.company}</p>
-      <p><b>Dates of Employment: </b> {exp.dateOfEmployment}</p>
       <p><b>Roles: </b> {exp.roles.join(', ')}</p>
       {#if exp.projects}
         <p><b>Projects: </b> {exp.projects.join(', ')}</p>
@@ -141,31 +145,11 @@
       {#if exp.teaching}
         <p><b>Teachings: </b> {exp.teaching.join(', ')}</p>
       {/if}
-    </div>
-  {/each}
-
-  <h2>Roles</h2>
-  {#each Object.entries(roles) as [id, role]}
-    <h3 {id}>{role.title}</h3>
-    <div class="info">
       <ul>
-        {#each role.description as desc}
+        {#each exp.description as desc}
           <li>{desc}</li>
         {/each}
       </ul>
-    </div>
-  {/each}
-
-  <h2>Projects</h2>
-  {#each projectsArray as [id, proj]}
-    <h3 {id}>{proj.shortTitle}</h3>
-    <div class="info">
-      <p><b>Title: </b> {proj.title}</p>
-      <p><b>Project Nature: </b> {proj.types.join(', ')}</p>
-      <p><b>Description: </b> {proj.description}</p>
-      {#if proj.links}
-        <p><b>Links: </b> {@html proj.links.join(', ')}</p>
-      {/if}
     </div>
   {/each}
 
@@ -194,6 +178,31 @@
     <p><b>Monograph Title: </b> {education.bachelor.monographTitle}</p>
     <p><b>Areas Of Study: </b> {education.bachelor.areasOfStudy}</p>
   </div>
+
+  <h2>Projects</h2>
+  {#each projectsArray as [id, proj]}
+    <h3 {id}>{proj.shortTitle}</h3>
+    <div class="info">
+      <p><b>Title: </b> {proj.title}</p>
+      <p><b>Project Nature: </b> {proj.types.join(', ')}</p>
+      <p><b>Description: </b> {proj.description}</p>
+      {#if proj.links}
+        <p><b>Links: </b> {@html proj.links.join(', ')}</p>
+      {/if}
+    </div>
+  {/each}
+
+  <h2>Roles</h2>
+  {#each Object.entries(roles) as [id, role]}
+    <h3 {id}>{role.title}</h3>
+    <div class="info">
+      <ul>
+        {#each role.description as desc}
+          <li>{desc}</li>
+        {/each}
+      </ul>
+    </div>
+  {/each}
 
   <h2>Publications</h2>
   {#each publications as pub}
@@ -290,5 +299,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .exp-title {
+    font-size: var(--step-1);
+  }
+  .date-of-employment {
+    text-align: right;
   }
 </style>
