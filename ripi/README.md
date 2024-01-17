@@ -4,8 +4,8 @@
 
 - [ ] deploy projects and readme/adjust my projects repositories
   - [ ] gubasso.xyz
-    - [ ] readme
-    - [ ] changelog
+    - [x] readme
+    - [x] changelog
     - [ ] deploy
     - [ ] update access links at resume yamls
   - [ ] cadelab
