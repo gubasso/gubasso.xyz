@@ -4,14 +4,31 @@
 
 <!-- toc -->
 
-- [Style](#style)
+- [Development](#development)
+  - [Run locally](#run-locally)
+  - [Generate resume PDF in watch mode](#generate-resume-pdf-in-watch-mode)
+- [Style Guidelines](#style-guidelines)
 - [Changelog](#changelog)
 
 <!-- tocstop -->
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Style
+## Development
+
+### Run locally
+
+```sh
+npm run dev
+```
+
+### Generate resume PDF in watch mode
+
+```sh
+npm run watch:pdf
+```
+
+## Style Guidelines
 
 - blog layout:
   - https://tailwindui.com/components/marketing/sections/blog-sections#component-71451303bfa569c95e0f084e67da54f2

@@ -1,10 +1,39 @@
 # ripissue draft
 
-- [ ] adjust to resume instructions
-- [ ] add trainnings to education section?
-- [ ] resume: page per application
+## doing
+
+- [ ] deploy projects and readme/adjust my projects repositories
+  - [ ] gubasso.xyz
+    - [ ] readme
+    - [ ] changelog
+    - [ ] deploy
+    - [ ] update access links at resume yamls
+  - [ ] cadelab
+    - [ ] deploy
+    - [ ] update access links at resume yamls
+  - [x] ripissue
+    - [x] review readme
+    - [x] deploy
+  - [x] brag-server
+    - [x] readme
+    - [x] deploy
+    - [x] backlog (ripi readme)
+    - [x] changelog
+
+## backlog
+
+- [ ] gubasso.xyz: projects page
+- [ ] deploy gubasso.xyz
+- [ ] update social profiles
+  - [ ] leetcode
+  - [ ] linkedin
+  - [ ] stackoverflow
+  - [ ] github
+  - [ ] gitlab
+- [ ] (when start submiting) resume: page per application
   - [ ] 100% at https://app.jobscan.co/scan/
-- readme/adjust my projects repositories
+- [x] adjust to resume instructions
+- [ ] add trainnings to education section?
 - dynamic posts import from static, not from posts
 - [ ] footer: get contact infos/icons from resume yaml
 - linkedin:
@@ -36,5 +65,6 @@
 - optimize html/site head meta tags: Open Graph checker tools (many are available online).
 - [ ] add relative links to resume page? anchor to # (e.g. company name to the respective session)
 
+- [ ] algos project: basic read data streaming web interface
 - [x] chart at hero landing page
 
