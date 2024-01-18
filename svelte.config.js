@@ -8,7 +8,9 @@ const config = {
   preprocess: [preprocess(), mdsvex(mdsvexConfig)],
   kit: {
     adapter: adapter({
-      strict: false
+      strict: false,
+      pages: 'build',
+      assets: 'build'
     }),
     paths: {
       base: process.env.NODE_ENV === 'production' ? '/gubasso.xyz' : ''
