@@ -1,7 +1,11 @@
+<script>
+  import { base } from '$app/paths'
+</script>
+
 <footer class="container">
   <div class="content">
     <div class="left-top">
-      <a href="/"><p class="gubasso">gubasso.[<span class="xyz">xyz</span>]</p></a>
+      <a href="{base}/"><p class="gubasso">gubasso.[<span class="xyz">xyz</span>]</p></a>
       <p class="prof">Software Engineer / Fullstack Programmer / Developer</p>
       <div class="icons">
         <a target="_blank" rel="external noopener noreferrer" href="https://twitter.com/gubasso777"
@@ -21,15 +25,13 @@
       <h4>Pages</h4>
       <ul>
         <li>
-          <a href="/blog">Blog</a>
+          <a href="{base}/blog">Blog</a>
         </li>
         <li>
-          <a href="/projects">Projects</a>
+          <a href="{base}/projects">Projects</a>
         </li>
         <li>
-          <a target="_blank" rel="external noopener noreferrer" href="https://resume.gubasso.xyz"
-            >Resume / CV</a
-          >
+          <a href="{base}/resume">Resume / CV</a>
         </li>
       </ul>
     </div>

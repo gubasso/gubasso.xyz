@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths'
   export let data
 </script>
 
@@ -20,13 +21,13 @@
         <!-- each loop: categories -->
         {#if post.categories?.length}
           {#each post.categories as cat}
-            <a class="category" href="/blog/categories/{cat}">{cat}</a>
+            <a class="category" href="{base}/blog/categories/{cat}">{cat}</a>
           {/each}
         {/if}
       </div>
       <!-- title and brief description -->
       <div>
-        <h3><a href="/blog/{post.slug}">{post.title}</a></h3>
+        <h3><a href="{base}/blog/{post.slug}">{post.title}</a></h3>
         <p class="description">{post.description}</p>
       </div>
     </article>

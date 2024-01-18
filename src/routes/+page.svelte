@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte'
   import { siteTitle, siteDescription } from '$lib'
+  import { base } from '$app/paths'
   import CalHeatmap from '$lib/components/CalHeatmap.svelte'
   import LoadingBar from '$lib/spinners/LoadingBar.svelte'
 
@@ -35,7 +36,7 @@
   }
 
   const fetchPosts = async () => {
-    const response = await fetch(`/api/posts`)
+    const response = await fetch(`${base}/api/posts`)
     posts = await response.json()
     arePostsLoaded = true
   }
@@ -76,9 +77,9 @@
       <div class="blog-container">
         {#each posts as post}
           <div class="blog-box">
-            <h4><a href="/blog/{post.slug}">{post.title}</a></h4>
+            <h4><a href="{base}/blog/{post.slug}">{post.title}</a></h4>
             <p>{post.description}</p>
-            <a href="/blog/{post.slug}">Read more</a>
+            <a href="{base}/blog/{post.slug}">Read more</a>
           </div>
         {/each}
       </div>

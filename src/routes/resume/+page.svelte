@@ -1,9 +1,8 @@
 <script>
   import yaml from 'js-yaml'
   import { onMount } from 'svelte'
-  import { page } from '$app/stores'
+  import { base } from '$app/paths'
 
-  $: sub = $page.url.searchParams.get('sub') || '0'
   let contact
   let summary
   let education
@@ -26,14 +25,14 @@
   }
 
   onMount(async () => {
-    contact = await loadYaml('/resume/contact.yaml')
-    summary = await loadYaml('/resume/summary.yaml')
-    education = await loadYaml('/resume/education.yaml')
-    publications = await loadYaml('/resume/publications.yaml')
-    languages = await loadYaml('/resume/languages.yaml')
-    roles = await loadYaml('/resume/roles.yaml')
-    skills = await loadYaml('/resume/skills.yaml')
-    skillsOrg = await loadYaml('/resume/skills-org.yaml')
+    contact = await loadYaml(`${base}/resume/contact.yaml`)
+    summary = await loadYaml(`${base}/resume/summary.yaml`)
+    education = await loadYaml(`${base}/resume/education.yaml`)
+    publications = await loadYaml(`${base}/resume/publications.yaml`)
+    languages = await loadYaml(`${base}/resume/languages.yaml`)
+    roles = await loadYaml(`${base}/resume/roles.yaml`)
+    skills = await loadYaml(`${base}/resume/skills.yaml`)
+    skillsOrg = await loadYaml(`${base}/resume/skills-org.yaml`)
     for (const skill in skills) {
       skills[skill].categories.forEach((groupCat) => {
         const group = Object.keys(groupCat)[0]
@@ -46,12 +45,12 @@
         }
       })
     }
-    companies = await loadYaml('/resume/companies.yaml')
-    teaching = await loadYaml('/resume/teaching.yaml')
-    projects = await loadYaml('/resume/projects.yaml')
+    companies = await loadYaml(`${base}/resume/companies.yaml`)
+    teaching = await loadYaml(`${base}/resume/teaching.yaml`)
+    projects = await loadYaml(`${base}/resume/projects.yaml`)
     projectsArray = Object.entries(projects)
     projectsArray = projectsArray.sort((a, b) => b[1].year - a[1].year)
-    experience = await loadYaml('/resume/experience.yaml')
+    experience = await loadYaml(`${base}/resume/experience.yaml`)
     experience.data.forEach((e) => {
       e.roles =
         e.roles?.map((item) => {
@@ -90,10 +89,14 @@
   })
 </script>
 
+<svelte:head>
+  <title>gubasso.xyz - Resume / CV</title>
+</svelte:head>
+
 <div class="title-container">
   <h1>Resume / CV</h1>
   <a
-    href="/resume.pdf"
+    href="{base}/resume.pdf"
     download
     class="download-button"
     title="Download Resume"
@@ -156,7 +159,12 @@
   <h2>Education</h2>
   <div class="info">
     <p><b>Title: </b> {education.doctor.title}</p>
-    <p><b>University: </b> <a href={education.doctor.link}>{education.doctor.university}</a></p>
+    <p>
+      <b>University: </b>
+      <a target="_blank" rel="external noopener noreferrer" href={education.doctor.link}
+        >{education.doctor.university}</a
+      >
+    </p>
     <p><b>Location: </b> {education.doctor.location}</p>
     <p><b>Attended: </b> {education.doctor.attended}</p>
     <p><b>Notes: </b> {education.doctor.notes}</p>
@@ -164,7 +172,12 @@
   </div>
   <div class="info">
     <p><b>Title: </b> {education.master.title}</p>
-    <p><b>University: </b> <a href={education.master.link}>{education.master.university}</a></p>
+    <p>
+      <b>University: </b>
+      <a target="_blank" rel="external noopener noreferrer" href={education.master.link}
+        >{education.master.university}</a
+      >
+    </p>
     <p><b>Location: </b> {education.master.location}</p>
     <p><b>Graduated: </b> {education.master.graduated}</p>
     <p><b>Dissertation Title: </b> {education.master.dissertationTitle}</p>
@@ -172,7 +185,12 @@
   </div>
   <div class="info">
     <p><b>Title: </b> {education.bachelor.title}</p>
-    <p><b>University: </b> <a href={education.bachelor.link}>{education.bachelor.university}</a></p>
+    <p>
+      <b>University: </b>
+      <a target="_blank" rel="external noopener noreferrer" href={education.bachelor.link}
+        >{education.bachelor.university}</a
+      >
+    </p>
     <p><b>Location: </b> {education.bachelor.location}</p>
     <p><b>Graduated: </b> {education.bachelor.graduated}</p>
     <p><b>Monograph Title: </b> {education.bachelor.monographTitle}</p>
@@ -211,7 +229,7 @@
         <b>Title: </b>
         {pub.english}
         {#if pub.link}
-          <a href={pub.link}>{@html pub.link}</a>
+          <a target="_blank" rel="external noopener noreferrer" href={pub.link}>{@html pub.link}</a>
         {/if}
       </p>
       <p><b>Area: </b> {pub.area}</p>

@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths'
   import '$lib/styles/rehype.css'
   import '$lib/styles/prism-vsc-dark-plus.css'
   export let data
@@ -18,7 +19,7 @@
     <div class="categories">
       <p>Categories:</p>
       {#each categories as cat}
-        <a class="category" href="/blog/categories/{cat}">{cat}</a>
+        <a class="category" href="{base}/blog/categories/{cat}">{cat}</a>
       {/each}
     </div>
   {/if}

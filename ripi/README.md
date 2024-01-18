@@ -7,6 +7,7 @@
     - [x] readme
     - [x] changelog
     - [ ] deploy
+      - gubasso.xyz and www.gubasso.xyz -> <user>.github.io
     - [ ] update access links at resume yamls
   - [ ] cadelab
     - [ ] deploy
@@ -23,6 +24,7 @@
 ## backlog
 
 - [ ] gubasso.xyz: projects page
+- [ ] social footer from yaml
 - [ ] deploy gubasso.xyz
 - [ ] update social profiles
   - [ ] leetcode

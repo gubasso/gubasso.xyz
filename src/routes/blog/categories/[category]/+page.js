@@ -1,6 +1,8 @@
+import { base } from '$app/paths'
+
 export const load = async ({ fetch, params }) => {
   const { category } = params
-  const response = await fetch('/api/posts')
+  const response = await fetch(`${base}/api/posts`)
   const allPosts = await response.json()
   const posts = allPosts.filter((post) => post.categories?.includes(category))
   return {

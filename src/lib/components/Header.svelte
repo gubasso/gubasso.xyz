@@ -1,7 +1,7 @@
 <script>
   import logo from '$lib/images/g.png'
   import { clickOutside } from '$lib/utils'
-  let showmenu = false
+  import { base } from '$app/paths'
   let openedMenu = false
   $: closedmenu = !openedMenu
   const closeMenu = () => (openedMenu = false)
@@ -12,7 +12,7 @@
 
 <header>
   <div class="h-1">
-    <a href="/"><img src={logo} alt="g logo" /></a>
+    <a href="{base}/"><img src={logo} alt="g logo" /></a>
     <button class:opened-menu-icon={closedmenu} class="menu-btn" on:click={toggleMenu}>
       <iconify-icon icon="material-symbols:menu" />
     </button>
@@ -23,13 +23,13 @@
   <nav use:clickOutside on:click_outside={closeMenu} class:opened-menu={openedMenu}>
     <ul>
       <li>
-        <a href="/blog" on:click={closeMenu}>Blog</a>
+        <a href="{base}/blog" on:click={closeMenu}>Blog</a>
       </li>
       <li>
-        <a href="/projects" on:click={closeMenu}>Projects</a>
+        <a href="{base}/projects" on:click={closeMenu}>Projects</a>
       </li>
       <li>
-        <a href="/resume" on:click={closeMenu}>Resume / CV</a>
+        <a href="{base}/resume" on:click={closeMenu}>Resume / CV</a>
       </li>
     </ul>
   </nav>

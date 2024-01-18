@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths'
   export let data
   const { category, posts } = data
 </script>
@@ -13,7 +14,7 @@
     {#each posts as post}
       <li>
         <h2>
-          <a href={`/blog/${post.slug}`}>{post.title}</a>
+          <a href="{base}/blog/{post.slug}">{post.title}</a>
         </h2>
         Published: {post.date}
         <p>{post.description}</p>
