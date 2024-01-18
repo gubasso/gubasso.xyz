@@ -166,6 +166,10 @@ github:
   title: Github
   categories:
     - tech: softdev
+githubActions:
+  title: Github Actions
+  categories:
+    - infra: devops
 gitlab:
   title: Gitlab
   categories:

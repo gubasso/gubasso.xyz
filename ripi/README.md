@@ -3,21 +3,21 @@
 ## doing
 
 - [ ] deploy projects and readme/adjust my projects repositories
-  - [ ] gubasso.xyz
-    - [x] readme
-    - [x] changelog
-    - [ ] deploy
-      - [x] test: gubasso.github.io/gubasso.xyz
-      - [ ] add custom domain to
-        - www.gubasso.xyz
-        - gubasso.xyz
-    - [ ] update access links at resume yamls
-    - [ ] add github actions and pages to
-      - skills
-      - gubasso.xyz project description
   - [ ] cadelab
     - [ ] deploy
     - [ ] update access links at resume yamls
+  - [x] gubasso.xyz
+    - [x] readme
+    - [x] changelog
+    - [x] deploy
+      - [x] test: gubasso.github.io/gubasso.xyz
+      - [x] add custom domain to
+        - www.gubasso.xyz
+        - gubasso.xyz
+    - [x] update access links at resume yamls
+    - [x] add github actions and pages to
+      - skills
+      - gubasso.xyz project description
   - [x] ripissue
     - [x] review readme
     - [x] deploy

@@ -289,7 +289,7 @@ gubassoXyz:
   year: 2023
   description: A SvelteKit-based website, gubasso.xyz serves as my tech portfolio and blog. It integrates with a Brag-Server (brag.gubasso.xyz) API to exhibit a chart of my yearly Git contributions across all public projects. The site also features an ATS-optimized resume, detailed project showcases, and a blog where I share insights on software engineering and tech trends. It's a comprehensive platform reflecting my skills, experiences, and professional journey in software development.
   bulletsDesc:
-    - "Developed 'gubasso.xyz', a personal portfolio and blog using SvelteKit."
+    - "Developed 'gubasso.xyz', a personal portfolio and blog using SvelteKit and deployed at Github Pages with a CI/CD pipeline using Github Actions."
     - "Integrated 'Brag-Server' backend for displaying Git contribution metrics."
     - 'Showcased software engineering insights and professional journey.'
   links:
