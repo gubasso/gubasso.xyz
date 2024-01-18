@@ -7,8 +7,14 @@
     - [x] readme
     - [x] changelog
     - [ ] deploy
-      - gubasso.xyz and www.gubasso.xyz -> <user>.github.io
+      - [ ] test: gubasso.github.io/gubasso.xyz
+      - [ ] add custom domain to
+        - www.gubasso.xyz
+        - gubasso.xyz
     - [ ] update access links at resume yamls
+    - [ ] add github actions and pages to
+      - skills
+      - gubasso.xyz project description
   - [ ] cadelab
     - [ ] deploy
     - [ ] update access links at resume yamls
@@ -67,6 +73,7 @@
 - optimize html/site head meta tags: Open Graph checker tools (many are available online).
 - [ ] add relative links to resume page? anchor to # (e.g. company name to the respective session)
 
+- [ ] gubasso.xyz: rss feed with static site
 - [ ] algos project: basic read data streaming web interface
 - [x] chart at hero landing page
 
