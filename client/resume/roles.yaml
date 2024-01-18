@@ -1,0 +1,76 @@
+coFounder:
+  title: Co-founder
+  description:
+    - Shaped and communicated the company's vision, mission, and culture.
+    - Guided strategic planning and decision-making to drive growth and development.
+
+cto:
+  title: CTO (Chief Technology Officer)
+  description:
+    - Directed overall technology strategy, aligning it with business goals.
+    - Managed the company's R&D initiatives and technological infrastructure.
+    - Oversaw the development and implementation of tech solutions.
+
+managerDev:
+  title: Software Development Manager
+  description:
+    - Managed the full software development lifecycle, ensuring alignment with project and business objectives.
+    - Implemented coding, testing, and deployment best practices.
+    - Led and mentored a team of software developers and engineers.
+
+managerProj:
+  title: Project Manager
+  description:
+    - 'Oversaw project lifecycles from inception to completion.'
+    - 'Defined project scopes, set objectives, and managed resources.'
+    - 'Coordinated and led cross-functional project teams.'
+
+developer:
+  title: Software Developer
+  description:
+    - 'Developed and tested software applications.'
+    - 'Created solutions meeting both user and business requirements.'
+    - 'Ensured code quality and implemented best practices.'
+
+systemsAdmin:
+  title: Systems Administrator
+  description:
+    - 'Managed server configurations and system security.'
+    - 'Handled service deployment and software maintenance.'
+    - 'Administered security protocols and automated routine tasks.'
+
+technologyEducator:
+  title: Technology Educator
+  description:
+    - 'Taught a range of technology subjects.'
+    - 'Shared project-specific knowledge with technical staff.'
+
+managerAdmin:
+  title: Administrative Manager
+  description:
+    - 'Managed teams and contracts.'
+    - 'Standardized organizational processes and documentation.'
+    - 'Implemented agile methodologies for operational efficiency.'
+
+dataAnalyst:
+  title: Data Analyst/Engineering
+  description:
+    - 'Handled data inspection, cleaning, and modeling.'
+    - 'Performed data collection and statistical analysis.'
+    - 'Developed ETL scripts and applied statistical methods for data analysis.'
+
+systemsAnalyst:
+  title: Systems Analyst
+  description:
+    - 'Analyzed business needs and documented technical requirements.'
+    - 'Designed and evaluated technology solutions.'
+
+professor:
+  title: University Professor
+  description:
+    - 'Taught academic courses and conducted research.'
+
+researcher:
+  title: Academic Researcher
+  description:
+    - 'Engaged in scholarly research and academic contributions.'

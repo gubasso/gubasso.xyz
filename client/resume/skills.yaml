@@ -1,0 +1,285 @@
+financialModel:
+  title: Financial modeling
+  categories:
+    - financial: analysis
+risk:
+  title: Risk assessment
+  categories:
+    - financial: analysis
+fundTechAnal:
+  title: Fundamental and technical analysis
+  categories:
+    - financial: analysis
+asset:
+  title: Asset allocation
+  categories:
+    - financial: investment
+portfolio:
+  title: Portfolio management
+  categories:
+    - financial: investment
+bloomberg:
+  title: Bloomberg Terminal
+  categories:
+    - financial: soft
+regression:
+  title: Regression analysis
+  categories:
+    - analytical: statistics
+time:
+  title: Time-series analysis
+  categories:
+    - analytical: statistics
+econometrics:
+  title: Econometrics
+  categories:
+    - analytical: statistics
+forecasting:
+  title: Forecasting Techniques
+  categories:
+    - analytical: statistics
+qualitative:
+  title: Qualitative Research
+  categories:
+    - analytical: methodologies
+quantitative:
+  title: Quantitative Research
+  categories:
+    - analytical: methodologies
+optimizationMethods:
+  title: 'Optimization Methods'
+  categories:
+    - analytical: methodologies
+rust:
+  title: Rust
+  categories:
+    - tech: langs
+    - tech: backend
+python:
+  title: Python
+  categories:
+    - tech: langs
+    - tech: backend
+lua:
+  title: Lua
+  categories:
+    - tech: langs
+pythoneve:
+  title: Python Eve
+  categories:
+    - tech: backend
+pythonflask:
+  title: Python Flask
+  categories:
+    - tech: backend
+csharp:
+  title: C#
+  categories:
+    - tech: langs
+php:
+  title: PHP
+  categories:
+    - tech: langs
+r:
+  title: R
+  categories:
+    - data: langs
+sas:
+  title: SAS
+  categories:
+    - data: langs
+sql:
+  title: SQL
+  categories:
+    - data: database
+sqlserver:
+  title: Microsoft SQL Server
+  categories:
+    - data: database
+postgresql:
+  title: PostgreSQL
+  categories:
+    - data: database
+sqlite:
+  title: SQLite
+  categories:
+    - data: database
+mongodb:
+  title: Mongodb
+  categories:
+    - data: database
+wordpress:
+  title: Wordpress
+  categories:
+    - tech: webdev
+joomla:
+  title: Joomla
+  categories:
+    - tech: webdev
+html:
+  title: HTML
+  categories:
+    - tech: webdev
+css:
+  title: CSS
+  categories:
+    - tech: webdev
+javascript:
+  title: Javascript
+  categories:
+    - tech: webdev
+    - tech: langs
+typescript:
+  title: Typescript
+  categories:
+    - tech: webdev
+    - tech: langs
+svelte:
+  title: Svelte/Sveltekit
+  categories:
+    - tech: webdev
+react:
+  title: React.js
+  categories:
+    - tech: webdev
+riotjs:
+  title: Riot.js
+  categories:
+    - tech: webdev
+firebase:
+  title: Firebase (Google)
+  categories:
+    - tech: webdev
+git:
+  title: Git
+  categories:
+    - tech: softdev
+agile:
+  title: Agile methodologies
+  categories:
+    - tech: softdev
+tdd:
+  title: Test Driven Development (TDD)
+  categories:
+    - tech: softdev
+github:
+  title: Github
+  categories:
+    - tech: softdev
+gitlab:
+  title: Gitlab
+  categories:
+    - tech: softdev
+nodejs:
+  title: Node.js
+  categories:
+    - tech: backend
+dotnet:
+  title: .NET Framework
+  categories:
+    - tech: backend
+docker:
+  title: Docker
+  categories:
+    - infra: devops
+cicd:
+  title: Continuous Integration/Continuous Delivery (CI/CD) pipelines
+  categories:
+    - infra: devops
+vagrant:
+  title: Vagrant
+  categories:
+    - infra: devops
+shellScripting:
+  title: Shell Scripting
+  categories:
+    - infra: devops
+    - tech: langs
+linux:
+  title: Linux-based OS's, Servers and VPS's
+  categories:
+    - infra: sysadmin
+systemSecurity:
+  title: System Security Management
+  categories:
+    - infra: sysadmin
+ipeageo:
+  title: IpeaGEO
+  categories:
+    - tech: gis
+arcgisDesktop:
+  title: ArcGIS Desktop
+  categories:
+    - tech: gis
+postgis:
+  title: PostGIS
+  categories:
+    - tech: gis
+geoportal:
+  title: ESRI Geoportal Server
+  categories:
+    - infra: serverSoft
+collector:
+  title: ArcGIS Collector
+  categories:
+    - infra: serverSoft
+storymaps:
+  title: ArcGIS StoryMaps
+  categories:
+    - infra: serverSoft
+dashboards:
+  title: ArcGIS Dashboards
+  categories:
+    - infra: serverSoft
+appbuilder:
+  title: ArcGIS App Builder
+  categories:
+    - infra: serverSoft
+comm:
+  title: Excellent written and verbal communication
+  categories:
+    - soft: comm
+lead:
+  title: Team leadership and project management
+  categories:
+    - soft: lead
+problem:
+  title: Creative and analytical approach to challenges
+  categories:
+    - soft: problem
+timeManagement:
+  title: Efficient in managing multiple tasks
+  categories:
+    - soft: time
+collab:
+  title: Proven ability to work effectively in team environments
+  categories:
+    - soft: collab
+aws:
+  title: Amazon AWS
+  categories:
+    - infra: cloud
+googlecloud:
+  title: Google Cloud Platform (GCP)
+  categories:
+    - infra: cloud
+azure:
+  title: Microsoft Azure
+  categories:
+    - infra: cloud
+linode:
+  title: Linode
+  categories:
+    - infra: cloud
+digitalocean:
+  title: Digital Ocean
+  categories:
+    - infra: cloud
+wasabi:
+  title: Wasabi Object Storage
+  categories:
+    - infra: cloud
+dvc:
+  title: Data and Model Version Control
+  categories:
+    - data: database

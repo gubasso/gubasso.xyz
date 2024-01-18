@@ -1,0 +1,338 @@
+title: Work Experience
+data:
+  - jobTitle: CTO and Co-founder
+    company: cwnt
+    dateOfEmployment: 10/2016 - Present
+    description:
+      - "Developed 'Boleteggs', a React.js and Python-based web app for rental billing and contract management, enhancing operations for a family-owned property management company."
+      - 'Created innovative trading algorithms with Rust, Python, and R, enhancing real-time decision-making in asset trading and market data analysis.'
+      - "Spearheaded and developed 'Brag-Server', an open-source Rust-based REST API for Git metrics, built using PostgreSQL and Docker, enhancing insights into repository activities."
+      - "Developed 'Ripissue', an open-source CLI tool for Git issue tracking using Rust, employed by Cwnt.io for project management and as the main issue tracker in its software development process, streamlining distributed project management workflows."
+      - 'Shaped company vision and strategic direction as Co-founder, fostering innovation in technology solutions.'
+      - 'Aligned technology strategy with business goals and managed R&D initiatives for tech solution deployment as CTO.'
+      - 'Oversaw software development lifecycle and implemented best coding practices as Software Development Manager.'
+      - 'Crafted and tested high-quality software applications, ensuring alignment with user and business requirements as a Developer.'
+      - 'Managed server configurations and system security, ensuring reliable service deployment as Systems Administrator.'
+      - 'Imparted technical knowledge and project-specific skills, enhancing team capabilities as a Technology Educator.'
+    roles:
+      - coFounder
+      - cto
+      - managerDev
+      - managerProj
+      - developer
+      - systemsAdmin
+      - technologyEducator
+    projects:
+      - boleteggs
+      - algos
+      - bragServer
+      - ripissue
+    skills:
+      - rust
+      - sql
+      - postgresql
+      - sqlite
+      - html
+      - css
+      - javascript
+      - typescript
+      - python
+      - svelte
+      - firebase
+      - git
+      - agile
+      - tdd
+      - github
+      - gitlab
+      - nodejs
+      - docker
+      - cicd
+      - shellScripting
+      - linux
+      - systemSecurity
+      - optimizationMethods
+  - jobTitle: Technical Consultant
+    company: vistocerto
+    dateOfEmployment: 01/2015 - Present
+    description:
+      - 'Developed and implemented the entire client assistance lifecycle automation, integrating sales processes with CRM tools and communication applications including Whatsapp Business API.'
+      - 'Managed the software development lifecycle, ensuring project alignment with business objectives and incorporating best practices in coding, testing, and deployment.'
+      - 'Oversaw project lifecycles from conception to completion, defining scopes, managing resources, and leading cross-functional teams.'
+      - 'Administered server configurations and system security, handling service deployment, software maintenance, and routine task automation.'
+      - 'Educated and shared technical knowledge with staff, focusing on project-specific skills and a range of technology subjects.'
+    roles:
+      - developer
+      - managerDev
+      - managerProj
+      - systemsAdmin
+      - technologyEducator
+    projects:
+      - clientProcessAutomation
+    skills:
+      - html
+      - css
+      - javascript
+      - svelte
+      - nodejs
+      - docker
+      - cicd
+      - linux
+      - git
+      - gitlab
+      - agile
+  - jobTitle: Technical Consultant
+    company: cade
+    dateOfEmployment: 01/2018 - 01/2023
+    description:
+      - "Spearheaded and led the development of 'Cadelab', an interactive platform for economic competition analytics, utilizing Python Eve, Flask, and Svelte for advanced data visualization. Implemented MongoDB for database management, DVC for data version control, and employed Docker for containerized deployment, ensuring cutting-edge API services and efficient data updates."
+      - 'Coordinated and reviewed data ETL processes at CADE, playing a key role in programming statistical procedures and methods for calculating economic indicators. My responsibilities included data engineering, scripting for data manipulation, cleaning, aggregation, and implementing ETL workflows, alongside data analysis using R, Python, and PostgreSQL.'
+      - 'Managed full software development cycles, ensuring project alignment with business goals, and mentored a team of developers in full-stack technologies.'
+      - 'Directed project lifecycles, from concept to delivery, defining scopes and leading cross-functional teams for successful project execution.'
+      - 'Handled systems administration duties, including server configuration, system security, and service deployment, ensuring robust and secure IT infrastructure.'
+      - 'Designed and delivered training programs in Svelte/Sapper and Python Eve with MongoDB, enhancing team skills in SPA development and REST API construction.'
+    roles:
+      - systemsAnalyst
+      - technologyEducator
+      - dataAnalyst
+      - developer
+      - managerProj
+      - systemsAdmin
+    projects:
+      - cadelab
+    skills:
+      - python
+      - r
+      - sql
+      - postgresql
+      - mongodb
+      - html
+      - css
+      - javascript
+      - svelte
+      - riotjs
+      - git
+      - gitlab
+      - agile
+      - tdd
+      - nodejs
+      - docker
+      - vagrant
+      - cicd
+      - shellScripting
+      - linux
+      - systemSecurity
+      - optimizationMethods
+    teaching:
+      - sveltecourse
+      - pythonevecourse
+  - jobTitle: Research Consultant
+    company: ipea
+    dateOfEmployment: 10/2011 - 12/2019
+    description:
+      - 'Coordinated a multidisciplinary team of developers, data analysts, statisticians, and economists, ensuring effective collaboration and project delivery.'
+      - "Developed and enhanced 'IpeaGEO', a .NET C# application for spatial data analysis, improving GIS capabilities and geographic data interpretation."
+      - "Directed the development of 'IpeaData', a prominent web application in Brazil for accessing public social and economic data. Employed the Riot.js framework and a SQL Server with a .NET C# Odata backend, enhancing the application's robustness and scalability."
+      - "Managed the 'Ipea Data Extractor' project, utilizing Suite Pentaho, Mondrian, and Saiku over PostgreSQL for efficient data querying and aggregation."
+      - "Led the 'Ipea Publica' project as project manager and system analyst, automating the review process of institutional publications and improving internal workflow efficiency."
+      - "Oversaw 'Ipea Projetos', streamlining the management of organizational projects through effective system design and project coordination."
+      - "Fulfilled multiple roles (developer, tech lead, and project manager) in the 'Atlas of Social Vulnerability' project, contributing to the development of a dynamic web platform for analyzing social data."
+      - "Assumed similar roles (developer, tech lead, project manager) in 'Portal of Metropolitan Governance in Brazil', a project focued on regional development and governance data for economic analysis."
+      - 'Conducted comprehensive economic research data analysis and reporting, creating databases, reports, and charts to support various research studies.'
+      - 'Delivered comprehensive Riot.js training, focusing on web development frameworks and frontend architecture, enhancing participant skills in building web applications.'
+    roles:
+      - dataAnalyst
+      - researcher
+      - developer
+      - managerDev
+      - managerProj
+      - systemsAnalyst
+      - systemsAdmin
+      - technologyEducator
+    projects:
+      - dataAnalysisReports
+      - ipeageo
+      - ipeaextrator
+      - ipeapublica
+      - ipeaprojetos
+      - ipeadata
+      - brasilmetropolitano
+      - ivs
+    teaching:
+      - riotjscourse
+    skills:
+      - bloomberg
+      - regression
+      - time
+      - quantitative
+      - csharp
+      - php
+      - sas
+      - r
+      - python
+      - sql
+      - postgresql
+      - sqlserver
+      - sqlite
+      - mongodb
+      - wordpress
+      - joomla
+      - html
+      - css
+      - javascript
+      - svelte
+      - riotjs
+      - react
+      - git
+      - nodejs
+      - dotnet
+      - gitlab
+      - github
+      - agile
+      - tdd
+      - docker
+      - vagrant
+      - cicd
+      - shellScripting
+      - linux
+      - systemSecurity
+      - optimizationMethods
+      - ipeageo
+      - postgis
+  - jobTitle: Consultant
+    company: iaed
+    dateOfEmployment: 10/2011 - 12/2017
+    description:
+      - "Served as a consultant, implementing projects like 'ALM', 'Actuarial Flow', and 'Future Rentability' for major banks, financial institutions, and pension funds in Brazil."
+      - "Analyzed and developed financial models for 'ALM' using C#, .NET, R, SAS, and SQL, optimizing asset and portfolio management strategies."
+      - "Led the 'Actuarial Flow' project as a developer and researcher, utilizing R, SAS, and SQL for actuarial data processing, significantly enhancing data accuracy and efficiency."
+      - "Designed and implemented 'Future Rentability', a predictive model for asset performance using regression and econometric methods in R and SAS, improving long-term investment decisions."
+      - 'Conducted extensive qualitative and quantitative research, applying econometrics and optimization methods to generate insightful financial analyses.'
+      - "Facilitated 'SAS Guide Course' as a technology educator, imparting crucial data analysis skills using SAS to professionals, enhancing their analytical capabilities."
+    roles:
+      - dataAnalyst
+      - developer
+      - technologyEducator
+      - researcher
+    projects:
+      - alm
+      - actuarialflow
+      - futurerentability
+    teaching:
+      - sasguidecourse
+    skills:
+      - financialModel
+      - asset
+      - portfolio
+      - bloomberg
+      - regression
+      - time
+      - econometrics
+      - qualitative
+      - quantitative
+      - optimizationMethods
+      - csharp
+      - dotnet
+      - r
+      - sas
+      - sql
+      - postgresql
+      - git
+      - agile
+      - risk
+  - jobTitle: Technology Coordinator
+    company: cerme
+    dateOfEmployment: 01/2015 - 12/2016
+    description:
+      - "Executed the 'ODR' project for the Brazilian Government, serving as a hub for economic and social policy indicators. Provided an array of web-based solutions for detailed regional analysis, simplifying access to regional social, economic, and demographic data, and applying policy metrics to monitor the execution and outcomes of regional public policies."
+      - "Oversaw the 'ODR' project as Technology Coordinator, managing project and development teams, and ensuring efficient systems analysis and administration."
+      - 'Led web development efforts using HTML, CSS, and JavaScript, enhancing online platforms and user interfaces.'
+      - 'Administered server systems and ensured robust system security, utilizing Linux and system security tools.'
+      - 'Implemented Geoportal and other GIS tools like ArcGIS Desktop, Collector, and StoryMaps for dynamic data visualization and analysis.'
+      - 'Conducted technology education sessions on various tools including WordPress, Git, and Agile methodologies, enhancing team proficiency and project efficiency.'
+    roles:
+      - managerProj
+      - managerDev
+      - systemsAnalyst
+      - systemsAdmin
+      - technologyEducator
+    projects:
+      - odr
+    skills:
+      - html
+      - css
+      - javascript
+      - wordpress
+      - git
+      - agile
+      - gitlab
+      - arcgisDesktop
+      - vagrant
+      - shellScripting
+      - linux
+      - systemSecurity
+      - geoportal
+      - collector
+      - storymaps
+      - dashboards
+      - appbuilder
+      - postgresql
+      - r
+      - sql
+  - jobTitle: General Coordinator
+    company: sdr
+    dateOfEmployment: 01/2014 - 12/2014
+    description:
+      - "Managed and administered the 'ODR' project, coordinating regional policy monitoring and evaluation."
+      - 'Utilized GIS tools such as ArcGIS Desktop for geographical data analysis, aiding in effective regional policy planning.'
+      - 'Spearheaded database management and analysis using PostgreSQL, R, and SQL, ensuring accurate data-driven decision-making.'
+      - 'Promoted Agile project management practices and Git for efficient team collaboration and project tracking.'
+      - 'Acted as a speaker at LAUC and Geonordeste, sharing insights on regional policy evaluation and monitoring.'
+    roles:
+      - managerAdmin
+      - managerProj
+      - systemsAdmin
+      - dataAnalyst
+    projects:
+      - odr
+    teaching:
+      - speakerLauc
+      - speakerGeonordeste
+    skills:
+      - git
+      - agile
+      - gitlab
+      - arcgisDesktop
+      - postgresql
+      - r
+      - sql
+  - jobTitle: University Professor
+    company: unb
+    dateOfEmployment: 01/2012 - 12/2014
+    description:
+      - "Taught courses in 'MMQD', 'Finances 1', and 'Financial Calculus', leveraging expertise in financial modeling and econometrics."
+      - 'Conducted research and applied quantitative and qualitative methods, contributing to the field of finance and economics.'
+      - "Developed and utilized SAS, R, and Bloomberg tools for teaching and research, enhancing students' analytical and practical skills."
+      - 'Focused on optimization methods, forecasting, and regression analysis, guiding students through complex financial concepts.'
+      - 'Engaged in asset, portfolio, and risk management studies, providing students with practical, industry-relevant knowledge.'
+    roles:
+      - professor
+      - researcher
+    teaching:
+      - mmqd
+      - finances1
+      - financialCalculus
+    skills:
+      - sas
+      - r
+      - optimizationMethods
+      - quantitative
+      - qualitative
+      - forecasting
+      - econometrics
+      - time
+      - regression
+      - bloomberg
+      - portfolio
+      - asset
+      - risk
+      - financialModel
