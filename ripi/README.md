@@ -7,7 +7,7 @@
     - [x] readme
     - [x] changelog
     - [ ] deploy
-      - [ ] test: gubasso.github.io/gubasso.xyz
+      - [x] test: gubasso.github.io/gubasso.xyz
       - [ ] add custom domain to
         - www.gubasso.xyz
         - gubasso.xyz
@@ -29,15 +29,17 @@
 
 ## backlog
 
+- [ ] resume: add spinner
 - [ ] gubasso.xyz: projects page
-- [ ] social footer from yaml
-- [ ] deploy gubasso.xyz
 - [ ] update social profiles
   - [ ] leetcode
   - [ ] linkedin
   - [ ] stackoverflow
   - [ ] github
   - [ ] gitlab
+- [ ] social footer from yaml
+- [ ] update blog page... add border and background like landing page
+- [ ] update blog post/resume background
 - [ ] (when start submiting) resume: page per application
   - [ ] 100% at https://app.jobscan.co/scan/
 - [x] adjust to resume instructions
