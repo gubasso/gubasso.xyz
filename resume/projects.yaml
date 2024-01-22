@@ -248,6 +248,9 @@ cadelab:
     - 'Employed Riot.js, Svelte, MongoDB, and Python Eve REST API for full-stack development.'
     - 'Implemented R and Python for ETL processes, generating economic indicators.'
     - 'Utilized DVC for data and model version control, ensuring data integrity.'
+  links:
+    - <a target="_blank" rel="external noopener noreferrer" href="https://cadelab.gubasso.xyz">Cadelab (Version Alpha)</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://cadelab-api.gubasso.xyz">Cadelab Data REST API</a>
   types:
     - Full Stack Technologies
     - Economic Data Visualization and Analytics Platform
@@ -289,7 +292,7 @@ gubassoXyz:
   year: 2023
   description: A SvelteKit-based website, gubasso.xyz serves as my tech portfolio and blog. It integrates with a Brag-Server (brag.gubasso.xyz) API to exhibit a chart of my yearly Git contributions across all public projects. The site also features an ATS-optimized resume, detailed project showcases, and a blog where I share insights on software engineering and tech trends. It's a comprehensive platform reflecting my skills, experiences, and professional journey in software development.
   bulletsDesc:
-    - "Developed 'gubasso.xyz', a personal portfolio and blog using SvelteKit."
+    - "Developed 'gubasso.xyz', a personal portfolio and blog using SvelteKit and deployed at Github Pages with a CI/CD pipeline using Github Actions."
     - "Integrated 'Brag-Server' backend for displaying Git contribution metrics."
     - 'Showcased software engineering insights and professional journey.'
   links:
