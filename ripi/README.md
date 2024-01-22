@@ -2,34 +2,14 @@
 
 ## doing
 
-- [ ] deploy projects and readme/adjust my projects repositories
-  - [ ] cadelab
-    - [ ] deploy
-    - [ ] update access links at resume yamls
-  - [x] gubasso.xyz
-    - [x] readme
-    - [x] changelog
-    - [x] deploy
-      - [x] test: gubasso.github.io/gubasso.xyz
-      - [x] add custom domain to
-        - www.gubasso.xyz
-        - gubasso.xyz
-    - [x] update access links at resume yamls
-    - [x] add github actions and pages to
-      - skills
-      - gubasso.xyz project description
-  - [x] ripissue
-    - [x] review readme
-    - [x] deploy
-  - [x] brag-server
-    - [x] readme
-    - [x] deploy
-    - [x] backlog (ripi readme)
-    - [x] changelog
-
 ## backlog
 
-- [ ] resume: add spinner
+- [ ] leetcode daily routine
+- [ ] submissions
+  - [ ] update my social profiles
+- [ ] other improvements to my projects
+- [ ] resume
+  - change to static generated site
 - [ ] gubasso.xyz: projects page
 - [ ] update social profiles
   - [ ] leetcode
@@ -78,4 +58,32 @@
 - [ ] gubasso.xyz: rss feed with static site
 - [ ] algos project: basic read data streaming web interface
 - [x] chart at hero landing page
+- [x] deploy projects and readme/adjust my projects repositories
+  - [x] cadelab
+    - [x] deploy
+      - [x] new remotes frontend
+      - [x] static data at a var_env dir (my dropbox)
+      - [x] env_var file refactored
+    - [x] update access links at resume yamls
+  - [x] gubasso.xyz
+    - [x] readme
+    - [x] changelog
+    - [x] deploy
+      - [x] test: gubasso.github.io/gubasso.xyz
+      - [x] add custom domain to
+        - www.gubasso.xyz
+        - gubasso.xyz
+    - [x] update access links at resume yamls
+    - [x] add github actions and pages to
+      - skills
+      - gubasso.xyz project description
+  - [x] ripissue
+    - [x] review readme
+    - [x] deploy
+  - [x] brag-server
+    - [x] readme
+    - [x] deploy
+    - [x] backlog (ripi readme)
+    - [x] changelog
+
 
