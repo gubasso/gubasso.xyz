@@ -2,21 +2,22 @@
 
 ## doing
 
-## backlog
-
-- [ ] leetcode daily routine
-- [ ] submissions
-  - [ ] update my social profiles
-- [ ] other improvements to my projects
-- [ ] resume
-  - change to static generated site
-- [ ] gubasso.xyz: projects page
+- [x] deploy script
 - [ ] update social profiles
   - [ ] leetcode
   - [ ] linkedin
   - [ ] stackoverflow
   - [ ] github
+    - [ ] like: https://github.com/diegopacheco
   - [ ] gitlab
+
+## backlog
+
+- [ ] submissions
+- [ ] other improvements to my projects
+- [ ] resume
+  - change to static generated site
+- [ ] gubasso.xyz: projects page
 - [ ] social footer from yaml
 - [ ] update blog page... add border and background like landing page
 - [ ] update blog post/resume background
@@ -85,5 +86,6 @@
     - [x] deploy
     - [x] backlog (ripi readme)
     - [x] changelog
+- [x] leetcode daily routine
 
 
