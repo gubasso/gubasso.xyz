@@ -79,7 +79,7 @@ ivs:
   shortTitle: IVS
   year: 2017
   links:
-    - <a target="_blank" rel="external noopener noreferrer" href="http://ivs.ipea.gov.br/index.php/pt/">Atlas da Vulnerabilidade Social - IVS</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="http://ivs.ipea.gov.br/">Atlas da Vulnerabilidade Social - IVS</a>
     - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social">IVS Ipea</a>
   description: "Dynamic web platform designed to display and analyze social vulnerability data in Brazil. Built on top of Joomla CMS, it offers user-friendly visualization of the IVS index and related social data through charts and other accessible formats. The platform's main objective is to make complex social vulnerability information easily understandable and accessible to the public, aiding in social analysis and policy-making."
   bulletsDesc:
@@ -307,7 +307,7 @@ gubassoXyz:
 dotfiles:
   title: 'Dotfiles: Customized Environment Setup'
   shortTitle: Dotfiles
-  year: 2022
+  year: 2021
   description: "My personal dotfiles, representing a curated collection of configuration files for Unix-based systems. It includes Lua and Shell scripts, enabling a customized and efficient development environment. This project showcases my setup preferences for various tools and software, offering insights into my workflow and methodologies. It's also a resource for other developers looking to optimize their own environments, demonstrating practical applications of scripting for system customization."
   bulletsDesc:
     - "Curated 'Dotfiles', a collection of config files for Unix-based systems."
@@ -335,6 +335,7 @@ leetcodeWorkspace:
     - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso/leetcode_rust.ws">Github Rust Workspace</a>
     - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso/leetcode_typescript.ws">Github Typescript Workspace</a>
     - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/gubasso/leetcode_python.ws">Github Python Workspace</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://leetcode.com/gubasso/">LeetCode Gubasso's Profile</a>
   types:
     - Algorithm Practice Workspaces
     - Coding Interview Preparation
