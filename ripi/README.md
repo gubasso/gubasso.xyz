@@ -1,6 +1,7 @@
 # ripissue draft
 
 
+
 ```
 Metodologia Para Mensuração Da Rentabilidade Futura De Carteiras De Ativos Em Fundos De Investimentos
 2013
