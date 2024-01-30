@@ -55,11 +55,13 @@ rust:
   categories:
     - tech: langs
     - tech: backend
+    - data: langs
 python:
   title: Python
   categories:
     - tech: langs
     - tech: backend
+    - data: langs
 lua:
   title: Lua
   categories:
