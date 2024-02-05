@@ -1,7 +1,372 @@
+rust:
+  title: Rust
+  years: 8
+  competency: expert
+  categories:
+    - tech: langs
+    - tech: backend
+    - data: langs
+python:
+  title: Python
+  years: 10
+  competency: expert
+  categories:
+    - tech: langs
+    - tech: backend
+    - data: langs
+dataEngineering:
+  title: Data Engineering
+  years: 8
+  competency: expert
+  categories:
+    - data: database
+sql:
+  title: SQL
+  years: 8
+  competency: experienced
+  categories:
+    - data: database
+dataAnalysis:
+  title: Data Analysis
+  years: 10
+  competency: expert
+  categories:
+    - data: database
+html:
+  title: HTML
+  years: 10
+  competency: expert
+  categories:
+    - tech: webdev
+css:
+  title: CSS
+  years: 10
+  competency: expert
+  categories:
+    - tech: webdev
+lead:
+  title: Team leadership and project management
+  years: 10
+  competency: expert
+  categories:
+    - soft: lead
+projectManagement:
+  title: Project management
+  years: 10
+  competency: expert
+  categories:
+    - soft: lead
+techLead:
+  title: Technological Leadership
+  years: 10
+  competency: expert
+  categories:
+    - soft: lead
+linux:
+  title: Linux-based OS's, Servers and VPS's
+  years: 10
+  competency: expert
+  categories:
+    - infra: sysadmin
+agile:
+  title: Agile methodologies
+  years: 10
+  competency: expert
+  categories:
+    - tech: softdev
 financialModel:
   title: Financial modeling
+  years: 10
+  competency: expert
   categories:
     - financial: analysis
+finance:
+  title: Finance
+  years: 10
+  competency: expert
+  categories:
+    - financial: analysis
+git:
+  title: Git
+  years: 10
+  competency: expert
+  categories:
+    - tech: softdev
+github:
+  title: Github
+  years: 10
+  competency: expert
+  categories:
+    - tech: softdev
+githubActions:
+  title: Github Actions
+  years: 1
+  competency: experienced
+  categories:
+    - infra: devops
+gitlab:
+  title: Gitlab
+  years: 10
+  competency: expert
+  categories:
+    - tech: softdev
+apis:
+  title: APIs / Web APIs
+  years: 10
+  competency: expert
+  categories:
+    - tech: backend
+    - tech: webdev
+softwareDev:
+  title: Software Development
+  years: 10
+  competency: expert
+  categories:
+json:
+  title: JSON
+  years: 10
+  competency: expert
+  categories:
+    - tech: webdev
+javascript:
+  title: Javascript
+  years: 10
+  competency: expert
+  categories:
+    - tech: webdev
+    - tech: langs
+nodejs:
+  title: Node.js
+  years: 10
+  competency: expert
+  categories:
+    - tech: backend
+aws:
+  title: Amazon AWS
+  years: 2
+  competency: beginner
+  categories:
+    - infra: cloud
+googlecloud:
+  title: Google Cloud Platform (GCP)
+  years: 2
+  competency: experienced
+  categories:
+    - infra: cloud
+azure:
+  title: Microsoft Azure
+  years: 2
+  competency: beginner
+  categories:
+    - infra: cloud
+linode:
+  title: Linode
+  years: 8
+  competency: expert
+  categories:
+    - infra: cloud
+digitalocean:
+  title: Digital Ocean
+  years: 2
+  competency: beginner
+  categories:
+    - infra: cloud
+wasabi:
+  title: Wasabi Object Storage
+  years: 2
+  competency: experienced
+  categories:
+    - infra: cloud
+r:
+  title: R
+  years: 6
+  competency: expert
+  categories:
+    - data: langs
+sas:
+  title: SAS
+  years: 6
+  competency: expert
+  categories:
+    - data: langs
+shellScripting:
+  title: Shell Scripting
+  years: 5
+  competency: expert
+  categories:
+    - infra: devops
+    - tech: langs
+docker:
+  title: Docker
+  years: 5
+  categories:
+    - infra: devops
+svelte:
+  title: Svelte/Sveltekit
+  years: 5
+  competency: expert
+  categories:
+    - tech: webdev
+vagrant:
+  title: Vagrant
+  years: 5
+  competency: expert
+  categories:
+    - infra: devops
+pythonflask:
+  title: Python Flask
+  years: 10
+  competency: advanced
+  categories:
+    - tech: backend
+pythoneve:
+  title: Python Eve
+  years: 10
+  competency: advanced
+  categories:
+    - tech: backend
+dataManagement:
+  title: Data Management
+  years: 10
+  competency: expert
+  categories:
+mongodb:
+  title: Mongodb
+  years: 10
+  competency: advanced
+  categories:
+    - data: database
+systemSecurity:
+  title: System Security Management
+  years: 5
+  competency: advanced
+  categories:
+    - infra: sysadmin
+cicd:
+  title: Continuous Integration/Continuous Delivery (CI/CD) pipelines
+  years: 5
+  competency: advanced
+  categories:
+    - infra: devops
+optimizationMethods:
+  title: 'Optimization Methods'
+  years: 5
+  competency: advanced
+  categories:
+    - analytical: methodologies
+asset:
+  title: Asset allocation
+  years: 5
+  competency: advanced
+  categories:
+    - financial: investment
+quantitative:
+  title: Quantitative Research
+  years: 5
+  competency: advanced
+  categories:
+    - analytical: methodologies
+devops:
+  title: DevOps
+  years: 5
+  competency: advanced
+  categories:
+dsa:
+  title: Algorithms and Data Structures (DSA)
+  years: 2
+  competency: advanced
+  categories:
+    - tech: softdev
+databaseAdmin:
+  title: Database Administration
+  years: 10
+  competency: advanced
+  categories:
+mysql:
+  title: MySQL / MariaDB
+  years: 1
+  competency: experienced
+  categories:
+    - data: database
+sqlite:
+  title: SQLite
+  years: 8
+  competency: experienced
+  categories:
+    - data: database
+postgresql:
+  title: PostgreSQL
+  years: 8
+  competency: experienced
+  categories:
+    - data: database
+typescript:
+  title: Typescript
+  years: 5
+  competency: experienced
+  categories:
+    - tech: webdev
+    - tech: langs
+react:
+  title: React.js
+  years: 2
+  competency: experienced
+  categories:
+    - tech: webdev
+firebase:
+  title: Firebase (Google)
+  years: 2
+  competency: experienced
+  categories:
+    - tech: webdev
+lua:
+  title: Lua
+  years: 2
+  competency: experienced
+  categories:
+    - tech: langs
+wordpress:
+  title: Wordpress
+  years: 1
+  competency: beginner
+  categories:
+    - tech: webdev
+joomla:
+  title: Joomla
+  years: 1
+  competency: beginner
+  categories:
+    - tech: webdev
+php:
+  title: PHP
+  years: 1
+  competency: beginner
+  categories:
+    - tech: langs
+odata:
+  title: oData
+  years: 1
+  competency: beginner
+  categories:
+    - tech: backend
+dotnet:
+  title: .NET Framework
+  years: 1
+  competency: beginner
+  categories:
+    - tech: backend
+postgis:
+  title: PostGIS
+  years: 1
+  competency: beginner
+  categories:
+    - tech: gis
+csharp:
+  title: C#
+  years: 1
+  competency: beginner
+  categories:
+    - tech: langs
 risk:
   title: Risk assessment
   categories:
@@ -10,10 +375,6 @@ fundTechAnal:
   title: Fundamental and technical analysis
   categories:
     - financial: analysis
-asset:
-  title: Asset allocation
-  categories:
-    - financial: investment
 portfolio:
   title: Portfolio management
   categories:
@@ -42,183 +403,24 @@ qualitative:
   title: Qualitative Research
   categories:
     - analytical: methodologies
-quantitative:
-  title: Quantitative Research
-  categories:
-    - analytical: methodologies
-optimizationMethods:
-  title: 'Optimization Methods'
-  categories:
-    - analytical: methodologies
-rust:
-  title: Rust
-  categories:
-    - tech: langs
-    - tech: backend
-    - data: langs
-python:
-  title: Python
-  categories:
-    - tech: langs
-    - tech: backend
-    - data: langs
-lua:
-  title: Lua
-  categories:
-    - tech: langs
-pythoneve:
-  title: Python Eve
-  categories:
-    - tech: backend
-pythonflask:
-  title: Python Flask
-  categories:
-    - tech: backend
-csharp:
-  title: C#
-  categories:
-    - tech: langs
-php:
-  title: PHP
-  categories:
-    - tech: langs
-r:
-  title: R
-  categories:
-    - data: langs
-sas:
-  title: SAS
-  categories:
-    - data: langs
-sql:
-  title: SQL
-  categories:
-    - data: database
 sqlserver:
   title: Microsoft SQL Server
   categories:
     - data: database
-postgresql:
-  title: PostgreSQL
-  categories:
-    - data: database
-sqlite:
-  title: SQLite
-  categories:
-    - data: database
-mongodb:
-  title: Mongodb
-  categories:
-    - data: database
-wordpress:
-  title: Wordpress
-  categories:
-    - tech: webdev
-joomla:
-  title: Joomla
-  categories:
-    - tech: webdev
-html:
-  title: HTML
-  categories:
-    - tech: webdev
-css:
-  title: CSS
-  categories:
-    - tech: webdev
-javascript:
-  title: Javascript
-  categories:
-    - tech: webdev
-    - tech: langs
-typescript:
-  title: Typescript
-  categories:
-    - tech: webdev
-    - tech: langs
-svelte:
-  title: Svelte/Sveltekit
-  categories:
-    - tech: webdev
-react:
-  title: React.js
-  categories:
-    - tech: webdev
 riotjs:
   title: Riot.js
   categories:
     - tech: webdev
-firebase:
-  title: Firebase (Google)
-  categories:
-    - tech: webdev
-git:
-  title: Git
-  categories:
-    - tech: softdev
-agile:
-  title: Agile methodologies
-  categories:
-    - tech: softdev
 tdd:
   title: Test Driven Development (TDD)
   categories:
     - tech: softdev
-github:
-  title: Github
-  categories:
-    - tech: softdev
-githubActions:
-  title: Github Actions
-  categories:
-    - infra: devops
-gitlab:
-  title: Gitlab
-  categories:
-    - tech: softdev
-nodejs:
-  title: Node.js
-  categories:
-    - tech: backend
-dotnet:
-  title: .NET Framework
-  categories:
-    - tech: backend
-docker:
-  title: Docker
-  categories:
-    - infra: devops
-cicd:
-  title: Continuous Integration/Continuous Delivery (CI/CD) pipelines
-  categories:
-    - infra: devops
-vagrant:
-  title: Vagrant
-  categories:
-    - infra: devops
-shellScripting:
-  title: Shell Scripting
-  categories:
-    - infra: devops
-    - tech: langs
-linux:
-  title: Linux-based OS's, Servers and VPS's
-  categories:
-    - infra: sysadmin
-systemSecurity:
-  title: System Security Management
-  categories:
-    - infra: sysadmin
 ipeageo:
   title: IpeaGEO
   categories:
     - tech: gis
 arcgisDesktop:
   title: ArcGIS Desktop
-  categories:
-    - tech: gis
-postgis:
-  title: PostGIS
   categories:
     - tech: gis
 geoportal:
@@ -245,10 +447,6 @@ comm:
   title: Excellent written and verbal communication
   categories:
     - soft: comm
-lead:
-  title: Team leadership and project management
-  categories:
-    - soft: lead
 problem:
   title: Creative and analytical approach to challenges
   categories:
@@ -261,30 +459,6 @@ collab:
   title: Proven ability to work effectively in team environments
   categories:
     - soft: collab
-aws:
-  title: Amazon AWS
-  categories:
-    - infra: cloud
-googlecloud:
-  title: Google Cloud Platform (GCP)
-  categories:
-    - infra: cloud
-azure:
-  title: Microsoft Azure
-  categories:
-    - infra: cloud
-linode:
-  title: Linode
-  categories:
-    - infra: cloud
-digitalocean:
-  title: Digital Ocean
-  categories:
-    - infra: cloud
-wasabi:
-  title: Wasabi Object Storage
-  categories:
-    - infra: cloud
 dvc:
   title: Data and Model Version Control
   categories:
