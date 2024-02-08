@@ -45,6 +45,7 @@
         }
       })
     }
+
     companies = await loadYaml(`${base}/resume/companies.yaml`)
     teaching = await loadYaml(`${base}/resume/teaching.yaml`)
     projects = await loadYaml(`${base}/resume/projects.yaml`)
