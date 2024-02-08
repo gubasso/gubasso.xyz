@@ -34,7 +34,7 @@
     skills = await loadYaml(`${base}/resume/skills.yaml`)
     skillsOrg = await loadYaml(`${base}/resume/skills-org.yaml`)
     for (const skill in skills) {
-      skills[skill].categories.forEach((groupCat) => {
+      ;(skills[skill].categories ?? []).forEach((groupCat) => {
         const group = Object.keys(groupCat)[0]
         const cat = groupCat[group]
         let registeredSkills = skillsOrg[group].categories[cat].skills
