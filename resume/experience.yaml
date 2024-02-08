@@ -3,6 +3,17 @@ data:
   - jobTitle: CTO and Co-founder
     company: cwnt
     dateOfEmployment: 10/2016 - Present
+    descriptionBr:
+      - "Desenvolvi 'Boleteggs', um aplicativo web em React.js e Python para gestão de faturamento de aluguel e contratos, melhorando as operações para uma empresa familiar de gestão de imóveis."
+      - 'Criei algoritmos de trading com Rust, Python e R, aprimorando a tomada de decisão em tempo real na negociação de ativos e análise de dados de mercado.'
+      - "Liderei a criação e desenvolvi o 'Brag-Server', uma API REST em Rust de código aberto (projeto open-source) para métricas de respositórios Git, construída usando PostgreSQL e Docker, melhorando as percepções sobre atividades no desenvolvimento de sistemas."
+      - "Desenvolvi 'Ripissue', uma ferramenta CLI em Rust e Git, de código aberto (projeto open-source), para gerenciamento de tarefas e 'issue traking'. É utilizada pela Cwnt.io como a principal ferramenta para gestão de projetos e gerenciamento de tarefas por todo o processo de desenvolvimento de software, simplificando os fluxos de trabalho distribuído e descentralizado."
+      - 'Defini a visão e direção estratégica da empresa como Co-fundador, fomentando inovação em soluções tecnológicas.'
+      - 'Como CTO, alinhei a estratégia tecnológica com os objetivos de negócios e gerenciei iniciativas de P&D para implantação de soluções tecnológicas.'
+      - 'Como Gerente de Desenvolvimento, supervisionei o ciclo de desenvolvimento de software e implementei as melhores práticas de programação.'
+      - 'Como Desenvolvedor de Software, elaborei e testei aplicações de software de alta qualidade, garantindo o alinhamento com os requisitos dos usuários e do negócio.'
+      - 'Como Administrador de Sistemas, gerenciei configurações de servidores e segurança do sistema, garantindo a implantação confiável do serviço.'
+      - 'Como Educador e Professor em Tecnologia, transmiti conhecimento técnico e habilidades específicas de projeto, aumentando as capacidades da equipe.'
     description:
       - "Developed 'Boleteggs', a React.js and Python-based web app for rental billing and contract management, enhancing operations for a family-owned property management company."
       - 'Created innovative trading algorithms with Rust, Python, and R, enhancing real-time decision-making in asset trading and market data analysis.'
@@ -54,6 +65,12 @@ data:
   - jobTitle: Technical Consultant
     company: vistocerto
     dateOfEmployment: 01/2015 - Present
+    descriptionBr:
+      - 'Desenvolvi e implementei a automação completa do fluxo de atendimento ao cliente, integrando processos de vendas com ferramentas de CRM e aplicativos de comunicação, incluindo a API do Whatsapp Business.'
+      - 'Gerenciei o ciclo de desenvolvimento de software, garantindo o alinhamento do projeto com os objetivos de negócios e incorporando as melhores práticas de codificação, teste e implantação.'
+      - 'Supervisionei os ciclos de vida do projeto da concepção à conclusão, definindo escopos, gerenciando recursos e liderando equipes multifuncionais.'
+      - 'Administrei configurações de servidores e segurança do sistema, lidando com a implantação de serviços, manutenção de software e automação de tarefas rotineiras.'
+      - 'Ensinei e compartilhou conhecimento técnico com a equipe, focando em habilidades específicas do projeto e em uma variedade de assuntos tecnológicos.'
     description:
       - 'Developed and implemented the entire client assistance lifecycle automation, integrating sales processes with CRM tools and communication applications including Whatsapp Business API.'
       - 'Managed the software development lifecycle, ensuring project alignment with business objectives and incorporating best practices in coding, testing, and deployment.'
@@ -83,6 +100,13 @@ data:
   - jobTitle: Technical Consultant
     company: cade
     dateOfEmployment: 01/2018 - 01/2023
+    descriptionBr:
+      - "Liderei e conduzi o desenvolvimento do 'Cadelab', uma plataforma interativa para análise da concorrência econômica, utilizando Python Eve, Flask e Svelte para visualização avançada de dados. Implementei o banco de dados MongoDB, DVC para controle de versão de dados e empreguei o Docker para implantação conteinerizada, garantindo serviços de API de ponta e atualizações de dados eficientes."
+      - 'Coordenei e revisei os processos de ETL de dados no CADE, desempenhando um papel fundamental na programação de procedimentos e métodos estatísticos para o cálculo de indicadores econômicos. Minhas responsabilidades incluíam engenharia de dados, scripting para manipulação, limpeza, agregação de dados e implementação de fluxos de trabalho de ETL, além de análise de dados usando R, Python e PostgreSQL.'
+      - 'Gerenciei ciclos completos de desenvolvimento de software, garantindo o alinhamento do projeto com os objetivos de negócios e orientei uma equipe de desenvolvedores em tecnologias full-stack.'
+      - 'Dirigi os ciclos de vida do projeto, do conceito à entrega, definindo escopos e liderando equipes multifuncionais para a execução bem-sucedida do projeto.'
+      - 'Administrei funções de administração de sistemas, incluindo configuração de servidores, segurança do sistema e implantação de serviços, garantindo uma infraestrutura de TI robusta e segura.'
+      - 'Projetei e ministrei programas de treinamento em Svelte/Sapper e Python Eve com MongoDB, aprimorando as habilidades da equipe no desenvolvimento de SPA e construção de API REST.'
     description:
       - "Spearheaded and led the development of 'Cadelab', an interactive platform for economic competition analytics, utilizing Python Eve, Flask, and Svelte for advanced data visualization. Implemented MongoDB for database management, DVC for data version control, and employed Docker for containerized deployment, ensuring cutting-edge API services and efficient data updates."
       - 'Coordinated and reviewed data ETL processes at CADE, playing a key role in programming statistical procedures and methods for calculating economic indicators. My responsibilities included data engineering, scripting for data manipulation, cleaning, aggregation, and implementing ETL workflows, alongside data analysis using R, Python, and PostgreSQL.'

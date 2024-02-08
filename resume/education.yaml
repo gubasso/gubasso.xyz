@@ -1,6 +1,6 @@
 doctor:
   title: Doctor of Business Administration (Finance and Quantitative Methods) [Incomplete]
-  university: Universidade de Brasília - UnB
+  university: University of Brasília (Universidade de Brasília - UnB)
   link: https://www.unb.br
   location: Brasília, DF, Brazil
   attended: 2014 - 2017
@@ -8,7 +8,7 @@ doctor:
   areasOfStudy: Operations Research, Optimization Methods, Pension Funds, Stochastic Models
 master:
   title: Master of Science in Business Administration (Finance and Quantitative Methods)
-  university: Universidade de Brasília - UnB
+  university: University of Brasília (Universidade de Brasília - UnB)
   link: https://www.unb.br
   location: Brasília, DF, Brazil
   graduated: 2013
@@ -16,7 +16,7 @@ master:
   areasOfStudy: Financial Economics, Empirical Finance, Brazilian Market Analysis
 bachelor:
   title: Bachelor of Business Administration
-  university: Universidade de Brasília - UnB
+  university: University of Brasília (Universidade de Brasília - UnB)
   link: https://www.unb.br
   location: Brasília, DF, Brazil
   graduated: 2011

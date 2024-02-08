@@ -1,6 +1,7 @@
 rust:
   title: Rust
   years: 8
+  yearsPro: 3
   competency: expert
   categories:
     - tech: langs
@@ -413,6 +414,7 @@ riotjs:
     - tech: webdev
 tdd:
   title: Test Driven Development (TDD)
+  years: 3
   categories:
     - tech: softdev
 ipeageo:
