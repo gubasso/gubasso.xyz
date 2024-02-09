@@ -1,6 +1,12 @@
 # ripissue draft
 
-
+- [ ] project's page
+- [ ] social footer from yaml
+- [ ] footer: get contact infos/icons from resume yaml
+- [ ] dynamic posts import from static, not from posts
+- [ ] update blog page... add border and background like landing page
+- [ ] gubasso.xyz: rss feed with static site
+- [ ] one blog post per week
 
 ```
 Metodologia Para Mensuração Da Rentabilidade Futura De Carteiras De Ativos Em Fundos De Investimentos
