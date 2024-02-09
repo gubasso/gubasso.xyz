@@ -1,0 +1,1 @@
+# resume_from_static_yaml (Issue)

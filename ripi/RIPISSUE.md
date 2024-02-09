@@ -1,7 +1,8 @@
 # ripissue draft
 
-- [ ] project's page
+- [ ] resume from static yaml
 - [ ] social footer from yaml
+- [ ] projects_page : project's page
 - [ ] footer: get contact infos/icons from resume yaml
 - [ ] dynamic posts import from static, not from posts
 - [ ] update blog page... add border and background like landing page
