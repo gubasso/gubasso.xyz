@@ -1,6 +1,6 @@
 # ripissue draft
 
-- [ ] resume from static yaml
+- [ ] resume_from_static_yaml : resume from static yaml
 - [ ] social footer from yaml
 - [ ] projects_page : project's page
 - [ ] footer: get contact infos/icons from resume yaml
