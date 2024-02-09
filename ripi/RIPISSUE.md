@@ -1,6 +1,6 @@
 # ripissue draft
 
-- [ ] social footer from yaml
+- [ ] social_footer_from_yaml: social footer from yaml
 - [ ] projects_page : project's page
 - [ ] footer: get contact infos/icons from resume yaml
 - [ ] dynamic posts import from static, not from posts
