@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e
+git push
 node generatePdf.js
 git add -A
 git commit -m "to deploy"
