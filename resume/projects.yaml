@@ -1,3 +1,20 @@
+generativeai:
+  title: Scale's AI Generative AI Data Engine
+  shortTitle: Generative AI Data Engine
+  year: 2024
+  description: 'An innovative platform by Scale AI that accelerates the creation of high-quality, tailored datasets for training advanced generative AI models, leveraging a combination of automation, expert human intelligence, and a global network of subject matter experts.'
+  bulletsDesc:
+    - 'Enabled development of custom datasets for advanced AI models through a blend of automation and expert curation.'
+    - 'Provided real-time insights into data collection and curation processes to ensure the highest quality of training data.'
+    - 'Access to a global network of experts, linguists, and coders to construct diverse and rich datasets.'
+    - 'Enhanced efficiency and cost-effectiveness in dataset creation, significantly shortening the development cycle for AI models.'
+    - 'Proactively identified and addressed model weaknesses through targeted red-teaming, leading to robust and reliable AI systems.'
+  links:
+    - <a target="_blank" rel="external noopener noreferrer" href="https://scale.com/generative-ai-data-engine">Generative AI Data Engine</a>
+  types:
+    - Data Curation and Generation Platform
+    - Quality Control and Model Evaluation System
+    - AI Model Training Infrastructure
 odr:
   title: Regional Development Observatory (ODR - Observatório Do Desenvolvimento Regional)
   shortTitle: ODR
@@ -79,7 +96,7 @@ ivs:
   shortTitle: IVS
   year: 2017
   links:
-    - <a target="_blank" rel="external noopener noreferrer" href="http://ivs.ipea.gov.br/">Atlas da Vulnerabilidade Social - IVS</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="http://ivs.ipea.gov.br/index.php/pt/">Atlas da Vulnerabilidade Social - IVS</a>
     - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social">IVS Ipea</a>
   description: "Dynamic web platform designed to display and analyze social vulnerability data in Brazil. Built on top of Joomla CMS, it offers user-friendly visualization of the IVS index and related social data through charts and other accessible formats. The platform's main objective is to make complex social vulnerability information easily understandable and accessible to the public, aiding in social analysis and policy-making."
   bulletsDesc:
@@ -168,7 +185,7 @@ ipeageo:
     - Map Visualization and Generation Tool
 dataAnalysisReports:
   title: 'Economic Research Data Analysis and Reporting'
-  shortTitle: Data Analysis
+  shortTitle: Data Analysis Reports
   year: 2011
   description: 'Creation of comprehensive databases, studies, and reports for economic research. It involves the generation of reports, data sets, and charts to support research and studies. The project also includes the development of scripts for efficient data collection and processing, as well as statistical and spatial analyses to enrich economic research efforts'
   bulletsDesc:
@@ -259,7 +276,7 @@ cadelab:
     - Data Engineering and ETL Processes Tool
 clientProcessAutomation:
   title: 'Client Assistance Process Automation'
-  shortTitle: Process Automation
+  shortTitle: CRM Process Automation
   year: 2015
   description: 'Automating an entire client assistance process, encompassing pre-sale, sale, and post-sale stages. It involved the integration of the sales process with CRM tools and communication applications, and a backend implementation for managing data and message distribution between the Whatsapp Business API, CRM, and other management tools.'
   bulletsDesc:
