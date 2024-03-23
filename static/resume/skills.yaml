@@ -190,6 +190,7 @@ sas:
   competency: expert
   categories:
     - data: langs
+    - tech: langs
 shellScripting:
   title: Shell Scripting
   years: 5
@@ -200,6 +201,7 @@ shellScripting:
 docker:
   title: Docker
   years: 5
+  competency: expert
   categories:
     - infra: devops
 svelte:
@@ -289,6 +291,12 @@ mysql:
   competency: experienced
   categories:
     - data: database
+redis:
+  title: Redis
+  years: 1
+  competency: experienced
+  categories:
+    - data: database
 sqlite:
   title: SQLite
   years: 8
@@ -304,7 +312,7 @@ postgresql:
 typescript:
   title: Typescript
   years: 5
-  competency: experienced
+  competency: advanced
   categories:
     - tech: webdev
     - tech: langs
