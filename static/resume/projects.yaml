@@ -1,8 +1,28 @@
+uai-components:
+  title: UAI Sveltekit Components Library
+  shortTitle: UAI Sveltekit Components Library
+  year: 2024
+  description: 'An open-source SvelteKit UI library with reusable components for modern web apps. This library is a set of pre-built components to build SvelteKit and Vite applications and includes documentation and examples through Storybook, this package improves development productivity.'
+  bulletsDesc:
+    - 'Includes a variety of components such as Badge, Card, Collapsable, Dialog, Dropdown, EmojiPicker, Form, Icon, Kanban, ChatInput, MessageBox, Modal, PickerColor, SideMenu, and form fields.'
+    - 'A set of resusable UI components to help development web apps with more speed and consistency.'
+    - 'Fully integrated with SvelteKit and Vite for ease of use.'
+    - 'Documentation and examples provided via Storybook for easy reference and implementation.'
+    - 'Available as an npm package. Easy installation and updates.'
+  links:
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/vlgi/uai-components">GitHub UAI Components</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://www.npmjs.com/package/uai-components">NPM Package uai-components</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://vlgi.github.io/uai-components/">Storybook Documentation</a>
+  types:
+    - UI Component Library
+    - SvelteKit Integration
+    - Vite Integration
+    - Storybook Documentation
 generativeai:
   title: Scale's AI Generative AI Data Engine
   shortTitle: Generative AI Data Engine
   year: 2024
-  description: 'An innovative platform by Scale AI that accelerates the creation of high-quality, tailored datasets for training advanced generative AI models, leveraging a combination of automation, expert human intelligence, and a global network of subject matter experts.'
+  description: 'A plataform that accelerates the creation of high-quality, tailored datasets for training advanced generative AI models. This project is develop with a combination of automation, expert human intelligence, and a global network of subject matter experts.'
   bulletsDesc:
     - 'Enabled development of custom datasets for advanced AI models through a blend of automation and expert curation.'
     - 'Provided real-time insights into data collection and curation processes to ensure the highest quality of training data.'
@@ -174,6 +194,7 @@ ipeageo:
   year: 2012
   links:
     - <a target="_blank" rel="external noopener noreferrer" href="https://www.ipea.gov.br/ipeageo/">IpeaGEO</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/ipea/IpeaGeo">GitHub IpeaGEO</a>
   description: 'Windows desktop application developed in .NET C# for advanced spatial data analysis. It specializes in the manipulation and georeferencing of spatial data, offering GIS capabilities. The software enables users to visualize and generate maps, facilitating comprehensive geographic information system analysis and data interpretation.'
   bulletsDesc:
     - "Developed 'IpeaGEO', a .NET C# application for advanced spatial data analysis."
