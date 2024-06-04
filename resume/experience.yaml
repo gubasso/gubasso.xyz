@@ -4,11 +4,12 @@ data:
     company: scaleai
     dateOfEmployment: 03/2024 - Present
     description:
-      - Evaluated the quality of AI-generated code, providing human-readable summaries of my assessments
-      - Solved a variety of coding problems, ensuring code functionality and efficiency
-      - Developed robust test cases to validate code performance and effectiveness
-      - Addressed diverse coding challenges, enhancing AI model training and performance
-      - Crafted detailed instructions and prompts to guide the AI Model's learning process
+      - Evaluating the quality of AI-generated code and creating human-readable summaries of the evaluations
+      - Solving a variety of coding problems to ensure code functionality and efficiency
+      - Developing robust test cases to validate the performance and effectiveness of the code
+      - Addressing various coding challenges to improve the training and performance of AI models
+      - Develop detailed instructions and prompts to guide the learning process of the AI model
+      - Idealize, create and review projects, codebases and documentation in Python, JavaScript and TypeScript
     roles:
       - developer
     projects:
@@ -33,16 +34,16 @@ data:
       - 'Como Administrador de Sistemas, gerenciei configurações de servidores e segurança do sistema, garantindo a implantação confiável do serviço.'
       - 'Como Educador e Professor em Tecnologia, transmiti conhecimento técnico e habilidades específicas de projeto, aumentando as capacidades da equipe.'
     description:
-      - "Developed 'Boleteggs', a React.js and Python-based web app for rental billing and contract management, enhancing operations for a family-owned property management company."
-      - 'Created innovative trading algorithms with Rust, Python, and R, enhancing real-time decision-making in asset trading and market data analysis.'
-      - "Spearheaded and developed 'Brag-Server', an open-source Rust-based REST API for Git metrics, built using PostgreSQL and Docker, enhancing insights into repository activities."
-      - "Developed 'Ripissue', an open-source CLI tool for Git issue tracking using Rust, employed by Cwnt.io for project management and as the main issue tracker in its software development process, streamlining distributed project management workflows."
-      - 'Shaped company vision and strategic direction as Co-founder, fostering innovation in technology solutions.'
-      - 'Aligned technology strategy with business goals and managed R&D initiatives for tech solution deployment as CTO.'
-      - 'Oversaw software development lifecycle and implemented best coding practices as Software Development Manager.'
-      - 'Crafted and tested high-quality software applications, ensuring alignment with user and business requirements as a Developer.'
-      - 'Managed server configurations and system security, ensuring reliable service deployment as Systems Administrator.'
-      - 'Imparted technical knowledge and project-specific skills, enhancing team capabilities as a Technology Educator.'
+      - "Developed 'Boleteggs', a React.js and Python based web app for rent billing and contract management to improve the operations of a family-run property management company."
+      - 'Created innovative trading algorithms using Rust, Python and R that improve decision making when trading assets and analyzing market data in real  time'
+      - "Led and developed 'Brag-Server', an open-source Rust-based REST API for Git metrics built with PostgreSQL and Docker that improves visibility into repository activity."
+      - "Developed 'Ripissue', an open-source CLI tool for Git issue tracking using Rust, which is used by Cwnt.io for project management and as the main issue tracker in its software development process to optimize distributed project management workflows."
+      - "As co-founder, shaped the company's vision and strategic direction and drove innovation in technology solutions"
+      - 'As CTO, aligned technology strategy with business objectives and led R&D initiatives for tech solution deployment.'
+      - 'As Software Development Manager, oversaw the software development lifecycle and implemented coding best practices'
+      - 'As a developer, developed and tested high quality software applications, ensuring they met user and business requirements'
+      - 'As a system administrator,  managed server configurations and system security and ensured the reliable delivery of services'
+      - 'Imparted technical knowledge and project-specific skills, improving team skills as a technology educator'
     roles:
       - coFounder
       - cto
@@ -56,6 +57,7 @@ data:
       - algos
       - bragServer
       - ripissue
+      - uai-components
     skills:
       - rust
       - sql
