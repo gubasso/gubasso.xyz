@@ -1,3 +1,25 @@
+candid-gen:
+  title: 'candid-gen: Candid Generation CLI Tool'
+  shortTitle: candid-gen
+  year: 2024
+  description: '`candid-gen` is a CLI tool that automates the generation of Candid interface files from Rust canisters for Internet Computer (IC) projects. It simplifies the process of creating `.did` files, ensuring that your Rust canisters are properly documented and ready for deployment on the IC.'
+  bulletsDesc:
+    - 'Automates the generation of Candid interface files for Rust canisters.'
+    - 'Simplifies the process of creating `.did` files for IC projects.'
+    - 'Ensures that Rust canisters are properly documented and ready for deployment.'
+    - 'Integrates with Rust, Cargo, and `candid-extractor`.'
+    - 'Supports specifying individual canisters or generating files for all canisters in a project.'
+  links:
+    - <a target="_blank" rel="external noopener noreferrer" href="https://github.com/cwnt-io/candid-gen">GitHub Repository</a>
+    - <a target="_blank" rel="external noopener noreferrer" href="https://crates.io/crates/candid-gen">Crates.io</a>
+  types:
+    - CLI Tool
+    - Development Tool
+    - Rust Utility
+    - Internet Computer (ICP)
+    - Open-Source Software Project (OSS)
+    - Web3
+    - Dapps
 uai-components:
   title: UAI Sveltekit Components Library
   shortTitle: UAI Sveltekit Components Library
