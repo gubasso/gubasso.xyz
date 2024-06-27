@@ -1,3 +1,21 @@
+ansible:
+  title: Ansible
+  years: 1
+  competency: experienced
+  categories:
+    - infra: devops
+    - infra: cloud
+    - infra: serverSoft
+    - infra: sysadmin
+terraform:
+  title: Terraform
+  years: 1
+  competency: experienced
+  categories:
+    - infra: devops
+    - infra: cloud
+    - infra: serverSoft
+    - infra: sysadmin
 rust:
   title: Rust
   years: 8

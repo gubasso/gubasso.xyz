@@ -27,6 +27,8 @@ data:
       - 'Criei algoritmos de trading com Rust, Python e R, aprimorando a tomada de decisão em tempo real na negociação de ativos e análise de dados de mercado.'
       - "Liderei a criação e desenvolvi o 'Brag-Server', uma API REST em Rust de código aberto (projeto open-source) para métricas de respositórios Git, construída usando PostgreSQL e Docker, melhorando as percepções sobre atividades no desenvolvimento de sistemas."
       - "Desenvolvi 'Ripissue', uma ferramenta CLI em Rust e Git, de código aberto (projeto open-source), para gerenciamento de tarefas e 'issue traking'. É utilizada pela Cwnt.io como a principal ferramenta para gestão de projetos e gerenciamento de tarefas por todo o processo de desenvolvimento de software, simplificando os fluxos de trabalho distribuído e descentralizado."
+      - "Desenvolvi o projeto 'candid-gen', uma ferramenta CLI para a geração automática de arquivos de interface Candid a partir de canisters Rust para projetos do Internet Computer (IC), simplificando a criação de arquivos `.did` e garantindo que os canisters Rust estejam documentados corretamente e prontos para implantação."
+      - "Implementei o projeto 'IaC para CWNT', automatizando toda a infraestrutura da empresa usando princípios de Infrastructure as Code (IaC) com Terraform e Ansible, configurando e gerenciando VPS e serviços, garantindo operações seguras e eficientes."
       - 'Defini a visão e direção estratégica da empresa como Co-fundador, fomentando inovação em soluções tecnológicas.'
       - 'Como CTO, alinhei a estratégia tecnológica com os objetivos de negócios e gerenciei iniciativas de P&D para implantação de soluções tecnológicas.'
       - 'Como Gerente de Desenvolvimento, supervisionei o ciclo de desenvolvimento de software e implementei as melhores práticas de programação.'
@@ -35,15 +37,17 @@ data:
       - 'Como Educador e Professor em Tecnologia, transmiti conhecimento técnico e habilidades específicas de projeto, aumentando as capacidades da equipe.'
     description:
       - "Developed 'Boleteggs', a React.js and Python based web app for rent billing and contract management to improve the operations of a family-run property management company."
-      - 'Created innovative trading algorithms using Rust, Python and R that improve decision making when trading assets and analyzing market data in real  time'
+      - 'Created innovative trading algorithms using Rust, Python and R that improve decision making when trading assets and analyzing market data in real time.'
       - "Led and developed 'Brag-Server', an open-source Rust-based REST API for Git metrics built with PostgreSQL and Docker that improves visibility into repository activity."
       - "Developed 'Ripissue', an open-source CLI tool for Git issue tracking using Rust, which is used by Cwnt.io for project management and as the main issue tracker in its software development process to optimize distributed project management workflows."
-      - "As co-founder, shaped the company's vision and strategic direction and drove innovation in technology solutions"
+      - "Developed the project 'candid-gen', a CLI tool for automating the generation of Candid interface files from Rust canisters for Internet Computer (IC) projects, simplifying the creation of `.did` files and ensuring that Rust canisters are properly documented and ready for deployment."
+      - "Implemented the project 'IaC for CWNT', automating the entire infrastructure for the company using Infrastructure as Code (IaC) principles with Terraform and Ansible, setting up and managing VPS and services, ensuring secure and efficient operations."
+      - "As co-founder, shaped the company's vision and strategic direction and drove innovation in technology solutions."
       - 'As CTO, aligned technology strategy with business objectives and led R&D initiatives for tech solution deployment.'
-      - 'As Software Development Manager, oversaw the software development lifecycle and implemented coding best practices'
-      - 'As a developer, developed and tested high quality software applications, ensuring they met user and business requirements'
-      - 'As a system administrator,  managed server configurations and system security and ensured the reliable delivery of services'
-      - 'Imparted technical knowledge and project-specific skills, improving team skills as a technology educator'
+      - 'As Software Development Manager, oversaw the software development lifecycle and implemented coding best practices.'
+      - 'As a developer, developed and tested high quality software applications, ensuring they met user and business requirements.'
+      - 'As a system administrator, managed server configurations and system security and ensured the reliable delivery of services.'
+      - 'Imparted technical knowledge and project-specific skills, improving team skills as a technology educator.'
     roles:
       - coFounder
       - cto
@@ -58,6 +62,8 @@ data:
       - bragServer
       - ripissue
       - uai-components
+      - candid-gen
+      - iac-cwnt
     skills:
       - rust
       - sql
@@ -82,6 +88,8 @@ data:
       - linux
       - systemSecurity
       - optimizationMethods
+      - ansible
+      - terraform
   - jobTitle: Software Engineer and Technical Consultant
     company: vistocerto
     dateOfEmployment: 01/2015 - Present

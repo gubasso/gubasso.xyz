@@ -1,3 +1,24 @@
+iac-cwnt:
+  title: 'Infrastructure as Code (IaC) for CWNT'
+  shortTitle: IaC for CWNT
+  year: 2024
+  description: 'This project entails the development and automation of the entire infrastructure for CWNT using Infrastructure as Code (IaC) principles. Leveraging Terraform and Ansible, it encompasses the setup, configuration, and management of VPS and services, ensuring secure and efficient operations.'
+  bulletsDesc:
+    - 'Automated the creation and management of VPS and services using Terraform.'
+    - 'Configured and set up servers using Ansible.'
+    - 'Programmed functionalities and routines using Ansible playbooks and roles.'
+    - 'Implemented full automation with secure SSH setup, using Ansible Vault and gopass for access, password, and permissions management.'
+    - 'Enabled dynamic configuration through the use of templates.'
+    - 'Integrated Python and shell scripts to enhance IaC with personalized modules and libraries.'
+    - 'Developed roles and playbooks for setting up backup routines, monitoring tools, and notification services.'
+  types:
+    - Infrastructure as Code (IaC)
+    - Terraform
+    - Ansible
+    - Server Automation
+    - Configuration Management
+    - Secure Access and Permissions Management
+    - Backup and Monitoring Automation
 candid-gen:
   title: 'candid-gen: Candid Generation CLI Tool'
   shortTitle: candid-gen
