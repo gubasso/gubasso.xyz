@@ -1,6 +1,7 @@
 <script>
   import { base } from '$app/paths'
   export let data
+  console.log(data)
 </script>
 
 <svelte:head>
@@ -8,7 +9,7 @@
 </svelte:head>
 
 <h2>Gubasso's Blog</h2>
-<p class="subtitle">Here I share some knowledge about Tech and other (un)useful stuff.</p>
+<p class="subtitle">Here I share some knowledge about Tech and other (un?)useful stuff.</p>
 
 <!-- arround blogs, with top border -->
 <div class="blogs">
