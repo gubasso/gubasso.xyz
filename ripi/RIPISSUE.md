@@ -6,6 +6,9 @@
 
 <!-- tocstop -->
 
+- Add links/references to the article
+<!-- link -->
+
 - [ ] refactor: deploy on icp
   - resume.pdf: deploy with static asset resume.pdf already rendered
 
