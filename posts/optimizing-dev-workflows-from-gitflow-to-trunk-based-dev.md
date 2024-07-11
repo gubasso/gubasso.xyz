@@ -15,6 +15,10 @@ categories:
   - Open Source
   - Project Management
 ---
+<script context="module">
+  import { base } from "$app/paths";
+</script>
+
 ## Contents
 
 ## Introduction
@@ -74,43 +78,19 @@ Cwntflow, our custom workflow, is inspired by trunk-based development and it fea
 
 For the core-team of developers, we follow a more strictly trunk-based model. Each commit is "production ready", safeguarded by automatic checks, and reviewed asynchronously. This approach ensures that all commits are reviewed as soon as possible without blocking the development process, and still maintains high code quality and facilitates continuous integration. The core-team interact directly with the mainline of development, making the process fast and efficient.
 
-```mermaid
-sequenceDiagram
-participant DL as dev (`local`)
-participant DR as dev (`origin`)
-participant M as mainline (`upstream`)
+<br>
 
-M ->> DL: git pull (get latest code)
-DL ->> DR: git push `origin` (run final tests)
-DL ->> M: git push `upstream` [continuous-push-process]
-```
+<img src="{base}/CoreTeamFlowMermaid.png" style="max-width: 100%;">
+
+<br>
 
 External contributors follow a more classic PR workflow. They work in forks of the central repository, collaborating with the core-team who act as the gatekeepers of external implementations. Contributors and developers exchange code and feedbacks throughout this review workflow and once the final implementation is reviewed and approved by a core-team member, the code is finally pushed to the mainline.
 
-```mermaid
-sequenceDiagram
-participant CL as contributor (`local`)
-participant CR as contributor (`remote`)
-participant DL as dev (`local`)
-participant DR as dev (`remote`)
-participant M as mainline (`upstream`)
+<br>
 
-M ->> CL: [get-latest-code]
-loop `pr-workflow` until dev approves
-  CL ->> CL: implement
-  CL ->> CR: push `origin`
-  CR ->> DL: pull (`contrib-<name>`)
-  DL ->> DL: review
-  DL ->> DR: push `origin`
-  DR ->> CL: pull (`dev-<name>`)
-  CL ->> CL: adjustments
-  CL ->> CR: push `origin`
-  CR ->> DL: pull (`contrib-<name>`)
-  DL ->> DL: approves
-end
-DL ->> DR: git push `origin` (run final tests)
-DL ->> M: git push `upstream`
-```
+<img src="{base}/ContributorsFlowMermaid.png" style="max-width: 100%;">
+
+<br>
 
 Regardless of the workflow, every commit needs to be reviewed. We implement safeguards to enforce code quality, such as automation checks, tests, git hooks, and continuous deployment (CD) pipelines. As we are committing directly to the mainline, we have to do as many automated checks as possible to mitigate the risk of breaking the code and ensures that we keep high standards of quality and productivity.
 
