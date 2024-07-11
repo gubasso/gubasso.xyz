@@ -23,13 +23,7 @@ categories:
 
 ## Introduction
 
-The software development process plays a crucial role to ensure
-code quality and team productivity. This article explores our
-journey of transitioning from Gitflow to trunk-based development,
-with a focus on the Ripissue CLI tool and its integration into our
-custom workflow, Cwntflow. We'll discuss why a structured
-development process matters, our experience with Gitflow, the
-benefits of trunk-based development, and the role of Ripissue as a crucial helper to our workflow.
+The software development process plays a crucial role to ensure code quality and team productivity. This article explores our journey of transitioning from Gitflow to trunk-based development, with a focus on the Ripissue CLI tool and its integration into our custom workflow, Cwntflow. We'll discuss why a structured development process matters, our experience with Gitflow, the benefits of trunk-based development, and the role of Ripissue as a crucial helper to our workflow.
 
 ## Why Should I Care About a Development Process?
 
@@ -80,7 +74,7 @@ For the core-team of developers, we follow a more strictly trunk-based model. Ea
 
 <br>
 
-<img src="{base}/CoreTeamFlowMermaid.png" style="max-width: 100%;">
+<img src="{base}/CoreTeamFlowMermaid.png" style="max-width: 100%;" alt="Core Team Flow">
 
 <br>
 
@@ -88,7 +82,7 @@ External contributors follow a more classic PR workflow. They work in forks of t
 
 <br>
 
-<img src="{base}/ContributorsFlowMermaid.png" style="max-width: 100%;">
+<img src="{base}/ContributorsFlowMermaid.png" style="max-width: 100%;" alt="Contributors Flow">
 
 <br>
 
@@ -103,3 +97,6 @@ Some of the upcoming features include AI-assisted commit messages, built-in chat
 ## Conclusion
 
 Transitioning from Gitflow to trunk-based development has significantly improved our productivity at cwnt.io. The integration of Ripissue into our new Cwntflow contributed greatly for the process. We are ready to take the next step and battle-proof our development tools and conventions to improve our work and future growth. And we invite you to battle-test those tools with us and give your feedback on how we can improve and make the development flow even better. That's our goal.
+
+[Ripissue]: https://github.com/cwnt-io/ripissue "Ripissue's Github repository"
+
