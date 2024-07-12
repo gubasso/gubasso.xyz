@@ -78,8 +78,10 @@
         {#each posts as post}
           <div class="blog-box">
             <h4><a href="{base}/blog/{post.slug}">{post.title}</a></h4>
-            <p>{post.description}</p>
-            <a href="{base}/blog/{post.slug}">Read more</a>
+            <div class="blog-desc">
+              <p>{post.description}</p>
+              <a href="{base}/blog/{post.slug}">Read more</a>
+            </div>
           </div>
         {/each}
       </div>
@@ -89,23 +91,30 @@
 
 <style>
   .blog-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 20px;
   }
   .blog-box {
-    width: 350px;
-    min-height: 300px;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--color-canvas-subtle);
     border: 1px solid var(--color-border-default);
     /* box-shadow: var(--boxShadow-thin); */
-    margin: 20px;
-    padding: 30px;
   }
-  .blog-box h4 {
-    margin: 10px 0;
+
+  .blog-box h4 a {
+    word-wrap: normal !important; /* Avoid breaking words */
+    overflow-wrap: normal !important; /* Avoid breaking words */
+    white-space: normal !important; /* Allows wrapping to the next line */
+    word-break: keep-all !important; /* Prevents word breaking */
+    hyphens: none !important; /* Prevents hyphenation */
   }
+
   .blog-box p {
     display: -webkit-box;
     -webkit-line-clamp: 3;
