@@ -1,7 +1,6 @@
 <script>
   import { base } from '$app/paths'
   export let data
-  console.log(data)
 </script>
 
 <svelte:head>
@@ -60,7 +59,7 @@
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     font-weight: 600;
-    line-height: 1.2rem;
+    line-height: 2.2rem;
   }
   a {
     color: inherit;
