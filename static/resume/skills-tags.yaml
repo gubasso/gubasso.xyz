@@ -1,0 +1,77 @@
+skills-tech:
+  label: 'Technical/Programming Skills'
+  sub:
+    - langs
+    - backend
+    - langs
+    - backend
+    - gis
+    - webdev
+skills-infra:
+  label: 'Infrastructure Management Skills'
+  sub:
+    - devops
+    - cloud
+    - iac
+skills-data:
+  label: 'Data Engineering Skills'
+  sub:
+    - database
+    - datalangs
+skills-financial:
+  label: 'Financial/Investment Skills'
+  sub:
+    - analysis
+    - investment
+    - financial-sw
+skills-analytical:
+  label: 'Analytical/Research Skills'
+  sub:
+    - methodologies
+    - statistics
+soft-skills:
+  label: 'Soft Skills'
+management-leadership:
+  label: 'Management and Leadership'
+devops-infrastructure:
+  label: 'DevOps and Infrastructure Management'
+iac-infrastructure:
+  label: 'Infrastructure as Code'
+cloud-infrastructure:
+  label: 'Cloud'
+systems-admin:
+  label: 'Systems Administration'
+server-management:
+  label: 'Server Software Management'
+programming-languages:
+  label: 'Programming Languages'
+data-languages:
+  label: 'Languages for Data Analysis and Manipulation'
+backend:
+  label: 'Backend Development'
+gis:
+  label: 'Geographic Information Systems (GIS)'
+web-development:
+  label: 'Web/Frontend Development'
+software-development:
+  label: 'Software Development'
+database:
+  label: 'Database Management & Storage'
+financial-analytics:
+  label: 'Financial/Market Analytics'
+investment-strategies:
+  label: 'Investment Strategies'
+financial-software:
+  label: 'Financial Software'
+research-methodologies:
+  label: 'Research Methodologies'
+statistics:
+  label: 'Statistical Modeling and Methods'
+communication:
+  label: 'Communication'
+problem-solving:
+  label: 'Problem-Solving'
+time-management:
+  label: 'Time Management'
+collaboration:
+  label: 'Collaboration'

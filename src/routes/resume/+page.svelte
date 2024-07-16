@@ -37,10 +37,29 @@
 <h2>{contact.title}</h2>
 <div class="info">
   <p><b>Full Name: </b> {contact.fullname}</p>
-  <p><b>Email: </b> {@html contact.email}</p>
-  <p><b>Phone: </b> {@html contact.phone}</p>
-  <p><b>Site: </b> {@html contact.site}</p>
-  <p><b>Social: </b> {@html contact.social.join(', ')}</p>
+  <p><b>Email: </b> <a href="mailto:gu@gubasso.xyz">{contact.email}</a></p>
+  <!-- <p><b>Phone: </b> {@html contact.phone}</p> -->
+  <p>
+    <b>Phone: </b> <a href="tel:{contact.phone}">{contact.phone}</a> (<a
+      href="https://wa.me/{contact.phone}">Whatsapp Me</a
+    >)
+  </p>
+
+  <p>
+    <b>Site: </b>
+    <a target="_blank" rel="external noopener noreferrer" href="https://gubasso.xyz"
+      >{contact.site}</a
+    >
+  </p>
+  <!-- <p><b>Social: </b> {@html contact.social.join(', ')}</p> -->
+  <p>
+    <b>Social: </b>
+    {#each contact.social as social, i}
+      <a target="_blank" rel="external noopener noreferrer" href={social.url}>{social.name}</a
+      >{#if i < contact.social.length - 1},&nbsp;{/if}
+    {/each}
+    .
+  </p>
   <p><b>Location: </b> {contact.location}</p>
 </div>
 

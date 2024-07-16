@@ -2,12 +2,16 @@
 
 <!-- toc -->
 
-
+- [ongoing](#ongoing)
+- [backlog](#backlog)
 
 <!-- tocstop -->
 
-- Add links/references to the article
-<!-- link -->
+## ongoing
+
+- [[projectspage-issue]]
+
+## backlog
 
 - [ ] refactor: deploy on icp
   - resume.pdf: deploy with static asset resume.pdf already rendered
@@ -16,7 +20,6 @@
 - [ ] set yaml template and validation at compile time
   - [ ] add skills fields for projects.yaml too (optional)
 - [ ] social_footer_from_yaml: social footer from yaml
-- [ ] projects_page : project's page
 - [ ] footer: get contact infos/icons from resume yaml
 - [ ] dynamic posts import from static, not from posts
 - [ ] update blog page... add border box to each article and background like landing page
