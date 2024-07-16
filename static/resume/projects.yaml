@@ -23,7 +23,7 @@ candid-gen:
   title: 'candid-gen: Candid Generation CLI Tool'
   shortTitle: candid-gen
   year: 2024
-  description: '`candid-gen` is a CLI tool that automates the generation of Candid interface files from Rust canisters for Internet Computer (IC) projects. It simplifies the process of creating `.did` files, ensuring that your Rust canisters are properly documented and ready for deployment on the IC.'
+  description: '`candid-gen` is a CLI tool that automates the generation of Candid interface files from Rust canisters for Internet Computer (IC) blockchain projects (web3). It simplifies the process of creating `.did` files, ensuring that your Rust canisters are properly documented and ready for deployment on the IC.'
   bulletsDesc:
     - 'Automates the generation of Candid interface files for Rust canisters.'
     - 'Simplifies the process of creating `.did` files for IC projects.'
