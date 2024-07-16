@@ -33,18 +33,16 @@ soft-skills:
   label: 'Soft Skills'
 management-leadership:
   label: 'Management and Leadership'
-devops-infrastructure:
+devops-infra:
   label: 'DevOps and Infrastructure Management'
-iac-infrastructure:
+iac-infra:
   label: 'Infrastructure as Code'
-cloud-infrastructure:
+cloud-infra:
   label: 'Cloud'
-systems-admin:
+sysadmin:
   label: 'Systems Administration'
-server-management:
-  label: 'Server Software Management'
-programming-languages:
-  label: 'Programming Languages'
+prog-lang:
+  label: 'Programming Language'
 data-languages:
   label: 'Languages for Data Analysis and Manipulation'
 backend:
