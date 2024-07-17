@@ -1,13 +1,5 @@
 # projects_page (Issue)
 
-
-role
-database-admin:
-  label: Database Administration
-  since-year: 2013
-  competency: advanced
-  tags:
-
 - gubasso-xyz
     - Personal Portfolio Website
     - Blogging Platform

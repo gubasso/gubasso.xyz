@@ -70,13 +70,15 @@ generative-ai:
   title: Scale's AI Generative AI Data Engines
   short-title: Generative AI Data Engines
   year: 2024
-  summary: 'Plataforms that accelerates the creation of high-quality, tailored datasets for training advanced generative AI models. A combination of automation, expert human intelligence, and a global network of subject matter experts.'
+  summary: 'Plataforms that accelerates the creation of high-quality, tailored datasets for training advanced generative AI models, including code generation in many languages such as Javascript, Typescript, Python, and SQL.'
   bullets:
     - 'Development of custom datasets for advanced AI models through automation and expert curation.'
+    - 'Working with various programming languages in our interactions with each LLM, including JavaScript, TypeScript, Python, SQL, HTML/CSS, etc.'
     - 'Provided real-time insights into data collection and curation processes to ensure the highest quality of training data.'
     - 'Access to a global network of experts, linguists, and coders to construct datasets.'
     - 'Enhanced efficiency and cost-effectiveness in dataset creation, significantly shortening the development cycle for AI models.'
     - 'Proactively identified and addressed model weaknesses through targeted red-teaming, leading to robust and reliable AI systems.'
+    - 'A combination of automation, expert human intelligence, and a global network of subject matter experts.'
   links:
     - label: Generative AI Data Engine
       url: 'https://scale.com/generative-ai-data-engine'
