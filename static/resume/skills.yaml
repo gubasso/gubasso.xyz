@@ -1,493 +1,497 @@
 ansible:
-  title: Ansible
-  years: 1
+  label: Ansible
+  since-year: 2023
   competency: experienced
-  categories:
-    - infra: devops
-    - infra: cloud
-    - infra: serverSoft
-    - infra: sysadmin
+  tags:
+    - devops-infra
+    - iac-infra
+    - cloud-infra
+    - sysadmin
 terraform:
-  title: Terraform
-  years: 1
+  label: Terraform
+  since-year: 2023
   competency: experienced
-  categories:
-    - infra: devops
-    - infra: cloud
-    - infra: serverSoft
-    - infra: sysadmin
+  tags:
+    - devops-infra
+    - iac-infra
+    - cloud-infra
+    - sysadmin
 rust:
-  title: Rust
-  years: 8
-  yearsPro: 3
+  label: Rust
+  since-year: 2015
   competency: expert
-  categories:
-    - tech: langs
-    - tech: backend
-    - data: langs
+  tags:
+    - prog-lang
+    - backend
+smart-contracts:
+  label: Smart Contracts Development (Web3 Dapps)
+  since-year: 2023
+  competency: advanced
+  tags:
+    - web3
 python:
-  title: Python
-  years: 10
+  label: Python
+  since-year: 2013
   competency: expert
-  categories:
-    - tech: langs
-    - tech: backend
-    - data: langs
-dataEngineering:
-  title: Data Engineering
-  years: 8
-  competency: expert
-  categories:
-    - data: database
+  tags:
+    - data-analysis-lang
+    - prog-lang
+    - backend
 sql:
-  title: SQL
-  years: 8
+  label: SQL
+  since-year: 2015
   competency: experienced
-  categories:
-    - data: database
-dataAnalysis:
-  title: Data Analysis
-  years: 10
-  competency: expert
-  categories:
-    - data: database
+  tags:
+    - database
+    - data-analysis-lang
+dvc:
+  label: Data and Model Version Control
+  since-year: 2018
+  tags:
+    - database
+    - devops-infra
+    - iac-infra
 html:
-  title: HTML
-  years: 10
+  label: HTML
+  since-year: 2013
   competency: expert
-  categories:
-    - tech: webdev
+  tags:
+    - webdev
+    - prog-lang
 css:
-  title: CSS
-  years: 10
+  label: CSS
+  since-year: 2013
   competency: expert
-  categories:
-    - tech: webdev
-lead:
-  title: Team leadership and project management
-  years: 10
-  competency: expert
-  categories:
-    - soft: lead
-projectManagement:
-  title: Project management
-  years: 10
-  competency: expert
-  categories:
-    - soft: lead
-techLead:
-  title: Technological Leadership
-  years: 10
-  competency: expert
-  categories:
-    - soft: lead
+  tags:
+    - webdev
+    - prog-lang
 linux:
-  title: Linux-based OS's, Servers and VPS's
-  years: 10
+  label: Linux-based OS's/Distros, Servers and VPS's
+  since-year: 2013
   competency: expert
-  categories:
-    - infra: sysadmin
-agile:
-  title: Agile methodologies
-  years: 10
-  competency: expert
-  categories:
-    - tech: softdev
-financialModel:
-  title: Financial modeling
-  years: 10
-  competency: expert
-  categories:
-    - financial: analysis
-finance:
-  title: Finance
-  years: 10
-  competency: expert
-  categories:
-    - financial: analysis
+  tags:
+    - sysadmin
+    - devops-infra
+    - iac-infra
+    - cloud-infra
 git:
-  title: Git
-  years: 10
+  label: Git
+  since-year: 2013
   competency: expert
-  categories:
-    - tech: softdev
+  tags:
+    - dev-tools
 github:
-  title: Github
-  years: 10
+  label: Github
+  since-year: 2013
   competency: expert
-  categories:
-    - tech: softdev
-githubActions:
-  title: Github Actions
-  years: 1
+  tags:
+    - dev-tools
+github-actions:
+  label: Github Actions
+  since-year: 2020
   competency: experienced
-  categories:
-    - infra: devops
+  tags:
+    - dev-tools
+    - devops-infra
 gitlab:
-  title: Gitlab
-  years: 10
+  label: Gitlab
+  since-year: 2013
   competency: expert
-  categories:
-    - tech: softdev
+  tags:
+    - dev-tools
+gitlab-ci:
+  label: Gitlab CI
+  since-year: 2023
+  competency: experienced
+  tags:
+    - dev-tools
+    - devops-infra
 apis:
-  title: APIs / Web APIs
-  years: 10
+  label: APIs / Web APIs
+  since-year: 2013
   competency: expert
-  categories:
-    - tech: backend
-    - tech: webdev
-softwareDev:
-  title: Software Development
-  years: 10
-  competency: expert
-  categories:
-json:
-  title: JSON
-  years: 10
-  competency: expert
-  categories:
-    - tech: webdev
+  tags:
+    - backend
+    - webdev
 javascript:
-  title: Javascript
-  years: 10
+  label: Javascript
+  since-year: 2013
   competency: expert
-  categories:
-    - tech: webdev
-    - tech: langs
-nodejs:
-  title: Node.js
-  years: 10
-  competency: expert
-  categories:
-    - tech: backend
-aws:
-  title: Amazon AWS
-  years: 2
-  competency: beginner
-  categories:
-    - infra: cloud
-googlecloud:
-  title: Google Cloud Platform (GCP)
-  years: 2
-  competency: experienced
-  categories:
-    - infra: cloud
-azure:
-  title: Microsoft Azure
-  years: 2
-  competency: beginner
-  categories:
-    - infra: cloud
-linode:
-  title: Linode
-  years: 8
-  competency: expert
-  categories:
-    - infra: cloud
-digitalocean:
-  title: Digital Ocean
-  years: 2
-  competency: beginner
-  categories:
-    - infra: cloud
-wasabi:
-  title: Wasabi Object Storage
-  years: 2
-  competency: experienced
-  categories:
-    - infra: cloud
-r:
-  title: R
-  years: 6
-  competency: expert
-  categories:
-    - data: langs
-sas:
-  title: SAS
-  years: 6
-  competency: expert
-  categories:
-    - data: langs
-    - tech: langs
-shellScripting:
-  title: Shell Scripting
-  years: 5
-  competency: expert
-  categories:
-    - infra: devops
-    - tech: langs
-docker:
-  title: Docker
-  years: 5
-  competency: expert
-  categories:
-    - infra: devops
-svelte:
-  title: Svelte/Sveltekit
-  years: 5
-  competency: expert
-  categories:
-    - tech: webdev
-vagrant:
-  title: Vagrant
-  years: 5
-  competency: expert
-  categories:
-    - infra: devops
-pythonflask:
-  title: Python Flask
-  years: 10
-  competency: advanced
-  categories:
-    - tech: backend
-pythoneve:
-  title: Python Eve
-  years: 10
-  competency: advanced
-  categories:
-    - tech: backend
-dataManagement:
-  title: Data Management
-  years: 10
-  competency: expert
-  categories:
-mongodb:
-  title: Mongodb
-  years: 10
-  competency: advanced
-  categories:
-    - data: database
-systemSecurity:
-  title: System Security Management
-  years: 5
-  competency: advanced
-  categories:
-    - infra: sysadmin
-cicd:
-  title: Continuous Integration/Continuous Delivery (CI/CD) pipelines
-  years: 5
-  competency: advanced
-  categories:
-    - infra: devops
-optimizationMethods:
-  title: 'Optimization Methods'
-  years: 5
-  competency: advanced
-  categories:
-    - analytical: methodologies
-asset:
-  title: Asset allocation
-  years: 5
-  competency: advanced
-  categories:
-    - financial: investment
-quantitative:
-  title: Quantitative Research
-  years: 5
-  competency: advanced
-  categories:
-    - analytical: methodologies
-devops:
-  title: DevOps
-  years: 5
-  competency: advanced
-  categories:
-dsa:
-  title: Algorithms and Data Structures (DSA)
-  years: 2
-  competency: advanced
-  categories:
-    - tech: softdev
-databaseAdmin:
-  title: Database Administration
-  years: 10
-  competency: advanced
-  categories:
-mysql:
-  title: MySQL / MariaDB
-  years: 1
-  competency: experienced
-  categories:
-    - data: database
-redis:
-  title: Redis
-  years: 1
-  competency: experienced
-  categories:
-    - data: database
-sqlite:
-  title: SQLite
-  years: 8
-  competency: experienced
-  categories:
-    - data: database
-postgresql:
-  title: PostgreSQL
-  years: 8
-  competency: experienced
-  categories:
-    - data: database
+  tags:
+    - webdev
+    - backend
+    - prog-lang
 typescript:
-  title: Typescript
-  years: 5
+  label: Typescript
+  since-year: 2018
   competency: advanced
-  categories:
-    - tech: webdev
-    - tech: langs
+  tags:
+    - webdev
+    - backend
+    - prog-lang
+nodejs:
+  label: Node.js
+  since-year: 2013
+  competency: expert
+  tags:
+    - webdev
+    - backend
+    - prog-lang
+aws:
+  label: Amazon AWS
+  since-year: 2020
+  competency: beginner
+  tags:
+    - cloud-infra
+gcp:
+  label: Google Cloud Platform (GCP)
+  since-year: 2020
+  competency: experienced
+  tags:
+    - cloud-infra
+azure:
+  label: Microsoft Azure
+  since-year: 2020
+  competency: beginner
+  tags:
+    - cloud-infra
+linode:
+  label: Linode
+  since-year: 2015
+  competency: expert
+  tags:
+    - cloud-infra
+digital-ocean:
+  label: Digital Ocean
+  since-year: 2020
+  competency: expert
+  tags:
+    - cloud-infra
+hostinger:
+  label: Hostinger
+  since-year: 2023
+  competency: expert
+  tags:
+    - cloud-infra
+wasabi:
+  label: Wasabi Object Storage
+  since-year: 2020
+  competency: experienced
+  tags:
+    - cloud-infra
+r:
+  label: R
+  since-year: 2017
+  competency: expert
+  tags:
+    - data-analysis-lang
+    - prog-lang
+sas:
+  label: SAS
+  since-year: 2017
+  competency: expert
+  tags:
+    - data-analysis-lang
+    - prog-lang
+shell-scripting:
+  label: Shell Scripting
+  since-year: 2018
+  competency: expert
+  tags:
+    - devops-infra
+    - prog-lang
+    - iac-infra
+docker:
+  label: Docker
+  since-year: 2018
+  competency: expert
+  tags:
+    - devops-infra
+svelte:
+  label: Svelte/Sveltekit
+  since-year: 2018
+  competency: expert
+  tags:
+    - webdev
+vagrant:
+  label: Vagrant
+  since-year: 2018
+  competency: expert
+  tags:
+    - devops-infra
+    - iac-infra
+python-flask:
+  label: Python Flask
+  since-year: 2013
+  competency: advanced
+  tags:
+    - backend
+mongodb:
+  label: Mongodb
+  since-year: 2013
+  competency: advanced
+  tags:
+    - database
+ci-cd:
+  label: Continuous Integration/Continuous Delivery (CI/CD) pipelines
+  since-year: 2018
+  competency: advanced
+  tags:
+    - dev-tools
+    - devops-infra
+devops:
+  label: DevOps
+  since-year: 2018
+  competency: advanced
+  tags:
+dsa:
+  label: Algorithms and Data Structures (DSA)
+  since-year: 2020
+  competency: advanced
+  tags:
+    - dev-tools
+mysql:
+  label: MySQL / MariaDB
+  since-year: 2023
+  competency: experienced
+  tags:
+    - database
+redis:
+  label: Redis
+  since-year: 2023
+  competency: experienced
+  tags:
+    - database
+sqlite:
+  label: SQLite
+  since-year: 2015
+  competency: experienced
+  tags:
+    - database
+postgresql:
+  label: PostgreSQL
+  since-year: 2015
+  competency: experienced
+  tags:
+    - database
 react:
-  title: React.js
-  years: 2
+  label: React.js
+  since-year: 2016
   competency: experienced
-  categories:
-    - tech: webdev
+  tags:
+    - webdev
 firebase:
-  title: Firebase (Google)
-  years: 2
+  label: Firebase (Google)
+  since-year: 2020
   competency: experienced
-  categories:
-    - tech: webdev
+  tags:
+    - webdev
 lua:
-  title: Lua
-  years: 2
+  label: Lua
+  since-year: 2020
   competency: experienced
-  categories:
-    - tech: langs
+  tags:
+    - prog-lang
 wordpress:
-  title: Wordpress
-  years: 1
+  label: Wordpress
+  since-year: 2023
   competency: beginner
-  categories:
-    - tech: webdev
+  tags:
+    - webdev
 joomla:
-  title: Joomla
-  years: 1
+  label: Joomla
+  since-year: 2023
   competency: beginner
-  categories:
-    - tech: webdev
+  tags:
+    - webdev
 php:
-  title: PHP
-  years: 1
+  label: PHP
+  since-year: 2023
   competency: beginner
-  categories:
-    - tech: langs
+  tags:
+    - prog-lang
 odata:
-  title: oData
-  years: 1
+  label: oData
+  since-year: 2023
   competency: beginner
-  categories:
-    - tech: backend
-dotnet:
-  title: .NET Framework
-  years: 1
-  competency: beginner
-  categories:
-    - tech: backend
+  tags:
+    - backend
 postgis:
-  title: PostGIS
-  years: 1
+  label: PostGIS
+  since-year: 2023
   competency: beginner
-  categories:
-    - tech: gis
+  tags:
+    - gis
+dotnet:
+  label: .NET Framework
+  since-year: 2023
+  competency: beginner
+  tags:
+    - backend
 csharp:
-  title: C#
-  years: 1
+  label: C#
+  since-year: 2023
   competency: beginner
-  categories:
-    - tech: langs
-risk:
-  title: Risk assessment
-  categories:
+  tags:
+    - prog-lang
+risk-assessment:
+  label: Risk assessment
+  since-year: 2011
+  tags:
     - financial: analysis
-fundTechAnal:
-  title: Fundamental and technical analysis
-  categories:
+fundamental-technical-analysis:
+  label: Fundamental and technical analysis
+  since-year: 2006
+  tags:
     - financial: analysis
 portfolio:
-  title: Portfolio management
-  categories:
-    - financial: investment
+  label: Portfolio management
+  since-year: 2010
+  tags:
+    - investment-strategies
+optimization-methods:
+  label: 'Optimization Methods'
+  since-year: 2018
+  competency: advanced
+  tags:
+    - analytics-research-methodologies
+asset-allocation:
+  label: Asset allocation
+  since-year: 2018
+  competency: advanced
+  tags:
+    - investment-strategies
 bloomberg:
-  title: Bloomberg Terminal
-  categories:
-    - financial: soft
+  label: Bloomberg Terminal
+  since-year: 2011
+  tags:
+    - financial-software
 regression:
-  title: Regression analysis
-  categories:
-    - analytical: statistics
-time:
-  title: Time-series analysis
-  categories:
-    - analytical: statistics
+  label: Regression analysis
+  since-year: 2011
+  tags:
+    - stat-analysis
+time-series-analysis:
+  label: Time-series analysis
+  since-year: 2011
+  tags:
+    - stat-analysis
 econometrics:
-  title: Econometrics
-  categories:
-    - analytical: statistics
+  label: Econometrics
+  since-year: 2011
+  tags:
+    - stat-analysis
 forecasting:
-  title: Forecasting Techniques
-  categories:
-    - analytical: statistics
+  label: Forecasting Techniques
+  since-year: 2011
+  tags:
+    - stat-analysis
+quantitative:
+  label: Quantitative Research
+  since-year: 2018
+  competency: advanced
+  tags:
+    - analytics-research-methodologies
+    - stat-analysis
 qualitative:
-  title: Qualitative Research
-  categories:
-    - analytical: methodologies
+  label: Qualitative Research
+  since-year: 2011
+  tags:
+    - analytics-research-methodologies
 sqlserver:
-  title: Microsoft SQL Server
-  categories:
-    - data: database
+  label: Microsoft SQL Server
+  since-year: 2011
+  tags:
+    - database
 riotjs:
-  title: Riot.js
-  categories:
-    - tech: webdev
+  label: Riot.js
+  since-year: 2016
+  tags:
+    - webdev
 tdd:
-  title: Test Driven Development (TDD)
-  years: 3
-  categories:
-    - tech: softdev
+  label: Test Driven Development (TDD)
+  since-year: 2021
+  tags:
+    - dev-tools
+system-architecture:
+  label: System Architecture
+  since-year: 2011
+  tags:
+    - devops-infra
+    - system-design
+    - dev-tools
 ipeageo:
-  title: IpeaGEO
-  categories:
-    - tech: gis
-arcgisDesktop:
-  title: ArcGIS Desktop
-  categories:
-    - tech: gis
-geoportal:
-  title: ESRI Geoportal Server
-  categories:
+  label: IpeaGEO
+  since-year: 2011
+  tags:
+    - gis
+arcgis-desktop:
+  label: ArcGIS Desktop
+  since-year: 2011
+  tags:
+    - gis
+arcgis-geoportal:
+  label: ESRI Geoportal Server
+  since-year: 2015
+  tags:
     - infra: serverSoft
-collector:
-  title: ArcGIS Collector
-  categories:
+arcgis-collector:
+  label: ArcGIS Collector
+  since-year: 2015
+  tags:
     - infra: serverSoft
-storymaps:
-  title: ArcGIS StoryMaps
-  categories:
+arcgis-storymaps:
+  label: ArcGIS StoryMaps
+  since-year: 2015
+  tags:
     - infra: serverSoft
-dashboards:
-  title: ArcGIS Dashboards
-  categories:
+arcgis-dashboards:
+  label: ArcGIS Dashboards
+  since-year: 2015
+  tags:
     - infra: serverSoft
-appbuilder:
-  title: ArcGIS App Builder
-  categories:
+arcgis-app-builder:
+  label: ArcGIS App Builder
+  since-year: 2015
+  tags:
     - infra: serverSoft
-comm:
-  title: Excellent written and verbal communication
-  categories:
-    - soft: comm
-problem:
-  title: Creative and analytical approach to challenges
-  categories:
-    - soft: problem
-timeManagement:
-  title: Efficient in managing multiple tasks
-  categories:
-    - soft: time
-collab:
-  title: Proven ability to work effectively in team environments
-  categories:
-    - soft: collab
-dvc:
-  title: Data and Model Version Control
-  categories:
-    - data: database
+communication:
+  label: Excellent written and verbal communication
+  tags:
+    - soft-skills
+problem-solving:
+  label: Problem solving, creative and analytical approach to challenges
+  tags:
+    - soft-skills
+time-management:
+  label: Efficient in managing multiple tasks
+  tags:
+    - soft-skills
+collaboration:
+  label: Proven ability to work effectively in team environments
+  tags:
+    - soft-skills
+financial-modeling:
+  label: Financial modeling
+  since-year: 2013
+  competency: expert
+  tags:
+    - financial-analytics
+    - data-analysis-lang
+    - research-methodologies
+    - statistics
+finance:
+  label: Finance
+  since-year: 2013
+  competency: expert
+  tags:
+    - financial-analytics
+    - data-analysis-lang
+    - research-methodologies
+    - statistics
+agile:
+  label: Agile methodologies
+  since-year: 2013
+  competency: expert
+  tags:
+    - dev-tools

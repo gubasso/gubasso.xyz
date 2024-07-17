@@ -18,7 +18,12 @@ managerDev:
     - Implemented coding, testing, and deployment best practices.
     - Led and mentored a team of software developers and engineers.
 
-managerProj:
+tech-lead-management:
+  title: Technological Leadership and Team Management
+  description:
+    - [todo]
+
+project-manager:
   title: Project Manager
   description:
     - 'Oversaw project lifecycles from inception to completion.'
@@ -52,10 +57,12 @@ managerAdmin:
     - 'Standardized organizational processes and documentation.'
     - 'Implemented agile methodologies for operational efficiency.'
 
-dataAnalyst:
-  title: Data Analyst/Engineering
+data-engineer-analyst:
+  title: Data Engineer / Analyst
   description:
     - 'Handled data inspection, cleaning, and modeling.'
+    - 'Performed data set management and statistical analysis.'
+    - 'Developed researches and statistical analysis.'
     - 'Performed data collection and statistical analysis.'
     - 'Developed ETL scripts and applied statistical methods for data analysis.'
 

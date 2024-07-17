@@ -1,0 +1,40 @@
+soft-skills:
+  label: 'Soft Skills'
+management-leadership:
+  label: 'Management and Leadership'
+devops-infra:
+  label: 'DevOps and Infrastructure Management'
+iac-infra:
+  label: 'Infrastructure as Code'
+cloud-infra:
+  label: 'Cloud'
+system-design:
+  label: 'System Design'
+sysadmin:
+  label: 'Systems Administration'
+prog-lang:
+  label: 'Programming Language'
+backend:
+  label: 'Backend Development'
+gis:
+  label: 'Geographic Information Systems (GIS)'
+web3:
+  label: 'Web3 / Blockchain / Descentralized Applications'
+webdev:
+  label: 'Web/Frontend Development'
+dev-tools:
+  label: 'Software Development Tools & Methods'
+database:
+  label: 'Database Management & Storage'
+data-analysis-lang:
+  label: 'Languages for Data Analysis and Manipulation'
+financial-analytics:
+  label: 'Financial/Market Analytics'
+investment-strategies:
+  label: 'Investment Strategies'
+financial-software:
+  label: 'Financial Software'
+analytics-research-methodologies:
+  label: 'Analytics/Research Methodologies'
+stat-analysis:
+  label: 'Statistical Analysis/Modeling and Methods'

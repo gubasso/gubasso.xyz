@@ -1,5 +1,7 @@
 <script>
   import { base } from '$app/paths'
+  import AnchorExt from '$lib/components/AnchorExt.svelte'
+
   export let data
 
   const {
@@ -47,15 +49,12 @@
 
   <p>
     <b>Site: </b>
-    <a target="_blank" rel="external noopener noreferrer" href="https://gubasso.xyz"
-      >{contact.site}</a
-    >
+    <AnchorExt url={contact.site} label={contact.site} />
   </p>
-  <!-- <p><b>Social: </b> {@html contact.social.join(', ')}</p> -->
   <p>
     <b>Social: </b>
     {#each contact.social as social, i}
-      <a target="_blank" rel="external noopener noreferrer" href={social.url}>{social.name}</a
+      <AnchorExt url={social.url} label={social.name} />
       >{#if i < contact.social.length - 1},&nbsp;{/if}
     {/each}
     .
@@ -107,9 +106,7 @@
   <p><b>Title: </b> {education.doctor.title}</p>
   <p>
     <b>University: </b>
-    <a target="_blank" rel="external noopener noreferrer" href={education.doctor.link}
-      >{education.doctor.university}</a
-    >
+    <AnchorExt url={education.doctor.link} label={education.doctor.university} />
   </p>
   <p><b>Location: </b> {education.doctor.location}</p>
   <p><b>Attended: </b> {education.doctor.attended}</p>
@@ -120,9 +117,7 @@
   <p><b>Title: </b> {education.master.title}</p>
   <p>
     <b>University: </b>
-    <a target="_blank" rel="external noopener noreferrer" href={education.master.link}
-      >{education.master.university}</a
-    >
+    <AnchorExt url={education.master.link} label={education.master.university} />
   </p>
   <p><b>Location: </b> {education.master.location}</p>
   <p><b>Graduated: </b> {education.master.graduated}</p>
@@ -133,9 +128,7 @@
   <p><b>Title: </b> {education.bachelor.title}</p>
   <p>
     <b>University: </b>
-    <a target="_blank" rel="external noopener noreferrer" href={education.bachelor.link}
-      >{education.bachelor.university}</a
-    >
+    <AnchorExt url={education.bachelor.link} label={education.bachelor.university} />
   </p>
   <p><b>Location: </b> {education.bachelor.location}</p>
   <p><b>Graduated: </b> {education.bachelor.graduated}</p>
@@ -175,7 +168,7 @@
       <b>Title: </b>
       {pub.english}
       {#if pub.link}
-        <a target="_blank" rel="external noopener noreferrer" href={pub.link}>{@html pub.link}</a>
+        <AnchorExt url={pub.link} label="Access Link" />
       {/if}
     </p>
     <p><b>Area: </b> {pub.area}</p>
