@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Publications",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "link": {
+        "type": "string",
+        "format": "uri"
+      },
+      "english": {
+        "type": "string"
+      },
+      "area": {
+        "type": "string"
+      }
+    },
+    "required": ["title", "english", "area"],
+    "additionalProperties": false
+  }
+}

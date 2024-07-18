@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Educational Background",
+  "type": "object",
+  "properties": {
+    "doctor": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "university": {
+          "type": "string"
+        },
+        "link": {
+          "type": "string",
+          "format": "uri"
+        },
+        "location": {
+          "type": "string"
+        },
+        "attended": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "areas-of-study": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["title", "university", "link", "location", "attended", "areas-of-study"]
+    },
+    "master": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "university": {
+          "type": "string"
+        },
+        "link": {
+          "type": "string",
+          "format": "uri"
+        },
+        "location": {
+          "type": "string"
+        },
+        "graduated": {
+          "type": "integer"
+        },
+        "dissertationTitle": {
+          "type": "string"
+        },
+        "areas-of-study": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "title",
+        "university",
+        "link",
+        "location",
+        "graduated",
+        "dissertationTitle",
+        "areas-of-study"
+      ]
+    },
+    "bachelor": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "university": {
+          "type": "string"
+        },
+        "link": {
+          "type": "string",
+          "format": "uri"
+        },
+        "location": {
+          "type": "string"
+        },
+        "graduated": {
+          "type": "integer"
+        },
+        "monographTitle": {
+          "type": "string"
+        },
+        "areas-of-study": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "title",
+        "university",
+        "link",
+        "location",
+        "graduated",
+        "monographTitle",
+        "areas-of-study"
+      ]
+    }
+  },
+  "required": ["doctor", "master", "bachelor"]
+}
