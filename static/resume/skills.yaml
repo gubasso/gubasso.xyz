@@ -239,11 +239,6 @@ ci-cd:
   tags:
     - dev-tools
     - devops-infra
-devops:
-  label: DevOps
-  since-year: 2018
-  competency: advanced
-  tags:
 dsa:
   label: Algorithms and Data Structures (DSA)
   since-year: 2020

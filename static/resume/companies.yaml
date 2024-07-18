@@ -1,66 +1,133 @@
+personal:
+  company: Personal Initiatives and Projects
+  short-name: Personal
+  tags:
+    - technology
+    - artificial-intelligence
+    - machine-learning
+    - data-generation
+    - data-models
+    - web3
 scaleai:
   company: Scale AI
-  shortName: Scale AI
-  specialization: Technology, Artificial Iintelligence, Machine Learning, Data Generation and Models
+  short-name: Scale AI
+  tags:
+    - technology
+    - artificial-intelligence
+    - machine-learning
+    - data-generation
+    - data-models
   links:
-    - <a target="_blank" rel="external noopener noreferrer"  href="https://scale.com/">Scale AI</a>
+    - label: Scale AI
+      url: 'https://scale.com/'
   location: San Francisco, CA, US
+
 vistocerto:
   company: Seu Visto Certo
-  shortName: Seu Visto Certo
-  specialization: Professional and Educational Services
+  short-name: Seu Visto Certo
+  tags:
+    - professional-services
+    - educational-services
   links:
-    - <a target="_blank" rel="external noopener noreferrer"  href="https://seuvistocerto.com/">Seu Visto Certo</a>
+    - label: Seu Visto Certo
+      url: 'https://seuvistocerto.com/'
   location: Willow Park, TX, US
+
 cwnt:
   company: cwnt.io (Crown and Trunk Technologies)
-  shortName: cwnt.io
-  specialization: Technology, Financial Markets, Web3, Data Analysis
+  short-name: cwnt.io
+  tags:
+    - technology
+    - financial-markets
+    - web3
+    - data-analysis
   links:
-    - <a target="_blank" rel="external noopener noreferrer"  href="https://github.com/cwnt-io">cwnt.io Github</a>
-    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.linkedin.com/company/cwnt/">cwnt.io LinkedIn</a>
+    - label: cwnt.io Github
+      url: 'https://github.com/cwnt-io'
+    - label: cwnt.io LinkedIn
+      url: 'https://www.linkedin.com/company/cwnt/'
   location: Brasília, DF, Brazil
+
 cade:
   company: Administrative Council for Economic Defense (CADE - Conselho Administrativo de Defesa Econômica)
-  shortName: CADE
-  specialization: Antitrust Law and Competition Policy, Market Regulation, Consumer Protection, Economic Studies
+  short-name: CADE
+  tags:
+    - antitrust-law
+    - competition-policy
+    - market-regulation
+    - consumer-protection
+    - economic-studies
   links:
-    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.gov.br/cade/">CADE</a>
+    - label: CADE
+      url: 'https://www.gov.br/cade/'
   location: Brasília, DF, Brazil
+
 ipea:
   company: Institute for Applied Economic Research (IPEA - Instituto de Pesquisa Econômica Aplicada)
-  shortName: IPEA
-  specialization: Applied Economic Research, Policy Analysis and Development, Economic Data Analysis and Forecasting, Socioeconomic Studies
+  short-name: IPEA
+  tags:
+    - applied-economic-research
+    - policy-analysis
+    - policy-development
+    - economic-data-analysis
+    - forecasting
+    - socioeconomic-studies
   links:
-    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.ipea.gov.br/">IPEA</a>
+    - label: IPEA
+      url: 'https://www.ipea.gov.br/'
   location: Brasília, DF, Brazil
+
 iaed:
   company: Institute of Economic Analysis of Law (IAED - Instituto de Análise Econômica do Direito)
-  shortName: IAED
-  specialization: Economic Analysis, Policy and Investment Decision Support, Educational Training and Development
+  short-name: IAED
+  tags:
+    - economic-analysis
+    - policy-decision-support
+    - educational-training
   links:
-    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.linkedin.com/in/instituto-iaed-a1a74328/">IAED LinkedIn</a>
+    - label: IAED LinkedIn
+      url: 'https://www.linkedin.com/in/instituto-iaed-a1a74328/'
   location: Brasília, DF, Brazil
+
 cerme:
   company: Center for Market Regulation Studies, University of Brasilia, UnB (CERME - Centro de Estudos em Regulação de Mercados, Universidade de Brasília, UnB)
-  shortName: CERME
-  specialization: Market and Economic Analysis, Educational Training and Development, Regulatory Impact Analysis, Economics and Politics Research Group
+  short-name: CERME
+  tags:
+    - market-analysis
+    - educational-training
+    - regulatory-impact-analysis
+    - economics-research
+    - politics-research
   links:
-    - <a target="_blank" rel="external noopener noreferrer" href="https://www.unb.br/centros">Centros UnB</a>
-    - <a target="_blank" rel="external noopener noreferrer"  href="http://cerme.unb.br/">CERME</a>
-    - '<a target="_blank" rel="external noopener noreferrer"  href="http://pesquisa.unb.br/humanidades-ciencias-sociais/centros-ciencias-sociais?menu=806#centro-de-estudos-em-regulacao-de-mercados-cerme">Centros UnB: CERME</a>'
+    - label: Centros UnB
+      url: 'https://www.unb.br/centros'
+    - label: CERME
+      url: 'http://cerme.unb.br/'
+    - label: 'Centros UnB: CERME'
+      url: 'http://pesquisa.unb.br/humanidades-ciencias-sociais/centros-ciencias-sociais?menu=806#centro-de-estudos-em-regulacao-de-mercados-cerme'
   location: Brasília, DF, Brazil
+
 sdr:
   company: National Secretariat for Regional Development, Ministry of Integration and Regional Development (SDR - Secretaria Nacional de Desenvolvimento Regional, Ministério da Integração e do Desenvolvimento Regional)
-  shortName: SDR
-  specialization: Promotion of Regional Development, Integration of National Policies, Implementation of Regional, Urban, and Productive Structuring Programs
+  short-name: SDR
+  tags:
+    - regional-development
+    - national-policies-integration
+    - structuring-programs
   links:
-    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional">SDR</a>
+    - label: SDR
+      url: 'https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional'
   location: Brasília, DF, Brazil
+
 unb:
   company: University of Brasília (UnB - Universidade de Brasília)
-  shortName: UnB
-  specialization: Public University, Higher Education, Research, Academic Development
+  short-name: UnB
+  tags:
+    - public-university
+    - higher-education
+    - research
+    - academic-development
   links:
-    - <a target="_blank" rel="external noopener noreferrer"  href="https://www.unb.br/">UnB</a>
+    - label: UnB
+      url: 'https://www.unb.br/'
   location: Brasília, DF, Brazil

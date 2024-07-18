@@ -1,3 +1,71 @@
+technology:
+  label: 'Technology'
+artificial-intelligence:
+  label: 'Artificial Intelligence'
+machine-learning:
+  label: 'Machine Learning'
+data-generation:
+  label: 'Data Generation'
+data-models:
+  label: 'Models'
+professional-services:
+  label: 'Professional Services'
+educational-services:
+  label: 'Educational Services'
+financial-markets:
+  label: 'Financial Markets'
+data-analysis:
+  label: 'Data Analysis'
+antitrust-law:
+  label: 'Antitrust Law'
+competition-policy:
+  label: 'Competition Policy'
+market-regulation:
+  label: 'Market Regulation'
+consumer-protection:
+  label: 'Consumer Protection'
+economic-studies:
+  label: 'Economic Studies'
+applied-economic-research:
+  label: 'Applied Economic Research'
+policy-analysis:
+  label: 'Policy Analysis'
+policy-development:
+  label: 'Development'
+economic-data-analysis:
+  label: 'Economic Data Analysis'
+forecasting:
+  label: 'Forecasting'
+socioeconomic-studies:
+  label: 'Socioeconomic Studies'
+economic-analysis:
+  label: 'Economic Analysis'
+policy-decision-support:
+  label: 'Policy and Investment Decision Support'
+educational-training:
+  label: 'Educational Training'
+market-analysis:
+  label: 'Market Analysis'
+regulatory-impact-analysis:
+  label: 'Regulatory Impact Analysis'
+economics-research:
+  label: 'Economics Research'
+politics-research:
+  label: 'Politics Research'
+regional-development:
+  label: 'Regional Development'
+national-policies-integration:
+  label: 'Integration of National Policies'
+structuring-programs:
+  label: 'Implementation of Regional, Urban, and Productive Structuring Programs'
+public-university:
+  label: 'Public University'
+higher-education:
+  label: 'Higher Education'
+research:
+  label: 'Research'
+academic-development:
+  label: 'Academic Development'
 soft-skills:
   label: 'Soft Skills'
 management-leadership:

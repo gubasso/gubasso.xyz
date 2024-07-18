@@ -1,5 +1,10 @@
 # projects_page (Issue)
 
+
+- [ ] building yamls schemas for data validation
+
+---
+
 - gubasso-xyz
     - Personal Portfolio Website
     - Blogging Platform

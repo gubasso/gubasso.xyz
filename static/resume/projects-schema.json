@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "patternProperties": {
+    "^[a-zA-Z0-9_-]+$": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "short-title": { "type": "string" },
+        "year": { "type": "integer" },
+        "summary": { "type": "string" },
+        "bullets": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "skills": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": { "type": "string" },
+              "url": { "type": "string", "format": "uri" }
+            },
+            "required": ["label", "url"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["title", "short-title", "year", "summary", "bullets", "skills"],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "patternProperties": {
+    "^[a-zA-Z0-9_-]+$": {
+      "type": "object",
+      "properties": {
+        "company": { "type": "string" },
+        "short-name": { "type": "string" },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": { "type": "string" },
+              "url": { "type": "string", "format": "uri" }
+            },
+            "required": ["label", "url"],
+            "additionalProperties": false
+          }
+        },
+        "location": { "type": "string" }
+      },
+      "required": ["company", "short-name", "tags", "links", "location"],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

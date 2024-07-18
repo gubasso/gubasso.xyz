@@ -1,390 +1,138 @@
-title: Work Experience
-data:
-  - jobTitle: Software Engineer
-    company: scaleai
-    dateOfEmployment: 03/2024 - Present
-    description:
-      - Evaluating the quality of AI-generated code and creating human-readable summaries of the evaluations
-      - Solving a variety of coding problems to ensure code functionality and efficiency
-      - Developing robust test cases to validate the performance and effectiveness of the code
-      - Addressing various coding challenges to improve the training and performance of AI models
-      - Develop detailed instructions and prompts to guide the learning process of the AI model
-      - Idealize, create and review projects, codebases and documentation in Python, JavaScript and TypeScript
-    roles:
-      - developer
-    projects:
-      - generativeai
-    skills:
-      - python
-      - javascript
-      - nodejs
-      - tdd
-  - jobTitle: Software Engineer, CTO and Co-founder
-    company: cwnt
-    dateOfEmployment: 10/2016 - Present
-    descriptionBr:
-      - "Desenvolvi 'Boleteggs', um aplicativo web em React.js e Python para gestão de faturamento de aluguel e contratos, melhorando as operações para uma empresa familiar de gestão de imóveis."
-      - 'Criei algoritmos de trading com Rust, Python e R, aprimorando a tomada de decisão em tempo real na negociação de ativos e análise de dados de mercado.'
-      - "Liderei a criação e desenvolvi o 'Brag-Server', uma API REST em Rust de código aberto (projeto open-source) para métricas de respositórios Git, construída usando PostgreSQL e Docker, melhorando as percepções sobre atividades no desenvolvimento de sistemas."
-      - "Desenvolvi 'Ripissue', uma ferramenta CLI em Rust e Git, de código aberto (projeto open-source), para gerenciamento de tarefas e 'issue traking'. É utilizada pela Cwnt.io como a principal ferramenta para gestão de projetos e gerenciamento de tarefas por todo o processo de desenvolvimento de software, simplificando os fluxos de trabalho distribuído e descentralizado."
-      - "Desenvolvi o projeto 'candid-gen', uma ferramenta CLI para a geração automática de arquivos de interface Candid a partir de canisters Rust para projetos do Internet Computer (IC), simplificando a criação de arquivos `.did` e garantindo que os canisters Rust estejam documentados corretamente e prontos para implantação."
-      - "Implementei o projeto 'IaC para CWNT', automatizando toda a infraestrutura da empresa usando princípios de Infrastructure as Code (IaC) com Terraform e Ansible, configurando e gerenciando VPS e serviços, garantindo operações seguras e eficientes."
-      - 'Defini a visão e direção estratégica da empresa como Co-fundador, fomentando inovação em soluções tecnológicas.'
-      - 'Como CTO, alinhei a estratégia tecnológica com os objetivos de negócios e gerenciei iniciativas de P&D para implantação de soluções tecnológicas.'
-      - 'Como Gerente de Desenvolvimento, supervisionei o ciclo de desenvolvimento de software e implementei as melhores práticas de programação.'
-      - 'Como Desenvolvedor de Software, elaborei e testei aplicações de software de alta qualidade, garantindo o alinhamento com os requisitos dos usuários e do negócio.'
-      - 'Como Administrador de Sistemas, gerenciei configurações de servidores e segurança do sistema, garantindo a implantação confiável do serviço.'
-      - 'Como Educador e Professor em Tecnologia, transmiti conhecimento técnico e habilidades específicas de projeto, aumentando as capacidades da equipe.'
-    description:
-      - "Developed 'Boleteggs', a React.js and Python based web app for rent billing and contract management to improve the operations of a family-run property management company."
-      - 'Created innovative trading algorithms using Rust, Python and R that improve decision making when trading assets and analyzing market data in real time.'
-      - "Led and developed 'Brag-Server', an open-source Rust-based REST API for Git metrics built with PostgreSQL and Docker that improves visibility into repository activity."
-      - "Developed 'Ripissue', an open-source CLI tool for Git issue tracking using Rust, which is used by Cwnt.io for project management and as the main issue tracker in its software development process to optimize distributed project management workflows."
-      - "Developed the project 'candid-gen', a CLI tool for automating the generation of Candid interface files from Rust canisters for Internet Computer (IC) projects, simplifying the creation of `.did` files and ensuring that Rust canisters are properly documented and ready for deployment."
-      - "Implemented the project 'IaC for CWNT', automating the entire infrastructure for the company using Infrastructure as Code (IaC) principles with Terraform and Ansible, setting up and managing VPS and services, ensuring secure and efficient operations."
-      - "As co-founder, shaped the company's vision and strategic direction and drove innovation in technology solutions."
-      - 'As CTO, aligned technology strategy with business objectives and led R&D initiatives for tech solution deployment.'
-      - 'As Software Development Manager, oversaw the software development lifecycle and implemented coding best practices.'
-      - 'As a developer, developed and tested high quality software applications, ensuring they met user and business requirements.'
-      - 'As a system administrator, managed server configurations and system security and ensured the reliable delivery of services.'
-      - 'Imparted technical knowledge and project-specific skills, improving team skills as a technology educator.'
-    roles:
-      - coFounder
-      - cto
-      - managerDev
-      - managerProj
-      - developer
-      - systemsAdmin
-      - technologyEducator
-    projects:
-      - boleteggs
-      - algos
-      - bragServer
-      - ripissue
-      - uai-components
-      - candid-gen
-      - iac-cwnt
-    skills:
-      - rust
-      - sql
-      - postgresql
-      - sqlite
-      - html
-      - css
-      - javascript
-      - typescript
-      - python
-      - svelte
-      - firebase
-      - git
-      - agile
-      - tdd
-      - github
-      - gitlab
-      - nodejs
-      - docker
-      - cicd
-      - shellScripting
-      - linux
-      - systemSecurity
-      - optimizationMethods
-      - ansible
-      - terraform
-  - jobTitle: Software Engineer and Technical Consultant
-    company: vistocerto
-    dateOfEmployment: 01/2015 - Present
-    descriptionBr:
-      - 'Desenvolvi e implementei a automação completa do fluxo de atendimento ao cliente, integrando processos de vendas com ferramentas de CRM e aplicativos de comunicação, incluindo a API do Whatsapp Business.'
-      - 'Gerenciei o ciclo de desenvolvimento de software, garantindo o alinhamento do projeto com os objetivos de negócios e incorporando as melhores práticas de codificação, teste e implantação.'
-      - 'Supervisionei os ciclos de vida do projeto da concepção à conclusão, definindo escopos, gerenciando recursos e liderando equipes multifuncionais.'
-      - 'Administrei configurações de servidores e segurança do sistema, lidando com a implantação de serviços, manutenção de software e automação de tarefas rotineiras.'
-      - 'Ensinei e compartilhou conhecimento técnico com a equipe, focando em habilidades específicas do projeto e em uma variedade de assuntos tecnológicos.'
-    description:
-      - 'Developed and implemented the entire client assistance lifecycle automation, integrating sales processes with CRM tools and communication applications including Whatsapp Business API.'
-      - 'Managed the software development lifecycle, ensuring project alignment with business objectives and incorporating best practices in coding, testing, and deployment.'
-      - 'Oversaw project lifecycles from conception to completion, defining scopes, managing resources, and leading cross-functional teams.'
-      - 'Managed server configurations and system security, handling service deployment, software maintenance, and routine task automation.'
-      - 'Educated and shared technical knowledge with staff, focusing on project-specific skills and a range of technology subjects.'
-    roles:
-      - developer
-      - managerDev
-      - managerProj
-      - systemsAdmin
-      - technologyEducator
-    projects:
-      - clientProcessAutomation
-    skills:
-      - html
-      - css
-      - javascript
-      - svelte
-      - nodejs
-      - docker
-      - cicd
-      - linux
-      - git
-      - gitlab
-      - agile
-  - jobTitle: Software Engineer and Technical Consultant
-    company: cade
-    dateOfEmployment: 01/2018 - 01/2023
-    descriptionBr:
-      - "Liderei e conduzi o desenvolvimento do 'Cadelab', uma plataforma interativa para análise da concorrência econômica, utilizando Python Eve, Flask e Svelte para visualização avançada de dados. Implementei o banco de dados MongoDB, DVC para controle de versão de dados e empreguei o Docker para implantação conteinerizada, garantindo serviços de API de ponta e atualizações de dados eficientes."
-      - 'Coordenei e revisei os processos de ETL de dados no CADE, desempenhando um papel fundamental na programação de procedimentos e métodos estatísticos para o cálculo de indicadores econômicos. Minhas responsabilidades incluíam engenharia de dados, scripting para manipulação, limpeza, agregação de dados e implementação de fluxos de trabalho de ETL, além de análise de dados usando R, Python e PostgreSQL.'
-      - 'Gerenciei ciclos completos de desenvolvimento de software, garantindo o alinhamento do projeto com os objetivos de negócios e orientei uma equipe de desenvolvedores em tecnologias full-stack.'
-      - 'Dirigi os ciclos de vida do projeto, do conceito à entrega, definindo escopos e liderando equipes multifuncionais para a execução bem-sucedida do projeto.'
-      - 'Administrei funções de administração de sistemas, incluindo configuração de servidores, segurança do sistema e implantação de serviços, garantindo uma infraestrutura de TI robusta e segura.'
-      - 'Projetei e ministrei programas de treinamento em Svelte/Sapper e Python Eve com MongoDB, aprimorando as habilidades da equipe no desenvolvimento de SPA e construção de API REST.'
-    description:
-      - "Spearheaded and led the development of 'Cadelab', an interactive platform for economic competition analytics, utilizing Python Eve, Flask, and Svelte for advanced data visualization. Implemented MongoDB for database management, DVC for data version control, and employed Docker for containerized deployment, ensuring cutting-edge API services and efficient data updates."
-      - 'Coordinated and reviewed data ETL processes at CADE, playing a key role in programming statistical procedures and methods for calculating economic indicators. My responsibilities included data engineering, scripting for data manipulation, cleaning, aggregation, and implementing ETL workflows, alongside data analysis using R, Python, and PostgreSQL.'
-      - 'Managed full software development cycles, ensuring project alignment with business goals, and mentored a team of developers in full-stack technologies.'
-      - 'Directed project lifecycles, from concept to delivery, defining scopes and leading cross-functional teams for successful project execution.'
-      - 'Handled systems administration duties, including server configuration, system security, and service deployment, ensuring robust and secure IT infrastructure.'
-      - 'Designed and delivered training programs in Svelte/Sapper and Python Eve with MongoDB, enhancing team skills in SPA development and REST API construction.'
-    roles:
-      - systemsAnalyst
-      - technologyEducator
-      - dataAnalyst
-      - developer
-      - managerProj
-      - systemsAdmin
-    projects:
-      - cadelab
-    skills:
-      - python
-      - r
-      - sql
-      - postgresql
-      - mongodb
-      - html
-      - css
-      - javascript
-      - svelte
-      - riotjs
-      - git
-      - gitlab
-      - agile
-      - tdd
-      - nodejs
-      - docker
-      - vagrant
-      - cicd
-      - shellScripting
-      - linux
-      - systemSecurity
-      - optimizationMethods
-    teaching:
-      - sveltecourse
-      - pythonevecourse
-  - jobTitle: Software Engineer and Research Consultant
-    company: ipea
-    dateOfEmployment: 10/2011 - 12/2019
-    description:
-      - 'Coordinated a multidisciplinary team of developers, data analysts, statisticians, and economists, ensuring effective collaboration and project delivery.'
-      - "Developed and enhanced 'IpeaGEO', a .NET C# application for spatial data analysis, improving GIS capabilities and geographic data interpretation."
-      - "Directed the development of 'IpeaData', a prominent web application in Brazil for accessing public social and economic data. Employed the React.js and Riot.js framework and a SQL Server with a .NET C# Odata, and a MongoDB with a Python backend, enhancing the application's robustness and scalability."
-      - "Managed the 'Ipea Data Extractor' project, utilizing Suite Pentaho, Mondrian, and Saiku over PostgreSQL for efficient data querying and aggregation."
-      - "Led the 'Ipea Publica' project as project manager and system analyst, automating the review process of institutional publications and improving internal workflow efficiency."
-      - "Oversaw 'Ipea Projetos', streamlining the management of organizational projects through effective system design and project coordination."
-      - "Fulfilled multiple roles (developer, tech lead, and project manager) in the 'Atlas of Social Vulnerability' project, contributing to the development of a dynamic web platform for analyzing social data."
-      - "Assumed similar roles (developer, tech lead, project manager) in 'Portal of Metropolitan Governance in Brazil', a project focued on regional development and governance data for economic analysis."
-      - 'Conducted comprehensive economic research data analysis and reporting, creating databases, reports, and charts to support various research studies.'
-      - 'Delivered comprehensive Riot.js training, focusing on web development frameworks and frontend architecture, enhancing participant skills in building web applications.'
-    roles:
-      - dataAnalyst
-      - researcher
-      - developer
-      - managerDev
-      - managerProj
-      - systemsAnalyst
-      - systemsAdmin
-      - technologyEducator
-    projects:
-      - dataAnalysisReports
-      - ipeageo
-      - ipeaextrator
-      - ipeapublica
-      - ipeaprojetos
-      - ipeadata
-      - brasilmetropolitano
-      - ivs
-    teaching:
-      - riotjscourse
-    skills:
-      - bloomberg
-      - regression
-      - time
-      - quantitative
-      - csharp
-      - php
-      - sas
-      - r
-      - python
-      - sql
-      - postgresql
-      - sqlserver
-      - sqlite
-      - mongodb
-      - wordpress
-      - joomla
-      - html
-      - css
-      - javascript
-      - svelte
-      - riotjs
-      - react
-      - git
-      - nodejs
-      - dotnet
-      - gitlab
-      - github
-      - agile
-      - tdd
-      - docker
-      - vagrant
-      - cicd
-      - shellScripting
-      - linux
-      - systemSecurity
-      - optimizationMethods
-      - ipeageo
-      - postgis
-  - jobTitle: Consultant and Software Developer
-    company: iaed
-    dateOfEmployment: 10/2011 - 12/2017
-    description:
-      - "Served as a consultant, implementing projects like 'ALM', 'Actuarial Flow', and 'Future Rentability' for major banks, financial institutions, and pension funds in Brazil, to enhance asset allocation and porfolio management strategies."
-      - "Analyzed and developed financial models for 'ALM' using C#, .NET, R, SAS, and SQL, optimizing asset and portfolio management strategies."
-      - "Led the 'Actuarial Flow' project as a developer and researcher, utilizing R, SAS, and SQL for actuarial data processing, significantly enhancing data accuracy and efficiency."
-      - "Designed and implemented 'Future Rentability', a predictive model for asset performance using regression and econometric methods in R and SAS, improving long-term investment decisions."
-      - 'Conducted extensive qualitative and quantitative research, applying econometrics and optimization methods to generate insightful financial analyses.'
-      - "Facilitated 'SAS Guide Course' as a technology educator, imparting crucial data analysis skills using SAS to professionals, enhancing their analytical capabilities."
-    roles:
-      - dataAnalyst
-      - developer
-      - technologyEducator
-      - researcher
-    projects:
-      - alm
-      - actuarialflow
-      - futurerentability
-    teaching:
-      - sasguidecourse
-    skills:
-      - financialModel
-      - asset
-      - portfolio
-      - bloomberg
-      - regression
-      - time
-      - econometrics
-      - qualitative
-      - quantitative
-      - optimizationMethods
-      - csharp
-      - dotnet
-      - r
-      - sas
-      - sql
-      - postgresql
-      - git
-      - agile
-      - risk
-  - jobTitle: Project Manager and Technology Coordinator
-    company: cerme
-    dateOfEmployment: 03/2015 - 12/2016
-    description:
-      - "Executed the 'ODR' project for the Brazilian Government, serving as a hub for economic and social policy indicators. Provided an array of web-based solutions for detailed regional analysis, simplifying access to regional social, economic, and demographic data, and applying policy metrics to monitor the execution and outcomes of regional public policies."
-      - "Oversaw the 'ODR' project as Technology Coordinator, managing project and development teams, and ensuring efficient systems analysis and administration."
-      - 'Led web development efforts using HTML, CSS, and JavaScript, enhancing online platforms and user interfaces.'
-      - 'Administered server systems and ensured robust system security, utilizing Linux and system security tools.'
-      - 'Implemented Geoportal and other GIS tools like ArcGIS Desktop, Collector, and StoryMaps for dynamic data visualization and analysis.'
-      - 'Conducted technology education sessions on various tools including WordPress, Git, and Agile methodologies, enhancing team proficiency and project efficiency.'
-    roles:
-      - managerProj
-      - managerDev
-      - systemsAnalyst
-      - systemsAdmin
-      - technologyEducator
-    projects:
-      - odr
-    skills:
-      - html
-      - css
-      - javascript
-      - wordpress
-      - git
-      - agile
-      - gitlab
-      - arcgisDesktop
-      - vagrant
-      - shellScripting
-      - linux
-      - systemSecurity
-      - geoportal
-      - collector
-      - storymaps
-      - dashboards
-      - appbuilder
-      - postgresql
-      - r
-      - sql
-  - jobTitle: General Coordinator
-    company: sdr
-    dateOfEmployment: 08/2014 - 02/2015
-    description:
-      - "Managed and administered the 'ODR' project, coordinating regional policy monitoring and evaluation."
-      - 'Utilized GIS tools such as ArcGIS Desktop for geographical data analysis, aiding in effective regional policy planning.'
-      - 'Spearheaded database management and analysis using PostgreSQL, R, and SQL, ensuring accurate data-driven decision-making.'
-      - 'Promoted Agile project management practices and Git for efficient team collaboration and project tracking.'
-      - 'Acted as a speaker at LAUC and Geonordeste, sharing insights on regional policy evaluation and monitoring.'
-    roles:
-      - managerAdmin
-      - managerProj
-      - systemsAdmin
-      - dataAnalyst
-    projects:
-      - odr
-    teaching:
-      - speakerLauc
-      - speakerGeonordeste
-    skills:
-      - git
-      - agile
-      - gitlab
-      - arcgisDesktop
-      - postgresql
-      - r
-      - sql
-  - jobTitle: University Professor and Researcher
-    company: unb
-    dateOfEmployment: 01/2012 - 12/2014
-    description:
-      - "Taught courses in 'MMQD - Quantitative Methods and Operations Research', 'Finances 1', and 'Financial Calculus', leveraging expertise in financial modeling and econometrics."
-      - 'Conducted research and applied quantitative and qualitative methods, contributing to the field of finance and economics.'
-      - "Developed and utilized SAS, R, and Bloomberg tools for teaching and research, enhancing students' analytical and practical skills."
-      - 'Focused on optimization methods, forecasting, and regression analysis, guiding students through complex financial concepts.'
-      - 'Engaged in asset, portfolio, and risk management studies, providing students with practical, industry-relevant knowledge.'
-    roles:
-      - professor
-      - researcher
-    teaching:
-      - mmqd
-      - finances1
-      - financialCalculus
-    skills:
-      - sas
-      - r
-      - optimizationMethods
-      - quantitative
-      - qualitative
-      - forecasting
-      - econometrics
-      - time
-      - regression
-      - bloomberg
-      - portfolio
-      - asset
-      - risk
-      - financialModel
+- title: Tech Enthusiast
+  company: personal
+  date-of-employment: 03/2011 - Present
+  roles:
+    - software-engineer
+    - prompt-engineer
+    - sysadmin
+    - technology-educator
+    - data-engineer-analyst
+    - researcher
+    - devops-engineer
+  projects:
+    - docs-n-notes
+    - gubasso-xyz
+- title: Software Engineer
+  company: scaleai
+  date-of-employment: 03/2024 - Present
+  roles:
+    - prompt-engineer
+    - software-engineer
+    - programming-task-designer-evaluator-ai
+  projects:
+    - generative-ai
+- title: Software Engineer, Tech Lead, CTO and Co-founder
+  company: cwnt
+  date-of-employment: 10/2016 - Present
+  projects:
+    - iac-cwnt
+    - ripissue
+    - brag-server
+    - candid-gen
+    - uai-components
+    - boleteggs
+    - algos
+  roles:
+    - co-founder
+    - cto
+    - software-engineer
+    - devops-engineer
+    - prompt-engineer
+    - tech-lead
+    - project-manager
+    - distributed-systems-architect
+    - sysadmin
+    - technology-educator
+- title: Software Engineer and Technical Consultant
+  company: vistocerto
+  date-of-employment: 01/2015 - Present
+  roles:
+    - software-engineer
+    - tech-lead
+    - project-manager
+    - sysadmin
+    - technology-educator
+  projects:
+    - client-process-automation
+- title: Software Engineer and Technical Consultant
+  company: cade
+  date-of-employment: 01/2018 - 01/2023
+  roles:
+    - software-engineer
+    - devops-engineer
+    - distributed-systems-architect
+    - tech-lead
+    - project-manager
+    - sysadmin
+    - systems-analyst
+    - data-engineer-analyst
+    - technology-educator
+  projects:
+    - cadelab
+- title: Software Engineer and Research Consultant
+  company: ipea
+  date-of-employment: 10/2011 - 12/2019
+  roles:
+    - software-engineer
+    - tech-lead
+    - project-manager
+    - devops-engineer
+    - distributed-systems-architect
+    - sysadmin
+    - systems-analyst
+    - data-engineer-analyst
+    - technology-educator
+    - researcher
+  projects:
+    - ipeadata
+    - ipeageo
+    - ipea-extrator
+    - ivs
+    - brasil-metropolitano
+    - ipea-publica
+    - ipea-projetos
+    - data-analysis-reports
+- title: Consultant and Software Engineer
+  company: iaed
+  date-of-employment: 10/2011 - 12/2017
+  roles:
+    - financial-technology-consultant
+    - data-engineer-analyst
+    - software-engineer
+    - technology-educator
+    - researcher
+  projects:
+    - alm
+    - future-rentability
+    - actuarial-flow
+- title: Project Manager and Technology Leader
+  company: cerme
+  date-of-employment: 03/2015 - 12/2016
+  roles:
+    - project-manager
+    - tech-lead
+    - systems-analyst
+    - distributed-systems-architect
+    - sysadmin
+    - technology-educator
+  projects:
+    - odr
+- title: General Coordinator
+  company: sdr
+  date-of-employment: 08/2014 - 02/2015
+  roles:
+    - manager-admin
+    - project-manager
+    - sysadmin
+    - data-engineer-analyst
+    - researcher
+  projects:
+    - odr
+- title: University Professor and Researcher
+  company: unb
+  date-of-employment: 01/2012 - 12/2014
+  roles:
+    - professor
+    - researcher
+  projects:
+    - financial-analytics-lab

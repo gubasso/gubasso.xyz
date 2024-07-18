@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "patternProperties": {
+    "^[a-zA-Z0-9_-]+$": {
+      "type": "object",
+      "properties": {
+        "label": { "type": "string" },
+        "since-year": { "type": "integer" },
+        "competency": { "type": "string" },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["label", "since-year", "competency", "tags"],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

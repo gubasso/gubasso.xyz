@@ -92,11 +92,11 @@ odr:
   title: Regional Development Observatory (ODR - Observatório Do Desenvolvimento Regional)
   short-title: ODR
   year: 2015
-  summary: 'Advanced web platform that leverages ESRI/ArcGIS Suite to provide comprehensive regional and spatial data. It serves as a hub for economic and social policy indicators, offering an array of web-based solutions for detailed regional analysis.'
+  summary: 'Web platform, leveraged by ESRI/ArcGIS Suite, to provide comprehensive regional and spatial data. Provides an array of web-based solutions for detailed regional analysis, simplifies access to regional, social, economic, and demographic data, and applies policy metrics to monitor the execution and outcomes of public policies.'
   bullets:
-    - "Developed the 'ODR' web platform using PostgreSQL for data management, and ArcGIS services for spatial data analysis and visualization."
+    - 'Web platform developed using PostgreSQL for data management, and ArcGIS services for spatial data analysis and visualization.'
     - 'Executed and automated data analysis flows using R and SQL to generate economic and social policy reports and studies.'
-    - 'Designed website interfaces using WordPress for data visualization and accessibility.'
+    - 'Designed website interfaces using WordPress and HTML/CSS/JS for data visualization and accessibility.'
     - 'Aided the Brazilian Government in policy evaluation by offering web-based solutions for detailed regional analysis, and intuitive access to economic and social data.'
     - 'Deployed and managed databases services and ArcGIS applications on Windows and Linux-based servers.'
   links:
@@ -112,6 +112,7 @@ odr:
     - javascript
     - linux
     - git
+    - gitlab
     - apis
     - shell-scripting
     - vagrant
@@ -125,6 +126,7 @@ odr:
     - arcgis-storymaps
     - arcgis-dashboards
     - arcgis-app-builder
+    - agile
 future-rentability:
   title: 'Automated Future Rentability Estimation for ALM models.'
   short-title: Future Rentability
@@ -170,7 +172,7 @@ alm:
   title: 'Automated Asset-Liability Management Model for Pension Funds'
   short-title: ALM
   year: 2011
-  summary: 'System for the automated management of asset and liability in pension funds, utilizing an ALM model to optimize asset allocations, built with SAS and C#.'
+  summary: 'System for the automated management of asset and liability in pension funds, utilizing an ALM model to optimize asset allocations, built with SAS, .NET C#, and Sql Server'
   bullets:
     - 'Automated ALM system for pension funds, utilizing SAS, and .NET C# for model development.'
     - 'Optimized asset allocation and liability management strategies for major pension funds in Brazil.'
@@ -179,6 +181,7 @@ alm:
     - sas
     - csharp
     - dotnet
+    - sqlserver
     - finance
     - financial-modeling
     - econometrics
@@ -336,7 +339,7 @@ ipeageo:
   year: 2012
   summary: 'Windows desktop application developed in .NET C# for advanced spatial data analysis.'
   bullets:
-    - "Developed 'IpeaGEO', a .NET C# application for advanced spatial data analysis."
+    - '.NET C# application for advanced spatial data analysis.'
     - 'Specialized in manipulation and georeferencing of spatial data, with GIS capabilities.'
     - 'Enables users to visualize and generate maps.'
     - 'Facilitated GIS capabilities for academic research and student projects.'
@@ -482,8 +485,8 @@ cadelab:
   bullets:
     - 'Frontend web application developed with Riot.js and Svelte that showcases data through visual components and charts for easy interpretation.'
     - 'Backend web API built with Python Flask, MongoDB and PostgreSQL provides a REST API service with up-to-date data and indicators.'
-    - 'Implemented python algorithms to calculate economic indicators efficiently from large data-sets in real-time.'
-    - 'Implemented R and Python for ETL processes, generating economic indicators.'
+    - 'Implemented Python algorithms to calculate economic indicators efficiently from large data-sets in real-time.'
+    - 'Implemented ETL automated processes with R and Python.'
     - 'Utilized DVC for data and model version control, ensuring data integrity.'
     - 'The platform includes an automated data workflow to sync and update sources, coupled with data engineering scripts for ETL processes'
     - "Deployed and managed the web application and services with Docker on self-managed servers (VPS's) at testing and staging environments."
@@ -495,17 +498,20 @@ cadelab:
   skills:
     - python
     - python-flask
+    - optimization-methods
     - sql
     - postgresql
     - mongodb
     - dvc
     - svelte
+    - riotjs
     - html
     - css
     - javascript
     - typescript
     - nodejs
     - linux
+    - sysadmin
     - linode
     - hostinger
     - shell-scripting
@@ -514,9 +520,11 @@ cadelab:
     - gitlab-ci
     - apis
     - ci-cd
-    - devops
+    - docker
+    - vagrant
     - system-architecture
     - agile
+    - tdd
 client-process-automation:
   title: 'Client Assistance Process Automation'
   short-title: CRM Process Automation
@@ -601,3 +609,34 @@ dotfiles:
     - shell-scripting
     - git
     - github
+
+financial-analytics-lab:
+  title: 'Financial Analytics Laboratory for Teaching and Research'
+  short-title: Financial Analytics Lab
+  year: 2021
+  summary: "Lab setup for teaching and research, utilizing SAS, R, and Bloomberg tools to enhance students' analytical and practical skills in finance, and quantitative and optimization methods."
+  bullets:
+    - "'Develop and utilize SAS, R, and Bloomberg tools for teaching and research, enhancing students' analytical and practical skills."
+    - 'Focus on optimization methods, forecasting, and regression analysis, guiding students through complex financial concepts.'
+    - 'Engage in asset, portfolio, and risk management studies, providing students with practical, industry-relevant knowledge.'
+    - 'Implement real-time data analysis and visualization tools to aid in financial decision-making.'
+    - 'Design lab exercises and projects that simulate real-world financial scenarios, enhancing learning outcomes.'
+    - 'Integrate advanced econometric and statistical methods into the curriculum.'
+  skills:
+    - sas
+    - r
+    - quantitative
+    - qualitative
+    - time-series-analysis
+    - asset-allocation
+    - regression
+    - risk-assessment
+    - financial-modeling
+    - bloomberg
+    - finance
+    - econometrics
+    - forecasting
+    - regression-analysis
+    - portfolio-management
+    - risk-management
+    - optimization-methods
