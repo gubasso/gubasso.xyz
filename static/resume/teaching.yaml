@@ -1,22 +1,22 @@
-speakerGeonordeste:
+speaker-geonordeste:
   title: "Speaker at the VII Regional Symposium on Geoprocessing and Remote Sensing (GEONORDESTE): 'Geotechnologies as development strategies for the semiarid: the Regional Development Observatory'"
 
-speakerLauc:
+speaker-lauc:
   title: "Speaker at LAUC 2014 - Esti Latin America User Conference: 'Regional Development Observatory (ODR)'"
 
-sasguidecourse:
+sas-guide-course:
   title: 'SAS Enterprise Guide Training Program'
   description: 'Conducted training on SAS Enterprise Guide.'
 
-riotjscourse:
+riotjs-course:
   title: 'Riot.js Training Program'
   description: 'Delivered training on Riot.js and general-purpose JavaScript frameworks for web development.'
 
-sveltecourse:
+svelte-course:
   title: 'Svelte/Sapper Training Program'
   description: 'Taught Svelte for SPA development and Sapper for hybrid SPA/MPA architectures.'
 
-pythonevecourse:
+pythoneve-course:
   title: 'Python Eve Training Program'
   description: 'Instructed on building Python Web REST APIs using Eve, Flask and MongoDB integration.'
 
@@ -28,6 +28,6 @@ finances1:
   title: 'Finances 1'
   description: 'Introductory course on corporate finance, financial markets, and investment analysis.'
 
-financialCalculus:
+financial-calculus:
   title: 'Financial Calculus'
   description: 'Foundational finance course covering basic concepts like interest rates and investment returns.'
