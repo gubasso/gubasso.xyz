@@ -1,5 +1,5 @@
 speaker-geonordeste:
-  title: "Speaker at the VII Regional Symposium on Geoprocessing and Remote Sensing (GEONORDESTE): 'Geotechnologies as development strategies for the semiarid: the Regional Development Observatory'"
+  title: "Speaker at the VII Regional Symposium on Geoprocessing and Remote Sensing (GEONORDESTE): 'Geotechnologies as development strategies for the semi-arid: the Regional Development Observatory"
 
 speaker-lauc:
   title: "Speaker at LAUC 2014 - Esti Latin America User Conference: 'Regional Development Observatory (ODR)'"
@@ -18,10 +18,10 @@ svelte-course:
 
 pythoneve-course:
   title: 'Python Eve Training Program'
-  description: 'Instructed on building Python Web REST APIs using Eve, Flask and MongoDB integration.'
+  description: 'Instructed on building Python web REST APIs using EVE, Flask, and MongoDB integration.'
 
 mmqd:
-  title: 'Quantitative Methods for Decision Making'
+  title: 'Quantitative Methods for Decision-Making'
   description: 'Taught graduate-level operations research, quantitative analysis, and statistical methods for decision-making.'
 
 finances1:

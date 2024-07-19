@@ -1,3 +1,10 @@
+open-source:
+  label: Open-Source Software Project (OSS)
+  since-year: 2020
+  competency: expert
+  tags:
+    - technology
+    - management-leadership
 ansible:
   label: Ansible
   since-year: 2023
@@ -66,7 +73,7 @@ css:
     - webdev
     - prog-lang
 linux:
-  label: Linux-based OS's/Distros, Servers and VPS's
+  label: Linux-based OS's/Distros, Servers, and VPS's
   since-year: 2013
   competency: expert
   tags:

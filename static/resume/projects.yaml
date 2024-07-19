@@ -37,13 +37,14 @@ candid-gen:
     - backend
     - tdd
     - github
+    - open-source
 uai-components:
   title: UAI Sveltekit Components Library
   short-title: UAI Sveltekit Components Library
   year: 2024
   summary: 'An open-source SvelteKit UI library with reusable components for modern web apps for faster and more consistent web application development. Built using Javascript and Typescript.'
   bullets:
-    - 'Set of set of pre-built components such as Badge, Card, Collapsable, Dialog, Dropdown, EmojiPicker, Form, Icon, Kanban, ChatInput, MessageBox, Modal, PickerColor, SideMenu, and form fields.'
+    - 'Set of pre-built components such as Badge, Card, Collapsable, Dialog, Dropdown, EmojiPicker, Form, Icon, Kanban, ChatInput, MessageBox, Modal, PickerColor, SideMenu, and form fields.'
     - 'Fully integrated with SvelteKit and Vite.'
     - 'Documentation and examples provided via Storybook for easy reference and implementation.'
     - 'Available as an npm package. Easy installation and updates.'
@@ -66,11 +67,12 @@ uai-components:
     - github-actions
     - github
     - ci-cd
+    - open-source
 generative-ai:
   title: Scale's AI Generative AI Data Engines
   short-title: Generative AI Data Engines
   year: 2024
-  summary: 'Plataforms that accelerates the creation of high-quality, tailored datasets for training advanced generative AI models, including code generation in many languages such as Javascript, Typescript, Python, and SQL.'
+  summary: 'Plataforms that accelerate the creation of high-quality, tailored datasets for training advanced generative AI models, including code generation in many languages such as Javascript, Typescript, Python, and SQL.'
   bullets:
     - 'Development of custom datasets for advanced AI models through automation and expert curation.'
     - 'Working with various programming languages in our interactions with each LLM, including JavaScript, TypeScript, Python, SQL, HTML/CSS, etc.'
@@ -242,6 +244,7 @@ ipeadata:
     - tdd
     - system-architecture
     - agile
+    - open-source
 ivs:
   title: 'Atlas of Social Vulnerability (IVS - Atlas da Vulnerabilidade Social)'
   short-title: IVS
@@ -312,7 +315,8 @@ ipea-publica:
   year: 2013
   summary: "IPEA's internal institutional web application built with Java, specifically designed to streamline and standardize the review process for institutional publications at Ipea. Automation tool, significantly enhancing the efficiency and consistency of how Ipea's publications are managed and reviewed."
   bullets:
-    - "Developed 'Ipea Publishes' using Java, JSF, Spring, and PostgreSQL."
+    - 'Workflow automation application'
+    - 'Developed using Java, JSF, Spring, and PostgreSQL.'
     - 'Automated and standardized the review process of IPEA’s publications.'
   skills:
     - sql
@@ -324,11 +328,12 @@ ipea-projetos:
   title: 'Ipea Projects (Ipea Projetos)'
   short-title: Ipea Projects
   year: 2014
-  summary: "IPEA's Internal institutional system developed for the management of all organizational projects and initiatives. It streamlines the coordination, monitoring, and administration of various projects, ensuring efficient management and tracking of institutional efforts."
+  summary: "IPEA's Internal institutional system developed with .NET C# and Sql Server, for the management of all organizational projects and initiatives. It streamlines the coordination, monitoring, and administration of various projects, ensuring efficient management and tracking of institutional efforts."
   bullets:
-    - "Built 'Ipea Projects' using .NET C# and Microsoft SQL Server."
+    - 'Developed with .NET C# and Microsoft SQL Server.'
     - "Implemented as IPEA's main project management system."
-    - 'Streamlined coordination and management of institutional projects.'
+    - 'Organizational coordination tool.'
+    - 'Institutional initiative tracker.'
   skills:
     - csharp
     - dotnet
@@ -339,7 +344,8 @@ ipeageo:
   year: 2012
   summary: 'Windows desktop application developed in .NET C# for advanced spatial data analysis.'
   bullets:
-    - '.NET C# application for advanced spatial data analysis.'
+    - '.NET C# GIS application for advanced spatial data analysis.'
+    - 'Spatial data analysis software'
     - 'Specialized in manipulation and georeferencing of spatial data, with GIS capabilities.'
     - 'Enables users to visualize and generate maps.'
     - 'Facilitated GIS capabilities for academic research and student projects.'
@@ -351,14 +357,17 @@ ipeageo:
   skills:
     - csharp
     - dotnet
+    - open-source
 data-analysis-reports:
   title: 'Economic Research Data Analysis and Reporting'
   short-title: Data Analysis Reports
   year: 2011
   summary: 'Creation of databases, studies, and reports for economic research, with SAS, R and Python.'
   bullets:
+    - 'Data analysis and visualization.'
+    - 'Script-based data collection and processing tool.'
     - 'Generation of reports, data sets, and charts to support research and studies'
-    - 'Development of scripts for efficient data collection and processing'
+    - 'Development of scripts for data extraction and processing.'
     - 'Statistical and spatial analyses to support economic research efforts.'
     - 'Created databases and reports for economic research at IPEA using SAS, R, and Python.'
     - 'Supported policy makers and academic researchers with enhanced data analysis.'
@@ -370,15 +379,14 @@ algos:
   title: 'Automated Asset Trading Algorithms'
   short-title: Algorithmic Trading
   year: 2016
-  summary: 'Infrastructure, support systems, and algorithms for automating decision-making in asset trading built using Rust, Python, R, Docker, PostgreSQL and Redis.'
+  summary: 'Infrastructure, support systems, and algorithms for automatic decision-making in asset trading built using Rust, Python, R, Docker, PostgreSQL and Redis.'
   bullets:
     - 'Real-time data reading from various assets and markets, including Crypto Exchanges (Web3 crypto assets), B3 Brazilian Exchange, Forex, and others.'
     - 'Creating a suite of indicators based on price movements'
-    - 'Developing algorithmic strategies for autonomous buying and selling of assets'
+    - 'Automated trading algorithmic strategies for autonomous buying and selling of assets'
     - 'Creation and management of a data repository to support the creation and optimization of the trading strategies with PostgreSQL and Redis.'
-    - 'Developed automated trading algorithms, enhancing decision-making in asset trading.'
     - 'Utilized R, Python, and Rust for real-time market data analysis and strategy development.'
-    - 'Created a suite of indicators for asset and market movements, improving trading efficiency.'
+    - 'Created a suite of indicators over asset and market data to improve trading efficiency.'
   skills:
     - rust
     - python
@@ -419,7 +427,7 @@ brag-server:
       url: 'https://brag.gubasso.xyz/'
   summary: 'Brag-Server is an open-source REST API, written in Rust, designed to load, update, and serve data from Git repositories. It retrieves and manages repository metrics, offering JSON-formatted data for client applications. The project provides valuable insights into Git repository activities.'
   bullets:
-    - "Built 'Brag-Server', a Rust-based REST API, to manage and serve Git repository metrics."
+    - 'Rust-based REST API, to manage and serve Git repository metrics.'
     - 'Implemented metrics retrieval and data management using Rust, Git, PostgreSQL, and Docker.'
     - 'Designed for public repositories on GitHub and GitLab, provide a fully feature-rich open source tool for repository insights.'
   skills:
@@ -431,6 +439,7 @@ brag-server:
     - shell-scripting
     - docker
     - postgresql
+    - open-source
 ripissue:
   title: 'Ripissue: CLI Tool for Issue Tracking'
   short-title: Ripissue
@@ -440,26 +449,27 @@ ripissue:
       url: 'https://github.com/cwnt-io/ripissue'
     - label: Ripissue Crates.io
       url: 'https://crates.io/crates/ripissue'
-  summary: 'Ripissue is a Rust-based command-line interface (CLI) tool for issue tracking and management within Git repositories. It defines a simple file structure and workflow convention that you can use to manage issues, tasks, sprints, epics and initiatives. '
+  summary: 'Ripissue is a Rust-based command-line interface (CLI) tool for issue tracking and management within Git repositories. It defines a simple file structure and workflow convention that you can use to manage issues, tasks, sprints, epics and initiatives.'
   bullets:
-    - 'Developed ‘Ripissue’, a Rust/Git-based CLI for efficient issue tracking and issue management workflows.'
-    - 'An open-source tool allowing facilitated, distributed project management, adaptable to any project and team size.'
+    - 'Rust/Git-based CLI for issue tracking and issue management workflows.'
+    - 'An open-source tool allowing facilitated, distributed worflow, adoptable to any project and team size.'
     - 'Uses only Git and the file system to manage and distribute the issue and project state.'
     - 'Self-document code in development alongside the correspondent issue by implementing conventionalized file structures, and easier tracking of issue states.'
   skills:
     - rust
     - git
     - tdd
+    - open-source
 boleteggs:
   title: 'Boleteggs: Rental Billing & Contract Management Web App'
   short-title: Boleteggs
   year: 2016
   summary: 'Boleteggs is a React.js SPA web application designed for rental billing and contract management. It facilitates the generation and management of rental contracts, and integrates with third parties billing APIs for automatic document creation.'
   bullets:
-    - 'The app provides efficient tenant billing management'
-    - "Developed 'Boleteggs', a web app for rental billing and contract management."
-    - 'Utilized React.js, Python Flask, MongoDB, and Firebase for robust app functionality.'
+    - 'Rental billing and contract management web application.'
+    - 'Developed with React.js, Python Flask, MongoDB, and Firebase.'
     - 'Integrated with third-party billing platforms.'
+    - 'Tenant management system with API integration for automated billing.'
   skills:
     - react
     - html
@@ -481,8 +491,9 @@ cadelab:
   title: 'Cadelab: Web Platform for Economic Competition Analytics'
   short-title: Cadelab
   year: 2019
-  summary: 'Cadelab is a interactive Svelte web platform designed for economic competition analytics, featuring a frontend application that displays data and indicators relevant to market competition.'
+  summary: 'Cadelab is a full stack web platform, built with Svelte, Python and MongoDB, designed for economic competition analytics. Ergonomically displays data and indicators relevant to market competition.'
   bullets:
+    - 'Economic data visualization and analytics platform.'
     - 'Frontend web application developed with Riot.js and Svelte that showcases data through visual components and charts for easy interpretation.'
     - 'Backend web API built with Python Flask, MongoDB and PostgreSQL provides a REST API service with up-to-date data and indicators.'
     - 'Implemented Python algorithms to calculate economic indicators efficiently from large data-sets in real-time.'
@@ -529,11 +540,11 @@ client-process-automation:
   title: 'Client Assistance Process Automation'
   short-title: CRM Process Automation
   year: 2015
-  summary: 'Automating an entire client assistance process, encompassing pre-sale, sale, and post-sale stages with Python, Node.js and Svelte web interfaces. Integration of the sales process with CRM tools and communication applications.'
+  summary: 'System to automate entire client assistance process, encompassing pre-sale, sale, and post-sale stages with Python, Node.js and Svelte web interfaces. Integration of the sales process with CRM tools and communication applications.'
   bullets:
     - 'Backend implementation for managing data and message distribution between the Whatsapp Business API, CRM, and other management tools'
-    - 'Automated client assistance processes, streamlining pre-sale, sale, and post-sale stages.'
-    - 'Implemented Svelte, Node.js, Python, MongoDB, and Docker for process automation and integration.'
+    - 'Automated client assistance processes, and sales workflow.'
+    - 'Implemented Svelte, Node.js, Python, MongoDB, and Docker for process automation and CRM integration solution.'
     - 'Integrated with third-party solutions for improved sales and CRM operations.'
   skills:
     - python
@@ -559,7 +570,8 @@ docs-n-notes:
   short-title: docs-n-notes
   year: 2022
   bullets:
-    - "Created 'docs-n-notes', a personal repository for documentation and note-taking."
+    - 'Documentation and note-taking resource built with organizational methods and conventions.'
+    - 'Digital repository for personal productivity resource.'
     - 'Utilized Git for version control and content management.'
   links:
     - label: Github
@@ -567,17 +579,17 @@ docs-n-notes:
   skills:
     - git
     - github
+    - open-source
 gubasso-xyz:
   title: 'gubasso.xyz: Personal Web Portfolio and Blog.'
   short-title: gubasso.xyz
   year: 2023
   summary: A SvelteKit-based personal website, gubasso.xyz serves as my tech portfolio and blog.
   bullets:
-    - 'Comprehensive platform reflecting my skills, experiences, and professional journey in software development'
+    - 'A personal portfolio and blog using SvelteKit and deployed at Github Pages with a CI/CD pipeline using Github Actions.'
+    - "Integrated 'Brag-Server' (brag.gubasso.xyz), a Rust backend web API for displaying Git contribution metrics."
+    - 'Web platform that showcases my skills, experiences, and professional journey in technology and software engineering.'
     - 'Features an ATS-optimized resume, detailed project showcases, and a blog where I share insights on software engineering and tech trends'
-    - "Developed 'gubasso.xyz', a personal portfolio and blog using SvelteKit and deployed at Github Pages with a CI/CD pipeline using Github Actions."
-    - "Integrated 'Brag-Server' (brag.gubasso.xyz) backend for displaying Git contribution metrics."
-    - 'Showcased software engineering insights and professional journey.'
   links:
     - label: gubasso.xyz
       url: 'https://gubasso.xyz'
@@ -591,6 +603,7 @@ gubasso-xyz:
     - git
     - github
     - github-actions
+    - open-source
 dotfiles:
   title: 'Dotfiles: Customized Environment Setup'
   short-title: Dotfiles
@@ -609,7 +622,7 @@ dotfiles:
     - shell-scripting
     - git
     - github
-
+    - open-source
 financial-analytics-lab:
   title: 'Financial Analytics Laboratory for Teaching and Research'
   short-title: Financial Analytics Lab

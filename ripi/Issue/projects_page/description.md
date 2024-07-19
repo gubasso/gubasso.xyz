@@ -1,68 +1,10 @@
 # projects_page (Issue)
 
 
-- [ ] building yamls schemas for data validation
+- each yaml has to be shown... has to have some Utility... do this checklist when refactoring the resume
 
 ---
 
-- gubasso-xyz
-    - Personal Portfolio Website
-    - Blogging Platform
-    - Git Repository Analytics Display
-    - Professional Showcase
-    - Resume and Project Repository
-    - Open-Source Software Project (OSS)
-- docs-n-notes
-    - Documentation Tool
-    - Note-Taking Application
-    - Knowledge Management System
-    - Personal Productivity Tool
-    - Digital Repository
-- client-process-automation:
-    - Process Automation System
-    - CRM Integration Solution
-    - Client Communication Management Tool
-    - Sales Workflow Automation
-- cadelab
-    - Full Stack Technologies
-    - Economic Data Visualization and Analytics Platform
-    - REST API for Economic Indicators and Public Data
-    - Automated Data Workflow System
-    - Data Engineering and ETL Processes Tool
-- boleteggs
-    - Rental Billing and Contract Management Web Application
-    - API Integration for Automated Billing
-    - Tenant Management System
-- ripissue
-    - CLI Tool for Issue Tracking
-    - Project Management Tool
-    - Task and Sprint Organization Tool
-    - Distributed Workflow Implementation
-    - Open-Source Software Project (OSS)
-- brag-server
-    - REST API Development
-    - Git Repository Metrics Tool
-    - Data Management and Analysis
-    - Open-Source Software Project (OSS)
-- algos
-    - Financial Algorithm Development
-    - Automated Trading System
-    - Real-Time Market Data Analysis
-    - Financial Data Repository Management
-- data-analysis-report
-    - Economic Research Reporting
-    - Data Analysis and Visualization
-    - Script-Based Data Collection and Processing Tool
--> ipeageo
-    - Spatial Data Analysis Software
-    - GIS Application
-    - Map Visualization and Generation Tool
--> ipea-projetos
-    - Project Management System
-    - Institutional Initiative Tracker
-    - Organizational Coordination Tool
--> ipea-publica
-    - Workflow Automation Application
 -> ipea-extractor
     - Data Query and Aggregation Platform
     - Public Data Repository
@@ -181,6 +123,8 @@ https://img.shields.io/badge/{label}-{color}?style={style}&logo={logo}&logoColor
 projects_page : project's page
   - [ ] grid model
 
+- [x] grammar correction for all yaml
+- [x] building yamls schemas for data validation
 - [x] review projects.yaml
 - [x] review skills: are they really skills or roles?
 - [x] change naming conventions
