@@ -1,10 +1,8 @@
 # projects_page (Issue)
 
-```js
-import { readFileSync } from 'fs'
-const yamlContent = yaml.load(readFileSync(filePath, 'utf8'))
-const schema = JSON.parse(readFileSync(filePath, 'utf8'))
-```
+
+- [ ] validate yaml at compile time
+- [x] all yaml validated manually
 
 ```js
 // svelte.config.js
@@ -77,3 +75,90 @@ projects_page : project's page
 - [x] review skills: are they really skills or roles?
 - [x] change naming conventions
 - [x] change skills hardcoded years
+
+
+skills org categories
+
+```yaml
+tech:
+  group: 'Technical/Programming Skills'
+  categories:
+    langs:
+      label: 'Programming Languages'
+      skills:
+    backend:
+      label: 'Backend Development'
+      skills:
+    gis:
+      label: 'Geographic Information Systems (GIS)'
+      skills:
+    webdev:
+      label: 'Web/Frontend Development'
+      skills:
+    softdev:
+      label: 'Software Development'
+      skills:
+infra:
+  group: 'Infrastructure Management Skills'
+  categories:
+    devops:
+      label: 'DevOps and Infrastructure Management'
+      skills:
+    sysadmin:
+      label: 'Systems Administration'
+      skills:
+    serverSoft:
+      label: 'Server Software Management'
+      skills:
+    cloud:
+      label: 'Cloud'
+      skills:
+data:
+  group: 'Data Engineering Skills'
+  categories:
+    database:
+      label: 'Database Management & Storage'
+      skills:
+    langs:
+      label: 'Languages for Data Analysis and Manipulation'
+      skills:
+financial:
+  group: 'Financial/Investment Skills'
+  categories:
+    analysis:
+      label: 'Financial/Market Analysis'
+      skills:
+    investment:
+      label: 'Investment Strategies'
+      skills:
+    soft:
+      label: 'Financial Software'
+      skills:
+analytical:
+  group: 'Analytical/Research Skills'
+  categories:
+    methodologies:
+      label: 'Research Methodologies'
+      skills:
+    statistics:
+      label: 'Statistical Modeling and Methods'
+      skills:
+soft:
+  group: 'Soft Skills'
+  categories:
+    comm:
+      label: 'Communication'
+      skills:
+    lead:
+      label: 'Leadership'
+      skills:
+    problem:
+      label: 'Problem-Solving'
+      skills:
+    time:
+      label: 'Time Management'
+      skills:
+    collab:
+      label: 'Collaboration'
+      skills:
+```

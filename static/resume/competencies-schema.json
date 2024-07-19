@@ -1,44 +1,39 @@
 {
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "skillLevel": {
+    "beginner": {
       "type": "object",
       "properties": {
-        "beginner": {
-          "type": "object",
-          "properties": {
-            "title": { "type": "string" },
-            "description": { "type": "string" }
-          },
-          "required": ["title", "description"]
-        },
-        "experienced": {
-          "type": "object",
-          "properties": {
-            "title": { "type": "string" },
-            "description": { "type": "string" }
-          },
-          "required": ["title", "description"]
-        },
-        "advanced": {
-          "type": "object",
-          "properties": {
-            "title": { "type": "string" },
-            "description": { "type": "string" }
-          },
-          "required": ["title", "description"]
-        },
-        "expert": {
-          "type": "object",
-          "properties": {
-            "title": { "type": "string" },
-            "description": { "type": "string" }
-          },
-          "required": ["title", "description"]
-        }
+        "title": { "type": "string" },
+        "description": { "type": "string" }
       },
-      "required": ["beginner", "experienced", "advanced", "expert"]
+      "required": ["title", "description"]
+    },
+    "experienced": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["title", "description"]
+    },
+    "advanced": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["title", "description"]
+    },
+    "expert": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["title", "description"]
     }
   },
-  "required": ["skillLevel"]
+  "required": ["beginner", "experienced", "advanced", "expert"]
 }

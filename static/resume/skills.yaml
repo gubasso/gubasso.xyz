@@ -47,13 +47,14 @@ python:
 sql:
   label: SQL
   since-year: 2015
-  competency: experienced
+  competency: advanced
   tags:
     - database
     - data-analysis-lang
 dvc:
   label: Data and Model Version Control
   since-year: 2018
+  competency: expert
   tags:
     - database
     - devops-infra
@@ -96,7 +97,7 @@ github:
 github-actions:
   label: Github Actions
   since-year: 2020
-  competency: experienced
+  competency: advanced
   tags:
     - dev-tools
     - devops-infra
@@ -109,7 +110,7 @@ gitlab:
 gitlab-ci:
   label: Gitlab CI
   since-year: 2023
-  competency: experienced
+  competency: advanced
   tags:
     - dev-tools
     - devops-infra
@@ -147,7 +148,7 @@ nodejs:
 aws:
   label: Amazon AWS
   since-year: 2020
-  competency: beginner
+  competency: experienced
   tags:
     - cloud-infra
 gcp:
@@ -159,7 +160,7 @@ gcp:
 azure:
   label: Microsoft Azure
   since-year: 2020
-  competency: beginner
+  competency: experienced
   tags:
     - cloud-infra
 linode:
@@ -273,13 +274,13 @@ sqlite:
 postgresql:
   label: PostgreSQL
   since-year: 2015
-  competency: experienced
+  competency: advanced
   tags:
     - database
 react:
   label: React.js
   since-year: 2016
-  competency: experienced
+  competency: advanced
   tags:
     - webdev
 firebase:
@@ -338,17 +339,20 @@ csharp:
     - prog-lang
 risk-assessment:
   label: Risk assessment
+  competency: advanced
   since-year: 2011
   tags:
-    - financial: analysis
+    - financial-analytics
 fundamental-technical-analysis:
   label: Fundamental and technical analysis
   since-year: 2006
+  competency: expert
   tags:
-    - financial: analysis
+    - financial-analytics
 portfolio:
   label: Portfolio management
   since-year: 2010
+  competency: advanced
   tags:
     - investment-strategies
 optimization-methods:
@@ -366,26 +370,31 @@ asset-allocation:
 bloomberg:
   label: Bloomberg Terminal
   since-year: 2011
+  competency: experienced
   tags:
     - financial-software
 regression:
   label: Regression analysis
   since-year: 2011
+  competency: experienced
   tags:
     - stat-analysis
 time-series-analysis:
   label: Time-series analysis
   since-year: 2011
+  competency: experienced
   tags:
     - stat-analysis
 econometrics:
   label: Econometrics
   since-year: 2011
+  competency: experienced
   tags:
     - stat-analysis
 forecasting:
   label: Forecasting Techniques
   since-year: 2011
+  competency: experienced
   tags:
     - stat-analysis
 quantitative:
@@ -398,26 +407,31 @@ quantitative:
 qualitative:
   label: Qualitative Research
   since-year: 2011
+  competency: experienced
   tags:
     - analytics-research-methodologies
 sqlserver:
   label: Microsoft SQL Server
   since-year: 2011
+  competency: beginner
   tags:
     - database
 riotjs:
   label: Riot.js
   since-year: 2016
+  competency: expert
   tags:
     - webdev
 tdd:
   label: Test Driven Development (TDD)
   since-year: 2021
+  competency: expert
   tags:
     - dev-tools
 system-architecture:
   label: System Architecture
   since-year: 2011
+  competency: advanced
   tags:
     - devops-infra
     - system-design
@@ -425,52 +439,67 @@ system-architecture:
 ipeageo:
   label: IpeaGEO
   since-year: 2011
+  competency: advanced
   tags:
     - gis
 arcgis-desktop:
   label: ArcGIS Desktop
   since-year: 2011
+  competency: experienced
   tags:
     - gis
 arcgis-geoportal:
   label: ESRI Geoportal Server
   since-year: 2015
+  competency: experienced
   tags:
-    - infra: serverSoft
+    - devops-infra
 arcgis-collector:
   label: ArcGIS Collector
   since-year: 2015
+  competency: experienced
   tags:
-    - infra: serverSoft
+    - devops-infra
 arcgis-storymaps:
   label: ArcGIS StoryMaps
   since-year: 2015
+  competency: experienced
   tags:
-    - infra: serverSoft
+    - devops-infra
 arcgis-dashboards:
   label: ArcGIS Dashboards
   since-year: 2015
+  competency: experienced
   tags:
-    - infra: serverSoft
+    - devops-infra
 arcgis-app-builder:
   label: ArcGIS App Builder
   since-year: 2015
+  competency: experienced
   tags:
-    - infra: serverSoft
+    - devops-infra
 communication:
   label: Excellent written and verbal communication
+  competency: expert
+  since-year: 2002
   tags:
     - soft-skills
 problem-solving:
   label: Problem solving, creative and analytical approach to challenges
+  competency: expert
+  since-year: 2002
   tags:
     - soft-skills
 time-management:
   label: Efficient in managing multiple tasks
+  competency: expert
+  since-year: 2002
   tags:
     - soft-skills
 collaboration:
   label: Proven ability to work effectively in team environments
+  competency: expert
+  since-year: 2002
   tags:
     - soft-skills
 financial-modeling:

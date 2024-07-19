@@ -1,6 +1,9 @@
 personal:
   company: Personal Initiatives and Projects
   short-name: Personal
+  links:
+    - name: My GitHub
+      url: https://github.com/gubasso
   tags:
     - technology
     - artificial-intelligence
@@ -8,6 +11,8 @@ personal:
     - data-generation
     - data-models
     - web3
+  location: Brasília, DF, Brazil
+
 scaleai:
   company: Scale AI
   short-name: Scale AI
@@ -18,7 +23,7 @@ scaleai:
     - data-generation
     - data-models
   links:
-    - label: Scale AI
+    - name: Scale AI
       url: 'https://scale.com/'
   location: San Francisco, CA, US
 
@@ -29,7 +34,7 @@ vistocerto:
     - professional-services
     - educational-services
   links:
-    - label: Seu Visto Certo
+    - name: Seu Visto Certo
       url: 'https://seuvistocerto.com/'
   location: Willow Park, TX, US
 
@@ -42,9 +47,9 @@ cwnt:
     - web3
     - data-analysis
   links:
-    - label: cwnt.io Github
+    - name: cwnt.io Github
       url: 'https://github.com/cwnt-io'
-    - label: cwnt.io LinkedIn
+    - name: cwnt.io LinkedIn
       url: 'https://www.linkedin.com/company/cwnt/'
   location: Brasília, DF, Brazil
 
@@ -58,7 +63,7 @@ cade:
     - consumer-protection
     - economic-studies
   links:
-    - label: CADE
+    - name: CADE
       url: 'https://www.gov.br/cade/'
   location: Brasília, DF, Brazil
 
@@ -73,7 +78,7 @@ ipea:
     - forecasting
     - socioeconomic-studies
   links:
-    - label: IPEA
+    - name: IPEA
       url: 'https://www.ipea.gov.br/'
   location: Brasília, DF, Brazil
 
@@ -85,7 +90,7 @@ iaed:
     - policy-decision-support
     - educational-training
   links:
-    - label: IAED LinkedIn
+    - name: IAED LinkedIn
       url: 'https://www.linkedin.com/in/instituto-iaed-a1a74328/'
   location: Brasília, DF, Brazil
 
@@ -99,11 +104,11 @@ cerme:
     - economics-research
     - politics-research
   links:
-    - label: Centros UnB
+    - name: Centros UnB
       url: 'https://www.unb.br/centros'
-    - label: CERME
+    - name: CERME
       url: 'http://cerme.unb.br/'
-    - label: 'Centros UnB: CERME'
+    - name: 'Centros UnB: CERME'
       url: 'http://pesquisa.unb.br/humanidades-ciencias-sociais/centros-ciencias-sociais?menu=806#centro-de-estudos-em-regulacao-de-mercados-cerme'
   location: Brasília, DF, Brazil
 
@@ -115,7 +120,7 @@ sdr:
     - national-policies-integration
     - structuring-programs
   links:
-    - label: SDR
+    - name: SDR
       url: 'https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional'
   location: Brasília, DF, Brazil
 
@@ -128,6 +133,6 @@ unb:
     - research
     - academic-development
   links:
-    - label: UnB
+    - name: UnB
       url: 'https://www.unb.br/'
   location: Brasília, DF, Brazil

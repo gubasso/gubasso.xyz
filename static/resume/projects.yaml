@@ -587,12 +587,13 @@ client-process-automation:
     - devops
 docs-n-notes:
   title: 'docs-n-notes: Personal Repository for Documentation and Note Taking'
+  summary: 'Digital repository for documentation and note-taking, implementing organizational methods and conventions, using Git for version control and content management.'
   short-title: docs-n-notes
   year: 2022
   bullets:
-    - 'Documentation and note-taking resource built with organizational methods and conventions.'
+    - 'Documentation and note-taking resource.'
     - 'Digital repository for personal productivity resource.'
-    - 'Utilized Git for version control and content management.'
+    - 'Utilizes Git for version control and content management.'
   links:
     - label: Github
       url: 'https://github.com/gubasso/docs-n-notes'

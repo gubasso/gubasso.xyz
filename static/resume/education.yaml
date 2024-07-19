@@ -5,7 +5,11 @@ doctor:
   location: Brasília, DF, Brazil
   attended: 2014 - 2017
   notes: 'Completed all coursework credits.'
-  areas-of-study: Operations Research, Optimization Methods, Pension Funds, Stochastic Models
+  areas-of-study:
+    - Operations Research
+    - Optimization Methods
+    - Pension Funds
+    - Stochastic Models
 master:
   title: Master of Science in Business Administration (Finance and Quantitative Methods)
   university: University of Brasília (Universidade de Brasília - UnB)
@@ -13,7 +17,10 @@ master:
   location: Brasília, DF, Brazil
   graduated: 2013
   dissertationTitle: 'Evidence of Underpricing and Underperformance in IPOs: An Empirical Study of the Brazilian Market.'
-  areas-of-study: Financial Economics, Empirical Finance, Brazilian Market Analysis
+  areas-of-study:
+    - Financial Economics
+    - Empirical Finance
+    - Brazilian Market Analysis
 bachelor:
   title: Bachelor of Business Administration
   university: University of Brasília (Universidade de Brasília - UnB)
@@ -21,4 +28,7 @@ bachelor:
   location: Brasília, DF, Brazil
   graduated: 2011
   monographTitle: 'Corporate Governance in Brazil: The Impact of Adherence to the Market Arbitration Chamber on the Risk of Publicly Traded Companies'
-  areas-of-study: Corporate Governance, Risk Management, Financial Markets
+  areas-of-study:
+    - Corporate Governance
+    - Risk Management
+    - Financial Markets
