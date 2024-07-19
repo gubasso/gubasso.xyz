@@ -4,6 +4,7 @@ iac-cwnt:
   year: 2024
   summary: 'Development and automation of the entire infrastructure for Cwnt.io using Infrastructure as Code (IaC) tools and methods with Terraform and Ansible.'
   bullets:
+    - 'Server, backup, and monitoring automation.'
     - 'Automated the creation and management of VPS and services using Terraform.'
     - 'Configured and set up servers using Ansible.'
     - 'Programmed functionalities and routines using Ansible playbooks and roles.'
@@ -22,6 +23,8 @@ candid-gen:
   year: 2024
   summary: '`candid-gen` is a CLI tool built with Rust that automates the generation of Candid IDL from Rust canisters (smart-contracts) for Internet Computer (IC) blockchain projects (web3).'
   bullets:
+    - 'Cli tool.'
+    - 'ICP Dapps development tool.'
     - 'Simplifies the process of creating `.did` files for IC Web3 projects.'
     - 'Ensures that Rust canisters are properly documented and ready for deployment.'
     - 'Interacts with Rust, Cargo, and `candid-extractor`.'
@@ -44,6 +47,7 @@ uai-components:
   year: 2024
   summary: 'An open-source SvelteKit UI library with reusable components for modern web apps for faster and more consistent web application development. Built using Javascript and Typescript.'
   bullets:
+    - 'Ui component library.'
     - 'Set of pre-built components such as Badge, Card, Collapsable, Dialog, Dropdown, EmojiPicker, Form, Icon, Kanban, ChatInput, MessageBox, Modal, PickerColor, SideMenu, and form fields.'
     - 'Fully integrated with SvelteKit and Vite.'
     - 'Documentation and examples provided via Storybook for easy reference and implementation.'
@@ -96,7 +100,8 @@ odr:
   year: 2015
   summary: 'Web platform, leveraged by ESRI/ArcGIS Suite, to provide comprehensive regional and spatial data. Provides an array of web-based solutions for detailed regional analysis, simplifies access to regional, social, economic, and demographic data, and applies policy metrics to monitor the execution and outcomes of public policies.'
   bullets:
-    - 'Web platform developed using PostgreSQL for data management, and ArcGIS services for spatial data analysis and visualization.'
+    - 'Web platform and GIS applications.'
+    - 'Developed using PostgreSQL for data management, and ArcGIS services for spatial data analysis and visualization.'
     - 'Executed and automated data analysis flows using R and SQL to generate economic and social policy reports and studies.'
     - 'Designed website interfaces using WordPress and HTML/CSS/JS for data visualization and accessibility.'
     - 'Aided the Brazilian Government in policy evaluation by offering web-based solutions for detailed regional analysis, and intuitive access to economic and social data.'
@@ -135,6 +140,9 @@ future-rentability:
   year: 2011
   summary: 'System for automated future rentability estimation in Asset-Liability Management (ALM) models developed with SAS.'
   bullets:
+    - 'Financial modeling tool.'
+    - 'Analytics system.'
+    - 'Financial forecasting system.'
     - 'Designed and developed an automated system for estimating future rentability in ALM models using SAS.'
     - 'Improved and automated financial strategy and decision-making processes in pension fund management.'
   skills:
@@ -155,6 +163,9 @@ actuarial-flow:
   year: 2011
   summary: 'System for automating both deterministic and stochastic actuarial flows in Asset-Liability Management (ALM) models built with SAS.'
   bullets:
+    - 'Financial modeling tool.'
+    - 'Analytics system.'
+    - 'Actuarial analysis tool.'
     - 'Developed an actuarial flow automated system for ALM models, using SAS.'
     - 'Automated strategic asset allocation and portfolio decision-making for Brazilian pension funds.'
     - 'Improved the efficiency and accuracy of actuarial calculations in financial planning.'
@@ -176,6 +187,9 @@ alm:
   year: 2011
   summary: 'System for the automated management of asset and liability in pension funds, utilizing an ALM model to optimize asset allocations, built with SAS, .NET C#, and Sql Server'
   bullets:
+    - 'Financial modeling tool.'
+    - 'Analytics system.'
+    - 'Asset allocation tool.'
     - 'Automated ALM system for pension funds, utilizing SAS, and .NET C# for model development.'
     - 'Optimized asset allocation and liability management strategies for major pension funds in Brazil.'
     - 'Enhanced financial stability and asset management for pension funds.'
@@ -200,11 +214,13 @@ ipeadata:
   year: 2018
   summary: 'IpeaData is a web platform built with React.js and Riot.js frameworks, and data API over .NET C# oData and Python Flask backends that offers a rich repository for various public data sets, including economic, financial, demographic, geographic, and social statistics.'
   bullets:
+    - 'Data analysis and visualization tool.'
+    - 'Metadata management system.'
+    - "Revamped IpeaData's first published release into a modern web application to enhance data accessibility and visualization, catering to a wide range of users."
     - 'Features robust data processing capabilities, such as extraction, organization, cleaning, and aggregation from data diverse sources.'
     - 'Presents data in intuitive charts and provides detailed metadata for deeper insights.'
-    - "Revamped IpeaData's first published release into a modern web application enhance data accessibility and visualization, catering to a wide range of users."
     - 'Used React.js and Riot.js for frontend web application.'
-    - 'Developed a backend web API using .NET, C#, oData, Microsoft SQL Server, Python Flask, and MongoDB for data handling.'
+    - 'Backend web API developed using .NET, C#, oData, Microsoft SQL Server, Python Flask, and MongoDB.'
     - 'Managed data extraction, production, manipulation, and cleaning using R and SQL.'
     - 'Enhanced data accessibility and visualization of public datasets for economic and social analysis.'
   links:
@@ -251,10 +267,11 @@ ivs:
   year: 2017
   summary: 'Web platform to display and analyze social vulnerability data in Brazil. Built on top of Joomla CMS to offers user-friendly visualization of the IVS index and related social data through charts and other accessible formats.'
   bullets:
-    - "Engineered the 'IVS' web platform using Joomla CMS for web interface and content management."
-    - 'Implemented front-end design and visualization components using JavaScript, CSS, and HTML.'
-    - 'Facilitated the analysis of social vulnerability data, aiding policy-making in Brazil.'
-    - 'Aided in social analysis and policy-making with accessible data formats.'
+    - 'Web portal for social and economica data.'
+    - 'Data visualization platform.'
+    - 'Social analysis tool.'
+    - 'Built with Joomla CMS, JavaScript, CSS, and HTML.'
+    - 'Aided in social analysis and policy-making with accessible data and visualization formats.'
   links:
     - label: Atlas da Vulnerabilidade Social - IVS
       url: 'http://ivs.ipea.gov.br/index.php/pt/'
@@ -276,10 +293,11 @@ brasil-metropolitano:
       url: 'http://brasilmetropolitano.ipea.gov.br/'
   summary: "Web platform built with Joomla CMS, that offers in-depth access to a range of economic and social data, indicators, and studies focused on Brazil's metropolitan regions."
   bullets:
+    - 'Web portal for metropolitan data.'
+    - 'Regional governance and policy analysis tool.'
+    - 'Economic and social data repository.'
+    - 'Built with Joomla CMS, JavaScript, CSS, and HTML.'
     - 'Dedicated to facilitate the understanding and analysis of metropolitan area data, emphasizing regional development and governance'
-    - "Developed 'Portal of Metropolitan Governance in Brazil' with Joomla CMS."
-    - 'Utilized JavaScript, CSS, and HTML for front-end design and development.'
-    - 'Facilitated access to economic and social data on metropolitan regions.'
     - 'Provided valuable tools for researchers, policymakers, and the public.'
   skills:
     - joomla
@@ -294,9 +312,11 @@ ipea-extrator:
   year: 2013
   summary: 'Web platform designed for querying, aggregating, and collecting a diverse array of data. Implemented with the Suite Pentaho, Mondrian, and Saiku, it provides access to public databases, research content, indicators, and historical data series.'
   bullets:
-    - "Built the 'Ipea Data Extractor' for public data querying using Suite Pentaho, Mondrian, Saiku, and PostgreSQL."
-    - 'Allows users to construct their own data tables.'
+    - 'App for public data querying using Suite Pentaho, Mondrian, Saiku, and PostgreSQL.'
     - 'Web application offers flexibility in aggregating and cross-combining data to suit specific analysis needs.'
+    - 'Data query and aggregation platform'
+    - 'Custom data table builder.'
+    - 'Business intelligence (BI) tool.'
     - 'Enabled creation of custom data tables for public, researchers, and policymakers.'
     - 'Aimed to enhance monitoring of social, demographic, and economic data.'
   links:
