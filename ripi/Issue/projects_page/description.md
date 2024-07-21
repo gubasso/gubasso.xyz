@@ -1,7 +1,50 @@
 # projects_page (Issue)
 
-
 - [ ] print resume page from the client
+
+```css
+@media print {
+    body {
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+
+    h1, h2, h3 {
+        color: black;
+    }
+}
+
+@media print {
+    body, .container {
+        background: none;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+@media print {
+    .container {
+        border: none;
+        margin: 0;
+        padding: 1in; /* Adjust padding for better layout */
+    }
+}
+
+@media print {
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+}
+
+@media print {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+```
 
 ## backlog
 
@@ -22,6 +65,9 @@ https://img.shields.io/badge/{label}-{color}?style={style}&logo={logo}&logoColor
 projects_page : project's page
   - [ ] grid model
 
+- [x] companies section -> grid
+  - change order
+- [x] separate component for a hash-list
 - [x] solved eslint / prettier issues after upgrading verions
 - [x] add links to #roles #skills, etc
 - [x] refactor fetchResumesData

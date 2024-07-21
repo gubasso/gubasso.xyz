@@ -78,3 +78,92 @@ ul code {
 .footnotes hr {
   border: var(--borderWidth-thin) solid var(--color-canvas-overlay);
 }
+
+@media print {
+  /* to hide */
+  header,
+  .download-button {
+    display: none !important;
+  }
+  footer h4 {
+    display: none !important;
+  }
+
+  /* header / title */
+  .g-logo img {
+    display: block !important;
+  }
+
+  /* resize fonts */
+  *,
+  p,
+  ul,
+  ul li,
+  .skill-item {
+    font-size: 10pt !important;
+    line-height: 1.4545 !important;
+  }
+  h1 {
+    font-size: 18pt !important;
+    line-height: 1.2 !important;
+  }
+  h2 {
+    font-size: 14pt !important;
+    line-height: 1.333 !important;
+    margin-bottom: 12px !important;
+  }
+  h3,
+  h3 span b {
+    font-size: 12pt !important;
+    line-height: 1.4286 !important;
+  }
+
+  /* other resizing */
+  ul {
+    margin: 0 !important;
+  }
+  .resume-hash-list-label {
+    font-size: 10pt !important;
+    line-height: 1.4545 !important;
+  }
+  .resume-hash-list-item {
+    /* margin: 0px !important; */
+    padding: 3px 6px !important;
+    margin: 3px 5px !important;
+  }
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    gap: 12px !important;
+  }
+  .skill-item {
+    padding: 7px !important;
+  }
+  .info-block {
+    margin-bottom: 10px !important;
+  }
+
+  /* footer */
+  footer .left-top {
+    gap: 0 !important;
+  }
+  footer .gubasso {
+    margin: 0 !important;
+  }
+  footer .sessions ul {
+    flex-direction: row !important;
+    gap: 36px !important;
+  }
+  footer .foot {
+    margin: 0 !important;
+  }
+
+  /* page breaker */
+  h1,
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  .section {
+    page-break-before: always;
+  }
+}

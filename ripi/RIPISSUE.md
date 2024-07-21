@@ -13,6 +13,9 @@
 
 ## backlog / refactor icp
 
+- navigation buttons: last section... top... download following
+- skills: from grid to cloud component (bigger more years)
+- tags: add tags to everything
 - bring tags from skills (#)
 - tags on skill-item
 - [ ] refactor: deploy on icp

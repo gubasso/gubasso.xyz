@@ -2,7 +2,7 @@ personal-projects:
   company: Personal Initiatives and Projects
   short-name: Personal
   links:
-    - name: My GitHub
+    - icon: 'mdi:github'
       url: https://github.com/gubasso
   tags:
     - technology
@@ -23,9 +23,24 @@ scaleai:
     - data-generation
     - data-models
   links:
-    - name: Scale AI
+    - icon: 'emojione-monotone:letter-s'
       url: 'https://scale.com/'
   location: San Francisco, CA, US
+
+cwnt:
+  company: Crown and Trunk Technologies
+  short-name: cwnt.io
+  tags:
+    - technology
+    - financial-markets
+    - web3
+    - data-analysis
+  links:
+    - icon: 'mdi:github'
+      url: 'https://github.com/cwnt-io'
+    - icon: 'mdi:linkedin'
+      url: 'https://www.linkedin.com/company/cwnt/'
+  location: Brasília, DF, Brazil
 
 vistocerto:
   company: Seu Visto Certo
@@ -34,24 +49,9 @@ vistocerto:
     - professional-services
     - educational-services
   links:
-    - name: Seu Visto Certo
+    - icon: 'emojione-monotone:letter-v'
       url: 'https://seuvistocerto.com/'
   location: Willow Park, TX, US
-
-cwnt:
-  company: cwnt.io (Crown and Trunk Technologies)
-  short-name: cwnt.io
-  tags:
-    - technology
-    - financial-markets
-    - web3
-    - data-analysis
-  links:
-    - name: cwnt.io Github
-      url: 'https://github.com/cwnt-io'
-    - name: cwnt.io LinkedIn
-      url: 'https://www.linkedin.com/company/cwnt/'
-  location: Brasília, DF, Brazil
 
 cade:
   company: Administrative Council for Economic Defense (CADE - Conselho Administrativo de Defesa Econômica)
@@ -63,7 +63,7 @@ cade:
     - consumer-protection
     - economic-studies
   links:
-    - name: CADE
+    - icon: 'emojione-monotone:letter-c'
       url: 'https://www.gov.br/cade/'
   location: Brasília, DF, Brazil
 
@@ -78,7 +78,7 @@ ipea:
     - forecasting
     - socioeconomic-studies
   links:
-    - name: IPEA
+    - icon: 'emojione-monotone:letter-i'
       url: 'https://www.ipea.gov.br/'
   location: Brasília, DF, Brazil
 
@@ -90,7 +90,7 @@ iaed:
     - policy-decision-support
     - educational-training
   links:
-    - name: IAED LinkedIn
+    - icon: 'mdi:linkedin'
       url: 'https://www.linkedin.com/in/instituto-iaed-a1a74328/'
   location: Brasília, DF, Brazil
 
@@ -104,11 +104,11 @@ cerme:
     - economics-research
     - politics-research
   links:
-    - name: Centros UnB
+    - icon: 'mdi:university'
       url: 'https://www.unb.br/centros'
-    - name: CERME
+    - icon: 'emojione-monotone:letter-c'
       url: 'http://cerme.unb.br/'
-    - name: 'Centros UnB: CERME'
+    - icon: 'game-icons:archive-research'
       url: 'http://pesquisa.unb.br/humanidades-ciencias-sociais/centros-ciencias-sociais?menu=806#centro-de-estudos-em-regulacao-de-mercados-cerme'
   location: Brasília, DF, Brazil
 
@@ -120,7 +120,7 @@ sdr:
     - national-policies-integration
     - structuring-programs
   links:
-    - name: SDR
+    - icon: 'emojione-monotone:letter-s'
       url: 'https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional'
   location: Brasília, DF, Brazil
 
@@ -133,6 +133,6 @@ unb:
     - research
     - academic-development
   links:
-    - name: UnB
+    - icon: 'mdi:university'
       url: 'https://www.unb.br/'
   location: Brasília, DF, Brazil
