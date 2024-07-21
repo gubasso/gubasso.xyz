@@ -37,7 +37,6 @@ candid-gen:
   skills:
     - rust
     - smart-contracts
-    - backend
     - tdd
     - github
     - open-source
@@ -307,7 +306,7 @@ brasil-metropolitano:
     - javascript
     - apis
 ipea-extrator:
-  title: 'Ipea Data Extractor (Ipea Extrator de Dados)'
+  title: 'Ipea Extractor (Ipea Extrator de Dados)'
   short-title: Ipea Data Extractor
   year: 2013
   summary: 'Web platform designed for querying, aggregating, and collecting a diverse array of data. Implemented with the Suite Pentaho, Mondrian, and Saiku, it provides access to public databases, research content, indicators, and historical data series.'
@@ -420,7 +419,6 @@ algos:
     - shell-scripting
     - docker
     - ci-cd
-    - devops
     - dsa
     - redis
     - postgresql
@@ -584,12 +582,11 @@ client-process-automation:
     - shell-scripting
     - docker
     - ci-cd
-    - devops
 docs-n-notes:
   title: 'docs-n-notes: Personal Repository for Documentation and Note Taking'
   summary: 'Digital repository for documentation and note-taking, implementing organizational methods and conventions, using Git for version control and content management.'
   short-title: docs-n-notes
-  year: 2022
+  year: 2016
   bullets:
     - 'Documentation and note-taking resource.'
     - 'Digital repository for personal productivity resource.'
@@ -628,7 +625,7 @@ gubasso-xyz:
 dotfiles:
   title: 'Dotfiles: Customized Environment Setup'
   short-title: Dotfiles
-  year: 2021
+  year: 2016
   summary: 'My personal dotfiles with a collection of configuration files for my Arch Linux systems.'
   bullets:
     - 'Collection of config files for applications such as Neovim, Tmux, Alacritty, DWM, and others.'
@@ -647,7 +644,7 @@ dotfiles:
 financial-analytics-lab:
   title: 'Financial Analytics Laboratory for Teaching and Research'
   short-title: Financial Analytics Lab
-  year: 2021
+  year: 2012
   summary: "Lab setup for teaching and research, utilizing SAS, R, and Bloomberg tools to enhance students' analytical and practical skills in finance, and quantitative and optimization methods."
   bullets:
     - "'Develop and utilize SAS, R, and Bloomberg tools for teaching and research, enhancing students' analytical and practical skills."
@@ -670,7 +667,7 @@ financial-analytics-lab:
     - finance
     - econometrics
     - forecasting
-    - regression-analysis
-    - portfolio-management
-    - risk-management
+    - regression
+    - portfolio
+    - risk-assessment
     - optimization-methods

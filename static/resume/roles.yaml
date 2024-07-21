@@ -102,19 +102,6 @@ sysadmin:
     - 'Set up monitoring and alerting systems to proactively address potential issues.'
     - 'Automate routine administrative tasks using scripts and tools.'
     - 'Ensure compliance with security measures and best practices.'
-technology-educator:
-  title: Technology Educator
-  description:
-    - 'Teach a range of technology subjects.'
-    - 'Share project-specific knowledge with technical staff.'
-
-manager-admin:
-  title: Administrative Manager
-  description:
-    - 'Managed teams and contracts.'
-    - 'Standardized organizational processes and documentation.'
-    - 'Implemented agile methodologies for operational efficiency.'
-
 data-engineer-analyst:
   title: Data Engineer / Analyst
   description:
@@ -131,17 +118,6 @@ systems-analyst:
     - 'Design and evaluate technology solutions.'
     - 'Collaborate with stakeholders to ensure alignment of solutions with business goals.'
     - 'Conduct feasibility studies and cost-benefit analyses for proposed solutions.'
-professor:
-  title: University Professor
-  description:
-    - 'Taught academic courses and conducted research in the areas of financial modeling, econometrics, and corporate governance.'
-    - "Taught courses in 'MMQD - Quantitative Methods and Operations Research', 'Finances 1', and 'Financial Calculus'."
-
-researcher:
-  title: Academic Researcher
-  description:
-    - 'Engaged in scholarly research and academic contributions.'
-
 financial-technology-consultant:
   title: Financial Technology Consultant
   description:
@@ -150,3 +126,23 @@ financial-technology-consultant:
     - 'Develop solutions for major banks, financial institutions, and pension funds.'
     - 'Conduct qualitative and quantitative research, applying econometrics and optimization methods to generate financial analyses.'
     - 'Design and implement predictive models for asset performance using quantitative methods.'
+technology-educator:
+  title: Technology Educator
+  description:
+    - 'Teach a range of technology subjects.'
+    - 'Share project-specific knowledge with technical staff.'
+professor:
+  title: University Professor
+  description:
+    - 'Taught academic courses and conducted research in the areas of financial modeling, econometrics, and corporate governance.'
+    - "Taught courses in 'MMQD - Quantitative Methods and Operations Research', 'Finances 1', and 'Financial Calculus'."
+researcher:
+  title: Academic Researcher
+  description:
+    - 'Engaged in scholarly research and academic contributions.'
+manager-admin:
+  title: Administrative Manager
+  description:
+    - 'Managed teams and contracts.'
+    - 'Standardized organizational processes and documentation.'
+    - 'Implemented agile methodologies for operational efficiency.'

@@ -1,7 +1,7 @@
 repos:
   # https://docs.franco.net.eu.org/md-toc/pre_commit_hook.html
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: 'v4.5.0'
+    rev: 'v4.6.0'
     hooks:
       - id: check-added-large-files
         args: ['--maxkb=16384']
@@ -15,21 +15,21 @@ repos:
       - id: detect-private-key
       # - id: no-commit-to-branch
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: 'v9.0.0-rc.0'
+    rev: 'v9.7.0'
     hooks:
       - id: eslint
         additional_dependencies:
-          - eslint@8.28.0
-          - eslint-config-prettier@8.5.0
-          - eslint-plugin-svelte@2.30.0
+          - eslint@9.7.0
+          - eslint-config-prettier@9.1.0
+          - eslint-plugin-svelte@2.43.0
   - repo: local
     hooks:
       - id: prettier-local
         name: prettier local
         description: Prettier local project
-        entry: prettier --plugin-search-dir . --list-different --ignore-unknown --write
+        entry: prettier --list-different --ignore-unknown --write
         language: node
-        additional_dependencies: ['prettier@2.8.0']
+        additional_dependencies: ['prettier@3.3.3']
         types: [text]
         exclude_types: [markdown]
         args: []
@@ -47,6 +47,6 @@ repos:
       - id: markdown-toc
         args: [--maxdepth, '3', --bullets, '-', -i]
   - repo: https://github.com/sirwart/ripsecrets
-    rev: 'v0.1.7' # Use latest tag on GitHub
+    rev: 'v0.1.8' # Use latest tag on GitHub
     hooks:
       - id: ripsecrets

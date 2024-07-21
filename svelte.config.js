@@ -8,6 +8,9 @@ const config = {
   preprocess: [preprocess(), mdsvex(mdsvexConfig)],
   kit: {
     adapter: adapter(),
+    // prerender: {
+    //   handleMissingId: 'ignore'
+    // },
     paths: {
       // base: process.env.NODE_ENV === 'production' ? '/gubasso.xyz' : ''
       base: ''

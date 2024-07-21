@@ -1,55 +1,9 @@
 # projects_page (Issue)
 
 
-- [ ] validate yaml at compile time
-- [x] all yaml validated manually
-
-```js
-// svelte.config.js
-import yaml from 'js-yaml'
-import { loadSchema, validateYaml } from './src/lib/validation.js'
-
-const yamlPlugin = {
-  name: 'yaml-validator',
-  async buildStart() {
-    try {
-      const yamlFiles = ['./src/data/file1.yml', './src/data/file2.yml']
-      const schemaFile = './src/schemas/schema.json'
-
-      const schema = await loadSchema(this.resolve(schemaFile))
-
-      for (const file of yamlFiles) {
-        const yamlContent = await loadYaml(this.resolve(file))
-        validateYaml(yamlContent, schema)
-      }
-    } catch (err) {
-      this.error(err)
-    }
-  }
-}
-
-export default {
-  kit: {
-    vite: {
-      plugins: [yamlPlugin]
-    }
-  }
-}
-```
-
-
-- each yaml has to be shown... has to have some Utility... do this checklist when refactoring the resume
-
-## resume sections refactor
-
-- experiences:
-  - bring summaries + bullets from roles + projects
+- [ ] print resume page from the client
 
 ## backlog
-
-- r
-- project section (resume and page)
-  - bring tags from skills (#)
 
 - skills-items are the groups!
   - "Skills-grid"
@@ -68,6 +22,12 @@ https://img.shields.io/badge/{label}-{color}?style={style}&logo={logo}&logoColor
 projects_page : project's page
   - [ ] grid model
 
+- [x] solved eslint / prettier issues after upgrading verions
+- [x] add links to #roles #skills, etc
+- [x] refactor fetchResumesData
+- [x] implement skills-grid
+- [x] validate yaml at compile time
+- [x] all yaml validated manually
 - [x] resume structure refactor
 - [x] grammar correction for all yaml
 - [x] building yamls schemas for data validation
@@ -161,4 +121,57 @@ soft:
     collab:
       label: 'Collaboration'
       skills:
+```
+
+
+
+skill grid
+
+interactive tooltips
+
+```
+<div class="skill-card" id="python-programming">
+  <h3 class="skill-name">Python Programming</h3>
+  <p class="skill-experience">5 years</p>
+  <ul class="skill-tags">
+    <li>Backend</li>
+    <li>Scripting</li>
+    <li>Data Analysis</li>
+  </ul>
+</div>
+
+<div class="skill-item">
+  <div class="skill-name">React</div>
+  <div class="skill-id">react-05</div>
+  <div class="skill-experience">1 year</div>
+  <div class="skill-tooltip">
+    A JavaScript library for building user interfaces
+  </div>
+</div>
+
+.skill-item {
+  position: relative;
+}
+
+.skill-tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.skill-item:hover .skill-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+
 ```

@@ -3,7 +3,7 @@
 <!-- toc -->
 
 - [ongoing](#ongoing)
-- [backlog](#backlog)
+- [backlog / refactor icp](#backlog--refactor-icp)
 
 <!-- tocstop -->
 
@@ -11,8 +11,10 @@
 
 - [[projectspage-issue]]
 
-## backlog
+## backlog / refactor icp
 
+- bring tags from skills (#)
+- tags on skill-item
 - [ ] refactor: deploy on icp
   - resume.pdf: deploy with static asset resume.pdf already rendered
 

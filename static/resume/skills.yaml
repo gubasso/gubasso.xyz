@@ -241,7 +241,7 @@ mongodb:
   tags:
     - database
 ci-cd:
-  label: Continuous Integration/Continuous Delivery (CI/CD) pipelines
+  label: Continuous Integration / Continuous Delivery (CI/CD) pipelines
   since-year: 2018
   competency: advanced
   tags:

@@ -1,108 +1,37 @@
 import yaml from 'js-yaml'
 import { base } from '$app/paths'
+import path from 'path'
 
 const loadYaml = async (fetch, path) => {
-  const resp = await fetch(`${base}${path}`)
+  const resp = await fetch(`${base}/${path}`)
   const text = await resp.text()
   return yaml.load(text)
 }
 
 export const fetchResumesData = async (fetch) => {
-  const paths = [
-    '/resume/contact.yaml',
-    '/resume/summary.yaml',
-    '/resume/education.yaml',
-    '/resume/publications.yaml',
-    '/resume/languages.yaml',
-    '/resume/roles.yaml',
-    '/resume/skills.yaml',
-    '/resume/skills-org.yaml',
-    '/resume/companies.yaml',
-    '/resume/teaching.yaml',
-    '/resume/projects.yaml',
-    '/resume/experience.yaml'
+  const yamlFiles = [
+    'resume/companies.yaml',
+    'resume/competencies.yaml',
+    'resume/contact.yaml',
+    'resume/education.yaml',
+    'resume/experience.yaml',
+    'resume/languages.yaml',
+    'resume/projects.yaml',
+    'resume/publications.yaml',
+    'resume/roles.yaml',
+    'resume/skills.yaml',
+    'resume/summary.yaml',
+    'resume/tags.yaml',
+    'resume/teaching.yaml'
   ]
-
-  let [
-    contact,
-    summary,
-    education,
-    publications,
-    languages,
-    roles,
-    skills,
-    skillsOrg,
-    companies,
-    teaching,
-    projects,
-    experience
-  ] = await Promise.all(paths.map((p) => loadYaml(fetch, p)))
-
-  for (const skill in skills) {
-    ;(skills[skill].categories ?? []).forEach((groupCat) => {
-      const group = Object.keys(groupCat)[0]
-      const cat = groupCat[group]
-      let registeredSkills = skillsOrg[group].categories[cat].skills
-      if (registeredSkills) {
-        skillsOrg[group].categories[cat].skills.push(skills[skill].title)
-      } else {
-        skillsOrg[group].categories[cat].skills = [skills[skill].title]
-      }
-    })
+  // const yamlFiles = await fg('resume/*.yaml', { cwd: 'static' })
+  const resumeData = {}
+  for (const yamlFile of yamlFiles) {
+    const basename = path.basename(yamlFile, path.extname(yamlFile))
+    const yamlData = await loadYaml(fetch, yamlFile)
+    resumeData[basename] = yamlData
   }
-
-  let projectsArray = Object.entries(projects)
-  projectsArray = projectsArray.sort((a, b) => b[1].year - a[1].year)
-  experience.data.forEach((e) => {
-    e.roles =
-      e.roles?.map((item) => {
-        if (!(item in roles)) {
-          throw new Error(`Item: ${item} do not exists in roles`)
-        }
-        return roles[item].title
-      }) ?? e.roles
-    e.projects =
-      e.projects?.map((item) => {
-        if (!(item in projects)) {
-          throw new Error(`Item: ${item} do not exists in projects`)
-        }
-        return projects[item].shortTitle
-      }) ?? e.projects
-    e.skills =
-      e.skills?.map((item) => {
-        if (!(item in skills)) {
-          throw new Error(`Item: ${item} do not exists in skills`)
-        }
-        return skills[item].title
-      }) ?? e.skills
-    e.teaching =
-      e.teaching?.map((item) => {
-        if (!(item in teaching)) {
-          throw new Error(`Item: ${item} do not exists in teaching`)
-        }
-        return teaching[item].title
-      }) ?? e.teaching
-    if (!(e.company in companies)) {
-      throw new Error(`Item: ${e.company} do not exists in companies`)
-    }
-    e.company = companies[e.company].shortName
-  })
-
-  return {
-    contact,
-    summary,
-    education,
-    publications,
-    languages,
-    roles,
-    skills,
-    skillsOrg,
-    companies,
-    teaching,
-    projects,
-    projectsArray,
-    experience
-  }
+  return resumeData
 }
 
 export const fetchMarkdownPostsRaw = async () => {

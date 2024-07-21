@@ -22,6 +22,7 @@
 html {
   background-color: var(--color-canvas-default);
   color: var(--color-fg-default);
+  scroll-behavior: smooth;
 }
 
 a {

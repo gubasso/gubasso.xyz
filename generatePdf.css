@@ -62,3 +62,10 @@ h3 {
   margin-top: 0.8rem !important;
   margin-bottom: 0.3rem !important;
 }
+
+a.hash-item {
+  pointer-events: none;
+  cursor: default;
+  margin: 0;
+  padding: 0;
+}
