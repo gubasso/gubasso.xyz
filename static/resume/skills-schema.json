@@ -6,13 +6,14 @@
       "properties": {
         "label": { "type": "string" },
         "since-year": { "type": "integer" },
+        "weight": { "type": "integer" },
         "competency": { "type": "string" },
         "tags": {
           "type": "array",
           "items": { "type": "string" }
         }
       },
-      "required": ["label", "since-year", "competency", "tags"],
+      "required": ["label", "since-year", "weight", "competency", "tags"],
       "additionalProperties": false
     }
   },

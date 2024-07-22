@@ -31,8 +31,10 @@ candid-gen:
     - 'Supports specifying individual canisters or generating files for all canisters in a project.'
   links:
     - label: GitHub Repository
+      icon: 'mdi:github'
       url: 'https://github.com/cwnt-io/candid-gen'
     - label: Crates.io
+      icon: 'mdi:language-rust'
       url: 'https://crates.io/crates/candid-gen'
   skills:
     - rust
@@ -53,10 +55,13 @@ uai-components:
     - 'Available as an npm package. Easy installation and updates.'
   links:
     - label: GitHub UAI Components
+      icon: 'mdi:github'
       url: 'https://github.com/vlgi/uai-components'
     - label: NPM Package uai-components
+      icon: 'mdi:npm'
       url: 'https://www.npmjs.com/package/uai-components'
     - label: Storybook Documentation
+      icon: 'simple-icons:storybook'
       url: 'https://vlgi.github.io/uai-components/'
   skills:
     - svelte
@@ -86,6 +91,7 @@ generative-ai:
     - 'A combination of automation, expert human intelligence, and a global network of subject matter experts.'
   links:
     - label: Generative AI Data Engine
+      icon: 'eos-icons:ai'
       url: 'https://scale.com/generative-ai-data-engine'
   skills:
     - python
@@ -107,8 +113,10 @@ odr:
     - 'Deployed and managed databases services and ArcGIS applications on Windows and Linux-based servers.'
   links:
     - label: ODR MI
+      icon: 'mdi:show'
       url: 'http://odr.mi.gov.br/'
     - label: Gov.br ODR
+      icon: 'mdi:read-more'
       url: 'https://www.gov.br/mdr/pt-br/assuntos/desenvolvimento-regional/odr'
   skills:
     - r
@@ -223,15 +231,20 @@ ipeadata:
     - 'Managed data extraction, production, manipulation, and cleaning using R and SQL.'
     - 'Enhanced data accessibility and visualization of public datasets for economic and social analysis.'
   links:
-    - label: IpeaData Gitlab
+    - label: IpeaData V3 Beta
+      icon: 'mdi:show'
       url: 'https://ipeadata.gitlab.io/ipeadata3/'
     - label: IpeaData Gov.br
+      icon: 'mdi:letter-i'
       url: 'http://ipeadata.gov.br/beta3/'
     - label: IpeaData Ipea
+      icon: 'fluent-mdl2:live-site'
       url: 'https://www.ipea.gov.br/portal/ipeadata'
     - label: IpeaData API
+      icon: 'mdi:api'
       url: 'https://www.ipea.gov.br/portal/ipeadata/api-artigo'
     - label: IpeaData First Version
+      icon: 'carbon:data-volume'
       url: 'http://www.ipeadata.gov.br/Default.aspx'
   skills:
     - python
@@ -273,8 +286,10 @@ ivs:
     - 'Aided in social analysis and policy-making with accessible data and visualization formats.'
   links:
     - label: Atlas da Vulnerabilidade Social - IVS
+      icon: 'mdi:show'
       url: 'http://ivs.ipea.gov.br/index.php/pt/'
     - label: IVS Ipea
+      icon: 'mdi:read-more'
       url: 'https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social'
   skills:
     - joomla
@@ -289,6 +304,7 @@ brasil-metropolitano:
   year: 2017
   links:
     - label: Portal da Governança Metropolitana no Brasil
+      icon: 'mdi:show'
       url: 'http://brasilmetropolitano.ipea.gov.br/'
   summary: "Web platform built with Joomla CMS, that offers in-depth access to a range of economic and social data, indicators, and studies focused on Brazil's metropolitan regions."
   bullets:
@@ -320,8 +336,10 @@ ipea-extrator:
     - 'Aimed to enhance monitoring of social, demographic, and economic data.'
   links:
     - label: Ipea Extrator de Dados
+      icon: 'mdi:read-more'
       url: 'https://www.ipea.gov.br/extrator/'
     - label: App Extrator de Dados
+      icon: 'mdi:show'
       url: 'http://extrator.ipea.gov.br/'
   skills:
     - sql
@@ -370,8 +388,10 @@ ipeageo:
     - 'Facilitated GIS capabilities for academic research and student projects.'
   links:
     - label: IpeaGEO
+      icon: 'mdi:read-more'
       url: 'https://www.ipea.gov.br/ipeageo/'
     - label: GitHub IpeaGEO
+      icon: 'mdi:github'
       url: 'https://github.com/ipea/IpeaGeo'
   skills:
     - csharp
@@ -440,8 +460,10 @@ brag-server:
   year: 2023
   links:
     - label: Brag-Server Github
+      icon: 'mdi:github'
       url: 'https://github.com/cwnt-io/brag-server'
     - label: Deployed working API, serving data for gubasso.xyz
+      icon: 'mdi:api'
       url: 'https://brag.gubasso.xyz/'
   summary: 'Brag-Server is an open-source REST API, written in Rust, designed to load, update, and serve data from Git repositories. It retrieves and manages repository metrics, offering JSON-formatted data for client applications. The project provides valuable insights into Git repository activities.'
   bullets:
@@ -464,8 +486,10 @@ ripissue:
   year: 2023
   links:
     - label: Ripissue Github
+      icon: 'mdi:github'
       url: 'https://github.com/cwnt-io/ripissue'
     - label: Ripissue Crates.io
+      icon: 'mdi:language-rust'
       url: 'https://crates.io/crates/ripissue'
   summary: 'Ripissue is a Rust-based command-line interface (CLI) tool for issue tracking and management within Git repositories. It defines a simple file structure and workflow convention that you can use to manage issues, tasks, sprints, epics and initiatives.'
   bullets:
@@ -521,8 +545,10 @@ cadelab:
     - "Deployed and managed the web application and services with Docker on self-managed servers (VPS's) at testing and staging environments."
   links:
     - label: Cadelab (Version Alpha)
+      icon: 'mdi:show'
       url: 'https://cadelab.gubasso.xyz'
     - label: Cadelab Data REST API
+      icon: 'mdi:api'
       url: 'https://cadelab-api.gubasso.xyz'
   skills:
     - python
@@ -540,7 +566,6 @@ cadelab:
     - typescript
     - nodejs
     - linux
-    - sysadmin
     - linode
     - hostinger
     - shell-scripting
@@ -593,6 +618,7 @@ docs-n-notes:
     - 'Utilizes Git for version control and content management.'
   links:
     - label: Github
+      icon: 'mdi:github'
       url: 'https://github.com/gubasso/docs-n-notes'
   skills:
     - git
@@ -610,8 +636,10 @@ gubasso-xyz:
     - 'Features an ATS-optimized resume, detailed project showcases, and a blog where I share insights on software engineering and tech trends'
   links:
     - label: gubasso.xyz
+      icon: 'mdi:show'
       url: 'https://gubasso.xyz'
     - label: Github
+      icon: 'mdi:github'
       url: 'https://github.com/gubasso/gubasso.xyz'
   skills:
     - svelte
@@ -634,6 +662,7 @@ dotfiles:
     - 'A resource for other developers looking to optimize their own environments, demonstrating practical applications of scripting for system customization'
   links:
     - label: Github
+      icon: 'mdi:github'
       url: 'https://github.com/gubasso/dotfiles'
   skills:
     - lua

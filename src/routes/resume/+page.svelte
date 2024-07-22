@@ -1,6 +1,7 @@
 <script>
   import gLogo from '$lib/images/g.png'
   import AnchorExt from '$lib/components/AnchorExt.svelte'
+  import SkillsGrid from '$lib/components/SkillsGrid.svelte'
   import ResumeHashList from '$lib/components/ResumeHashList.svelte'
 
   export let data
@@ -17,12 +18,7 @@
     teaching,
     languages
   } = data
-  const currYear = new Date().getFullYear()
-  const skillYearsTxt = (sinceYear) => {
-    const totalYears = currYear - sinceYear
-    const txt = totalYears == 1 ? ' year' : ' years'
-    return totalYears + txt
-  }
+
   const printResume = () => {
     window.print()
   }
@@ -142,15 +138,7 @@
 
 <section>
   <h2>Skills</h2>
-  <div class="skills-grid">
-    {#each Object.entries(skills).sort((a, b) => a[1]['since-year'] - b[1]['since-year']) as [id, skill]}
-      <div class="skill-item" {id}>
-        <div class="skill-label">{skill.label}</div>
-        <div class="skill-experience">{skillYearsTxt(skill['since-year'])}</div>
-        <div class="skill-id">#{id}</div>
-      </div>
-    {/each}
-  </div>
+  <SkillsGrid {skills} />
 </section>
 
 <section>
@@ -365,36 +353,6 @@
     font-size: var(--step--1);
     color: var(--color-neutral-muted);
     margin-bottom: 1px;
-  }
-
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-  }
-
-  .skill-item {
-    background-color: var(--color-border-muted);
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-  }
-
-  .skill-label {
-    font-size: var(--step-0);
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .skill-experience {
-    font-size: var(--step-0);
-    color: var(--color-neutral-emphasis);
-    margin-bottom: 10px;
-  }
-
-  .skill-id {
-    font-size: var(--step--1);
-    color: var(--color-neutral-muted);
   }
 
   .date-of-employment {

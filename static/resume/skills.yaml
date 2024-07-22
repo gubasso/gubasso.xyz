@@ -1,6 +1,22 @@
+rust:
+  label: Rust
+  since-year: 2015
+  weight: 5
+  competency: expert
+  tags:
+    - prog-lang
+    - backend
+smart-contracts:
+  label: Smart Contracts Development (Web3 Dapps)
+  since-year: 2023
+  weight: 5
+  competency: advanced
+  tags:
+    - web3
 open-source:
   label: Open-Source Software Project (OSS)
   since-year: 2020
+  weight: 5
   competency: expert
   tags:
     - technology
@@ -8,6 +24,7 @@ open-source:
 ansible:
   label: Ansible
   since-year: 2023
+  weight: 5
   competency: experienced
   tags:
     - devops-infra
@@ -17,28 +34,17 @@ ansible:
 terraform:
   label: Terraform
   since-year: 2023
+  weight: 5
   competency: experienced
   tags:
     - devops-infra
     - iac-infra
     - cloud-infra
     - sysadmin
-rust:
-  label: Rust
-  since-year: 2015
-  competency: expert
-  tags:
-    - prog-lang
-    - backend
-smart-contracts:
-  label: Smart Contracts Development (Web3 Dapps)
-  since-year: 2023
-  competency: advanced
-  tags:
-    - web3
 python:
   label: Python
   since-year: 2013
+  weight: 5
   competency: expert
   tags:
     - data-analysis-lang
@@ -47,6 +53,7 @@ python:
 sql:
   label: SQL
   since-year: 2015
+  weight: 5
   competency: advanced
   tags:
     - database
@@ -54,6 +61,7 @@ sql:
 dvc:
   label: Data and Model Version Control
   since-year: 2018
+  weight: 3
   competency: expert
   tags:
     - database
@@ -62,6 +70,7 @@ dvc:
 html:
   label: HTML
   since-year: 2013
+  weight: 3
   competency: expert
   tags:
     - webdev
@@ -69,6 +78,7 @@ html:
 css:
   label: CSS
   since-year: 2013
+  weight: 3
   competency: expert
   tags:
     - webdev
@@ -76,6 +86,7 @@ css:
 linux:
   label: Linux-based OS's/Distros, Servers, and VPS's
   since-year: 2013
+  weight: 5
   competency: expert
   tags:
     - sysadmin
@@ -85,18 +96,21 @@ linux:
 git:
   label: Git
   since-year: 2013
+  weight: 5
   competency: expert
   tags:
     - dev-tools
 github:
   label: Github
   since-year: 2013
+  weight: 3
   competency: expert
   tags:
     - dev-tools
 github-actions:
   label: Github Actions
   since-year: 2020
+  weight: 5
   competency: advanced
   tags:
     - dev-tools
@@ -104,12 +118,14 @@ github-actions:
 gitlab:
   label: Gitlab
   since-year: 2013
+  weight: 3
   competency: expert
   tags:
     - dev-tools
 gitlab-ci:
   label: Gitlab CI
   since-year: 2023
+  weight: 5
   competency: advanced
   tags:
     - dev-tools
@@ -117,6 +133,7 @@ gitlab-ci:
 apis:
   label: APIs / Web APIs
   since-year: 2013
+  weight: 3
   competency: expert
   tags:
     - backend
@@ -124,6 +141,7 @@ apis:
 javascript:
   label: Javascript
   since-year: 2013
+  weight: 5
   competency: expert
   tags:
     - webdev
@@ -132,6 +150,7 @@ javascript:
 typescript:
   label: Typescript
   since-year: 2018
+  weight: 5
   competency: advanced
   tags:
     - webdev
@@ -140,6 +159,7 @@ typescript:
 nodejs:
   label: Node.js
   since-year: 2013
+  weight: 5
   competency: expert
   tags:
     - webdev
@@ -148,48 +168,56 @@ nodejs:
 aws:
   label: Amazon AWS
   since-year: 2020
+  weight: 5
   competency: experienced
   tags:
     - cloud-infra
 gcp:
   label: Google Cloud Platform (GCP)
   since-year: 2020
+  weight: 5
   competency: experienced
   tags:
     - cloud-infra
 azure:
   label: Microsoft Azure
   since-year: 2020
+  weight: 5
   competency: experienced
   tags:
     - cloud-infra
 linode:
   label: Linode
   since-year: 2015
+  weight: 5
   competency: expert
   tags:
     - cloud-infra
 digital-ocean:
   label: Digital Ocean
   since-year: 2020
+  weight: 5
   competency: expert
   tags:
     - cloud-infra
 hostinger:
   label: Hostinger
   since-year: 2023
+  weight: 5
   competency: expert
   tags:
     - cloud-infra
 wasabi:
   label: Wasabi Object Storage
   since-year: 2020
+  weight: 5
   competency: experienced
   tags:
     - cloud-infra
 r:
   label: R
   since-year: 2017
+  weight: 2
   competency: expert
   tags:
     - data-analysis-lang
@@ -197,6 +225,7 @@ r:
 sas:
   label: SAS
   since-year: 2017
+  weight: 2
   competency: expert
   tags:
     - data-analysis-lang
@@ -204,6 +233,7 @@ sas:
 shell-scripting:
   label: Shell Scripting
   since-year: 2018
+  weight: 3
   competency: expert
   tags:
     - devops-infra
@@ -212,18 +242,21 @@ shell-scripting:
 docker:
   label: Docker
   since-year: 2018
+  weight: 5
   competency: expert
   tags:
     - devops-infra
 svelte:
-  label: Svelte/Sveltekit
+  label: Svelte / Sveltekit
   since-year: 2018
+  weight: 5
   competency: expert
   tags:
     - webdev
 vagrant:
   label: Vagrant
   since-year: 2018
+  weight: 4
   competency: expert
   tags:
     - devops-infra
@@ -231,18 +264,21 @@ vagrant:
 python-flask:
   label: Python Flask
   since-year: 2013
+  weight: 5
   competency: advanced
   tags:
     - backend
 mongodb:
   label: Mongodb
   since-year: 2013
+  weight: 5
   competency: advanced
   tags:
     - database
 ci-cd:
   label: Continuous Integration / Continuous Delivery (CI/CD) pipelines
   since-year: 2018
+  weight: 5
   competency: advanced
   tags:
     - dev-tools
@@ -250,90 +286,105 @@ ci-cd:
 dsa:
   label: Algorithms and Data Structures (DSA)
   since-year: 2020
+  weight: 2
   competency: advanced
   tags:
     - dev-tools
 mysql:
   label: MySQL / MariaDB
   since-year: 2023
+  weight: 4
   competency: experienced
   tags:
     - database
 redis:
   label: Redis
   since-year: 2023
+  weight: 4
   competency: experienced
   tags:
     - database
 sqlite:
   label: SQLite
   since-year: 2015
+  weight: 4
   competency: experienced
   tags:
     - database
 postgresql:
   label: PostgreSQL
   since-year: 2015
+  weight: 5
   competency: advanced
   tags:
     - database
 react:
   label: React.js
   since-year: 2016
+  weight: 5
   competency: advanced
   tags:
     - webdev
 firebase:
   label: Firebase (Google)
   since-year: 2020
+  weight: 4
   competency: experienced
   tags:
     - webdev
 lua:
   label: Lua
   since-year: 2020
+  weight: 4
   competency: experienced
   tags:
     - prog-lang
 wordpress:
   label: Wordpress
   since-year: 2023
+  weight: 2
   competency: beginner
   tags:
     - webdev
 joomla:
   label: Joomla
   since-year: 2023
+  weight: 2
   competency: beginner
   tags:
     - webdev
 php:
   label: PHP
   since-year: 2023
+  weight: 2
   competency: beginner
   tags:
     - prog-lang
 odata:
   label: oData
   since-year: 2023
+  weight: 2
   competency: beginner
   tags:
     - backend
 postgis:
   label: PostGIS
   since-year: 2023
+  weight: 2
   competency: beginner
   tags:
     - gis
 dotnet:
   label: .NET Framework
   since-year: 2023
+  weight: 2
   competency: beginner
   tags:
     - backend
 csharp:
   label: C#
   since-year: 2023
+  weight: 2
   competency: beginner
   tags:
     - prog-lang
@@ -341,65 +392,76 @@ risk-assessment:
   label: Risk assessment
   competency: advanced
   since-year: 2011
+  weight: 2
   tags:
     - financial-analytics
 fundamental-technical-analysis:
   label: Fundamental and technical analysis
   since-year: 2006
+  weight: 2
   competency: expert
   tags:
     - financial-analytics
 portfolio:
   label: Portfolio management
   since-year: 2010
+  weight: 2
   competency: advanced
   tags:
     - investment-strategies
 optimization-methods:
   label: 'Optimization Methods'
   since-year: 2018
+  weight: 2
   competency: advanced
   tags:
     - analytics-research-methodologies
 asset-allocation:
   label: Asset allocation
   since-year: 2018
+  weight: 2
   competency: advanced
   tags:
     - investment-strategies
 bloomberg:
   label: Bloomberg Terminal
   since-year: 2011
+  weight: 2
   competency: experienced
   tags:
     - financial-software
 regression:
   label: Regression analysis
   since-year: 2011
+  weight: 2
   competency: experienced
   tags:
     - stat-analysis
 time-series-analysis:
   label: Time-series analysis
   since-year: 2011
+  weight: 2
   competency: experienced
   tags:
     - stat-analysis
 econometrics:
   label: Econometrics
   since-year: 2011
+  weight: 2
   competency: experienced
   tags:
     - stat-analysis
 forecasting:
   label: Forecasting Techniques
   since-year: 2011
+  weight: 2
   competency: experienced
   tags:
     - stat-analysis
 quantitative:
   label: Quantitative Research
   since-year: 2018
+  weight: 2
   competency: advanced
   tags:
     - analytics-research-methodologies
@@ -407,30 +469,35 @@ quantitative:
 qualitative:
   label: Qualitative Research
   since-year: 2011
+  weight: 2
   competency: experienced
   tags:
     - analytics-research-methodologies
 sqlserver:
   label: Microsoft SQL Server
   since-year: 2011
+  weight: 3
   competency: beginner
   tags:
     - database
 riotjs:
   label: Riot.js
   since-year: 2016
+  weight: 4
   competency: expert
   tags:
     - webdev
 tdd:
   label: Test Driven Development (TDD)
   since-year: 2021
+  weight: 5
   competency: expert
   tags:
     - dev-tools
 system-architecture:
   label: System Architecture
   since-year: 2011
+  weight: 5
   competency: advanced
   tags:
     - devops-infra
@@ -439,42 +506,49 @@ system-architecture:
 ipeageo:
   label: IpeaGEO
   since-year: 2011
+  weight: 2
   competency: advanced
   tags:
     - gis
 arcgis-desktop:
   label: ArcGIS Desktop
   since-year: 2011
+  weight: 2
   competency: experienced
   tags:
     - gis
 arcgis-geoportal:
   label: ESRI Geoportal Server
   since-year: 2015
+  weight: 2
   competency: experienced
   tags:
     - devops-infra
 arcgis-collector:
   label: ArcGIS Collector
   since-year: 2015
+  weight: 2
   competency: experienced
   tags:
     - devops-infra
 arcgis-storymaps:
   label: ArcGIS StoryMaps
   since-year: 2015
+  weight: 2
   competency: experienced
   tags:
     - devops-infra
 arcgis-dashboards:
   label: ArcGIS Dashboards
   since-year: 2015
+  weight: 2
   competency: experienced
   tags:
     - devops-infra
 arcgis-app-builder:
   label: ArcGIS App Builder
   since-year: 2015
+  weight: 2
   competency: experienced
   tags:
     - devops-infra
@@ -482,29 +556,34 @@ communication:
   label: Excellent written and verbal communication
   competency: expert
   since-year: 2002
+  weight: 1
   tags:
     - soft-skills
 problem-solving:
   label: Problem solving, creative and analytical approach to challenges
   competency: expert
   since-year: 2002
+  weight: 1
   tags:
     - soft-skills
 time-management:
   label: Efficient in managing multiple tasks
   competency: expert
   since-year: 2002
+  weight: 1
   tags:
     - soft-skills
 collaboration:
   label: Proven ability to work effectively in team environments
   competency: expert
   since-year: 2002
+  weight: 1
   tags:
     - soft-skills
 financial-modeling:
   label: Financial modeling
   since-year: 2013
+  weight: 2
   competency: expert
   tags:
     - financial-analytics
@@ -514,6 +593,7 @@ financial-modeling:
 finance:
   label: Finance
   since-year: 2013
+  weight: 2
   competency: expert
   tags:
     - financial-analytics
@@ -523,6 +603,7 @@ finance:
 agile:
   label: Agile methodologies
   since-year: 2013
+  weight: 5
   competency: expert
   tags:
     - dev-tools

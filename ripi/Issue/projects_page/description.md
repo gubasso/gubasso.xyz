@@ -1,7 +1,5 @@
 # projects_page (Issue)
 
-- [ ] projects page
-
 - [ ] make other adjustments (links in sections to iconify, etc...)
 - [ ] test iconify pure svg if it prints correctly, if yes, change from all icons
 - [ ] spinner download resume
@@ -70,6 +68,7 @@ https://img.shields.io/badge/{label}-{color}?style={style}&logo={logo}&logoColor
 projects_page : project's page
   - [ ] grid model
 
+- [x] projects page
 - [x] print resume page from the client
 - [x] fix links throughout resume
 - [x] companies section -> grid
