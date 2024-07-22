@@ -1,7 +1,11 @@
 # projects_page (Issue)
 
-- [ ] print resume page from the client
-- [ ] make other adjustments
+- [ ] projects page
+
+- [ ] make other adjustments (links in sections to iconify, etc...)
+- [ ] test iconify pure svg if it prints correctly, if yes, change from all icons
+- [ ] spinner download resume
+- [ ] adjust footer links of printable resume to absolute addresses (do another footer version?)
 
 ```css
 @media print {
@@ -66,6 +70,7 @@ https://img.shields.io/badge/{label}-{color}?style={style}&logo={logo}&logoColor
 projects_page : project's page
   - [ ] grid model
 
+- [x] print resume page from the client
 - [x] fix links throughout resume
 - [x] companies section -> grid
   - change order

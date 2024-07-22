@@ -141,6 +141,19 @@ ul code {
   .info-block {
     margin-bottom: 10px !important;
   }
+  .companies-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    gap: 12px !important;
+  }
+  .company-item {
+    padding: 10px !important;
+  }
+  .company-short-name {
+    font-size: 11pt !important;
+  }
+  .company-short-name iconify-icon {
+    font-size: 15pt !important;
+  }
 
   /* footer */
   footer .left-top {

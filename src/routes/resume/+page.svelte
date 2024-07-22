@@ -1,6 +1,5 @@
 <script>
   import gLogo from '$lib/images/g.png'
-  import { base } from '$app/paths'
   import AnchorExt from '$lib/components/AnchorExt.svelte'
   import ResumeHashList from '$lib/components/ResumeHashList.svelte'
 
@@ -24,6 +23,9 @@
     const txt = totalYears == 1 ? ' year' : ' years'
     return totalYears + txt
   }
+  const printResume = () => {
+    window.print()
+  }
 </script>
 
 <svelte:head>
@@ -33,14 +35,14 @@
 <section class="title-container">
   <h1>Resume / CV</h1>
   <button
-    on:click={() => window.print()}
+    on:click={printResume}
     class="download-button"
     title="Download Resume"
     aria-label="Download Resume"
   >
     <iconify-icon icon="ic:baseline-download" />
   </button>
-  <a class="g-logo" href="{base}/"><img src={gLogo} alt="Gubasso's logo" /></a>
+  <a class="g-logo" href={contact.site}><img src={gLogo} alt="Gubasso's logo" /></a>
 </section>
 
 <section>
