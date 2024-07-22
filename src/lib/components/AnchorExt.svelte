@@ -5,7 +5,7 @@
 </script>
 
 {#if isIconify}
-  <a target="_blank" rel="external noopener noreferrer" href={url}>
+  <a class="iconify" target="_blank" rel="external noopener noreferrer" href={url}>
     <iconify-icon icon={label} />
   </a>
 {:else}
@@ -13,7 +13,7 @@
 {/if}
 
 <style>
-  a {
+  .iconify {
     display: flex;
     align-items: flex-end;
   }

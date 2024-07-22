@@ -1,6 +1,7 @@
 # projects_page (Issue)
 
 - [ ] print resume page from the client
+- [ ] make other adjustments
 
 ```css
 @media print {
@@ -65,6 +66,7 @@ https://img.shields.io/badge/{label}-{color}?style={style}&logo={logo}&logoColor
 projects_page : project's page
   - [ ] grid model
 
+- [x] fix links throughout resume
 - [x] companies section -> grid
   - change order
 - [x] separate component for a hash-list
