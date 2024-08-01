@@ -13,6 +13,8 @@
 
 ## backlog / refactor icp
 
+- tailwind css
+
 - implement mermaid.js to blog page (see isma.codes)
   - https://github.com/ismaelpamplona/isma.codes/blob/main/src/routes/blog/%5Bslug%5D/%2Bpage.svelte
 
@@ -20,6 +22,7 @@
 - [ ] adjust footer links of printable resume to absolute addresses (do another footer version?)
 - [ ] spinner download resume
 - [ ] test iconify pure svg if it prints correctly, if yes, change from all icons
+  - iconify for svelte
 - [ ] make other adjustments (links in resume sections to iconify, etc...)
 - navigation buttons: last section... top... download following
 - skills: from grid to cloud component (bigger more years)
