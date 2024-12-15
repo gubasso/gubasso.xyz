@@ -1,3 +1,17 @@
+suse:
+  company: SUSE
+  short-name: SUSE
+  tags:
+    - technology
+    - open-source
+    - enterprise-software
+    - cloud-computing
+    - linux
+  links:
+    - icon: 'emojione-monotone:letter-s'
+      url: 'https://www.suse.com/'
+  location: Nuremberg, Bavaria, Germany
+
 personal-projects:
   company: Personal Initiatives and Projects
   short-name: Personal

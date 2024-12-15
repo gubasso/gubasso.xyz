@@ -1,6 +1,13 @@
+- title: Senior Software Engineer
+  company: suse
+  date-of-employment: 08/2024 - Present
+  roles:
+    - software-engineer
+  projects:
+    - generative-ai
 - title: Software Engineer
   company: scaleai
-  date-of-employment: 03/2024 - Present
+  date-of-employment: 03/2024 - 07/2024
   roles:
     - prompt-engineer
     - software-engineer
